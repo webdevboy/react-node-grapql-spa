@@ -85,8 +85,8 @@ query($login: Auth!, $admin: Boolean!) {
 
 {
   "login": {
-    "email": "ricardo@moura.com",
-    "password": "ricardo"
+    "email": "mail@moura.com",
+    "password": "mail"
   },
   "admin": false
 }
@@ -97,10 +97,10 @@ query($login: Auth!, $admin: Boolean!) {
     "login": {
       "__typename": "AccountLogin",
       "account": {
-        "email": "ricardo@moura.com",
+        "email": "mail@moura.com",
         "sfid": null
       },
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZmlkIjpudWxsLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE1MjQxNDg5NTUsImV4cCI6MTUzOTcwMDk1NX0.XrizfqWOTQKVOu0cG6ICy84QNhRoFxvV2R4cv4EsA24"
+      "token": "??"
     }
   }
 }
