@@ -1,0 +1,6 @@
+{
+	"name": "map-single-display",
+	"main": "MapSingleDisplay.js",
+	"displayName": "MapSingleDisplay",
+	"private": true
+}

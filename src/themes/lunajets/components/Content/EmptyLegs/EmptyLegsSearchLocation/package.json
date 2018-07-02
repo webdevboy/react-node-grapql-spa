@@ -1,0 +1,6 @@
+{
+	"name": "EmptyLegsSearchLocation",
+	"main": "EmptyLegsSearchLocation.js",
+	"displayName": "EmptyLegsSearchLocation",
+	"private": "true"
+}

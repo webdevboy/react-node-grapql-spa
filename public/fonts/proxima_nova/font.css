@@ -1,0 +1,40 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3578997, 2018-05-11T20:36:35-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed .(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ProximaNovaA-Semibold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-semibold/
+ * 
+ * Webfont: ProximaNovaS-Semibold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-semibold/
+ * 
+ * Webfont: ProximaNova-Semibold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3578997
+ * Licensed pageviews: 10,000,000
+ * Webfont copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/369c75");
+
+  
+@font-face {font-family: 'ProximaNovaA-Semibold';src: url('./369C75_0_0.eot');src: url('./369C75_0_0.eot?#iefix') format('embedded-opentype'),url('./369C75_0_0.woff2') format('woff2'),url('./369C75_0_0.woff') format('woff'),url('./369C75_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Semibold';src: url('./369C75_1_0.eot');src: url('./369C75_1_0.eot?#iefix') format('embedded-opentype'),url('./369C75_1_0.woff2') format('woff2'),url('./369C75_1_0.woff') format('woff'),url('./369C75_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Semibold';src: url('./369C75_2_0.eot');src: url('./369C75_2_0.eot?#iefix') format('embedded-opentype'),url('./369C75_2_0.woff2') format('woff2'),url('./369C75_2_0.woff') format('woff'),url('./369C75_2_0.ttf') format('truetype');}
+ 

@@ -1,0 +1,11 @@
+query getMediaReferences {
+  medias: getMediaReferences{
+    id
+    media_id
+    media_library_id
+    media {
+      id
+      src
+    }
+  }
+}

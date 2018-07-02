@@ -1,0 +1,267 @@
+@import "../../../variables.css";
+
+.root {
+  background: #263d50;
+  overflow: hidden;
+  position: relative;
+}
+
+.centeredContainer {
+  max-width: var(--max-width);
+  padding: 0 15px;
+}
+
+.emptyLegWrapper {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    > div {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.circlesWrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  top: -100%;
+  margin-left: calc((100vw - 100vh) / 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .circle {
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.1);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  }
+
+  .circle:nth-child(1) {
+    flex: 0;
+    width: 100%;
+    height: 100%;
+    animation-delay: 1s;
+  }
+
+  .circle:nth-child(2) {
+    width: 80%;
+    height: 80%;
+    animation-delay: 2s;
+  }
+
+  .circle:nth-child(3) {
+    width: 60%;
+    height: 60%;
+    animation-delay: 3s;
+  }
+
+  .circle:nth-child(4) {
+    width: 40%;
+    height: 40%;
+    animation-delay: 4s;
+  }
+
+  .circle:nth-child(5) {
+    width: 20%;
+    height: 20%;
+    animation-delay: 5s;
+  }
+}
+
+.emptylegs-row {
+  height: 360px;
+}
+
+.emptylegs-row-mobile {
+  :global {
+    .slick-slide {
+      padding: 0 10px;
+    }
+
+    .slick-list {
+      margin: 0 -10px;
+    }
+  }
+}
+
+.emptyleg {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.1s ease;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    margin: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .more-info {
+    padding: 5px;
+    display: none;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 0 0 10px #fff, 0 20px 25px 10px rgba(0, 0, 0, 0.28);
+    text-decoration: none;
+
+    .more-info {
+      display: block;
+    }
+  }
+
+  .relevant,
+  .info {
+    display: flex;
+    flex-direction: row;
+
+    .flyfrom,
+    .flyto,
+    .from,
+    .until {
+      flex: 1 0 50%;
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+    }
+  }
+
+  .pricebox {
+    margin-top: 10px;
+    box-shadow: inset 0 0 0 1px #3e5970;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+
+    svg {
+      position: absolute;
+      right: 10px;
+    }
+  }
+
+  .price {
+    font-family: "Ubuntu Mono", sans-serif;
+    font-weight: 600;
+    color: #3e5970;
+  }
+
+  .iata,
+  .location {
+    font-family: "Ubuntu Mono", sans-serif;
+    text-decoration: none;
+  }
+
+  .location {
+    font-size: 14px;
+    font-weight: normal;
+    color: #3e5970;
+    text-decoration: none;
+  }
+
+  .iata {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #263d50;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #a8aab7;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .date {
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #263d50;
+    text-decoration: none;
+  }
+
+  .seperator {
+    height: 25px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 5px 0;
+
+    &:before {
+      top: 50%;
+      margin-top: -2px;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      display: block;
+      background: url("./gfx/seperator.png") repeat-x;
+      background-size: 24px 4px;
+    }
+
+    &:after {
+      display: block;
+      background: #fff url("./gfx/airplane.svg") no-repeat;
+      background-position-x: 50%;
+      left: 50%;
+      top: 0;
+      margin-left: -35px;
+      content: "";
+      position: absolute;
+      width: 70px;
+      height: 24px;
+    }
+  }
+}
+
+.geolocation,
+.latlong {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.animated {
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+
+  from {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}

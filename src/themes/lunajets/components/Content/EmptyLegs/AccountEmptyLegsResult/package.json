@@ -1,0 +1,6 @@
+{
+	"name": "AccountEmptyLegsResult",
+	"main": "AccountEmptyLegsResult.js",
+	"displayName": "AccountEmptyLegsResult",
+	"private": "true"
+}

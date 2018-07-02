@@ -1,0 +1,20 @@
+query($lat: Float!, $long: Float!) {
+  getNearestAirport(lat:$lat, long: $long) {
+    name
+    distance
+    sfid
+    icao
+    iata
+    coordinates
+    time_to_utc
+    city {
+      sfid
+      name
+      country {
+        sfid
+        name
+        countryCode
+      }
+    }
+  }
+}

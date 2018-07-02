@@ -1,0 +1,6 @@
+mutation($id: ID!) {
+  remove: removeDestinationTranslation(id: $id) {
+		id
+    rows
+  }
+}

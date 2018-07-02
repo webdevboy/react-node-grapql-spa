@@ -1,0 +1,17 @@
+query{
+  templates: getAllEmailTemplates{
+    id
+    name
+    email_id
+    email_to
+    description
+    content_html
+    subject
+    content_json
+    language{
+      id
+      locale
+      language
+    }
+  }
+}

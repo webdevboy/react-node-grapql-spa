@@ -1,0 +1,132 @@
+.login-root {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background: #3e5970;
+  top: 0;
+  display: flex;
+
+  /* login box style */
+  .login-box {
+    background-color: white;
+    width: 500px;
+    align-self: center;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    padding: 20px 0 40px 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
+
+    .title {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px 0;
+      color: #3e5970;
+      font-size: 40px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .input-container {
+      position: relative;
+      margin: 0 60px 50px;
+
+      input {
+        outline: none;
+        z-index: 1;
+        position: relative;
+        background: none;
+        width: 100%;
+        border: 0;
+        color: #212121;
+        font-size: 24px;
+        font-weight: 400;
+
+        &:focus {
+          ~ .bar {
+            &:before,
+            &:after {
+              width: 50%;
+            }
+          }
+        }
+      }
+
+      label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #757575;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 60px;
+        transition: 0.2s ease;
+        transform: translate(-12%, -75%) scale(0.75);
+      }
+
+      .bar {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #b6cada;
+        width: 100%;
+        height: 1px;
+
+        &:before,
+        &:after {
+          content: "";
+          position: absolute;
+          background: #3e5970;
+          width: 0;
+          height: 2px;
+          transition: 0.2s ease;
+        }
+
+        &:before {
+          left: 50%;
+        }
+
+        &:after {
+          right: 50%;
+        }
+      }
+    }
+
+    button {
+      outline: 0;
+      cursor: pointer;
+      position: relative;
+      display: inline-block;
+      background: 0;
+      width: 240px;
+      border: 2px solid #b6cada;
+      padding: 20px 0;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: 0.3s ease;
+
+      span {
+        position: relative;
+        z-index: 1;
+        color: #b6cada;
+        transition: 0.3s ease;
+      }
+
+      &:hover {
+        border: 2px solid #3e5970;
+
+        span {
+          color: #3e5970;
+        }
+      }
+    }
+  }
+}

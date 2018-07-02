@@ -1,0 +1,12 @@
+mutation addLanguage($locale_id: ID!, $enabled: Boolean!){
+  addLanguage(locale_id: $locale_id, enabled: $enabled){
+		id
+		enabled
+		locale{
+			id
+			locale
+			country
+			language
+		}
+  }
+}

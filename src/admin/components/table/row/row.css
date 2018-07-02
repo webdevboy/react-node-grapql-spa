@@ -1,0 +1,28 @@
+
+
+.table td{
+    border-bottom: 1px solid #313D4F;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+td{
+    font-size: 14px;
+}
+
+.table-avatar{
+}
+
+tr.active{
+    background-color: #FF5300;
+    border: 1px solid #FF7735;
+}
+
+tbody > tr:hover{
+    background-color: #FF5300;
+}
+
+.span{
+    display: block;
+}

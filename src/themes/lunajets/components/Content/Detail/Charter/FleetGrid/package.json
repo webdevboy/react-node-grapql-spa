@@ -1,0 +1,6 @@
+{
+	"name": "FleetGrid",
+	"main": "FleetGrid.js",
+	"displayName": "FleetGrid",
+	"private": "true"
+}

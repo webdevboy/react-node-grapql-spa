@@ -1,0 +1,6 @@
+mutation($locale: String) {
+  language: enableLanguage(locale: $locale) {
+    id
+    locale
+  }
+}

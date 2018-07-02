@@ -1,0 +1,72 @@
+.favourite-airports-root {
+  padding: 0 30px;
+
+  .title {
+    position: relative;
+    text-align: center;
+    color: var(--corporate-blue);
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .buttons {
+    width: 100%;
+    height: 50px;
+
+    .pt-button {
+      width: 100%;
+      height: 100%;
+      color: white;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      background-color: var(--light-red);
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+    }
+  }
+
+  .airport-list {
+    padding-top: 10px;
+  }
+
+  .search {
+    input {
+      border: 1px solid var(--corporate-blue);
+      outline: none;
+      border-radius: 2px;
+      padding-left: 35px;
+      width: 100%;
+      height: 40px;
+
+      &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: var(--light-grey);
+        opacity: 1; /* Firefox */
+      }
+    }
+    .search-icon {
+      position: absolute;
+      top: 11px;
+      left: 7px;
+      color: lightgrey;
+      font-size: 12px;
+      z-index: 10;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .favourite-airports-root {
+    padding: 0 10px;
+
+    .title {
+      text-align: left;
+      font-size: 22px;
+    }
+  }
+}
+

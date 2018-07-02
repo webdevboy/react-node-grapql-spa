@@ -1,0 +1,5 @@
+mutation($keys: [String!]) {
+  media: removeMedia(keys: $keys) {
+    rows
+  }
+}

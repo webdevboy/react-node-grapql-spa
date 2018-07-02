@@ -1,0 +1,16 @@
+query($type: String, $language_id: ID) {
+  posts: getPosts(type: $type, language_id: $language_id) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      state
+    }
+  }
+}

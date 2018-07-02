@@ -1,0 +1,23 @@
+mutation updateOffice($id: ID!, $name: String, $address: String, $postal_code: String,
+$location: String, $country: String, $phone:String, $alt_phone: String, 
+$fax: String, $email: String, $coordinates: JSON, $primary: Boolean, $order: Int){
+  updateOffice(id: $id, name: $name, 
+    address: $address, postal_code: $postal_code, 
+    location: $location, country: $country, 
+    phone: $phone, alt_phone: $alt_phone, 
+    fax: $fax, email: $email, coordinates: $coordinates, primary: $primary, order: $order){
+    id
+    name
+    address
+    postal_code
+    location
+    country
+    phone
+    alt_phone
+    fax
+    email
+    coordinates
+    primary
+    order
+  }
+}

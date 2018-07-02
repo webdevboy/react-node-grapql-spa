@@ -1,0 +1,6 @@
+{
+	"name": "map-city",
+	"main": "MapCity.js",
+	"displayName": "MapCity",
+	"private": true
+}

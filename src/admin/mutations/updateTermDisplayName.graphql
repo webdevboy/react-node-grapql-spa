@@ -1,0 +1,13 @@
+mutation($id:ID, $meta: JSON) {
+  term: updateTermDisplayName(id: $id, meta: $meta) {
+    id
+    name
+    slug
+	meta
+    language{
+	  id
+	  locale
+	  language
+	}
+  }
+}

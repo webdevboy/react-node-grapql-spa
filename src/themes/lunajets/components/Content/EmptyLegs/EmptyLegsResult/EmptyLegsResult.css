@@ -1,0 +1,84 @@
+.empty-legs-result {
+  background-color: #faf7f6;
+  margin: 10px 0 50px;
+
+  .number-legs {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 30px;
+
+    span {
+      color: #a8aab7;
+    }
+  }
+
+  .empty-legs-listing {
+    .emptyleg-pagination {
+      justify-content: center;
+      position: relative;
+      margin-top: 40px;
+
+      :global {
+        .page-item {
+          &:first-of-type {
+            position: absolute;
+            left: 0;
+          }
+
+          &:last-of-type {
+            position: absolute;
+            right: 0;
+          }
+
+          &:nth-of-type(2) {
+            position: absolute;
+            left: 41px;
+          }
+
+          &:nth-last-of-type(2) {
+            position: absolute;
+            right: 41px;
+          }
+
+          .page-link {
+            font-family: "ITC Conduit W01", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            color: #a8aab7;
+            border-radius: 0;
+            background-color: white;
+            border-color: #b6cada;
+
+            &:focus {
+              z-index: 1;
+              box-shadow: none;
+            }
+
+            &:hover {
+              background-color: #b6cada;
+              color: #3e5970;
+            }
+          }
+
+          &.active {
+            .page-link {
+              background-color: white;
+              border-color: #3e5970;
+              color: #3e5970;
+            }
+          }
+
+          &.disabled {
+            .page-link {
+              background-color: #faf7f6;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mapbox {
+    height: 800px;
+  }
+}

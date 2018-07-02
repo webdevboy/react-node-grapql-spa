@@ -1,0 +1,88 @@
+
+.fieldTextArea{
+    background-color: #222C3C;
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid #283546;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #4e6c83;
+}
+
+.fieldTextArea:focus{
+    border: 1px solid #405575;
+    outline: none;
+}
+
+.actionsReq{
+    font-size: 14px;
+    color: #91a1b3;
+}
+
+.container{
+    min-height: 200px;
+    margin: 15px;
+    background-color: #12212E;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    border: 1px solid #283546;
+    -webkit-box-shadow: 0px 0px 10px 0px #12212e;
+    box-shadow: 0px 0px 10px 0px #12212e;
+    display: table;
+}
+
+.header{
+    color: #4E6C83;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sep{
+    border-bottom: 1px solid #313D4F;
+}
+
+.content{
+    padding: 20px;
+}
+
+.field{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+    .input{
+        width: 100%;
+    }
+
+    ul{
+        list-style: none;
+        li{
+            color: white;
+        }
+    }
+}
+
+.fieldLabel{
+    color: #91A1B3;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actionsBtns{
+    margin: 0px 10px 10px 0px;
+    &:focus{
+       outline: none;
+    }
+}

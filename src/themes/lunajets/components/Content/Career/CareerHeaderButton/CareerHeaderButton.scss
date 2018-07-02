@@ -1,0 +1,44 @@
+@import "../../../variables.css";
+
+.header-button-area {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+
+  .header-button {
+    padding: 15px 30px;
+    text-transform: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "ITC Conduit W01", sans-serif;
+    width: 60%;
+
+    .text-button {
+      color: white;
+      span {
+        color: #263d50;
+      }
+    }
+    .icon-button {
+      padding: 0 2px;
+      background-color: #fff;
+      color: #b52024;
+      font-weight: bold;
+      font-size: 1.4rem;
+      height: 20px;
+      line-height: 20px;
+      margin-left: 7px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header-button-area {
+    justify-content: initial;
+
+    .header-button {
+      width: 80%;
+    }
+  }
+}

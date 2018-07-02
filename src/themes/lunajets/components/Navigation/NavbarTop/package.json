@@ -1,0 +1,6 @@
+{
+	"name": "navbar-top",
+	"main": "NavbarTop.js",
+	"displayName": "Top Navigation Bar",
+	"private": true
+}

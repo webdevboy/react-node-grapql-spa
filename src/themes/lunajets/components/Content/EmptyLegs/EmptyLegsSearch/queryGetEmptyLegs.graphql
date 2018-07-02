@@ -1,0 +1,77 @@
+query($list_from_airport_id: [String], $list_to_airport_id: [String], $price_range: [Int], $date: [Date], $sort: Int) {
+  emptylegs: getEmptyLegs(
+    list_from_airport_id: $list_from_airport_id
+    list_to_airport_id: $list_to_airport_id
+    price_range: $price_range
+    date: $date,
+    sort: $sort
+  ) {
+    id
+    from_date
+	  until_date
+    price
+    currency {
+      id
+      currency
+    }
+    featured
+    published
+    details
+    from_airport {
+      name
+      distance
+      sfid
+      id
+      icao
+      iata
+      coordinates
+      helipad
+      time_to_utc
+      city {
+        sfid
+        name
+        name_en
+        name_de
+        name_it
+        name_fr
+        name_es
+        name_ru
+        name_pl
+        name_hu
+        country {
+          sfid
+          name
+          countryCode
+        }
+      }
+    }
+    to_airport {
+      name
+      distance
+      sfid
+      id
+      icao
+      iata
+      coordinates
+      helipad
+      time_to_utc
+      city {
+        sfid
+        name
+        name_en
+        name_de
+        name_it
+        name_fr
+        name_es
+        name_ru
+        name_pl
+        name_hu
+        country {
+          sfid
+          name
+          countryCode
+        }
+      }
+    }
+  }
+}

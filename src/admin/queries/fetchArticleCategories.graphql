@@ -1,0 +1,12 @@
+query($language_id: ID) {
+  categories: getArticleCategories(language_id: $language_id) {
+  	id
+    name
+    slug
+    description
+    cat_id
+    language {
+      id
+    }
+  }
+}

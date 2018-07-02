@@ -1,0 +1,5 @@
+{
+    "name": "fixed-ratio-image",
+    "main": "FixedRatioImage.js",
+    "private": true
+}

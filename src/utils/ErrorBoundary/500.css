@@ -1,0 +1,125 @@
+.root {
+  padding: 0;
+  margin: 0;
+  background-image: url(./gfx/404bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* background-blend-mode: overlay;
+  background-color: #25425a; */
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: center;
+  position: relative;
+  z-index: 999;
+}
+
+.title {
+  color: #fff;
+  font-size: 270px;
+  text-shadow: 0 9px 15px rgba(0, 0, 0, 0.12);
+
+  @media (max-width: 767.98px) {
+    font-size: 8rem;
+    line-height: 1;
+  }
+}
+
+.msgwrapper {
+  padding: 0 80px;
+
+  @media (max-width: 767.98px) {
+    padding: 0 30px;
+  }
+}
+
+.msg {
+  font-family: "FuturaLTPro-Medium", sans-serif;
+  font-size: 27px;
+  color: #b6cada;
+  text-transform: uppercase;
+  line-height: 2rem;
+  letter-spacing: 2px;
+
+  @media (max-width: 767.98px) {
+    font-size: 1.25rem;
+    letter-spacing: 1.5px;
+  }
+}
+
+.errorcode {
+  font-size: 1.5rem;
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  font-weight: 200;
+
+  @media (max-width: 767.98px) {
+    font-size: 1.25rem;
+  }
+}
+
+.mainaction {
+  margin: 80px 0;
+
+  a {
+    padding: 10px;
+  }
+
+  @media (max-width: 767.98px) {
+    margin: 10px 0;
+
+    a {
+      width: 300px !important;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  margin-top: 20px;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+
+    @media (max-width: 767.98px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.logo {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  max-width: 150px;
+
+  img {
+    height: 55px;
+    width: 150px;
+  }
+
+  @media (max-width: 767.98px) {
+    bottom: 10px;
+    right: 10px;
+
+    img {
+      width: 100px;
+      height: 30px;
+    }
+  }
+}

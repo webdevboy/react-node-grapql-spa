@@ -1,0 +1,5 @@
+mutation($id: ID!) {
+  team: removeTeamMember(id:$id) {
+    id
+  }
+}

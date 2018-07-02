@@ -1,0 +1,985 @@
+[
+  {
+    "id": "currentUser.logout",
+    "description": "welcome current user",
+    "defaultMessage": "Log Out",
+    "message": "",
+    "files": [
+      "src/admin/components/currentUser/currentUser.js"
+    ]
+  },
+  {
+    "id": "currentUser.welcome",
+    "description": "welcome current user",
+    "defaultMessage": "Welcome,",
+    "message": "",
+    "files": [
+      "src/admin/components/currentUser/currentUser.js"
+    ]
+  },
+  {
+    "id": "actions.save",
+    "description": "actions.save",
+    "defaultMessage": "Save",
+    "message": "",
+    "files": [
+      "src/admin/components/Articles/ArticlesList/ArticlesList.js",
+      "src/admin/components/Articles/ArticlesList/EventsList.js",
+      "src/admin/components/BaseCurrency/index.js",
+      "src/admin/components/Chat/ChatHistory/ChatHistory.js",
+      "src/admin/components/GeneralSettings/index.js",
+      "src/admin/components/Maintenance/index.js",
+      "src/admin/components/Team/DepartmentList/DepartmentList.js",
+      "src/admin/components/Team/TeamList/TeamList.js",
+      "src/admin/components/Translation/LanguagesList/LanguagesList.js",
+      "src/admin/components/Translation/TranslationsList/TranslationsList.js",
+      "src/admin/components/Users/UserDetail/UserDetail.js",
+      "src/admin/components/Users/UsersList/UsersList.js",
+      "src/admin/components/Widgets/Currencies/currency.js",
+      "src/admin/components/Widgets/Currencies/currencyRow/currencyRow.js",
+      "src/admin/components/Widgets/QuickNotificationBanner/index.js",
+      "src/admin/components/filters/filters.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/list.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/row.js"
+    ]
+  },
+  {
+    "id": "filters.hide",
+    "description": "filters.hide",
+    "defaultMessage": "Hide filters",
+    "message": "",
+    "files": [
+      "src/admin/components/filters/filters.js"
+    ]
+  },
+  {
+    "id": "filters.show",
+    "description": "filters.show",
+    "defaultMessage": "Show filters",
+    "message": "",
+    "files": [
+      "src/admin/components/filters/filters.js"
+    ]
+  },
+  {
+    "id": "settings.generalSettings.field.siteDefaultEmail",
+    "description": "settings.generalSettings.field.siteDefaultEmail",
+    "defaultMessage": "Default email",
+    "message": "",
+    "files": [
+      "src/admin/components/Articles/ArticlesList/ArticlesList.js",
+      "src/admin/components/Events/EventsList/EventsList.js",
+      "src/admin/components/Chat/ChatHistory/ChatHistory.js",
+      "src/admin/components/GeneralSettings/index.js",
+      "src/admin/components/Users/UserDetail/UserDetail.js",
+      "src/admin/components/Users/UsersList/UsersList.js",
+      "src/admin/components/Widgets/Currencies/currencyRow/currencyRow.js",
+      "src/admin/components/filters/filters.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/list.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/row.js"
+    ]
+  },
+  {
+    "id": "settings.generalSettings.field.siteDescription",
+    "description": "settings.generalSettings.field.siteDescription",
+    "defaultMessage": "Description",
+    "message": "",
+    "files": [
+      "src/admin/components/Articles/ArticlesList/ArticlesList.js",
+      "src/admin/components/Events/EventsList/EventsList.js",
+      "src/admin/components/Chat/ChatHistory/ChatHistory.js",
+      "src/admin/components/GeneralSettings/index.js",
+      "src/admin/components/Users/UserDetail/UserDetail.js",
+      "src/admin/components/Users/UsersList/UsersList.js",
+      "src/admin/components/Widgets/Currencies/currencyRow/currencyRow.js",
+      "src/admin/components/filters/filters.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/list.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/row.js"
+    ]
+  },
+  {
+    "id": "header.banner.ola",
+    "description": "Description in header",
+    "defaultMessage": "123Complex web apps made easy",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/Chat.js",
+      "src/admin/components/Settings/index.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/emptyLegsManager.js",
+      "src/admin/routes/website/pages/actions/actions.js"
+    ]
+  },
+  {
+    "id": "settings.generalSettings.field.siteTitle",
+    "description": "settings.generalSettings.field.siteTitle",
+    "defaultMessage": "Site title",
+    "message": "",
+    "files": [
+      "src/admin/components/Articles/ArticlesList/ArticlesList.js",
+      "src/admin/components/Events/EventsList/EventsList.js",
+      "src/admin/components/Chat/ChatHistory/ChatHistory.js",
+      "src/admin/components/GeneralSettings/index.js",
+      "src/admin/components/Users/UserDetail/UserDetail.js",
+      "src/admin/components/Users/UsersList/UsersList.js",
+      "src/admin/components/Widgets/Currencies/currencyRow/currencyRow.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/list.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/row.js"
+    ]
+  },
+  {
+    "id": "settings.generalSettings.header",
+    "description": "settings.generalSettings.header",
+    "defaultMessage": "General",
+    "message": "",
+    "files": [
+      "src/admin/components/Articles/ArticlesList/ArticlesList.js",
+      "src/admin/components/Events/EventsList/EventsList.js",
+      "src/admin/components/Chat/ChatHistory/ChatHistory.js",
+      "src/admin/components/GeneralSettings/index.js",
+      "src/admin/components/Users/UserDetail/UserDetail.js",
+      "src/admin/components/Users/UsersList/UsersList.js",
+      "src/admin/components/Widgets/Currencies/currencyRow/currencyRow.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/list.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/list/row.js"
+    ]
+  },
+  {
+    "id": "header.banner.desc",
+    "description": "Description in header",
+    "defaultMessage": "123Complex web apps made easy",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/Chat.js",
+      "src/admin/components/Settings/index.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/emptyLegsManager.js",
+      "src/admin/routes/website/pages/actions/actions.js"
+    ]
+  },
+  {
+    "id": "header.banner.title",
+    "description": "Title in page header",
+    "defaultMessage": "123React",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/Chat.js",
+      "src/admin/components/Settings/index.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/emptyLegsManager.js",
+      "src/admin/routes/website/pages/actions/actions.js"
+    ]
+  },
+  {
+    "id": "header.brand",
+    "description": "Brand name displayed in header",
+    "defaultMessage": "123Your Company Brand",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/Chat.js",
+      "src/admin/components/Settings/index.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/emptyLegsManager.js",
+      "src/admin/routes/website/pages/actions/actions.js"
+    ]
+  },
+  {
+    "id": "currentTalks.container.header",
+    "description": "currentTalks.container.header",
+    "defaultMessage": "Current Talks",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatRoom/ChatMessage/ChatMessage.js",
+      "src/admin/components/Chat/CurrentTalks/CurrentTalks.js",
+      "src/admin/components/Contacts/SideBarView/SideBarView.js",
+      "src/admin/components/Team/SideBarView/SideBarView.js",
+      "src/admin/components/Translation/SideBarView/SideBarView.js",
+      "src/admin/components/UrlManager/SideBarView/SideBarView.js",
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/inspectorView.js",
+      "src/admin/routes/lunajets/destinations/destinationsManager/inspectorView.js",
+      "src/admin/routes/lunajets/emptylegs/emptyLegsManager/inspectorView.js",
+      "src/admin/routes/lunajets/team/teamManager/inspectorView.js",
+      "src/admin/routes/website/articles/articlesManager/inspector/inspector.js",
+      "src/admin/routes/website/events/eventsManager/inspector/inspector.js",
+      "src/admin/routes/website/menus/menusManager/inspector/inspector.js",
+      "src/admin/routes/website/pages/pageManager/inspectorView.js",
+      "src/admin/routes/website/templates/templatesManager/inspector/inspector.js"
+    ]
+  },
+  {
+    "id": "actions.send",
+    "description": "actions.send",
+    "defaultMessage": "Send",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatRoom/ChatRoom.js"
+    ]
+  },
+  {
+    "id": "quick.notification.actions.requirements",
+    "description": "quick.notification.actions.requirements",
+    "defaultMessage": "This is required field",
+    "message": "",
+    "files": [
+      "src/admin/components/Widgets/Currencies/currency.js"
+    ]
+  },
+  {
+    "id": "quick.notification.field.message",
+    "description": "quick.notification..field.message",
+    "defaultMessage": "Message",
+    "message": "",
+    "files": [
+      "src/admin/components/Widgets/Currencies/currency.js"
+    ]
+  },
+  {
+    "id": "quick.notification.title",
+    "description": "quick.notification.title",
+    "defaultMessage": "Quick Notification Banner",
+    "message": "",
+    "files": [
+      "src/admin/components/Widgets/Currencies/currency.js",
+      "src/admin/components/Widgets/QuickNotificationBanner/index.js"
+    ]
+  },
+  {
+    "id": "field.message",
+    "description": "field.message",
+    "defaultMessage": "Message",
+    "message": "",
+    "files": [
+      "src/admin/components/BaseCurrency/index.js",
+      "src/admin/components/Maintenance/index.js",
+      "src/admin/components/Widgets/QuickNotificationBanner/index.js"
+    ]
+  },
+  {
+    "id": "field.required",
+    "description": "field.required",
+    "defaultMessage": "This is required field",
+    "message": "",
+    "files": [
+      "src/admin/components/BaseCurrency/index.js",
+      "src/admin/components/Maintenance/index.js",
+      "src/admin/components/Widgets/QuickNotificationBanner/index.js"
+    ]
+  },
+  {
+    "id": "real.time.website.header",
+    "description": "real.time.website.header",
+    "defaultMessage": "Real Time Website",
+    "message": "",
+    "files": [
+      "src/admin/components/Widgets/RealTimeWebSite/realTimeWebsite.js"
+    ]
+  },
+  {
+    "id": "real.time.website.requirements",
+    "description": "real.time.website.requirements",
+    "defaultMessage": "Total",
+    "message": "",
+    "files": [
+      "src/admin/components/Widgets/RealTimeWebSite/realTimeWebsite.js"
+    ]
+  },
+  {
+    "id": "login.area",
+    "description": "Admin area",
+    "defaultMessage": "Lunajets Admin area",
+    "message": "",
+    "files": [
+      "src/admin/routes/login/Login.js"
+    ]
+  },
+  {
+    "id": "login.email",
+    "description": "Brand name displayed in header",
+    "defaultMessage": "Email",
+    "message": "",
+    "files": [
+      "src/admin/routes/login/Login.js"
+    ]
+  },
+  {
+    "id": "login.password",
+    "description": "Title in page header",
+    "defaultMessage": "Password",
+    "message": "",
+    "files": [
+      "src/admin/routes/login/Login.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.carryon",
+    "description": "aircraft.list.carryon",
+    "defaultMessage": "Carry on",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.height",
+    "description": "aircraft.list.height",
+    "defaultMessage": "Height",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.length",
+    "description": "aircraft.list.length",
+    "defaultMessage": "Length",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.luggage",
+    "description": "aircraft.list.luggage",
+    "defaultMessage": "Luggage",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.manufacturer",
+    "description": "aircraft.list.manufacturer",
+    "defaultMessage": "Manufacturer",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.model",
+    "description": "aircraft.list.avatar",
+    "defaultMessage": "Model",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.range",
+    "description": "aircraft.list.range",
+    "defaultMessage": "Range",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.seats",
+    "description": "aircraft.list.seats",
+    "defaultMessage": "Seats",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.speed",
+    "description": "aircraft.list.speed",
+    "defaultMessage": "Speed",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "aircraft.list.width",
+    "description": "aircraft.list.width",
+    "defaultMessage": "Width",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/aircrafts/aircraftsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "user.list.avatar",
+    "description": "user.list.avatar",
+    "defaultMessage": "Avatar",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/team/teamManager/list/list.js",
+      "src/admin/routes/website/pages/pageManager/pagesList/pagesList.js",
+      "src/admin/routes/website/templates/templatesManager/usersList/usersList.js"
+    ]
+  },
+  {
+    "id": "user.list.email",
+    "description": "user.list.email",
+    "defaultMessage": "Email",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/team/teamManager/list/list.js",
+      "src/admin/routes/website/pages/pageManager/pagesList/pagesList.js",
+      "src/admin/routes/website/templates/templatesManager/usersList/usersList.js"
+    ]
+  },
+  {
+    "id": "user.list.lastaccessed",
+    "description": "user.list.lastaccessed",
+    "defaultMessage": "Last time accessed",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/team/teamManager/list/list.js",
+      "src/admin/routes/website/pages/pageManager/pagesList/pagesList.js",
+      "src/admin/routes/website/templates/templatesManager/usersList/usersList.js"
+    ]
+  },
+  {
+    "id": "user.list.name",
+    "description": "user.list.name",
+    "defaultMessage": "Name",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/team/teamManager/list/list.js",
+      "src/admin/routes/website/pages/pageManager/pagesList/pagesList.js",
+      "src/admin/routes/website/templates/templatesManager/usersList/usersList.js"
+    ]
+  },
+  {
+    "id": "user.list.role",
+    "description": "user.list.role",
+    "defaultMessage": "Role",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/team/teamManager/list/list.js",
+      "src/admin/routes/website/pages/pageManager/pagesList/pagesList.js",
+      "src/admin/routes/website/templates/templatesManager/usersList/usersList.js"
+    ]
+  },
+  {
+    "id": "settings.maintenance.header",
+    "description": "settings.maintenance.header",
+    "defaultMessage": "Maintenance",
+    "message": "",
+    "files": [
+      "src/admin/components/Maintenance/index.js"
+    ]
+  },
+  {
+    "id": "destination.list.airport",
+    "description": "destination.list.airport",
+    "defaultMessage": "Airport",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/destinations/destinationsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "destination.list.city",
+    "description": "destination.list.city",
+    "defaultMessage": "City",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/destinations/destinationsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "destination.list.country",
+    "description": "destination.list.country",
+    "defaultMessage": "Country",
+    "message": "",
+    "files": [
+      "src/admin/routes/lunajets/destinations/destinationsManager/list/list.js"
+    ]
+  },
+  {
+    "id": "actions.create_page",
+    "description": "actions.create_page",
+    "defaultMessage": "Create page",
+    "message": "",
+    "files": [
+      "src/admin/routes/website/pages/pageManager/pagesList/page/page.js"
+    ]
+  },
+  {
+    "id": "admin.menu.adminTranslation",
+    "description": "admin.menu.adminTranslation",
+    "defaultMessage": "Admin translation",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.aircrafts",
+    "description": "admin.menu.aircrafts",
+    "defaultMessage": "Aircrafts",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.articles",
+    "description": "admin.menu.articles",
+    "defaultMessage": "Articles",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.chat",
+    "description": "chat menu nav",
+    "defaultMessage": "Chat",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.components",
+    "description": "admin.menu.components",
+    "defaultMessage": "Components",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.contacts",
+    "description": "admin.menu.mediacenter",
+    "defaultMessage": "Contacts",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.dashboard",
+    "description": "dashboard menu nav",
+    "defaultMessage": "Dashboard",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.destinations",
+    "description": "admin.menu.destinations",
+    "defaultMessage": "Destinations",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.emailManager",
+    "description": "admin.menu.emailManager",
+    "defaultMessage": "Email Manager",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.emptylegs",
+    "description": "emptylegs menu nav",
+    "defaultMessage": "Empty Legs",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.events",
+    "description": "admin.menu.events",
+    "defaultMessage": "Events",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.logs",
+    "description": "admin.menu.logs",
+    "defaultMessage": "Logs",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.lunajets",
+    "description": "lunajets menu nav",
+    "defaultMessage": "Lunajets",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.mediacenter",
+    "description": "admin.menu.mediacenter",
+    "defaultMessage": "Media Center",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.menus",
+    "description": "admin.menu.menus",
+    "defaultMessage": "Menus",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.pages",
+    "description": "admin.menu.pages",
+    "defaultMessage": "Pages",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.pushNotifications",
+    "description": "admin.menu.pushNotifications",
+    "defaultMessage": "Push notifications",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.render",
+    "description": "admin.menu.render",
+    "defaultMessage": "Render",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.team",
+    "description": "admin.menu.team",
+    "defaultMessage": "Team",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.templates",
+    "description": "admin.menu.templates",
+    "defaultMessage": "Templates",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.tools",
+    "description": "tools menu nav",
+    "defaultMessage": "Tools",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.translation",
+    "description": "admin.menu.translation",
+    "defaultMessage": "Translations",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.url.manager",
+    "description": "Description in header",
+    "defaultMessage": "Url Redirections",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.users",
+    "description": "users menu nav",
+    "defaultMessage": "Users",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.website",
+    "description": "website menu nav",
+    "defaultMessage": "Website",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "currentUser.changePassword",
+    "description": "welcome current user",
+    "defaultMessage": "Change Password",
+    "message": "",
+    "files": [
+      "src/admin/components/currentUser/currentUser.js"
+    ]
+  },
+  {
+    "id": "currentUser.myAccount",
+    "description": "welcome current user",
+    "defaultMessage": "My Account",
+    "message": "",
+    "files": [
+      "src/admin/components/currentUser/currentUser.js"
+    ]
+  },
+  {
+    "id": "currentUser.notifications",
+    "description": "welcome current user",
+    "defaultMessage": "Notifications",
+    "message": "",
+    "files": [
+      "src/admin/components/currentUser/currentUser.js"
+    ]
+  },
+  {
+    "id": "admin.menu.create.article",
+    "description": "link to create new article",
+    "defaultMessage": "New Article",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.create.emptyleg",
+    "description": "link to create new emptyleg",
+    "defaultMessage": "New EmptyLeg",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.create.event",
+    "description": "link to create new event",
+    "defaultMessage": "New Event",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.create.page",
+    "description": "link to create new page",
+    "defaultMessage": "New Page",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "login.reset.password",
+    "description": "Link reset password",
+    "defaultMessage": "Reset Password",
+    "message": "",
+    "files": [
+      "src/admin/routes/login/Login.js"
+    ]
+  },
+  {
+    "id": "chatinspector.header.action.account",
+    "description": "Room Inspector dropdown user account",
+    "defaultMessage": "Account",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatInspector/ChatInspector.js"
+    ]
+  },
+  {
+    "id": "chatinspector.header.action.archive",
+    "description": "Room Inspector dropdown archive conversation",
+    "defaultMessage": "Archive",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatInspector/ChatInspector.js"
+    ]
+  },
+  {
+    "id": "chatinspector.header.action.block",
+    "description": "Room Inspector dropdown block communications",
+    "defaultMessage": "Block",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatInspector/ChatInspector.js"
+    ]
+  },
+  {
+    "id": "chatinspector.actions.goback",
+    "description": "Return to chat history",
+    "defaultMessage": "Go Back",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatInspector/ChatInspector.js"
+    ]
+  },
+  {
+    "id": "chatinspector.actions.openroom",
+    "description": "Action on chat inspector to join conversation",
+    "defaultMessage": "Open Conversation",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatInspector/ChatInspector.js"
+    ]
+  },
+  {
+    "id": "chat.room.load.more",
+    "description": "Button on top of chat room to fetch more messages",
+    "defaultMessage": "Load More",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatRoom/ChatRoom.js"
+    ]
+  },
+  {
+    "id": "dropdown.docusign",
+    "description": "dropdown docusign",
+    "defaultMessage": "Link DocuSign",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatRoom/ChatRoom.js"
+    ]
+  },
+  {
+    "id": "dropdown.link",
+    "description": "dropdown link url",
+    "defaultMessage": "Link URL",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatRoom/ChatRoom.js"
+    ]
+  },
+  {
+    "id": "dropdown.title",
+    "description": "dropdown title Add to Conversation",
+    "defaultMessage": "Add to Conversation",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatRoom/ChatRoom.js"
+    ]
+  },
+  {
+    "id": "dropdown.uploadfile",
+    "description": "dropdown send file",
+    "defaultMessage": "File",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatRoom/ChatRoom.js"
+    ]
+  },
+  {
+    "id": "textarea.placeholder",
+    "description": "placeholder for textarea chat room",
+    "defaultMessage": "Write your message",
+    "message": "",
+    "files": [
+      "src/admin/components/Chat/ChatRoom/ChatRoom.js"
+    ]
+  },
+  {
+    "id": "filters.all",
+    "defaultMessage": "All",
+    "message": "",
+    "files": [
+      "src/admin/components/filters/filters.js"
+    ]
+  },
+  {
+    "id": "admin.menu.email",
+    "description": "Description in header",
+    "defaultMessage": "Email Manager",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.language",
+    "description": "Description in header",
+    "defaultMessage": "Language Manager",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "admin.menu.settings",
+    "description": "Description in header",
+    "defaultMessage": "Settings",
+    "message": "",
+    "files": [
+      "src/admin/components/NavBar/NavBar.js"
+    ]
+  },
+  {
+    "id": "settings.baseCurrency.header",
+    "description": "settings.baseCurrency.header",
+    "defaultMessage": "Base currency",
+    "message": "",
+    "files": [
+      "src/admin/components/BaseCurrency/index.js"
+    ]
+  },
+  {
+    "id": "settings.baseCurrency.selectMessage",
+    "description": "ettings.baseCurrency.selectMessage",
+    "defaultMessage": "Select base currency",
+    "message": "",
+    "files": [
+      "src/admin/components/BaseCurrency/index.js"
+    ]
+  },
+  {
+    "id": "urlManager.table.redirectionFrom",
+    "description": "urlManager.table.redirectionFrom",
+    "defaultMessage": "Redirection From",
+    "message": "",
+    "files": [
+      "src/admin/components/Contacts/ContactsList/ContactsList.js",
+      "src/admin/components/Team/DepartmentList/DepartmentList.js",
+      "src/admin/components/Team/TeamList/TeamList.js",
+      "src/admin/components/Translation/LanguagesList/LanguagesList.js",
+      "src/admin/components/Translation/TranslationsList/TranslationsList.js",
+      "src/admin/components/UrlManager/UrlsList/UrlsList.js"
+    ]
+  },
+  {
+    "id": "urlManager.table.redirectionTo",
+    "description": "urlManager.table.redirectionTo",
+    "defaultMessage": "Redirection To",
+    "message": "",
+    "files": [
+      "src/admin/components/Contacts/ContactsList/ContactsList.js",
+      "src/admin/components/Team/DepartmentList/DepartmentList.js",
+      "src/admin/components/Team/TeamList/TeamList.js",
+      "src/admin/components/Translation/LanguagesList/LanguagesList.js",
+      "src/admin/components/Translation/TranslationsList/TranslationsList.js",
+      "src/admin/components/UrlManager/UrlsList/UrlsList.js"
+    ]
+  },
+  {
+    "id": "urlManager.table.redirectionDescription",
+    "description": "urlManager.table.redirectionDescription",
+    "defaultMessage": "Description",
+    "message": "",
+    "files": [
+      "src/admin/components/UrlManager/UrlsList/UrlsList.js"
+    ]
+  }
+]

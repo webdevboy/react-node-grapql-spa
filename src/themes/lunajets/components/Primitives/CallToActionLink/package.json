@@ -1,0 +1,6 @@
+{
+	"name": "CallToActionLink",
+	"main": "CallToActionLink.js",
+	"displayName": "CallToActionLink",
+	"private": true
+}

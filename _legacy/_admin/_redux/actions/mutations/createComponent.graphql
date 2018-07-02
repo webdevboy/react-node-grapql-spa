@@ -1,0 +1,15 @@
+mutation createComponent(
+  $name: String!,
+  $category: String!,
+  $dependencies: String,
+  $body: JSON) {
+
+  createComponent(name: $name, category: $category, body: $body, dependencies: $dependencies) {
+    id
+    name
+    category
+    data_type
+    dependencies
+    body
+  }
+}

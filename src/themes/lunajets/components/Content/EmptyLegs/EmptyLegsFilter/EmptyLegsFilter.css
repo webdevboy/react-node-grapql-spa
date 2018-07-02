@@ -1,0 +1,436 @@
+.req-flight {
+  .flight-info {
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    transition: all 1s ease;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .removeLeg {
+      position: absolute;
+      left: -30px;
+      border: 0;
+      -webkit-appearance: none;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      opacity: 0.6;
+      pointer-events: bounding-box;
+      cursor: pointer;
+
+      object {
+        pointer-events: none;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .selectedvalue {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+
+    .placeholder {
+      flex: 2;
+      display: flex;
+
+      span {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        font-family: "ITC Conduit W01", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #7f7f7f;
+      }
+    }
+
+    .location {
+      flex: 1;
+      border: 2px solid #d9e1e8;
+
+      @media (max-width: 768px) {
+        margin-bottom: 5px;
+      }
+    }
+
+    .dtpicker {
+      position: relative;
+      flex: 1;
+      display: flex;
+      background: #fff;
+      border-radius: 2px;
+      align-items: center;
+      border: 2px solid #d9e1e8;
+
+      svg {
+        margin: 0 10px;
+      }
+    }
+
+    .datetime {
+      flex: 1;
+    }
+
+    .datepicker {
+      flex: 1;
+    }
+
+    .date-option {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      background-color: #f6f6f6;
+      font-size: 12px;
+      justify-content: flex-end;
+      padding: 0 10px;
+    }
+
+    /* Select box Lunajets Style */
+    :global {
+      .rdt {
+        background: transparent;
+
+        input.form-control {
+          height: 42px;
+          border: 0;
+          padding: 0;
+          font-family: "ITC Conduit W01", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #7f7f7f;
+          background: transparent;
+        }
+
+        .rdtPicker {
+          font-family: "ITC Conduit W01", sans-serif;
+          text-transform: uppercase;
+          left: 0;
+          border-radius: 2px;
+        }
+
+        .rdtCounter .rdtBtn {
+          font-size: 10px;
+        }
+
+        .rdtCounters > div {
+          float: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .rdtCounter .rdtCount {
+          height: 30px;
+        }
+
+        .rdtPicker table {
+          border-spacing: 2px;
+          border-collapse: separate;
+        }
+
+        .rdtPicker th {
+          border-radius: 2px;
+          font-weight: 500;
+        }
+
+        .rdtPicker td {
+          border-radius: 2px;
+        }
+      }
+
+      .Select-control {
+        height: 42px;
+        border: 0;
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        font-family: "ITC Conduit W01", sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+
+      .Select-placeholder {
+        display: flex;
+      }
+
+      .Select-multi-value-wrapper {
+        display: flex;
+        align-items: center;
+        flex: 2;
+      }
+
+      .Select-menu-outer {
+        border: 0;
+        border-top: 1px solid #e6e6e6;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+      }
+
+      .Select-input {
+        display: inline-block;
+        margin-left: 22px;
+        flex: 1;
+
+        input {
+          font-family: "ITC Conduit W01", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #7f7f7f;
+        }
+      }
+
+      .Select-value-label {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .famfamfam-flags {
+          margin-right: 10px;
+        }
+      }
+
+      .Select-option {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        margin: 0;
+        min-height: 40px;
+        line-height: 18px;
+
+        &.is-disabled {
+          margin-left: 0;
+
+          * {
+            color: #444;
+            font-weight: 500;
+          }
+
+          .famfamfam-flags {
+            display: none;
+          }
+        }
+      }
+
+      .Select-value {
+        display: flex;
+
+        object {
+          margin-right: 10px;
+        }
+      }
+
+      .Select-noresults {
+        font-family: "ITC Conduit W01", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+      }
+
+      .Select-menu {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .Select-menu::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+
+  .flight-sort {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .sort-fields {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      padding: 0 10px;
+
+      @media (max-width: 768px) {
+        padding: 10px 0;
+      }
+
+      .label {
+        margin-right: 10px;
+
+        @media (max-width: 768px) {
+          padding: 0 20px 0 0;
+        }
+      }
+
+      select {
+        background-color: #fff;
+        border: 1px solid #d9e1e8;
+        padding: 5px;
+        flex: 1;
+        outline: none;
+        cursor: pointer;
+
+        &:active {
+          outline: none;
+          border: 1px solid #3e5970;
+        }
+
+        &:hover {
+          background-color: #eee;
+        }
+      }
+
+      :global {
+        .input-range__label--max,
+        .input-range__label--min {
+          display: none;
+        }
+
+        .input-range__track--active {
+          background-color: #3e5970;
+        }
+
+        .input-range__slider {
+          background: #fff;
+          border: 1px solid #f10000;
+        }
+
+        .input-range__label--value {
+          top: 5px;
+        }
+
+        .input-range__track--background {
+          background-color: #ccc;
+        }
+
+        .input-range {
+          flex: 3;
+          margin: 0 10px;
+        }
+
+        .input-range__label-container {
+          span {
+            font-size: 10px;
+            color: #3e5970;
+          }
+        }
+      }
+    }
+  }
+
+  /* .luggageOpt,
+  .flight-info > .pax {
+    :global {
+      .Select-input {
+        input {
+          display: none;
+        }
+      }
+    }
+  } */
+}
+
+/* .geoPrompt {
+  display: flex;
+  align-items: center;
+  font-family: "ITC Conduit W01", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #4a90e2;
+  cursor: pointer;
+
+  svg {
+    margin-right: 10px;
+  }
+} */
+
+/* .select {
+  text-transform: uppercase;
+
+  .myOption {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    min-height: 40px;
+    line-height: 18px;
+
+    &.disabled {
+      color: #999;
+    }
+
+    &.option {
+      color: #444;
+
+      &:hover {
+        background-color: #eee;
+      }
+    }
+
+    :global {
+      .famfamfam-flags {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .geoOption {
+    color: #4a90e2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background-color: #eee;
+    }
+  }
+
+  :global {
+    Select-menu {
+      > div {
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+      }
+    }
+
+    .Select-option {
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+
+      &:hover {
+        background-color: #eee;
+      }
+    }
+
+    .Select-noresults {
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+} */

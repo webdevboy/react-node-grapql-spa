@@ -1,0 +1,19 @@
+query($id: ID, $name: String, $first_name: String, $last_name: String, $email: String, $title: String, $visible: Boolean) {
+  members: getTeamMembers(id: $id, name: $name, first_name: $first_name last_name: $last_name, email: $email, title: $title, visible: $visible) {
+    id
+    title
+    slug
+    body
+    summary
+    created_at
+    publish_at
+    updated_at
+    language {
+      id
+    }
+	  media {
+      id
+      src
+    }
+  } 
+}

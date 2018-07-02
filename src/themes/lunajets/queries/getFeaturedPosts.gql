@@ -1,0 +1,23 @@
+query($type: String, $language_id: ID) {
+  posts: getFeaturedPosts(language_id: $language_id, type: $type) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      media {
+        src
+        id
+      }
+      language {
+        locale
+      }
+    }
+  }
+}
+

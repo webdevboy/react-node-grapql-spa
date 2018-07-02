@@ -1,0 +1,8 @@
+mutation updateRedirection($id: ID!, $link: String!, $redirect: String!, $description: String) {
+  updateRedirection(id: $id, link: $link, redirect: $redirect, description: $description ) {
+        id
+        link
+        redirect
+        description
+      }
+  }

@@ -1,0 +1,6 @@
+{
+  "name": "lunajets-fly-now",
+  "main": "FlyNow.js",
+  "displayName": "Lunajets Fly Now",
+  "private": true
+}

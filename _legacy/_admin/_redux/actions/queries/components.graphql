@@ -1,0 +1,10 @@
+{
+  components {
+    id
+    name
+    dependencies
+    category
+    data_type
+    body
+  }
+}

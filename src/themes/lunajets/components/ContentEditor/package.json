@@ -1,0 +1,6 @@
+{
+	"name": "ContentEditor",
+	"main": "ContentEditor.js",
+	"displayName": "ContentEditor",
+	"private": "true"
+}

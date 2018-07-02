@@ -1,0 +1,11 @@
+mutation($locale_id: ID!) {
+  language: addLanguage(locale_id: $locale_id) {
+    id
+    enabled
+    locale {
+      id
+    }
+    total_strings
+    missing_translations
+  }
+}

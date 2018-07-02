@@ -1,0 +1,6 @@
+{
+	"name": "AccountEmptyLegsFilter",
+	"main": "AccountEmptyLegsFilter.js",
+	"displayName": "AccountEmptyLegsFilter",
+	"private": "true"
+}

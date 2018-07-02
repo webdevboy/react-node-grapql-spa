@@ -1,0 +1,267 @@
+@import "../../../variables.css";
+
+.line {
+  background-color: white;
+  margin-bottom: 5px;
+  display: block;
+
+  @media (max-width: 768px) {
+    border: 1px solid var(--dark-blue);
+  }
+
+  .body-row {
+    padding: 20px 30px;
+    border-top: 5px #faf7f6 solid;
+
+    @media (max-width: 767.98px) {
+      padding: 15px;
+      border-top: 0;
+    }
+  }
+
+  .airport-iata {
+    display: flex;
+    width: 100%;
+
+    @media (max-width: 767.98px) {
+      span {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .country {
+    width: 15%;
+
+    .country-info {
+      display: inline-block; /* remove if not use truncate */
+
+      @media (max-width: 767.98px) {
+        width: 170px;
+      }
+
+      .city-name,
+      .country-code {
+        font-family: "Ubuntu Mono", monospace;
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--corporate-blue);
+
+        @media (max-width: 767.98px) {
+          font-size: 0.75rem;
+        }
+      }
+
+      .country-code {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .airplane-arrow {
+    max-width: 100px;
+
+    @media (max-width: 767.98px) {
+      max-width: 50px;
+      top: -9px;
+      right: 15px;
+    }
+  }
+
+  .from-date,
+  .until-date {
+    .date {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--corporate-blue);
+      text-transform: uppercase;
+      display: inline-block; /* remove if not use truncate */
+    }
+  }
+
+  .from-date {
+    position: relative;
+
+    &:before {
+      content: "";
+      background-color: var(--light-blue);
+      width: 1px;
+      height: 50px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin-top: -25px;
+    }
+  }
+
+  .until-date {
+    position: relative;
+
+    &:after {
+      content: "";
+      background-color: var(--light-blue);
+      width: 1px;
+      height: 50px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -25px;
+    }
+  }
+
+  .seat-available {
+    max-width: 120px;
+    text-align: center;
+
+    .number-seats {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--corporate-blue);
+      text-transform: uppercase;
+    }
+  }
+
+  .flight-time {
+    font-weight: 500;
+    font-family: "ITC conduit w01", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--dark-blue);
+
+    &:after {
+      content: "";
+      background-color: var(--light-blue);
+      width: 1px;
+      height: 50px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin-top: -25px;
+    }
+
+    @media (max-width: 767.98px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  .aircraft-wrap {
+    .aircraft-illustration {
+      margin-top: -25px;
+    }
+
+    .aircraft {
+      display: inline-block;
+      font-weight: 500;
+      font-family: "ITC conduit w01", sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
+      color: #263d50;
+    }
+  }
+
+  .leg-price {
+    text-align: right;
+    position: relative;
+    color: var(--dark-blue);
+
+    span {
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 767.98px) {
+      &:after {
+        content: "";
+        background-color: var(--light-blue);
+        width: 1px;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -25px;
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      text-align: left;
+
+      span {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  /* mobile */
+  .date-mobile-wrap {
+    background-color: var(--dark-blue);
+    padding: 5px 15px;
+
+    .from-date-mobile {
+      float: left;
+    }
+
+    .until-date-mobile {
+      float: right;
+    }
+
+    .from-date-mobile,
+    .until-date-mobile {
+      .prefix {
+        font-size: 12px;
+        padding-right: 5px;
+      }
+
+      .date {
+        font-family: "ITC Conduit W01", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--pale);
+        text-transform: uppercase;
+        display: inline-block; /* remove if not use truncate */
+      }
+    }
+  }
+
+  .aircraft-mobile-wrap {
+    background-color: var(--light-grey);
+    padding: 5px 15px;
+
+    .prefix {
+      font-size: 12px;
+      padding-right: 5px;
+      color: var(--light-blue);
+    }
+
+    .aircraft {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--dark-blue);
+      display: inline-block; /* remove if not use truncate */
+    }
+  }
+}
+
+.leg-v-3 {
+  .airport-iata span {
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: 767.98px) {
+    .flight-time,
+    .leg-price {
+      &:after {
+        content: none;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .aircraft-illustration {
+      height: 90px;
+      margin-top: -25px;
+      margin-right: 1em;
+    }
+  }
+}

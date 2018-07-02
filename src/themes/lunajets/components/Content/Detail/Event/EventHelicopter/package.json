@@ -1,0 +1,6 @@
+{
+	"name": "eventHelicopter",
+	"main": "EventHelicopter.js",
+	"displayName": "EventHelicopter",
+	"private": true
+}

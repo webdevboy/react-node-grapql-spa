@@ -1,0 +1,27 @@
+query ($slug: String!,$language_id: ID!) {
+  article: getArticle(slug: $slug,language_id: $language_id) {
+    id
+    body
+    summary
+    title
+	  slug
+    created_at
+    publish_at
+    article_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    language {
+      id
+    }
+    media {
+      src
+      thumbnail
+      filename
+      mimetype
+    }
+  }
+}

@@ -1,0 +1,13 @@
+mutation($name:String!, $description:String, $permissions: [ID]) {
+  role: createRole(name:$name, description: $description, permissions: $permissions) {
+    id
+    name
+    description
+    permissions {
+      id
+      isAllowed
+      action
+      description
+    }
+  }
+}

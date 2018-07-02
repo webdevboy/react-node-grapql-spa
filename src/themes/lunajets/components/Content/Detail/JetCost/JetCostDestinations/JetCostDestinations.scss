@@ -1,0 +1,26 @@
+@import "../../../../variables.css";
+
+.section-title1 {
+  position: relative;
+  font-size: 2rem;
+  font-family: "FuturaLTPro-MediumOblique", sans-serif;
+
+  @media (max-width: 767.98px) {
+    font-size: 1.5rem;
+  }
+
+  &:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    left: -55px;
+    top: 50%;
+    margin-top: -1px;
+    width: 40px;
+    background: var(--light-blue);
+
+    @media (max-width: 767.98px) {
+      display: none;
+    }
+  }
+}

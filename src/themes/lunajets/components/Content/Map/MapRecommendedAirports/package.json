@@ -1,0 +1,6 @@
+{
+  "name": "map-list-display",
+  "main": "MapRecommendedAirports.js",
+  "displayName": "MapRecommendedAirports",
+  "private": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "press-release",
+  "main": "PressRelease.js",
+  "displayName": "PressRelease",
+  "private": true
+}

@@ -1,0 +1,6 @@
+{
+	"name": "EmptyLegLink",
+	"main": "EmptyLegLink.js",
+	"displayName": "EmptyLegLink",
+	"private": true
+}

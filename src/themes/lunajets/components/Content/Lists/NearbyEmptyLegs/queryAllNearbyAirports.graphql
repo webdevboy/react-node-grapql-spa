@@ -1,0 +1,13 @@
+query ($lat: Float!, $long: Float!, $limit: Int) {
+  airports : getNearbyAirports(lat: $lat, long: $long, limit: $limit) {
+    full_name
+    name
+    distance
+    sfid
+    icao
+    iata
+    coordinates
+    helipad
+    time_to_utc
+  }
+}

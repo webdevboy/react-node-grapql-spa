@@ -1,0 +1,7 @@
+mutation($post_id: String!) {
+  remove: removePost(post_id: $post_id) {
+    id
+    ids
+    rows
+  }
+}

@@ -1,0 +1,2318 @@
+{
+  "ru": [
+    {
+      "body": "<em>&quot;Уважаемая Александра,<br />\r\nВсе прошло отлично! Хороший самолет и экипаж. Спасибо большое!&quot;</em>",
+      "arrival": "LIN",
+      "date": "2016-04-26",
+      "id": 919,
+      "departure": "CIA"
+    }
+  ],
+  "fr": [
+    {
+      "body": "<em>&quot;Les 2 vols parfaits. Pilotes de qualite et rassurants. Avions en tres bon etat.&quot;</em>",
+      "arrival": "FLR",
+      "date": "2014-08-03",
+      "id": 206,
+      "departure": "TLN"
+    },
+    {
+      "body": "<em>&quot;Encore merci pour tout ce que vous avez fait sur ce dossier de voyage, tout le monde &eacute;tait ravi.&quot;</em>",
+      "arrival": "PSA",
+      "date": "2014-08-23",
+      "id": 290,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Le service a &eacute;t&eacute; fantastique comme toujours. Je voulais remercier particuli&egrave;rement Monsieur Marc Gasser&nbsp; qui&nbsp; s&#39;est d&eacute;pass&eacute; en jonglant avec le nombre de mes passagers qui a chang&eacute; une demi heure avant le d&eacute;part du vol.&quot;</em>",
+      "arrival": "TSF",
+      "date": "2014-07-05",
+      "id": 300,
+      "departure": "BRN"
+    },
+    {
+      "body": "<em>&quot;Elle &eacute;tait tr&egrave;s contente de l&rsquo;avion (plus grand et plus confort que le Mustang) et du service &agrave; bord, ground, et moi du votre.&quot;</em>",
+      "arrival": "GVA",
+      "date": "2014-07-15",
+      "id": 302,
+      "departure": "OLB"
+    },
+    {
+      "body": "<em>&quot;Le vol a &eacute;t&eacute; un grand moment et une vraie r&eacute;ussite... mes amis on ador&eacute;s et on en a tous vraiment profit&eacute; au maximum car finalement cela va assez vite et ce vol restera un superbe souvenir.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2014-07-20",
+      "id": 305,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Un grand merci pour votre disponibilit&eacute;, accueil et service. Je serai heureux de voler avec vous lors d&#39;un prochain d&eacute;placement.&quot;</em>",
+      "arrival": "IST",
+      "date": "2014-05-25",
+      "id": 306,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>Vol magnifique!!! 10/10!!!<br />\r\nTr&egrave;s joyeuses f&ecirc;tes de No&euml;l &agrave; tous!</em>",
+      "arrival": "SXM",
+      "date": "2014-12-15",
+      "id": 433,
+      "departure": "SXM"
+    },
+    {
+      "body": "<em>&quot;Grand merci pour cette journee rendue tres agreable par vos services et gentillesses.<br />\r\nNos tres sinceres remerciements ! Beaucoup de petites attentions de la part de l&rsquo;&eacute;quipage ( priere de transmettre !) D&eacute;collages et atterrissages a peine perceptibles ! Au top !&nbsp;Meilleurs voeux pour l&rsquo;annee 2015.&quot;</em>",
+      "arrival": "GVA",
+      "date": "2014-12-20",
+      "id": 437,
+      "departure": "LRT"
+    },
+    {
+      "body": "<em>&quot;Nous voici bien arriv&eacute; &agrave; Bruxelles<br />\r\nGrand merci pour l&#39;organisation de ce vol.&quot;</em>",
+      "arrival": "BRU",
+      "date": "2015-01-02",
+      "id": 461,
+      "departure": "LPA"
+    },
+    {
+      "body": "<em>&quot;Merci pour l&rsquo;organisation de ce vol qui s&rsquo;est tr&egrave;s bien pass&eacute;, Nickel Chrome de A/Z.&quot;</em>",
+      "arrival": "BRU",
+      "date": "2015-01-15",
+      "id": 462,
+      "departure": "LPA"
+    },
+    {
+      "body": "<em>&quot;Tout s&rsquo;est d&eacute;roul&eacute; &agrave; merveille.<br />\r\nMerci et bravo pour l&rsquo;organisation, nickel.&quot;</em>",
+      "arrival": "CFU",
+      "date": "2015-03-02",
+      "id": 516,
+      "departure": "BRU"
+    },
+    {
+      "body": "<em>&quot;Super vol! Excellent avion et tr&egrave;s bon &eacute;quipage! Merci!&quot;</em>",
+      "arrival": "GVA",
+      "date": "2015-03-10",
+      "id": 533,
+      "departure": "AGP"
+    },
+    {
+      "body": "<em>&quot;Tout &eacute;tait vraiment parfait (le service et l&rsquo;accueil &agrave; l&#39;a&eacute;roport &agrave; l&#39;aller comme au retour, la ponctualit&eacute;, le vol impeccable)&quot;</em>",
+      "arrival": "RAK",
+      "date": "2015-06-25",
+      "id": 656,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Le vol &eacute;tait magnifique! Merci beaucoup!&quot;</em>",
+      "arrival": "TPS",
+      "date": "2015-07-02",
+      "id": 677,
+      "departure": "PSA"
+    },
+    {
+      "body": "<em>&quot;&Ccedil;a s&#39;est tr&egrave;s bien pass&eacute;.&nbsp;L&#39;avion &eacute;tait tr&egrave;s bien ainsi que l&#39;&eacute;quipage.&quot;</em>",
+      "arrival": "SIR",
+      "date": "2015-07-05",
+      "id": 701,
+      "departure": "OLB"
+    },
+    {
+      "body": "<em>&quot;C&#39;&eacute;tait un plaisir de vous rencontrer et d&#39;avoir utiliser vos services. Matthieu s&#39;est tr&egrave;s bien occup&eacute; de nous durant ce vol et le pr&eacute;c&eacute;dent.&nbsp;J&#39;esp&egrave;re encore utiliser vos services tout bient&ocirc;t.&quot;</em>",
+      "arrival": "BEG",
+      "date": "2015-07-20",
+      "id": 708,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;C&#39;est g&eacute;nial nous avons beaucoup appr&eacute;ci&eacute;: pilote et organisation exceptionnel et le repas sans gluten vraiment tr&egrave;s bien, merci Mathieu. Bien &agrave; vous&quot;</em>",
+      "arrival": "GVA",
+      "date": "2015-08-04",
+      "id": 712,
+      "departure": "GOA"
+    },
+    {
+      "body": "<em>&quot;En notre qualit&eacute; de family office, il est important pour nous d&#39;&ecirc;tre &agrave; m&ecirc;me de pr&eacute;senter les meilleures solutions &agrave; nos clients. C&#39;est donc avec grand plaisir que je vous confirme que notre cliente a &eacute;t&eacute; enchant&eacute;e de son voyage, de l&#39;organisation dans son ensemble et de la prise en charge lors du vol.&quot;</em>",
+      "arrival": "LEY",
+      "date": "2015-08-09",
+      "id": 729,
+      "departure": "LUG"
+    },
+    {
+      "body": "<em>Assistante:</em><br />\r\n<em>&quot;Dear Sebastian, thanks again to you and the team, for all of your assistance with XXX&#39;s travel today.&nbsp;I wanted to introduce you to my colleague XXX who is currently looking into travel in China for her boss.&nbsp;&nbsp; I had a quick look on your website and saw that this is an area LunaJets covers, so wondered if you could help her?&nbsp;Thanks again &amp; best wishes.&quot;</em><br />\r\n<br />\r\n<em>Client:<br />\r\n&quot;Merci Sebastian, pour votre email et pour ce geste qui est tr&egrave;s gentil et n&#39;&eacute;tait vraiment pas n&eacute;cessaire. L&#39;&eacute;quipage a pris bien soin de nous et le retard n&#39;a pas &eacute;t&eacute; un probl&egrave;me. Merci de votre service impeccable de la pr&eacute;paration au suivi du vol. Vous avez &eacute;t&eacute; admirable. Looking forward to the next flight.&quot;</em>",
+      "arrival": "FSC",
+      "date": "2015-08-14",
+      "id": 737,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;Bonjour Matthieu,&nbsp;Tout s&#39;est bien pass&eacute;.&nbsp;Merci de votre collaboration.<br />\r\nBon dimanche&quot;</em>",
+      "arrival": "CMR",
+      "date": "2015-08-17",
+      "id": 738,
+      "departure": "LTT"
+    },
+    {
+      "body": "<em>&quot;Bonsoir Mathieu, c&#39;&eacute;tait pour vous dire que le vol s&#39;est tr&egrave;s bien pass&eacute; (comme toujours) et que je suis bien arriv&eacute;. Merci beaucoup et bonne soir&eacute;e&quot;</em>",
+      "arrival": "NCE",
+      "date": "2015-08-18",
+      "id": 740,
+      "departure": "IBZ"
+    },
+    {
+      "body": "<em>&quot;Merci pour votre service et la prestation.&nbsp;Tout c&rsquo;est bien d&eacute;roul&eacute;.&quot;</em>",
+      "arrival": "GCI",
+      "date": "2015-08-31",
+      "id": 772,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Tr&egrave;s bon suivi et information des&quot; operations&quot; au client. Pendant le vol le pilote a demand&eacute; &agrave; la passag&egrave;re si tout allait bien... cette demande a &eacute;t&eacute; appr&eacute;ci&eacute;e.&quot;</em>",
+      "arrival": "PEG",
+      "date": "2015-10-01",
+      "id": 823,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Cher Monsieur Segard<br />\r\nJe vous remercie beaucoup de votre amiable message et je me r&eacute;jouis vous confirmer l&rsquo;enti&egrave;re satisfaction de mon sup&eacute;rieur Monsieur XXX pendent son vol a Paris Le Bourget.&nbsp;Sous bref notre collaborateur, M. XXX, se mettra en contact avec vous pour discuter des conditions pour que LunaJets puisse devenir partenaire pr&eacute;f&eacute;r&eacute; de XXX.&nbsp;Volontiers je reste &agrave; votre disposition pour tout renseignement suppl&eacute;mentaire.<br />\r\nBien &agrave; vous&quot;</em>",
+      "arrival": "LBG",
+      "date": "2015-10-01",
+      "id": 824,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Hello Eymeric,<br />\r\nTout s&#39;est bien pass&eacute;. Sauf le score du match mais tu n&#39;y pouvais rien!<br />\r\nA bient&ocirc;t!&quot;</em><br />",
+      "arrival": "CWL",
+      "date": "2015-10-11",
+      "id": 829,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Bonjour Monsieur,<br />\r\nMerci beaucoup pour votre organisation impeccable!<br />\r\nC&#39;&eacute;tait un plaisir de travailler avec vous.&quot;</em>",
+      "arrival": "VCE",
+      "date": "2015-10-28",
+      "id": 836,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Bonjour, tout ok pour nous.&quot;</em>",
+      "arrival": "TSR",
+      "date": "2015-11-10",
+      "id": 842,
+      "departure": "BRN"
+    },
+    {
+      "body": "<em>&quot;Merci beaucoup Matthieu! Tout &eacute;tait Parfait!&quot;</em>",
+      "arrival": "NCE",
+      "date": "2015-11-25",
+      "id": 847,
+      "departure": "VAF"
+    },
+    {
+      "body": "<em>&quot;Ch&egrave;re Alexandra,&nbsp;<br />\r\nLe vol a &eacute;t&eacute; parfait.&quot;</em>",
+      "arrival": "MAH",
+      "date": "2015-11-27",
+      "id": 849,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Merci et f&eacute;licitations pour l&#39;efficacit&eacute;.&quot;</em>",
+      "arrival": "FAB",
+      "date": "2016-01-11",
+      "id": 863,
+      "departure": "BIQ"
+    },
+    {
+      "body": "<em>&quot;</em><em>Merci pour votre aide, pour le travail fourni et votre patience.</em><em>&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2016-01-13",
+      "id": 864,
+      "departure": "BIO"
+    },
+    {
+      "body": "<em>&quot;Nous sommes d&eacute;j&agrave; dans la voiture. Le vol fut tr&egrave;s agr&eacute;able. Tr&egrave;s bon &eacute;quipage!<br />\r\n<br />\r\nMerci encore et au plaisir de vous revoir prochainement.<br />\r\n<br />\r\nBien &agrave; vous.&quot;</em>",
+      "arrival": "BBA",
+      "date": "2016-02-15",
+      "id": 884,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Bonjour Mathieu<br />\r\nNous avons fait un excellent vol tout &eacute;tait parfait l avion l &eacute;quipage etc vous &ecirc;tes super et je vous en remercie je suis juste d&eacute;borde en arrivant et je vous appel demain pour vous raconter mille merci bien &acirc; vous.&quot;</em>",
+      "arrival": "BGI",
+      "date": "2016-03-08",
+      "id": 894,
+      "departure": "YUL"
+    },
+    {
+      "body": "<em>&quot;Matthieu, nous avons bien atterrit &agrave; Bordeaux, excellent service, merci.&quot;</em>",
+      "arrival": "BOD",
+      "date": "2016-03-23",
+      "id": 903,
+      "departure": "DIJ"
+    },
+    {
+      "body": "<em>&quot;Tr&egrave;s bon service. rapide et &agrave; un prix raisonnable. Merci.&quot;</em>",
+      "arrival": "LRT",
+      "date": "2016-03-19",
+      "id": 906,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Bonjour,<br />\r\nClient satisfait effectivement.<br />\r\nBonne prestation de Matthieu pour la recherche qui a chang&eacute;e plusieurs fois.&quot;</em>",
+      "arrival": "FAB",
+      "date": "2016-04-19",
+      "id": 909,
+      "departure": "CMF"
+    },
+    {
+      "body": "<em>&quot;Je vous remercie pour votre message, le service &eacute;tait excellent et tr&egrave;s r&eacute;actif. Je n&#39;h&eacute;siterai pas &agrave; vous utiliser &agrave; nouveau et &agrave; vous recommander.&quot;</em>",
+      "arrival": "FSC",
+      "date": "2016-04-16",
+      "id": 917,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Bonjour Matthieu,<br />\r\nService impeccable!<br />\r\nMerci beaucoup.&quot;</em>",
+      "arrival": "AGP",
+      "date": "2016-04-25",
+      "id": 918,
+      "departure": "ANR"
+    },
+    {
+      "body": "<em>&quot;Merci bcp<br />\r\nTout &eacute;tait bien<br />\r\nAvion<br />\r\nPilotes<br />\r\nService<br />\r\nAvec mes meilleurs messages.&quot;</em>",
+      "arrival": "TLN",
+      "date": "2016-04-27",
+      "id": 920,
+      "departure": "SXF"
+    },
+    {
+      "body": "<em>&quot;Monsieur, merci pour votre message.<br />\r\nJ&rsquo;ai particuli&egrave;rement appr&eacute;ci&eacute; la r&eacute;activit&eacute; de S&eacute;bastian qui a trouv&eacute; en toute urgence la solution &agrave; ma demande; r&eacute;activit&eacute;, disponibilit&eacute; pour r&eacute;pondre &agrave; mes divers questions, &eacute;coute attentive des besoins particuliers de mes clients, suivi du vol et informations rapides et compl&egrave;tes sur l&rsquo;&eacute;tat des vols (d&eacute;part/arriv&eacute;e). En plus d&rsquo;&ecirc;tre tr&egrave;s sympathique.<br />\r\nEn conclusion, je suis 100% satisfaite et j&rsquo;esp&egrave;re pouvoir convaincre mes clients d&#39;utiliser plus souvent vos services pour leur simplifier la vie et voyager dans les meilleures conditions et gagner du temps.<br />\r\nCordialement.&quot;</em>",
+      "arrival": "BRI",
+      "date": "2016-04-28",
+      "id": 921,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Chers Emilie, Matthieu,<br />\r\n<br />\r\nJe vous remercie pour votre aide et collaboration. Comme d&#39;habitude, le service de Lunajets est irr&eacute;prochable.<br />\r\n<br />\r\nLe vol, l&#39;avion ainsi que l&#39;&eacute;quipage &eacute;taient tous fantastiques.</em><br />\r\n<br />\r\n<em>Le prochain vol est pr&eacute;vu pour fin juillet et je ne manquerai pas de revenir vers vous au plus vite avec les d&eacute;tails.</em><br />\r\n<br />\r\n<em>Bien &agrave; vous,&quot;</em>",
+      "arrival": "NCE",
+      "date": "2016-06-09",
+      "id": 960,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Toujours un plaisir de travailler avec Lunajets. Une &eacute;quipe r&eacute;active, avenante et tr&egrave;s professionnelle.&quot;</em>",
+      "arrival": "VKO",
+      "date": "2016-06-21",
+      "id": 969,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Cher Monsieur,<br />\r\n<br />\r\nMerci beaucoup pour votre suivi et professionnalisme.<br />\r\nExcellente journ&eacute;e. A bient&ocirc;t.&quot;</em>",
+      "arrival": "LBG",
+      "date": "2016-07-12",
+      "id": 980,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Bonjour Matthieu,<br />\r\nJe vous remercie pour votre prestation de lundi dernier,<br />\r\ntout &eacute;tait parfait !&quot;</em>",
+      "arrival": "LBG",
+      "date": "2016-06-18",
+      "id": 985,
+      "departure": "MAD"
+    },
+    {
+      "body": "<em>&quot;M. Gasser est une pr&eacute;cieuse assistance que je recommande d&egrave;s que possible.&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2016-07-30",
+      "id": 995,
+      "departure": "LIS"
+    },
+    {
+      "body": "<em>&quot;Le vol a &eacute;t&eacute; parfait sur tous les plans.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2016-08-05",
+      "id": 996,
+      "departure": "TIV"
+    },
+    {
+      "body": "<em>&quot;Bonjour Guillaume,<br />\r\nNous sommes assis dans l&#39;avion. C&#39;est totalement inimaginable. Vous nous permettez de vivre une exp&eacute;rience extraordinaire!<br />\r\nMerci,&quot;</em>",
+      "arrival": "STN",
+      "date": "2016-10-28",
+      "id": 1016,
+      "departure": "CTA"
+    },
+    {
+      "body": "<em>&quot;Tout s&rsquo;est tr&egrave;s bien pass&eacute; :)<br />\r\nMerci pour tout.&quot;</em>",
+      "arrival": "HHQ",
+      "date": "2016-11-29",
+      "id": 1028,
+      "departure": "BKK"
+    },
+    {
+      "body": "<em>&quot;Bonjour,<br />\r\nC&#39;est le meilleur vol que j&#39;ai jamais eu, merci!<br />\r\nExcellent &eacute;quipage et catering.<br />\r\nBonnes f&ecirc;tes de fin d&#39;ann&eacute;e,&quot;</em>",
+      "arrival": "BGI",
+      "date": "2016-12-17",
+      "id": 1030,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Bonjour,<br />\r\nC&#39;est le meilleur vol que j&#39;ai jamais eu, merci!<br />\r\nExcellent &eacute;quipage et catering.<br />\r\nBonnes f&ecirc;tes de fin d&#39;ann&eacute;e,&quot;</em>",
+      "arrival": "BGI",
+      "date": "2016-12-17",
+      "id": 1031,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Ravie de collaborer r&eacute;guli&egrave;rement avec votre team toujours r&eacute;actif et &agrave; l&#39;&eacute;coute.&quot;</em>",
+      "arrival": "CUF",
+      "date": "2016-12-19",
+      "id": 1036,
+      "departure": "CIA"
+    },
+    {
+      "body": "<em>&quot;Bonjour,<br />\r\nCe fut un vol superbe et particuli&egrave;rement rapide: 3h30 !<br />\r\nCatering et exp&eacute;rience en vol parfaits.<br />\r\nBien cordialement.&quot;</em>",
+      "arrival": "BEY",
+      "date": "2017-02-01",
+      "id": 1039,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Ch&egrave;re Julia,<br />\r\n<br />\r\nM. H me confirme qu&rsquo;il est bien arriv&eacute; et que tout s&rsquo;est tr&egrave;s bien pass&eacute;.<br />\r\nJe vous remercie encore pour le formidable suivi.<br />\r\nJe vous souhaite ainsi qu&rsquo;&agrave; toute l&rsquo;&eacute;quipe un excellent week-end.<br />\r\n<br />\r\nBien &agrave; vous,&quot;</em><br />",
+      "arrival": "LIN",
+      "date": "2017-03-24",
+      "id": 1054,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Merci encore pour ce magnifique voyage!&quot;</em>",
+      "arrival": "NCE",
+      "date": "2017-04-15",
+      "id": 1059,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Bonjour Marina,<br />\r\n<br />\r\nMerci pour la facture.<br />\r\nJe la transmets imm&eacute;diatement &agrave; finance pour le paiement final.<br />\r\nEncore une fois merci pour tout, c&rsquo;&eacute;tait parfait.<br />\r\n<br />\r\nBonne journ&eacute;e,<br />\r\n<br />\r\nAlex&quot;</em>",
+      "arrival": "GVA",
+      "date": "2017-04-21",
+      "id": 1060,
+      "departure": "CWL"
+    },
+    {
+      "body": "<em>&quot;Bonjour Marco,<br />\r\nLe vol s&rsquo;est tr&egrave;s bien pass&eacute;, ainsi que le transfert &agrave; Paris, Merci.<br />\r\nA bient&ocirc;t,<br />\r\nCordialement,&quot;</em>",
+      "arrival": "LBG",
+      "date": "2017-05-14",
+      "id": 1067,
+      "departure": "AJA"
+    },
+    {
+      "body": "<em>&quot;Merci. Super &eacute;fficace </em><em><em>comme</em></em><em> </em><em><em>toujours</em></em><em>.&quot;</em>",
+      "arrival": "FSC",
+      "date": "2017-07-29",
+      "id": 1096,
+      "departure": "FAB"
+    },
+    {
+      "body": "<em>&quot;Julia,<br />\r\n<br />\r\nTop ! Je vous remercie pour votre aide et efficacit&eacute;. Toujours un plaisir de collaborer avec vous.<br />\r\n<br />\r\nBien &agrave; </em><em>vous</em><em>,&quot;</em>",
+      "arrival": "LNZ",
+      "date": "2017-09-21",
+      "id": 1110,
+      "departure": "LYN"
+    },
+    {
+      "body": "<em>&quot;Madame Amadio,&nbsp;&nbsp;<br />\r\n<br />\r\nTout c&rsquo;est tr&egrave;s bien pass&eacute;. Pilote super sympa et la m&eacute;t&eacute;o a &eacute;t&eacute; cl&eacute;mente avec nous.&nbsp;&nbsp;<br />\r\n<br />\r\nEncore un grand merci pour toute l&rsquo;organisation.<br />\r\n<br />\r\nAvec mes meilleures salutations,&quot;</em>",
+      "arrival": "EYW",
+      "date": "2017-10-08",
+      "id": 1114,
+      "departure": "MIA"
+    },
+    {
+      "body": "<em>&quot;Vol </em><em>superbe</em><em> .</em><br />\r\n<em>Pilotes extr&ecirc;mement agr&eacute;ables et sympathiques.&quot;</em>",
+      "arrival": "BOD",
+      "date": "2017-11-13",
+      "id": 1125,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Cher Merwan<br />\r\n<br />\r\nTenais &agrave; vous remercier de votre permanente assistance durant cette op&eacute;ration et votre professionnalisme dans sa gestion. Remerciez pour nous toute l&#39;&eacute;quipe ayant fais aboutir en temps et en heure notre arriv&eacute;e a destination ainsi que l&#39;excellente prestance et pr&eacute;sence de l&#39;&eacute;quipage.<br />\r\n<br />\r\nMerci &agrave; tous&quot;</em>",
+      "arrival": "ORN",
+      "date": "2017-11-16",
+      "id": 1131,
+      "departure": "CRL"
+    },
+    {
+      "body": "<em>&quot;Tout &eacute;tait top!&quot;</em>",
+      "arrival": "CTT",
+      "date": "2017-12-08",
+      "id": 1138,
+      "departure": "LBC"
+    },
+    {
+      "body": "<em>&quot;Excellente exp&eacute;rience de vol, service &agrave; bord parfait et excellent service client. J&#39;ai beaucoup appr&eacute;ci&eacute; la disponibilit&eacute; et l&#39;attention. C&#39;&eacute;tait top !!&quot;</em>",
+      "arrival": "PDP",
+      "date": "2017-12-28",
+      "id": 1139,
+      "departure": "ROS"
+    },
+    {
+      "body": "<em>&quot;Le vol &eacute;tait tr&egrave;s bien, tr&egrave;s efficace. En 80 minutes on att&eacute;rit directement dans la station alors qu&#39;il faut compter 2h par la route depuis Chamb&eacute;ry!&quot;</em>",
+      "arrival": "CVF",
+      "date": "2018-02-19",
+      "id": 1148,
+      "departure": "LBG"
+    },
+    {
+      "body": "&quot;<em>Bonjour Monsieur Segard,<br />\r\nTr&egrave;s beau vol, &eacute;quipage sympathique et efficace.<br />\r\nLe handling parfait.<br />\r\nZ&eacute;ro faute, ne serait-ce que &ccedil;a passe trop vite &agrave; bord d&#39;un avion aussi magnifique.<br />\r\nMerci<br />\r\nBon week-end</em>&quot;",
+      "arrival": "LBG",
+      "date": "2018-03-29",
+      "id": 1165,
+      "departure": "RAK"
+    },
+    {
+      "body": "<div style=\"text-align: justify;\">\r\n\t&quot;<em>Merci pour votre s&eacute;rieux et votre r&eacute;activit&eacute; pour r&eacute;soudre les changements de planning de derni&egrave;re minute.</em>&quot;</div>",
+      "arrival": "MHH",
+      "date": "2018-03-06",
+      "id": 1166,
+      "departure": "OPF"
+    }
+  ],
+  "en": [
+    {
+      "body": "<em>&quot;Thank you very much for your mail, I found your sales person in Geneva most helpful and responsive and the entire experience with Lunajets as well as the flight crew very professional.&quot;</em>",
+      "arrival": "GVA",
+      "date": "2014-08-12",
+      "id": 299,
+      "departure": "IBZ"
+    },
+    {
+      "body": "<em>&quot;I would like to thanks every body in your company especially Alessandro, really he did an excellent job. Good comunication, good service, great follow up. In short words, I was lucky to pick your company. Regards.&quot;</em>",
+      "arrival": "LTN",
+      "date": "2014-06-20",
+      "id": 307,
+      "departure": "BCN"
+    },
+    {
+      "body": "<em>&quot;The Crew were simply outstanding during our week with them. Nothing was too much trouble and they went way above our expectations to ensure that our experience was extremely positive. They were absolutely first class, extremely positive, professional and courteous, and were a pleasure to work with - Simply the best!&quot;</em>",
+      "arrival": "BGF",
+      "date": "2014-07-15",
+      "id": 310,
+      "departure": "ADD"
+    },
+    {
+      "body": "<em>&quot;Fantastic, as always. A special thank to Mr Marc Gasser who has been very patient and terribly effective until the last minute. The plane crew was extremely nice and helpful. Thank you again for your precious service.&quot;</em>",
+      "arrival": "BRN",
+      "date": "2014-07-28",
+      "id": 311,
+      "departure": "TRE"
+    },
+    {
+      "body": "<em>&nbsp;&quot;Ms Rosa&#39;s help was highly valuable to me in organizing this trip. I had many questions and several changes and she came back to me promptly and with pertinent information and advice every time. It&#39;s been &quot;service with a smile&quot; from the first to the last contact. As a customer, I felt my business was appreciated. Feedback from my client and his guests after the trip was 100% positive. Price-wise I felt that LunaJets were genuinely trying to get me the best deal on the market.&quot;</em>",
+      "arrival": "FLR",
+      "date": "2014-05-09",
+      "id": 313,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>Hello Marc.<br />\r\nMy parents safely arrived to Kazan. They would like to thank you for finding a good plane and excellent crew.<br />\r\nMy parents also would like to thank you for excellent japanese food.&nbsp;</em>",
+      "arrival": "KZN",
+      "date": "2014-12-24",
+      "id": 429,
+      "departure": "VRN"
+    },
+    {
+      "body": "<em>Thank you. The flight went very smoothly, great crew and plane.<br />\r\nOn all fronts, a very good experience.<br />\r\nRegards</em>",
+      "arrival": "ACH",
+      "date": "2014-12-26",
+      "id": 430,
+      "departure": "LBA"
+    },
+    {
+      "body": "<em>It was a great flight. BEAUTIFUL aircraft and very nice crew. Everyone enjoyed it.<br />\r\nWe will of course, be needing an empty leg return in either ....<br />\r\nLet me take this opportunity now to wish you a very pleasant festive season.</em><br />\r\n<br />",
+      "arrival": "BQH",
+      "date": "2014-12-15",
+      "id": 434,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>Hi Eymeric,<br />\r\nYes, went well. good little jet. Just right for me...........<br />\r\nOther wise the arrangements were excellent and seamless.&nbsp; Great job so far by the team.<br />\r\nMany thanks again</em>",
+      "arrival": "BRN",
+      "date": "2014-12-18",
+      "id": 435,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>Dear Marina<br />\r\nThank you for the information and the most excellent service from your side!<br />\r\nKind regards</em>",
+      "arrival": "KLU",
+      "date": "2014-11-10",
+      "id": 436,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;All was good and efficient. Many thanks.&quot;</em>",
+      "arrival": "AMS",
+      "date": "2015-01-06",
+      "id": 451,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Thank you for a great service!&quot;</em>",
+      "arrival": "DBV",
+      "date": "2015-01-07",
+      "id": 453,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Thank you for your very efficient service&quot;</em>",
+      "arrival": "BHD",
+      "date": "2015-01-15",
+      "id": 464,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Thank you, very satisfied with the service provided. Best.&quot;</em>",
+      "arrival": "NHT",
+      "date": "2015-02-09",
+      "id": 484,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Thanks again &ndash; all went fine.&quot;</em>",
+      "arrival": "SXF",
+      "date": "2015-02-11",
+      "id": 487,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Thank You for your email,your support and glad to have known you,specially following your kind approach to assist us.<br />\r\n<br />\r\nTaking care about quality and services.this for sure will make us more keen to collaborate with you and your team.<br />\r\n<br />\r\nA special thank you for your team especially for the concern about details and clients special requirements on board...&quot;</em>",
+      "arrival": "CIA",
+      "date": "2015-02-12",
+      "id": 488,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Another huge thank you for all of your help in making the arrangements run so smoothly.&quot;</em>",
+      "arrival": "CMF",
+      "date": "2015-03-06",
+      "id": 521,
+      "departure": "FLR"
+    },
+    {
+      "body": "<em>&quot;Thank you very much for this flight confirmation!<br />\r\nYou were really, really the best assistant!!&quot;</em>",
+      "arrival": "GVA",
+      "date": "2015-03-18",
+      "id": 539,
+      "departure": "ZAG"
+    },
+    {
+      "body": "<em>&quot;Thank you very much. Everything went well. Your colleagues were very quick to respond to all our requests.&quot;</em>",
+      "arrival": "KZN",
+      "date": "2015-04-14",
+      "id": 583,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Lovely! Thanks for your trust and great service. It is a pleasure for us and the Client to work with Lunajets.&quot;</em>",
+      "arrival": "KRP",
+      "date": "2015-04-15",
+      "id": 587,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;We appreciate to work with LunaJets.&quot;</em>",
+      "arrival": "FSC",
+      "date": "2015-06-01",
+      "id": 632,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;It was WONDERFUL! All of the staff were professional and friendly, the food was delicious and the plane - well - I WANT ONE! In all it was a seamless door to door experience and one of our most enjoyable flights yet... Excellent Manuel, what a great price!&quot;</em>",
+      "arrival": "HER",
+      "date": "2015-06-03",
+      "id": 637,
+      "departure": "GVA"
+    },
+    {
+      "body": "&quot;<em>I am happy to confirm that my client was again fully satisfied with the service provided. We are happy to work with LunaJets.</em>&quot;",
+      "arrival": "TIV",
+      "date": "2015-06-10",
+      "id": 639,
+      "departure": "NAP"
+    },
+    {
+      "body": "<em>&quot;The flight was excellent. The crew was very nice and the food was excellent. Thank you and best regards.&quot;</em>",
+      "arrival": "KZN",
+      "date": "2015-06-20",
+      "id": 657,
+      "departure": "VRN"
+    },
+    {
+      "body": "Thank you very much for your updates and your professionalism. I know you went above and beyond to get this booking and keep these clients happy and it sounds like it was a success.",
+      "arrival": "TIV",
+      "date": "2015-06-23",
+      "id": 658,
+      "departure": "PRG"
+    },
+    {
+      "body": "<em>&quot;You are always helpful and a pleasure to deal with.&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2015-06-26",
+      "id": 672,
+      "departure": "JER"
+    },
+    {
+      "body": "<em>&quot;</em><em>It was a pleasure working with you.&nbsp;</em><em>On flight everything went very smoothly. It was also nice that your Luna office greeted us upon arrival. Thank you very much.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2015-07-02",
+      "id": 678,
+      "departure": "OLB"
+    },
+    {
+      "body": "<em>&quot;All good thank you.&quot;</em>",
+      "arrival": "OSL",
+      "date": "2015-07-06",
+      "id": 680,
+      "departure": "BRN"
+    },
+    {
+      "body": "<em>&quot;</em><em>Yoss - we landed in Naples, t</em><em>hanks for all your help coordinating! Perfect flight!&quot;</em>",
+      "arrival": "NAP",
+      "date": "2015-07-08",
+      "id": 681,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;The organization of the flight was great. Marina did a perfect job and the person in olbia was very useful.&nbsp;I liked very much the captain and the flight went very smoothly.&quot;</em>",
+      "arrival": "OLB",
+      "date": "2015-07-14",
+      "id": 698,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Marc we are taking off the plane is perfect so thank you.&nbsp; Love luna jet!!!&quot;</em>",
+      "arrival": "CTA",
+      "date": "2015-07-15",
+      "id": 703,
+      "departure": "JMK"
+    },
+    {
+      "body": "<em>&quot;Thank you Matthieu for your professional arrangement &amp; medical assitance during drop on/off &amp; flight of your staff. Right now my mother-in-law is having dinner in front of me!&quot;</em>",
+      "arrival": "TRN",
+      "date": "2015-07-30",
+      "id": 704,
+      "departure": "OLB"
+    },
+    {
+      "body": "<em>&quot;I really appreciate your help as always Yoss, that&#39;s why I always use you as I know you&#39;re extremely efficient!&quot;</em>",
+      "arrival": "CFR",
+      "date": "2015-07-21",
+      "id": 705,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;The flight and crew were great. Beautiful aircraft. Thank you to you and Air Hamburg for the upgrade.&quot;</em>",
+      "arrival": "FLR",
+      "date": "2015-07-21",
+      "id": 706,
+      "departure": "NAP"
+    },
+    {
+      "body": "<em>&quot;Excellent service by Alessandro, great crew and operator.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2015-07-22",
+      "id": 707,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Thank you Marina&nbsp;for organising our flights yesterday. Everything worked well and we had a fantastic day. The planes were superb as was the service.<br />\r\nThank you again!&quot;</em>",
+      "arrival": "BRS",
+      "date": "2015-07-24",
+      "id": 709,
+      "departure": "FSC"
+    },
+    {
+      "body": "<em>&quot;A big thank you for arranging our trip Yoss - a fantastic experience for all of us(including our dog Woody).&nbsp;Roman and Frank really looked after us well - great guys!&quot;</em>",
+      "arrival": "NCE",
+      "date": "2015-07-26",
+      "id": 710,
+      "departure": "MME"
+    },
+    {
+      "body": "<em>&quot;I just wanted to thank each of you for the superb service on this trip. I can see that you went far beyond the call of duty and I really appreciate it.&nbsp; My family were quite pleased and so am I... Thank you again.&quot;</em>",
+      "arrival": "CEQ",
+      "date": "2015-08-03",
+      "id": 711,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Many thanks Marina, everything was well organised.&quot;</em>",
+      "arrival": "FAO",
+      "date": "2015-08-04",
+      "id": 714,
+      "departure": "TLN"
+    },
+    {
+      "body": "<em>&quot;Hi, Marina, Mr. XXX was very impressed with the Luna Jets services during his holiday in Europe. We would like to know about service here in the US.......&quot;</em>",
+      "arrival": "OLB",
+      "date": "2015-07-21",
+      "id": 715,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Thank you Yoss, I have been working with you for some time now and you have always done an outstanding job - You are my guy for jets :)&quot;</em>",
+      "arrival": "DNR",
+      "date": "2015-08-10",
+      "id": 721,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Hi Matthieu,&nbsp;I thought you should know we arrived at Zurich, the flight was very smooth and the crew was very nice. We left on time and arrived on time - also the catering was very good. Everything went nicely.&nbsp;Thank you.&quot;</em>",
+      "arrival": "LSZH",
+      "date": "2015-08-08",
+      "id": 722,
+      "departure": "LGMK"
+    },
+    {
+      "body": "<em>&quot;It was truly a pleasure to use LunaJet in our short journey to Geneva , I must commend the professionalism of&nbsp; Mr Marc Gasser , his prompt reply , verity of offers and flexibility with last minute request.<br />\r\nI will definitely recommend Lunajets to my business colleagues, &nbsp;friends and family and will be looking forward to using it in the near future.&quot;</em>",
+      "arrival": "GVA",
+      "date": "2015-08-11",
+      "id": 726,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Firstly I would like to thank LunaJets team for your good services &amp; support, and special thanks for Mr. Florian Dahm &amp; Mr. Matthieu Trotin for their ethics &amp; dedications.&quot;</em>",
+      "arrival": "LBG",
+      "date": "2015-08-11",
+      "id": 727,
+      "departure": "FAB"
+    },
+    {
+      "body": "<em>&quot;Excellent once again thank you Yoss - I really appreciate your help and professionalism with all the arrangements and will certainly contact you again.&quot;</em>",
+      "arrival": "LBA",
+      "date": "2015-08-11",
+      "id": 728,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Thanks Marina.&nbsp;I&#39;ve just heard from them, I understand they were very happy with the flight.&quot;</em>",
+      "arrival": "SZG",
+      "date": "2015-08-12",
+      "id": 732,
+      "departure": "VVL"
+    },
+    {
+      "body": "<em>&quot;Dear Marina, thank you very much. It was a pleasure to work with you.&quot;</em>",
+      "arrival": "RHO",
+      "date": "2015-08-17",
+      "id": 739,
+      "departure": "LIN"
+    },
+    {
+      "body": "&quot;Working with Sebastian and your team is exceptional.&quot;",
+      "arrival": "FSC",
+      "date": "2015-08-18",
+      "id": 741,
+      "departure": "PMI"
+    },
+    {
+      "body": "<em>&quot;Dear Marc, once again I would like to thank you for the charter to Paris, everything went smoothly, the handlers, the crew and the plane itself. The Piaggio was a big surprise, it is quite spacious and comfortable, excellent for short flights for 2 to 3 people.&nbsp;Appreciate the excellent service and will contact you soon for our next flight.&quot;</em>",
+      "arrival": "LBG",
+      "date": "2015-08-18",
+      "id": 742,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Hello Marc, we just arrived, it was a fantastic flight, we enjoyed it a lot. I would like to thank you and the crew of the flight.&quot;</em>",
+      "arrival": "APG",
+      "date": "2015-08-02",
+      "id": 743,
+      "departure": "HER"
+    },
+    {
+      "body": "<em>&quot;Dear Mr. Brender, yes everything was absolutely fine. The plane was in good order and the crew the same. We were well looked after.&nbsp;Thank you for the service.&quot;</em>",
+      "arrival": "BQH",
+      "date": "2015-08-25",
+      "id": 748,
+      "departure": "ATH"
+    },
+    {
+      "body": "<em>&quot;Never mind, the main thing is, that of a slight misunderstanding on the name I wanted to appear in the contract, other than that I found the service given by your Company satisfactory.&quot;</em>",
+      "arrival": "BQH",
+      "date": "2015-08-26",
+      "id": 749,
+      "departure": "ATH"
+    },
+    {
+      "body": "<em>&quot;Eymeric, thank you for the follow up.&nbsp;As usual, my Luna Jets experience was flawless. Your staff goes above and beyond.&quot;</em>",
+      "arrival": "CAI",
+      "date": "2015-08-28",
+      "id": 757,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;All went well.. Thank you.&nbsp;I&#39;m afraid you set a new standard with my wife though... That plane was really nice.&quot;</em>",
+      "arrival": "BQH",
+      "date": "2015-08-31",
+      "id": 769,
+      "departure": "CEQ"
+    },
+    {
+      "body": "<em>&quot;Thanks to you for assisting on such short notice last week!!&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2015-09-02",
+      "id": 774,
+      "departure": "PMI"
+    },
+    {
+      "body": "<em>&quot;Perfect execution on your part! You guys are wonderful.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2015-09-08",
+      "id": 794,
+      "departure": "IBZ"
+    },
+    {
+      "body": "<em>&quot;LunaJets Team, thank you all for your assistance with this trip. The client is very happy and satisfied with all the services.&nbsp;</em><em>We will be in touch for his next trip in the next few weeks for planning.</em><em>&quot;</em>",
+      "arrival": "AMS",
+      "date": "2015-09-17",
+      "id": 804,
+      "departure": "NHT"
+    },
+    {
+      "body": "<em>&quot;LunaJets Team, thank you all for your assistance with this trip. The client is very happy and satisfied with all the services.&nbsp;</em><em>We will be in touch for his next trip in the next few weeks for planning.</em><em>&quot;</em>",
+      "arrival": "AMS",
+      "date": "2015-09-17",
+      "id": 805,
+      "departure": "NHT"
+    },
+    {
+      "body": "<em>&quot;Thanks, everything was great.&quot;</em>",
+      "arrival": "CAI",
+      "date": "2015-09-27",
+      "id": 821,
+      "departure": "JMK"
+    },
+    {
+      "body": "<em>&quot;Thank you very much. You did a very good. Everything worked perfectly well. I am pleased by your service and we keep in touch.<br />\r\nKind regards.&quot;</em>",
+      "arrival": "PMI",
+      "date": "2015-10-09",
+      "id": 828,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Dear Fr&eacute;d&eacute;ric &amp; Dear Marina,<br />\r\nThank you guys for your kind help! It was real pleasure to work with you!&quot;</em>",
+      "arrival": "TRS",
+      "date": "2015-10-27",
+      "id": 835,
+      "departure": "MRS"
+    },
+    {
+      "body": "<em>&quot;Fabulous... Many thanks guys!&quot;</em>",
+      "arrival": "TLN",
+      "date": "2015-10-30",
+      "id": 837,
+      "departure": "VRN"
+    },
+    {
+      "body": "<em>&quot;Good flight!&quot;</em>",
+      "arrival": "APG",
+      "date": "2015-11-06",
+      "id": 841,
+      "departure": "BLK"
+    },
+    {
+      "body": "<em>&quot;The feedback from our clients is positive. No complaint whatsoever. You did a good job.&quot;</em>",
+      "arrival": "RAK",
+      "date": "2015-11-20",
+      "id": 846,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Very nice flight.&quot;</em>",
+      "arrival": "AGP",
+      "date": "2015-11-28",
+      "id": 848,
+      "departure": "DSA"
+    },
+    {
+      "body": "<em>&quot;Dear Felicia! Thank you so much for everything! My boss is impressed with your service, we definitely will be working with you.<br />\r\nHappy holidays!&quot;</em>",
+      "arrival": "LBG",
+      "date": "2015-12-24",
+      "id": 856,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Hello Marc, thank you for organizing a flight to Kazan. It was wonderful parents said! Aircraft was very good. Merry Christmas and a Happy New Year! All the best to you and your family in the coming year.&quot;&nbsp;</em>",
+      "arrival": "KZN",
+      "date": "2015-12-25",
+      "id": 857,
+      "departure": "VRN"
+    },
+    {
+      "body": "<em>&ldquo;We, XXXX Indonesia would like to say &ldquo;THANKS a LOT to all of you&ldquo;.&ldquo;</em>",
+      "arrival": "HLP",
+      "date": "2016-01-10",
+      "id": 858,
+      "departure": "SUB"
+    },
+    {
+      "body": "<em>&ldquo;We, XXXX Indonesia would like to say &ldquo;THANKS a LOT to all of you&ldquo;.&ldquo;</em>",
+      "arrival": "HLP",
+      "date": "2016-01-10",
+      "id": 859,
+      "departure": "SUB"
+    },
+    {
+      "body": "<em>&ldquo;We, XXXX Indonesia would like to say &ldquo;THANKS a LOT to all of you&ldquo;.&ldquo;</em>",
+      "arrival": "HLP",
+      "date": "2016-01-10",
+      "id": 860,
+      "departure": "SUB"
+    },
+    {
+      "body": "<em>&quot;Merci et f&eacute;licitations pour l&#39;efficacit&eacute;.&quot;</em>",
+      "arrival": "FAB",
+      "date": "2015-01-11",
+      "id": 861,
+      "departure": "BIQ"
+    },
+    {
+      "body": "<em>&quot;Merci pour votre aide, pour le travail fourni et votre patience.&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2016-01-13",
+      "id": 862,
+      "departure": "BIO"
+    },
+    {
+      "body": "<em>&quot;Dear Mr Brender,<br />\r\nI would like to thank you for your kind cooperation and your efficiency .<br />\r\nIt was a pleasure for me to collaborate with you.<br />\r\nBest regards&quot;</em>",
+      "arrival": "NCE",
+      "date": "2016-01-13",
+      "id": 865,
+      "departure": "CIA"
+    },
+    {
+      "body": "<em>&quot;Dear Mr Trotin,<br />\r\nMany thanks for this super service for my clients!<br />\r\nKind regards,&quot;</em>",
+      "arrival": "TGD",
+      "date": "2016-01-21",
+      "id": 870,
+      "departure": "ZRH"
+    },
+    {
+      "body": "&quot;<em>Dear Manuel,<br />\r\nThank you for your help throughout this great trip.<br />\r\nWe really enjoyed it and looking forward to working together again.</em>&quot;",
+      "arrival": "TEB",
+      "date": "2016-01-30",
+      "id": 875,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;Dear Mr Segard,<br />\r\n<br />\r\nWe were very happy with the service and flight, no suggestions for improvement.<br />\r\n<br />\r\nKind regards.&quot;</em>",
+      "arrival": "SMV",
+      "date": "2016-02-12",
+      "id": 885,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;I can tell you without equivocation that all of the travellers were very happy indeed with the service that was provided.&nbsp; Every aspect of it was excellent, well thought through and made what was intended to be a journey into an unforgettable experience.&nbsp; The speed at which our needs were taken care of from the moment of arrival at the airport through to service in the cabin and then departure at the other end was frankly very impressive.&nbsp; The onboard service was particularly impressive and exceeded even the highest of our expectations.&nbsp; Even the pilots were willing to carry luggage and help out.<br />\r\n<br />\r\nOverall I commend you on the service and hope that one day we will able to enjoy it again.<br />\r\n<br />\r\nMany thanks.&quot;</em><br />\r\n<br />\r\n<br />",
+      "arrival": "TBS",
+      "date": "2016-02-22",
+      "id": 888,
+      "departure": "FAB"
+    },
+    {
+      "body": "<em>&quot;Thanks for all your help Felicia,<br />\r\nWe got there in the end.<br />\r\nLooking forward to travelling out tomorrow.<br />\r\nKind regards.&quot;</em>",
+      "arrival": "LBG",
+      "date": "2016-03-04",
+      "id": 890,
+      "departure": "MAN"
+    },
+    {
+      "body": "&quot;Safely en route to freezing cold and rainy London! Thank you for delivering me so smoothly. Great flight, very easy. Very friendly captain and all ultra smooth. Thank you so much for jumping to help me at such short notice.&quot;",
+      "arrival": "FAB",
+      "date": "2016-03-18",
+      "id": 899,
+      "departure": "DIJ"
+    },
+    {
+      "body": "<em>&quot;Safely en route to freezing cold and rainy London! Thank you for delivering me so smoothly. Great flight, very easy. Very friendly captain and all ultra smooth. Thank you so much for jumping to help me at such short notice.&quot;</em>",
+      "arrival": "FAB",
+      "date": "2016-03-18",
+      "id": 900,
+      "departure": "DIJ"
+    },
+    {
+      "body": "<em>&quot;Thank you so much! It&rsquo;s always a pleasure to work with you.&quot;</em>",
+      "arrival": "SJJ",
+      "date": "2016-03-05",
+      "id": 901,
+      "departure": "LCY"
+    },
+    {
+      "body": "<em>&quot;Good service, prompt and easy to use. Two Nicks (flight crew) were both very professional and very friendly.&quot;</em>",
+      "arrival": "AMS",
+      "date": " 2016-03-23",
+      "id": 905,
+      "departure": "BBS"
+    },
+    {
+      "body": "<em>&quot;Outstanding service as usual.&quot;</em>",
+      "arrival": "AGP",
+      "date": "2016-03-25",
+      "id": 907,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Dear Marina, dear Lunajets team,<br />\r\n<br />\r\nI just want to say thank you&hellip;for nice presents.<br />\r\nI think you are really great. Thank you for evevrything.&quot;</em>",
+      "arrival": "GVA",
+      "date": "2016-04-04",
+      "id": 908,
+      "departure": "ZAG"
+    },
+    {
+      "body": "<em>&quot;Marc Gasser is the person i would like to thank the most. He is the most efficient , professional and helpful person i have ever dealt with.&quot;</em>",
+      "arrival": "OTBD",
+      "date": "2016-04-03",
+      "id": 910,
+      "departure": "CMF"
+    },
+    {
+      "body": "<em>&quot;My wife was very happy therefore so am I Eymeric. Your team does a very good job.&quot;</em>",
+      "arrival": "CMF",
+      "date": "2016-03-25",
+      "id": 911,
+      "departure": "NHT"
+    },
+    {
+      "body": "<em>&quot;Dear Eymeric,<br />\r\n<br />\r\nI would just like to say everything went amazingly. And without a doubt every single booking we have made with Sebastian has been outstanding.<br />\r\n<br />\r\nSebastian is out standing the whole team, we love him and can not rate him high enough.&nbsp;He is efficient, helpful and gives us 1st class service.<br />\r\n<br />\r\nKind Regards.&quot;</em>",
+      "arrival": "CMF",
+      "date": "2016-04-03",
+      "id": 913,
+      "departure": "STN"
+    },
+    {
+      "body": "<em>&quot;Hi Alain,<br />\r\nAll was great, thank you.&quot;</em>",
+      "arrival": "BOS",
+      "date": "2016-04-10",
+      "id": 915,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;We were very pleased with the flight and service.&quot;</em>",
+      "arrival": "PMI",
+      "date": "2016-04-15",
+      "id": 916,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Good Afternoon Eymeric,<br />\r\n<br />\r\nWonderful feedback, from my Principal:<br />\r\n<br />\r\nThey were fantastic. The aircraft was super tidy and clean, as new really. And they were very courteous. Please give Luna Jets a well deserved top feedback.<br />\r\n<br />\r\nMy dealings with Sebastian and Petr was 10/10 for customer service, they really did care from the moment I emailed the enquiry until last night before the flight departed.&quot;</em><br />\r\n<br />",
+      "arrival": "BOS",
+      "date": "2016-05-05",
+      "id": 923,
+      "departure": "TEB"
+    },
+    {
+      "body": "<em>&quot;Dear Guillaume,<br />\r\n<br />\r\nThank you very much for your assistance!&nbsp;As for the flight back to Moscow, as well as the previous one to London, it was quite pleasant and well organized.<br />\r\n<br />\r\nSpeaking about the service, everything was perfect. You and your colleagues were very helpful, operational and communicative and I&rsquo;m sure we will get back directly to LunaJets if we need to arrange another flight in future.<br />\r\n<br />\r\nKindest regards.&quot;</em>",
+      "arrival": "LTN",
+      "date": "2016-05-01",
+      "id": 926,
+      "departure": "VKO"
+    },
+    {
+      "body": "<em>&quot;Alain and Marc are true professionals that have never failed me. Their professionalism is unparalleled.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2016-05-14",
+      "id": 929,
+      "departure": "TUN"
+    },
+    {
+      "body": "<em>&quot;Hi Sebastian,<br />\r\n<br />\r\nThanks so much for today, all was great. XXX was really happy and as I mentioned it was a bit of a test run for her to figure out an easy way of getting to her home in France and as it was all so seamless I&#39;m sure we will be doing the journey much more often!<br />\r\n<br />\r\nI spoke to XXX about Mykonos and it looks like she wants to go ahead but she is also looking to fly out to Mykonos also. Can we cost this up.<br />\r\n<br />\r\nJuly 21st Toulon to Mykonos then<br />\r\nJuly 25th Mykonos to klagenfurt&quot;</em>",
+      "arrival": "TLN",
+      "date": "2016-05-20",
+      "id": 931,
+      "departure": "STN"
+    },
+    {
+      "body": "<em>&quot;Dear Lunjet team.<br />\r\n<br />\r\nYou took very good care to us.<br />\r\n<br />\r\nThanks a lot for your great job !<br />\r\n<br />\r\nAll the best.&quot;</em>",
+      "arrival": "SIR",
+      "date": "2016-05-26",
+      "id": 933,
+      "departure": "BRU"
+    },
+    {
+      "body": "<em>&quot;Dear Eymeric, dear Marc,<br />\r\n<br />\r\nJust to let you know we had a great time at the Champions League finale in Milan. On top of it, our favourite team won!!<br />\r\n<br />\r\nThanks again for the nice gesture!<br />\r\n<br />\r\nBest regards.&quot;</em><br />",
+      "arrival": "LIN",
+      "date": "2016-05-29",
+      "id": 934,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;You are extremely efficient, kind and hard working.<br />\r\n<br />\r\nIt was also sweet from all of you yo turn up at the airport.<br />\r\n<br />\r\nSomehow you guys are building a good reputation for yourself and this is what will matter. Good work so far and best wishes for the future ..<br />\r\n<br />\r\nBest regards,&quot;</em>",
+      "arrival": "GVA",
+      "date": "2016-05-31",
+      "id": 935,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;You are extremely efficient, kind and hard working.<br />\r\n<br />\r\nIt was also sweet from all of you to turn up at the airport.<br />\r\n<br />\r\nSomehow you guys are building a good reputation for yourself and this is what will matter. Good work so far and best wishes for the future ..<br />\r\n<br />\r\nBest regards,&quot;</em>",
+      "arrival": "GVA",
+      "date": "2016-05-31",
+      "id": 936,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Alexandra<br />\r\nI would like to congratulate you for the great service you have provided. Your attention and efficiency impressed me.<br />\r\nYou conquered a new client.<br />\r\nBest regards.&quot;</em>",
+      "arrival": "MXP",
+      "date": "2016-05-29",
+      "id": 937,
+      "departure": "FRA"
+    },
+    {
+      "body": "<em>&quot;Thanks everything was perfect ... Marina works very hard and is always available 24 x7 and her customer service is excellent.<br />\r\n<br />\r\nBest regards.&quot;</em>",
+      "arrival": "FAB",
+      "date": "2016-06-02",
+      "id": 941,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Was excellent as always..<br />\r\n<br />\r\nThank you.&quot;</em>",
+      "arrival": "CEQ",
+      "date": "2016-06-04",
+      "id": 942,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Perfect experience at the price I expected.&quot;</em>",
+      "arrival": "CEQ",
+      "date": "2016-06-13",
+      "id": 962,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Thank you , Alexandra.<br />\r\nWe enjoyed yesterdays flight very much indeed.<br />\r\nBest regards.&quot;</em>",
+      "arrival": "OLB",
+      "date": "2016-06-15",
+      "id": 965,
+      "departure": "FLR"
+    },
+    {
+      "body": "<em>&quot;Thank you , Alexandra.<br />\r\nWe enjoyed yesterdays flight very much indeed.<br />\r\nBest regards.&quot;</em>",
+      "arrival": "OLB",
+      "date": "2016-06-15",
+      "id": 966,
+      "departure": "FLR"
+    },
+    {
+      "body": "<em>&quot;Dear Petr,<br />\r\nOur flight was wonderful!<br />\r\nThank you all!<br />\r\n<br />\r\nBest regards.&quot;</em>",
+      "arrival": "LIN",
+      "date": "2016-06-17",
+      "id": 967,
+      "departure": "IEV"
+    },
+    {
+      "body": "<em>&quot;Thank you very much, Elias<br />\r\nIt&rsquo;s been a pleasure to work with &hellip; efficient, prompt and pleasant&hellip; just like we work.<br />\r\nBest regards to the Lunajets Team.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2016-06-21",
+      "id": 968,
+      "departure": "DUS"
+    },
+    {
+      "body": "<em>&quot;I would like to thank Lunajets team for going out of their way to try to provide flight options on a very short notice.&quot;</em>",
+      "arrival": "RHO",
+      "date": "2016-06-26",
+      "id": 970,
+      "departure": "BEY"
+    },
+    {
+      "body": "<em>&quot;I have worked with a few smaller agencies before but wanted to try someone new so came upon LunaJets and another company this time, but i am obviously extremely happy not only with your prices but your service as well so i will definitely continue with LunaJets in the future!&quot;</em>",
+      "arrival": "PVK",
+      "date": "2016-07-06",
+      "id": 976,
+      "departure": "TIV"
+    },
+    {
+      "body": "<em>&quot;I&#39;d like to thank you : the flight was perfect as well as the way you handled everything.<br />\r\nI will for sure use again your services in the future.&quot;</em>",
+      "arrival": "OLB",
+      "date": "2016-07-08",
+      "id": 977,
+      "departure": "LIN"
+    },
+    {
+      "body": "<em>&quot;Hello Christoph,<br />\r\n<br />\r\nI just wanted you to know that everything went very well for our flight from Luton to Malta on the 5th of July, our dogs and cats remained calm and relaxed throughout the whole journey and created quite a stir as we walked through customs in Malta, we could not have asked for anything more, thank you to you and your colleagues for taking such good care of us all, you were incredibly patient and understanding when at times I must have driven you mad, you have no idea of the difference you made to our plans, would you kindly tell Feli that by the time we were picked up from the hotel my stress had disappeared completely and we all just relaxed and enjoyed the experience.<br />\r\n<br />\r\nDaryll the driver that took us to Luton was very professional, kind and considerate especially with our animals, he is as you are an assett to your respective companies.<br />\r\n<br />\r\nIt has been a pleasure doing business with you, it may not be the last as I will be travelling to and from Malta over the next 6 months so I shall be looking for any empty leg offers.<br />\r\n<br />\r\nOnce again thank you.<br />\r\n<br />\r\nKind Regards&quot;</em>",
+      "arrival": "MLA",
+      "date": "2016-07-03",
+      "id": 979,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Landed, good flight, very nice pilots.<br />\r\nThank you,&quot;</em>",
+      "arrival": "AGP",
+      "date": "2016-07-13",
+      "id": 981,
+      "departure": "VCE"
+    },
+    {
+      "body": "<em>&quot;Hello Emile and Marina and all Luna Jets team,<br />\r\nI would like to thank you very much for your help and patience throughout these months.<br />\r\nYour kindness and professionalism will never been forgotten.<br />\r\nHope we can work together again in the future.<br />\r\n<br />\r\nAll the best and wish you all great week end.&quot;</em><br />",
+      "arrival": "BDS",
+      "date": "2016-07-15",
+      "id": 982,
+      "departure": "TXL"
+    },
+    {
+      "body": "<em>&quot;Hello Emile and Marina and all Luna Jets team,<br />\r\nI would like to thank you very much for your help and patience throughout these months.<br />\r\nYour kindness and professionalism will never been forgotten.<br />\r\nHope we can work together again in the future.<br />\r\n<br />\r\nAll the best and wish you all great week end.&quot;</em><br />",
+      "arrival": "BDS",
+      "date": "2016-07-15",
+      "id": 983,
+      "departure": "TXL"
+    },
+    {
+      "body": "<em>&quot;Dear Alexandra,<br />\r\n<br />\r\nthank you very much for your help and organisation of my trip.<br />\r\n<br />\r\nI am happy that we done our first trip and lets do more of them :)<br />\r\n<br />\r\nWarm regards.&quot;</em>",
+      "arrival": "TLN",
+      "date": "2016-07-15",
+      "id": 984,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Good morning,<br />\r\n<br />\r\nAs for the first flight from Linate to Olbia, I was completely satisfied by the service provided and would definitely use again Lunajets for my future flights.<br />\r\n<br />\r\nBest regards&quot;</em>",
+      "arrival": "LIN",
+      "date": "2016-07-21",
+      "id": 986,
+      "departure": "OLB"
+    },
+    {
+      "body": "<em>&quot;Dear Sebastian,<br />\r\n<br />\r\nIt was superb - exactly what I needed and all very smooth. Thank you.&quot;</em>",
+      "arrival": "GVA",
+      "date": "2016-07-19",
+      "id": 987,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Excellent smooth flight lovely crew thank you.&quot;</em>",
+      "arrival": "MAN",
+      "date": "2016-07-23",
+      "id": 988,
+      "departure": "IBZ"
+    },
+    {
+      "body": "<em>&quot;An amazing experience.<br />\r\nThanks.&quot;</em>",
+      "arrival": "GVA",
+      "date": "2016-07-22",
+      "id": 989,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Another great flight with great crew. Thanks for everything.&quot;</em>",
+      "arrival": "AGP",
+      "date": "2016-07-23",
+      "id": 990,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Hello,<br />\r\nJust to thank you for the service everything went smoothly the plane was excellent as well as the crew both ways!<br />\r\nThanks again.&#39;</em>",
+      "arrival": "PVK",
+      "date": "2016-07-17",
+      "id": 991,
+      "departure": "TIV"
+    },
+    {
+      "body": "<em>&quot;Thank you so much Elias and all LunaJet Team :)<br />\r\nI really appreciate your kind and fast Assistance and your professionalism.<br />\r\nBest,&quot;</em>",
+      "arrival": "NCE",
+      "date": "2016-08-01",
+      "id": 992,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Thanks Marc for everything, you are very kind and you have been very helpful to me.<br />\r\nBest regards,&quot;</em>",
+      "arrival": "MAD",
+      "date": "2016-07-31",
+      "id": 993,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;I dealt with numerous aviation providers in the past, but Felicia Babaca is by far the most professional and most pleasant. I want to offer my compliments for an exceptionally well managed trip to and from Dinard. Everything was flawless. Felicia Babaca was absolutely delightful and professional, and I threw many challenges her way. As a business owner I know how important positive people are to success. Felicia is a true asset and ambassador for Luna, from this client&#39;s perspective.<br />\r\n<br />\r\nAgain, thank you. We&#39;re already working on our next Luna booking.&quot;</em>",
+      "arrival": "DNR",
+      "date": "2016-07-26",
+      "id": 994,
+      "departure": "EIN"
+    },
+    {
+      "body": "<em>&quot;Hi Christoph,<br />\r\nJust to say we have arrived on time. The pilots were excellent and we had a very enjoyable journey.&nbsp;<br />\r\nThank you to yourself and the team for a very smooth and relaxed flight.<br />\r\nRegards,&quot;</em>",
+      "arrival": "XCR",
+      "date": "2016-09-15",
+      "id": 1003,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Dear Manuel,<br />\r\n<br />\r\nI am back to London after last week&#39;s tour.<br />\r\nI wanted to thank you for your great help and kindness during the whole process of booking the private jet.<br />\r\n<br />\r\nIt has been a wonderful experience, our pilotes, the food and all services were amazing from the beginning to the end.<br />\r\n<br />\r\nThank you once again Manuel,&quot;</em><br />",
+      "arrival": "BUD",
+      "date": "2016-09-20",
+      "id": 1007,
+      "departure": "ETZ"
+    },
+    {
+      "body": "<em>&quot;Dear Feli,<br />\r\nThank you for all the good work, it has been a pleasure dealing with you.&quot;</em>",
+      "arrival": "PMI",
+      "date": "2016-11-19",
+      "id": 1017,
+      "departure": "BRS"
+    },
+    {
+      "body": "<em>&quot;Dear Marco,<br />\r\n<br />\r\nLet me kindly thank you for your assistance, I&#39;ve received very positive feedback regarding the flight back to Moscow. Everything was perfectly organized and the family really enjoyed the flight.<br />\r\n<br />\r\nKind regards,&quot;</em><br />",
+      "arrival": "VKO",
+      "date": "2016-11-06",
+      "id": 1018,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;Dear Marco,<br />\r\n<br />\r\nLet me kindly thank you for your assistance, I&#39;ve received very positive feedback regarding the flight back to Moscow. Everything was perfectly organized and the family really enjoyed the flight.<br />\r\n<br />\r\nKind regards,&quot;</em><br />",
+      "arrival": "VKO",
+      "date": "2016-11-06",
+      "id": 1019,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;Dear Sebastian,<br />\r\nThe passenger was pleased with the flight. He said it was a smooth flight, a very nice crew and a very nice plane. Thank you for your assistance through the process.<br />\r\nWith regards,&quot;</em>",
+      "arrival": "BBU",
+      "date": "2016-11-07",
+      "id": 1020,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;All went very smoothly, thank you!<br />\r\nBest wishes,&quot;</em>",
+      "arrival": "BQH",
+      "date": "2016-11-11",
+      "id": 1025,
+      "departure": "DIJ"
+    },
+    {
+      "body": "<em>&quot;Everything was perfect, thank you very much for all your help.&quot;</em>",
+      "arrival": "VIE",
+      "date": "2017-01-07",
+      "id": 1033,
+      "departure": "YEI"
+    },
+    {
+      "body": "<em>&quot;Everything was perfect, thank you very much for all your help.&quot;</em>",
+      "arrival": "VIE",
+      "date": "2017-01-07",
+      "id": 1034,
+      "departure": "YEI"
+    },
+    {
+      "body": "<em>&quot;Many thanks again for your wonderful and extremely efficient help, on this partucularly difficult day. Wishing you a very happy and successful new year 2017!&quot;</em>",
+      "arrival": "OPF",
+      "date": "2017-01-12",
+      "id": 1035,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Good morning Marco,<br />\r\n<br />\r\nThank you very much for all cooperation.<br />\r\nOperation was in my opinion, more than perfect. It was the first time that we used Lunajets, but I can tell you, that we will count with you for future needs.<br />\r\n<br />\r\nMy regards to Chari, thank you for all the attention and concern.<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />\r\nCumprimentos, best regards,&quot;</em>",
+      "arrival": "OPO",
+      "date": "2017-01-23",
+      "id": 1038,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Thanks Manuel and Felicia for the service and flight between Paris and Geneva.<br />\r\nBest,&quot;</em>",
+      "arrival": "GVA",
+      "date": "2017-02-09",
+      "id": 1041,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Hi Sebastian,<br />\r\n<br />\r\nThank you, the service is outstanding. We will use your services also in the future.<br />\r\n<br />\r\nBest,&quot;</em>",
+      "arrival": "AMS",
+      "date": "2017-02-10",
+      "id": 1042,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Hi Sebastian,<br />\r\n<br />\r\nThank you, the service is outstanding. We will use your services also in the future.<br />\r\n<br />\r\nBest,&quot;</em>",
+      "arrival": "AMS",
+      "date": "2017-02-10",
+      "id": 1043,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;All superbly good - many thanks&quot;</em>",
+      "arrival": "LBG",
+      "date": "2017-02-14",
+      "id": 1045,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;Thank you, your team was very efficient. Less than two hours between booking and take-off. Thanks to you, I made it to my appointment on time. Best regards,&quot;</em>",
+      "arrival": "GVA",
+      "date": "2017-02-09",
+      "id": 1046,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Dear Chari,<br />\r\n<br />\r\nAs during our first order with you, everything was excellent. Thank you for your efforts.<br />\r\n<br />\r\nBest regards,&quot;</em>",
+      "arrival": "NCE",
+      "date": "2017-02-27",
+      "id": 1048,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Felicia,<br />\r\nJust to let you know that Mr P. is very happy with everything. He said that the Beechjet is actually a little nicer than the Cessna so well done!<br />\r\nTalk soon,&quot;</em>",
+      "arrival": "SXF",
+      "date": "2017-03-02",
+      "id": 1049,
+      "departure": "BRN"
+    },
+    {
+      "body": "<em>&quot;The service we have received from your representative, Felicia, has been outstanding. We really can&#39;t thank her enough. We expect to be using LunaJets much more frequently.&quot;</em>",
+      "arrival": "SXF",
+      "date": "2017-03-02",
+      "id": 1050,
+      "departure": "BRN"
+    },
+    {
+      "body": "<em>&quot;Quite happy with LunaJets, especially on the last minute request. I did want to try their service and it really paid off. I wish LJ maintain such standards in order to keep using their services in the future.&quot;</em>",
+      "arrival": "TIA",
+      "date": "2017-03-10",
+      "id": 1051,
+      "departure": "SXF"
+    },
+    {
+      "body": "<em>&quot;Very good and client-oriented services, what I appreciate most. Feli is doing an awesome job and is extremly focused to bring up the best solution for the client. Its easy to get in touch with representatives and updates during flight is also a very good service. Long story short, very happy to work with Feli&quot;</em>",
+      "arrival": "CEQ",
+      "date": "2017-03-13",
+      "id": 1052,
+      "departure": "FRA"
+    },
+    {
+      "body": "<em>&quot;Dear Marco,<br />\r\nMany thanks for the update, and for the wonderful support.<br />\r\nLooking forward to dealing with you, Chari, and LunaJets in future.<br />\r\nSincere regards,&quot;</em>",
+      "arrival": "JED",
+      "date": "2017-03-20",
+      "id": 1053,
+      "departure": "TRN"
+    },
+    {
+      "body": "<em>&quot;Dear Ben<br />\r\nThank you for all the support, the flight was perfect.<br />\r\nBest,&quot;</em>",
+      "arrival": "LBG",
+      "date": "2017-04-17",
+      "id": 1058,
+      "departure": "BEY"
+    },
+    {
+      "body": "<em>&quot;Dear Marina,<br />\r\n<br />\r\nThis is to record my deepest appreciation for extraordinary ground service<br />\r\nRendered by Julia.<br />\r\n<br />\r\nI am aware actual handling is done by folks at Universal, but very often that experience has been terrible.<br />\r\n<br />\r\nIf it was not for alertness, prompt and caring attitude of Julia I wonder<br />\r\nWhether Universal would have been the same.<br />\r\n<br />\r\nOur ground handling was complicated, too many bags and me having chosen 2 different operators. Despite this and me being a perfectionist wanted everything proper and well executed.<br />\r\n<br />\r\nI must say, it all went like clockwork and my special and sincere appreciation to Julia and you ...<br />\r\n<br />\r\nThe driver of the car was also an excellent guy and he and Sotiris at Universal took very good care of us.<br />\r\n<br />\r\nPlease convey my special appreciation for Julia and your team ...<br />\r\n<br />\r\nThis is the kind of handling makes me feel like coming back to Luna jets<br />\r\nAs you folks have excellent caring service.<br />\r\n<br />\r\nVery best regards&quot;</em>",
+      "arrival": "JMK",
+      "date": "2017-05-06",
+      "id": 1062,
+      "departure": "ATH"
+    },
+    {
+      "body": "<em>&quot;Hey Sofia,<br />\r\nI chose you guys as usual. The other company seemed inflexible whereas you have provided a legendary service. I&#39;d make that choice every time...&quot;</em>",
+      "arrival": "MNL",
+      "date": "2017-05-05",
+      "id": 1063,
+      "departure": "MPH"
+    },
+    {
+      "body": "<em>&quot;Bonjour Marco,<br />\r\nLe vol s&rsquo;est tr&egrave;s bien pass&eacute;, ainsi que le transfert &agrave; Paris, Merci.<br />\r\nA bient&ocirc;t,<br />\r\nCordialement,&quot;</em>",
+      "arrival": "LBG",
+      "date": "2017-05-14",
+      "id": 1066,
+      "departure": "AJA"
+    },
+    {
+      "body": "<em>&nbsp;&quot;Felicia </em><em>Babaca</em><em> was very attentive and helpful, great customer service and a very professional member of staff.<br />\r\nThank you for all of your help!&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2017-05-11",
+      "id": 1068,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Felicia </em><em>Babaca</em><em> was very attentive and helpful, great customer service and a very professional member of staff.<br />\r\nThank you for all of your help!&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2017-05-11",
+      "id": 1069,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Flight was amazing<br />\r\nAnd so was the service<br />\r\nThank you for everything Chari&quot;</em>",
+      "arrival": "CEQ",
+      "date": "2017-05-18",
+      "id": 1071,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Hi Felicia,<br />\r\nMr P. has just returned from Copenhagen and has asked me to let you know that he is very happy.<br />\r\nKind regards,&quot;</em>",
+      "arrival": "CPH",
+      "date": "2017-05-15",
+      "id": 1072,
+      "departure": "SIR"
+    },
+    {
+      "body": "<em>&quot;The team at LunaJet is excellent.<br />\r\nJulia and Marina both are professionals and hard working.<br />\r\nMost of all they have a super commitment to customer service.<br />\r\nFrom airport arrival, transfer, VAT to finding the solutions to each and every issue you have as a customer they seem ready and willing ...&quot;</em>",
+      "arrival": "ZRH",
+      "date": "2017-06-06",
+      "id": 1080,
+      "departure": "FAB"
+    },
+    {
+      "body": "<em>&quot;Amazing experience, great value. Definitely becoming your loyal customer. Thank you to Chari and the rest of your wonderful team!&quot;</em>",
+      "arrival": "VNO",
+      "date": "2017-06-20",
+      "id": 1083,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Great experience! Made our vacation happen at last minute! Thank </em><em>you</em><em> Alessandro!&quot;</em>",
+      "arrival": "ATH",
+      "date": "2017-06-10",
+      "id": 1084,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Thanks Marc for your great help with our flights the last weeks!&quot;</em>",
+      "arrival": "GVA",
+      "date": "2017-06-23",
+      "id": 1085,
+      "departure": "DUB"
+    },
+    {
+      "body": "<em>&quot;Excellent job </em><em>done</em><em> by all. The way to travel!&quot;</em>",
+      "arrival": "BRS",
+      "date": "2017-06-23",
+      "id": 1086,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Excellent service and flight. You convinced us.&quot;</em>",
+      "arrival": "INN",
+      "date": "2017-06-09",
+      "id": 1087,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Dear Chari,</em><br />\r\n<em><em>Flight</em></em><em> was excellent, so was the crew, the plane, the catering, the assortment of beverage and snacks.<br />\r\nAll in all: ⭐️⭐️⭐️⭐️⭐️<br />\r\nThanks a lot&quot;</em>",
+      "arrival": "AGP",
+      "date": "2017-07-04",
+      "id": 1090,
+      "departure": "BRU"
+    },
+    {
+      "body": "<em>&quot;It was excellent<br />\r\n5 stars&quot;</em>",
+      "arrival": "GRQ",
+      "date": "2017-07-13",
+      "id": 1091,
+      "departure": "BQH"
+    },
+    {
+      "body": "<em>&quot;Perfect.<br />\r\nThank you very much. Glad to work with you and your team.<br />\r\nHave an excellent day.<br />\r\nRegards,&quot;</em>",
+      "arrival": "LCY",
+      "date": "2017-07-24",
+      "id": 1092,
+      "departure": "CFE"
+    },
+    {
+      "body": "<em>&quot;Was great support from Alessandro, excellent coordination, follow up and very helpful. Big thanks to Alessandro&quot;</em>",
+      "arrival": "DBV",
+      "date": "2017-08-05",
+      "id": 1094,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Dear Felicia,<br />\r\nYour service is excellent!<br />\r\nThank you,&quot;</em><br />",
+      "arrival": "VRN",
+      "date": "2017-08-22",
+      "id": 1097,
+      "departure": "SVQ"
+    },
+    {
+      "body": "<em>&quot;Dear Chari,<br />\r\nEverything was great. Awesome service. Awesome flight. I am from the premium travel industry myself and I can appreciate quality travel services.<br />\r\nThank you.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2017-08-22",
+      "id": 1098,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;The flight from Kaliningrad to Nice was perfect. The jet was great, so was the booking.<br />\r\nThanks everyone for this experience.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2017-08-20",
+      "id": 1099,
+      "departure": "KGD"
+    },
+    {
+      "body": "<em>&quot;Thank you very much for your flexibility. The passenger changed the schedule a few times but LunaJets operation team </em><em>managed</em><em> this very well </em><em>according&nbsp;to</em><em> our needs.<br />\r\nThank you very much !!!&quot;</em>",
+      "arrival": "LTN",
+      "date": "2017-08-23",
+      "id": 1101,
+      "departure": "CMF"
+    },
+    {
+      "body": "<em>&quot;Dear Alain,<br />\r\n<br />\r\nIt seems that you are well known not only for the watches but also for organizing such a complex repatriation, where everything was synchronized and worked as a truly Swiss watch.<br />\r\n<br />\r\nYou should be proud for yourself and for the entire team.<br />\r\n<br />\r\nOnce again, I would like to thank you for all your help, professionalism and effort you put&nbsp;in this case.<br />\r\n<br />\r\nChampagne on me!<br />\r\n<br />\r\nBest regards,&quot;</em>",
+      "arrival": "MOB",
+      "date": "2017-08-29",
+      "id": 1102,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Great service and reliability.&quot;</em>",
+      "arrival": "PRS",
+      "date": "2017-09-06",
+      "id": 1103,
+      "departure": "GRS"
+    },
+    {
+      "body": "<em>&quot;Hi Felicia.<br />\r\nI want to thank you for arranging a perfect flight. The pilots were great; ground service; everything top notch. You were very professional and a pleasure to do business with. We will be happy to use you again. The captain is quite fantastic and professional.<br />\r\nBest regards,&quot;</em>",
+      "arrival": "ACH",
+      "date": "2017-09-13",
+      "id": 1105,
+      "departure": "SXF"
+    },
+    {
+      "body": "<em>&quot;Hi Felicia.<br />\r\nI want to thank you for arranging a perfect flight. The pilots were great; ground service; everything top notch. You were very professional and a pleasure to do business with. We will be happy to use you again. The captain is quite fantastic and professional.<br />\r\nBest regards,&quot;</em>",
+      "arrival": "ACH",
+      "date": "2017-09-13",
+      "id": 1106,
+      "departure": "SXF"
+    },
+    {
+      "body": "<em>&quot;Excellent service, plane, and flight crew.&quot;</em>",
+      "arrival": "JMK",
+      "date": "2017-09-15",
+      "id": 1107,
+      "departure": "CHQ"
+    },
+    {
+      "body": "<em>&quot;Loved the service.&quot;</em>",
+      "arrival": "VNO",
+      "date": "2017-06-17",
+      "id": 1108,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Loved the service.&quot;</em>",
+      "arrival": "VNO",
+      "date": "2017-09-17",
+      "id": 1109,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Dear Marc,<br />\r\n<br />\r\nThank you for the excellent service. Our trip was&nbsp;</em><em>mostly</em><em> enjoyable. Looking forward to contacting you soon again.<br />\r\n<br />\r\nKind regards,&quot;</em>",
+      "arrival": "MRS",
+      "date": "2017-09-24",
+      "id": 1111,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Dear Marc, Thank you for the excellent service. Our trip was mostly enjoyable. Looking forward to contacting you soon again. Kind regards,&quot;</em>",
+      "arrival": "MRS",
+      "date": "2017-09-24",
+      "id": 1112,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Dear Sebastian,<br />\r\n<br />\r\nThe trip to London was excellent. The plane is in great condition. The crew very nice and professional. Very happy with your service.<br />\r\n<br />\r\nBest,&quot;</em><br />",
+      "arrival": "FAB",
+      "date": "2017-10-04",
+      "id": 1113,
+      "departure": "MAD"
+    },
+    {
+      "body": "Everything perfect as usual.<br />\r\n<br />\r\nThank you !",
+      "arrival": "LIN",
+      "date": "2017-10-12",
+      "id": 1115,
+      "departure": "NHT"
+    },
+    {
+      "body": "<em>&quot;Everything perfect as usual.<br />\r\n<br />\r\nThank you !&quot;</em>",
+      "arrival": "LIN",
+      "date": "2017-10-12",
+      "id": 1116,
+      "departure": "NHT"
+    },
+    {
+      "body": "<em>&quot;Everything perfect as usual.<br />\r\n<br />\r\nThank you !&quot;</em>",
+      "arrival": "LIN",
+      "date": "2017-10-12",
+      "id": 1117,
+      "departure": "NHT"
+    },
+    {
+      "body": "<em>&quot;Everything perfect as usual.<br />\r\n<br />\r\nThank you !&quot;</em>",
+      "arrival": "LIN",
+      "date": "2017-10-12",
+      "id": 1118,
+      "departure": "NHT"
+    },
+    {
+      "body": "<em>&quot;Very responsive team - and the guests were very </em><em>pleased!</em><em>&nbsp;You guys went the extra mile by letting me know about boat transfers which the guests loved!<br />\r\nSo thank you and I will definitely work with LunaJets again.&quot;</em>",
+      "arrival": "VCE",
+      "date": "2017-10-27",
+      "id": 1120,
+      "departure": "BRU"
+    },
+    {
+      "body": "<em>&quot;Perfect flight, good crew<br />\r\nComfortable and modern plane&quot;</em>",
+      "arrival": "BBU",
+      "date": "2017-10-25",
+      "id": 1121,
+      "departure": "BRU"
+    },
+    {
+      "body": "<em>&quot;Perfect flight, good crew<br />\r\nComfortable and modern plane&quot;</em>",
+      "arrival": "BBU",
+      "date": "2017-10-25",
+      "id": 1122,
+      "departure": "BRU"
+    },
+    {
+      "body": "<em>&quot;Good welcome,<br />\r\nVery professional<br />\r\nReactive, Availability at all times,<br />\r\nGood flight.&quot;</em>",
+      "arrival": "FNI",
+      "date": "2017-10-30",
+      "id": 1123,
+      "departure": "LYN"
+    },
+    {
+      "body": "<em>&quot;Efficient service<br />\r\nGreat crew and aircraft<br />\r\nThank you</em><em>Petr</em><em>, hope to charter again!&quot;</em>",
+      "arrival": "LBG",
+      "date": "2017-11-10",
+      "id": 1127,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;</em><em>Mr</em><em>&nbsp;G. told me that it was a good experience, very good organization. Thank you.&quot;</em>",
+      "arrival": "ELS",
+      "date": "2017-11-18",
+      "id": 1128,
+      "departure": "JNB"
+    },
+    {
+      "body": "<em>&quot;Thanks again for another </em><em>well organised</em><em> trip during our recent flights in Europe with Lunajets.&quot;</em>",
+      "arrival": "EBJ",
+      "date": "2017-11-21",
+      "id": 1129,
+      "departure": "CPN"
+    },
+    {
+      "body": "<em>&quot;Very comfortable, friendly and on time. Thank you!&quot;</em>",
+      "arrival": "JER",
+      "date": "2017-11-08",
+      "id": 1130,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Hello ladies, I just spoke with Mrs O. and wanted to share with you both that she was very pleased with today&rsquo;s trip.<br />\r\nThis made me very happy as it was a special day for her and it was important to me that all went well &hellip; it did :-)<br />\r\nSo, a big thank you.&quot;</em>",
+      "arrival": "CGN",
+      "date": "2017-11-23",
+      "id": 1132,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Dear Mihai,<br />\r\n<br />\r\nMany thanks for meeting us at the airport and making perfect arrangements.<br />\r\nI must say this operator (plane and crew) were great, if not the best I experienced.<br />\r\nLook forward&nbsp;</em><em>for</em><em> more similar flights.<br />\r\n<br />\r\nBest,&quot;</em>",
+      "arrival": "GVA",
+      "date": "2018-01-20",
+      "id": 1142,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;Dear Mihai,<br />\r\n<br />\r\nMany thanks for meeting us at the airport and making perfect arrangements.<br />\r\nI must say this operator (plane and crew) were great, if not the best I experienced.<br />\r\nLook forward&nbsp;</em><em>for</em><em> more similar flights.<br />\r\n<br />\r\nBest,&quot;</em>",
+      "arrival": "GVA",
+      "date": "2018-01-20",
+      "id": 1143,
+      "departure": "LTN"
+    },
+    {
+      "body": "<em>&quot;Thank you for your email. The flight went well through to Zurich<br />\r\nThank you&quot;</em>",
+      "arrival": "ZRH",
+      "date": "2018-01-17",
+      "id": 1144,
+      "departure": "VCE"
+    },
+    {
+      "body": "<em>&quot;Hi Lina, Aleksandra<br />\r\n<br />\r\nD. was very happy that the entire trip was seamless.<br />\r\n<br />\r\nI would like to thank the both of you for being so responsive to all my queries and attention to details and also for taking the extra mile to make all this happen.<br />\r\n<br />\r\nIt has been extremely wonderful to work with you both and I look forward to working with you again.<br />\r\n<br />\r\nBest,&quot;</em><br />",
+      "arrival": "GVA",
+      "date": "2018-01-26",
+      "id": 1145,
+      "departure": "ACH"
+    },
+    {
+      "body": "<em>&quot;Great service and the aircraft and crew were wonderful.<br />\r\nThank you!&quot;</em>",
+      "arrival": "SIR",
+      "date": "2018-01-12",
+      "id": 1146,
+      "departure": "AMS"
+    },
+    {
+      "body": "<em>&quot;Felicia my flight advisor was fantastic. Her responses to my questions were immediate and thorough. She was professional and courteous. It was my first time using Luna jets and I can say without hesitation that I would use them again and again and recommend Luna jets to my friends and family.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2018-02-22",
+      "id": 1149,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot; It was great.&quot;</em>",
+      "arrival": "TIV",
+      "date": "2018-02-13",
+      "id": 1150,
+      "departure": "NCE"
+    },
+    {
+      "body": "<em>&quot;Really enjoyed our flight experience, LearJet 75 was a perfect option for our family and in a very good condition, making our travel really enjoyable one, </em><em>crew</em><em> was professional and attentive.&quot;</em>",
+      "arrival": "AGP",
+      "date": "2018-03-03",
+      "id": 1151,
+      "departure": "GNB"
+    },
+    {
+      "body": "<em>&quot;We had to book a very last minute flight from Verbier back to Amsterdam. The responsiveness and quality of the service </em><em>was</em><em> excellent. Thank you!&quot;</em>",
+      "arrival": "AMS",
+      "date": "2018-03-03",
+      "id": 1152,
+      "departure": "SIR"
+    },
+    {
+      "body": "&quot;<em>Bonjour Monsieur Segard,<br />\r\nTr&egrave;s beau vol, &eacute;quipage sympathique et efficace.<br />\r\nLe handling parfait.<br />\r\nZ&eacute;ro faute, ne serait-ce que &ccedil;a passe trop vite &agrave; bord d&#39;un avion aussi magnifique.<br />\r\nMerci<br />\r\nBon week-end</em>&quot;",
+      "arrival": "LBG",
+      "date": "2018-03-29",
+      "id": 1160,
+      "departure": "RAK"
+    },
+    {
+      "body": "&quot;<em>The service extended was excellent and the flight to a very high standard indeed.</em>&quot;",
+      "arrival": "FLR",
+      "date": "2018-03-29",
+      "id": 1161,
+      "departure": "CEG"
+    },
+    {
+      "body": "&quot;<em>Everything was perfect</em>&quot;",
+      "arrival": "GVA",
+      "date": "2018-03-23",
+      "id": 1162,
+      "departure": "LBG"
+    },
+    {
+      "body": "&quot;<em>All great thank you very much.</em>&quot;",
+      "arrival": "LDE",
+      "date": "2018-03-27",
+      "id": 1163,
+      "departure": "MAD"
+    },
+    {
+      "body": "&quot;<em>Next time I need to fly private in Europe, I will contact you first through Alban who did a good job.<br />\r\nC.</em>&quot;",
+      "arrival": "NCE",
+      "date": "2018-03-13",
+      "id": 1164,
+      "departure": "MAD"
+    },
+    {
+      "body": "&quot;<em>Good job by Boris, I&#39;ll fly with LunaJets all the time now.</em>&quot;&nbsp;",
+      "arrival": "GVA",
+      "date": "2018-04-04",
+      "id": 1167,
+      "departure": "FAB"
+    },
+    {
+      "body": "<em>&quot;Thank you very much for your care!</em><br />\r\n<em>Flight</em><em> was excellent as well the crew and aircraft.<br />\r\nWe are looking forward to&nbsp;</em><em>staying</em><em> your customers!<br />\r\nKind regards&quot;</em>",
+      "arrival": "EZE",
+      "date": "2018-04-06",
+      "id": 1168,
+      "departure": "MUC"
+    },
+    {
+      "body": "<em>&quot;Everything was excellent.<br />\r\nThank you&quot;</em>",
+      "arrival": "CEQ",
+      "date": "2018-04-09",
+      "id": 1169,
+      "departure": "AGP"
+    },
+    {
+      "body": "<em>&quot;Service was a 10.&quot;</em>",
+      "arrival": "OMA",
+      "date": "2018-04-08",
+      "id": 1170,
+      "departure": "SDL"
+    },
+    {
+      "body": "<em>&quot;Service was a 10.&quot;</em>",
+      "arrival": "OMA",
+      "date": "2018-04-08",
+      "id": 1171,
+      "departure": "SDL"
+    },
+    {
+      "body": "<em>&quot;This was insane! I missed my regular flight on Sylt and then called L<em>unaJets</em>.<br />\r\nWithin no time there was a plane ready for me and I arrived at&nbsp;</em><em>destination</em><em> far above my regular flight. Friendly and perfect service!<br />\r\nBest,&quot;</em>",
+      "arrival": "ZRH",
+      "date": "2018-04-22",
+      "id": 1173,
+      "departure": "GWT"
+    },
+    {
+      "body": "<em>&quot;The flight and crew were very good&quot;</em>",
+      "arrival": "AGP",
+      "date": "2018-04-21",
+      "id": 1175,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Private flight would not be easier.&quot;</em>",
+      "arrival": "SUF",
+      "date": "2018-05-05",
+      "id": 1180,
+      "departure": "HER"
+    },
+    {
+      "body": "<em>&quot;We had a great flight and were very well taken care of by both the ground and flight crews. Thanks again for your kind attention to all of the details and seamless organization!<br />\r\nBest regards,&quot;</em><br />",
+      "arrival": "ZRH",
+      "date": "2018-05-06",
+      "id": 1181,
+      "departure": "PMI"
+    },
+    {
+      "body": "<em>&quot;Felicia,<br />\r\n<br />\r\nMy honest respect for your professional attitude and understanding of this business,<br />\r\nit is a pleasure to work with such normal people in aviation business,<br />\r\n<br />\r\nYou are always welcome to work with us, and will have always priority in booking<br />\r\n<br />\r\nKindest regards,&quot;</em>",
+      "arrival": "NCE",
+      "date": "2018-05-03",
+      "id": 1184,
+      "departure": "LPL"
+    },
+    {
+      "body": "<em>&quot;Excellent service from the minute I first asked for a quote. My wife was being taken home from Ibiza via air ambulance, I wanted a jet to depart at the same time to take the rest of our family home so we could meet her off the plane. Due to many last minute delays in the departure of the air ambulance, Naser very quickly managed to change the time of our departure 4 times. He was very quick at replying to any questions I had and made the whole process very hassle free at a stressful time. Thank you again for all your help with organising this for us.&quot;</em>",
+      "arrival": "FAB",
+      "date": "2018-05-15",
+      "id": 1185,
+      "departure": "IBZ"
+    },
+    {
+      "body": "<em>&quot;Hi Julia - I just wanted to say thank you for all your help with arranging our flight to Monaco. The service from LunaJets and the aircrew on the aircraft has been impeccable and I look forward to traveling with LunaJets again the future.<br />\r\nKind regards&quot;</em>",
+      "arrival": "NCE",
+      "date": "2018-05-26",
+      "id": 1189,
+      "departure": "MME"
+    },
+    {
+      "body": "<em>&quot;Hi Julia - I just wanted to say thank you for all your help with arranging our flight to Monaco. The service from LunaJets and the aircrew on the aircraft has been impeccable and I look forward to traveling with LunaJets again the future.<br />\r\nKind regards&quot;</em>",
+      "arrival": "NCE",
+      "date": "2018-05-26",
+      "id": 1190,
+      "departure": "MME"
+    },
+    {
+      "body": "<em>&quot;Hi Julia - I just wanted to say thank you for all your help with arranging our flight to Monaco. The service from LunaJets and the aircrew on the aircraft has been impeccable and I look forward to traveling with LunaJets again the future.<br />\r\nKind regards&quot;</em>",
+      "arrival": "NCE",
+      "date": "2018-05-26",
+      "id": 1191,
+      "departure": "MME"
+    }
+  ],
+  "de": [
+    {
+      "body": "<em>&quot;Le vol a &eacute;t&eacute; un grand moment et une vraie r&eacute;ussite... mes amis on ador&eacute;s et on en a tous vraiment profit&eacute; au maximum car finalement cela va assez vite et ce vol restera un superbe souvenir.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2014-07-30",
+      "id": 305,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;I would like to thanks every body in your company especially Alessandro, really he did an excellent job. Good comunication, good service, great follow up. In short words, I was lucky to pick your company. Regards.&quot;</em>",
+      "arrival": "LTN",
+      "date": "2014-06-30",
+      "id": 307,
+      "departure": "BCN"
+    },
+    {
+      "body": "<em>&quot;Fantastisch, wie immer. Spezieller Dank an Herrn Gasser der sehr geduldig und sehr effizient gearbeitet hat. Die Besatzung war sehr freundlich und hilfreich. Vielen Dank f&uuml;r Ihren tollen Service.&quot;</em>",
+      "arrival": "BRN",
+      "date": "2014-07-05",
+      "id": 311,
+      "departure": "TRE"
+    },
+    {
+      "body": "<em>&quot;Ms Rosa&#39;s help was highly valuable to me in organizing this trip. I had many questions and several changes and she came back to me promptly and with pertinent information and advice every time. It&#39;s been &quot;service with a smile&quot; from the first to the last contact. As a customer, I felt my business was appreciated. Feedback from my client and his guests after the trip was 100% positive. Price-wise I felt that LunaJets were genuinely trying to get me the best deal on the market.&quot;</em>",
+      "arrival": "FLR",
+      "date": "2014-05-15",
+      "id": 313,
+      "departure": "GVA"
+    },
+    {
+      "body": "<em>&quot;Guten Tag<br />\r\nHerzlichen Dank f&uuml;r das organisieren von allem - es hat alles hervorragend geklappt!&nbsp;Wir m&ouml;chten Sie auch noch ausdr&uuml;cklich wissen lassen, dass die Crews, das Flugzeug und das Catering dieses Anbieters, das mit Abstand Beste war, was wir waehrend unserer &quot;Privatjetfliegerei&quot; erleben durften! Wir haben es den Piloten auch mitgeteilt :) Diese zeigten sich &uuml;berrascht, das sie davon ausgehen, es sei Standard. Aber nein, nein, das ist viel, viel besser als Standard :) &nbsp;Ganz herzliche&nbsp;Gr&uuml;&szlig;e&nbsp;und bis zum&nbsp;n&auml;chsten&nbsp;Mal&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2014-12-12",
+      "id": 431,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Hallo Herr Brender,<br />\r\nalles perfekt gelaufen, sehr nette Crew, tolles Flugzeug! 5 Sterne. Wenn&rsquo;s nicht so teuer w&auml;re (Privatjet fliegen) k&ouml;nnte man sich glatt daran gew&ouml;hnen.&nbsp;Beste Gr&uuml;&szlig;e und eine sch&ouml;ne Weihnachtszeit&quot;</em>",
+      "arrival": "PSR",
+      "date": "2014-12-18",
+      "id": 432,
+      "departure": "CGN"
+    },
+    {
+      "body": "<em>&quot;Heyho! Ein gutes neues Jahr! Die Fl&uuml;ge waren perfekt, die Bodencrew in Belp und die Piloten mega nett - wir werden wieder mit Lunajets buchen! Gute Sache!&nbsp;Herzlichen Dank an alle!&nbsp;Liebe Gr&uuml;sse&quot;</em>",
+      "arrival": "NCE",
+      "date": "2014-12-20",
+      "id": 438,
+      "departure": "BRN"
+    },
+    {
+      "body": "<em>&quot;In eine Wort &ndash; Super. Maschine war prima, Piloten und Stewardess nett und hilfsbereit, alles hat bestens geklappt.&nbsp;Gerne wieder, insbesondere wenn wir weiterhin attraktive Preise erhalten.&quot;</em>",
+      "arrival": "BJZ",
+      "date": "2015-01-22",
+      "id": 477,
+      "departure": "SZG"
+    },
+    {
+      "body": "<em>&quot;Ganz vielen herzlichen Dank f&uuml;r die kleine (GROSSE) Aufmerksamkeit! War oder ist sehr lecker! Wir hatten grossen Spass, war wirklich einzigartig und alle hatten es genossen! Die Landung hat Bestens geklappt und wir wurden von den Piloten gut informiert!&nbsp;Also, nochmals vielen Dank und sicher ein anderes Mal wieder.&quot;</em>",
+      "arrival": "NCE",
+      "date": "2015-03-11",
+      "id": 527,
+      "departure": "LSMF"
+    },
+    {
+      "body": "<em>&quot;Lieber Sebastian, Danke f&uuml;r die W&uuml;nsche, Ihre M&uuml;he und wir kommen wieder!",
+      "arrival": "HAM",
+      "date": "2015-07-15",
+      "id": 713,
+      "departure": "BRN"
+    },
+    {
+      "body": "<em>&quot;Guten Abend Herr H&uuml;bschmann,&nbsp;<br />\r\nwir werden Ihre Kontaktdaten mal an Frau X, B&uuml;ro von Herrn Y (war heute auch Passagier nach Innsbruck) weiterleiten.&nbsp;<br />\r\nHerr Y bucht auch gerne Privatfl&uuml;ge und war heute ganz begeistert von Leistung und Preis. Auch Herr Prof. Z hat das nette Pilotenteam sehr positiv erw&auml;hnt und war wie immer zufrieden.&nbsp;<br />\r\nViele Gr&uuml;&szlig;e.&quot;</em>",
+      "arrival": "INN",
+      "date": "2015-09-22",
+      "id": 820,
+      "departure": "NUE"
+    },
+    {
+      "body": "<em>&quot;Hallo Herr H&uuml;bschmann,<br />\r\nNun habe ich das Feedback:<br />\r\nEr fand die Crew sehr, sehr freundlich, das Flugzeug sauber, und mit der ganzen Reise war er sehr zufrieden.<br />\r\nAlso alles Bestens :)<br />\r\nHerzliche Gr&uuml;sse&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2015-10-08",
+      "id": 827,
+      "departure": "KJK"
+    },
+    {
+      "body": "<em>&quot;Hallo Herr Bender,<br />\r\nDas Flugzeug ist absolut top und die Besatzung war sehr freundlich, kompetent&nbsp;und hilfsbereit.&nbsp;Es hat alles perfekt gepasst.<br />\r\nVielen Dank und bis zum n&auml;chsten Flug.&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2015-10-31",
+      "id": 838,
+      "departure": "ZHR"
+    },
+    {
+      "body": "<em>&quot;Guten Morgen Herr Brender,<br />\r\nEs war alles perfekt und die Passagiere waren sehr zugrieden mit dem Flug und Boardservice.<br />\r\nIch pers&ouml;nlich fand es super, alle Fluginfos (Abflug, Landung etc) zu erhalten.<br />\r\nVielen Dank nochmals f&uuml;r die gute Planung.&quot;</em>",
+      "arrival": "STR",
+      "date": "2015-12-04",
+      "id": 852,
+      "departure": "GVA"
+    },
+    {
+      "body": "&quot;Vielen Dank nochmal, dass letzte Woche alles so reibungslos funktioniert hat! Wirklich toll!&quot;",
+      "arrival": "BWE",
+      "date": "2015-12-10",
+      "id": 854,
+      "departure": "OMO"
+    },
+    {
+      "body": "Hallo Herr Brender,<br />\r\nmit dem Flug gestern von Herrn W. hat alles super funktioniert, vielen Dank.",
+      "arrival": "PMI",
+      "date": "2016-01-27",
+      "id": 881,
+      "departure": "SXF"
+    },
+    {
+      "body": "<em>&quot;Herzlichen Dank f&uuml;r die tolle Info und die super gute Organisation&nbsp;<br />\r\nBis bald<br />\r\nFreundliche Gr&uuml;sse.&quot;</em>",
+      "arrival": "NCY",
+      "date": "2016-03-01",
+      "id": 889,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Liebe Frau Babaca<br />\r\n<br />\r\nErst einmal vielen Dank f&uuml;r Ihre nette Unterst&uuml;tzung, was man heutzutage nicht als selbstverst&auml;ndlich sehen darf.&quot;</em>",
+      "arrival": "VRN",
+      "date": "2016-03-04",
+      "id": 891,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Danke liebe Feli f&uuml;r den tollen Service. So kompetent und so professionell. Wow!!&quot;</em>",
+      "arrival": "JMK",
+      "date": "2016-03-11",
+      "id": 895,
+      "departure": "INN"
+    },
+    {
+      "body": "<em>&quot;Lieber Herr Brender,<br />\r\ndanke f&uuml;r die Nachfrage. Die Eheleute haben mir erz&auml;hlt, dass sie den gestrigen Flug sehr genossen h&auml;tten.&quot;</em>",
+      "arrival": "BSL",
+      "date": "2016-06-13",
+      "id": 963,
+      "departure": "SXF"
+    },
+    {
+      "body": "<em>&quot;Wir und die Hundem&auml;dels sind total begeistert von Lunajets. Frau Felicia Babaca ist einfach amazing! Kompetent, hoch professionell und charmant hat sie sich um uns alle gek&uuml;mmert. Von Anfang an bis zum Ende war alles bestens und zu unserer vollsten Zufriedenheit first-classm&auml;&szlig;ig organisiert! Vielen Dank! Frau Babaca verdient h&ouml;chstes Lob. Einfach beeindruckend wie souver&auml;n sie alles f&uuml;r uns geregelt hat. Wir werden weiterhin bei Ihnen, bei Frau Babaca buchen. Vielen Dank auch an Herrn Christoph Humula, der sich auch &auml;u&szlig;erst professionell um uns k&uuml;mmerte.&quot;</em>",
+      "arrival": "JMK",
+      "date": "2016-06-27",
+      "id": 971,
+      "departure": "INN"
+    },
+    {
+      "body": "<em>&quot;Liebe Feli<br />\r\nder Flug Verona / Nice war perfekt<br />\r\nGutes Flugzeug gute Crew - das macht Freude!<br />\r\nGr&uuml;sse aus Cannes&quot;</em>",
+      "arrival": "VRN",
+      "date": "2016-07-07",
+      "id": 978,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Herzlichen Dank, die Zusammenarbeit mit Ihnen ist wie immer promt, professionell und freundlich. Wir freuen uns auf Venedig.&quot;</em>",
+      "arrival": "VCE",
+      "date": "2016-10-20",
+      "id": 1012,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Ein ganz gro&szlig;es Lob geht an Frau Felicia Babaca f&uuml;r ihre excellente Betreuung. Wenn wir buchen und das tun wir bestimmt wieder, dann bei Frau Babaca. Kompetent, professionell und obendrein charmant hat Frau Babaca uns betreut, upgedated und alles erkl&auml;rt. Sie verdient wirklich unser h&ouml;chstes Lob. Danke f&uuml;r den tollen Service. Auch bedanken m&ouml;chten wir uns bei Herrn Humula f&uuml;r die ebenfalls tolle Betreuung. Bei beiden Ansprechpartnern sind wir in den allerbesten H&auml;nden.&quot;</em>",
+      "arrival": "JMK",
+      "date": "2016-09-02",
+      "id": 1013,
+      "departure": "INN"
+    },
+    {
+      "body": "<div>\r\n\t<em>&quot;Hallo Herr Brender,<br />\r\n\t<br />\r\n\tUnser Flug war von Anfang bis Ende exzellent. Der Service sowie der Service der Crew die sich r&uuml;hrend um uns bem&uuml;ht hat, war hervorragend und wir haben einen wunderbaren&nbsp;Stressfreien Flug erlebt. Auch unsere Hunde haben&nbsp;sich richtig wohl gef&uuml;hlt. Wir haben uns ebenfalls sehr wohl gef&uuml;hlt an Bord und waren rundum zufrieden.&nbsp;<br />\r\n\t<br />\r\n\tAuch der&nbsp; Service von LunaJet in diesem Falle Ihre Betreuung eingeschlossen hat uns &uuml;berzeugt. Ich denke dar&uuml;ber nach den R&uuml;ckflug Ende Januar&nbsp;ebenfalls bei Ihnen zu buchen, da der R&uuml;ckreisetermin jedoch noch nicht feststeht werde&nbsp;ich mich ggf.rechtzeitig bei Ihnen melden.<br />\r\n\t<br />\r\n\tNochmals vielen Dank Sie waren rundum sehr hilfreich und ich habe mich gut betreut gef&uuml;hlt.&nbsp;<br />\r\n\t<br />\r\n\tIch w&uuml;nsche Ihnen ein gutes gesundes neues Jahr und verbleibe mit freundlichen Gr&uuml;&szlig;en.&quot;</em></div>",
+      "arrival": "IBZ",
+      "date": "2016-12-26",
+      "id": 1032,
+      "departure": "FRA"
+    },
+    {
+      "body": "<em>&quot;Guten Morgen Sebastian<br />\r\nHat alles bestens geklappt gestern. Vielen Dank nochmals und sch&ouml;nes Weekend,&quot;</em>",
+      "arrival": "ZDV",
+      "date": "2017-01-19",
+      "id": 1037,
+      "departure": "LSGL"
+    },
+    {
+      "body": "<em>&quot;Anbei die Fotos des Patienten (Dobermannh&uuml;ndin) welche nach eingehender Untersuchung des Arztes eine partielle Magendrehung mit Darmverschluss dank rechtzeitigem eintreffen beim Tierarzt wohl gut &uuml;berstehen wird.<br />\r\n<br />\r\nNochmals vielen Dank f&uuml;r Ihren Einsatz, wir k&ouml;nnen Ihr Team wirklich nur weiter empfehlen und sind auch froh vielleicht wieder auf Sie z&auml;hlen zu d&uuml;rfen bei einer hoffentlich weniger stressigen Gelegenheit&quot;</em>",
+      "arrival": "ZRH",
+      "date": "2017-01-30",
+      "id": 1040,
+      "departure": "VIL"
+    },
+    {
+      "body": "<em>&quot;Hallo Herr Brender, &nbsp;<br />\r\n<br />\r\nWir waren wie immer sehr zufrieden. Es hat alles perfekt geklappt.<br />\r\n<br />\r\nVielen Dank und bis zum n&auml;chsten Mal!&quot;</em>",
+      "arrival": "LBG",
+      "date": "2017-02-13",
+      "id": 1044,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Hallo Herr Brender<br />\r\nBesten Dank, es hat alles bestens geklappt.<br />\r\nMit freundlichen Gr&uuml;&szlig;en&quot;</em>",
+      "arrival": "GWT",
+      "date": "2017-02-23",
+      "id": 1047,
+      "departure": "SXF"
+    },
+    {
+      "body": "<em>&quot;Liebe Felicia,<br />\r\nHaben Sie vielen Dank f&uuml;r die ausgesprochen professionelle Abwicklung, die Freude auf mehr macht.&quot;</em>",
+      "arrival": "CEQ",
+      "date": "2017-06-23",
+      "id": 1064,
+      "departure": "SZG"
+    },
+    {
+      "body": "<em>&quot;Ja </em><em>alles</em><em>&nbsp;</em><em>perfekt</em><em>&nbsp;12 von 10 m&ouml;glichen!&quot;</em>",
+      "arrival": "NCE",
+      "date": "2017-05-23",
+      "id": 1075,
+      "departure": "MUC"
+    },
+    {
+      "body": "<em>&quot;Mein Cousin hatte seinen ersten Sohn bekommen und Guernsey war von der Schweiz aus &uuml;ber einen regul&auml;ren Flug kaum vern&uuml;nftig zu erreichen. LunaJets war praktisch die einzige L&ouml;sung unseren kurzfristigen unangek&uuml;ndigten &Uuml;berraschungsbesuch &uuml;berhaupt m&ouml;glich zu machen. So konnten wir die frischgebackenen Grosseltern zum Enkel f&uuml;hren, die Freude dar&uuml;ber war riesig =) Vielen Dank f&uuml;r den absolut tollen Service.&quot;</em>",
+      "arrival": "GCI",
+      "date": "2017-05-28",
+      "id": 1076,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Und vielen lieben Dank noch mal f&uuml;r Ihre Hilfe und die schnelle Organisation des Fluges gestern!!! Und vor allem Danke f&uuml;r Ihre Hilfe beim &Uuml;bersetzen der Beamten (was eigentlich nicht zu Ihrem Job geh&ouml;rt)!&quot;</em>",
+      "arrival": "ZRH",
+      "date": "2017-06-13",
+      "id": 1079,
+      "departure": "CEQ"
+    },
+    {
+      "body": "<em>&quot;Lunajets ist einfach spitze. Wir danken besonders Frau Felicia Babaca f&uuml;r die sensationelle Betreuung von Anfang an. Bei der Buchung konnte uns Frau Babaca in jeder Hinsicht helfen, unsere W&uuml;nsche ber&uuml;cksichtigen und uns lauter Tipps gehen. Sie ist unsere absolute Number 1, professionell, competent und sehr kundenbezogen. Jede Frage wurde beantwortet. Wir fliegen sicher! wieder mit Lunajets und werden bei Frau Babaca buchen. Ein tolles Catering hat sie f&uuml;r uns an Bord organisiert und die Crew war einfach nur Top.&quot;</em>",
+      "arrival": "JMK",
+      "date": "2017-09-03",
+      "id": 1104,
+      "departure": "INN"
+    },
+    {
+      "body": "<em>&quot;Der Flug war sensationell mit Privatjet am 29.9.17 von ZRH nach CAG, die Piloten war super sympathisch und ich konnte richtig Werbung machen f&uuml;r LunaJets&quot;</em>",
+      "arrival": "CAG",
+      "date": "2017-09-29",
+      "id": 1119,
+      "departure": "ZRH"
+    },
+    {
+      "body": "<em>&quot;Danke fuer einen super Flug und fuer einen ausgezeichneten Service von Frau Babaca.<br />\r\nWir werden gerne wieder Ihren Service in Anspruch nehmen.&quot;</em>",
+      "arrival": "IBZ",
+      "date": "2017-12-25",
+      "id": 1137,
+      "departure": "FRA"
+    },
+    {
+      "body": "<em>&quot;Hallo Feli,<br />\r\n<br />\r\nEs war ein super entspannter und grandioser Flug! Haben es sehr genossen und freuen uns schon auf die n&auml;chsten.<br />\r\n<br />\r\nVielen Dank f&uuml;r die perfekte Unterst&uuml;tzung und Planung.<br />\r\nMit ganz herzlichen Gr&uuml;&szlig;en&quot;</em><br />",
+      "arrival": "PMI",
+      "date": "2018-04-19",
+      "id": 1174,
+      "departure": "HAM"
+    },
+    {
+      "body": "<em>&quot;Danke &ndash; an ALLE &ndash; wie immer f&uuml;r die perfekte und unproblematische Organisation!&quot;</em>",
+      "arrival": "SXF",
+      "date": "2018-04-23",
+      "id": 1176,
+      "departure": "MUC"
+    },
+    {
+      "body": "<em>&quot;Besten Dank f&uuml;r Ihren immer angenehmen und prompten Service.&rdquo;</em>",
+      "arrival": "BSL",
+      "date": "2018-02-27",
+      "id": 1177,
+      "departure": "LBG"
+    },
+    {
+      "body": "<em>&quot;Hallo Lina,<br />\r\n<br />\r\nJa, wir sind alle wohlbeh&uuml;tet angekommen und Bella geht&rsquo;s hervorragend! Die Piloten waren &auml;usserst freundlich und hilfsbereit und der Flug war kurz und sch&ouml;n!<br />\r\n<br />\r\nWir m&ouml;chten uns allerherzlichst f&uuml;r Ihren grossartigen Einsatz bedanken! Sie haben das super organisiert und koordiniert!!! Wir haben uns ja wirklich lange den Kopf zerbrochen, wie wir einen Helikopter finden k&ouml;nnen, der mit uns allen einen &Uuml;berflug macht! Zum Gl&uuml;ck kam mein Mann dann auf die Idee, Lunajets zu kontaktieren! Danke f&uuml;r alles, f&uuml;r ihre &uuml;beraus freundliche Art und f&uuml;r ihr Talent nahezu unm&ouml;gliches, m&ouml;glich zu machen und das erst noch in Spanien!!!&quot;</em>",
+      "arrival": "ALC",
+      "date": "2018-03-22",
+      "id": 1179,
+      "departure": "IBZ"
+    },
+    {
+      "body": "<em>&quot;Liebe Lina, wir m&ouml;chten uns bei Ihnen f&uuml;r die perfekte Organisation und Abwicklung unseres Fluges nach Sylt bedanken. Es war wunderbar und die Maschine perfekt f&uuml;r uns!&quot;</em>",
+      "arrival": "GWT",
+      "date": "2018-05-20",
+      "id": 1186,
+      "departure": "MUC"
+    }
+  ],
+  "it": [
+    {
+      "body": "<em>&quot;Prima di tutto volevo ringraziarvi per la pazienza<br />\r\ne la professionalit&agrave; con la quale avete gestito tutta la pratica del volo.<br />\r\nSoprattutto la Principessa se e complimentata dello staff di bordo del Comandante e dell&#39;Aereo.&quot;</em>",
+      "arrival": "LBG",
+      "date": "2015-03-18",
+      "id": 588,
+      "departure": "RUH"
+    },
+    {
+      "body": "<em>&quot;Volevamo ringraziarvi per lo splendido servizio offertoci e dirvi che avete guadagnato noi come vostri futuri clienti.&quot;</em>",
+      "arrival": "LIN",
+      "date": "2016-08-19",
+      "id": 998,
+      "departure": "OLB"
+    },
+    {
+      "body": "<em>&quot;Cortesia e professionalit&agrave;<br />\r\nBravissima Marina<br />\r\nGrazie&quot;</em>",
+      "arrival": "TRN",
+      "date": "2017-07-28",
+      "id": 1095,
+      "departure": "IBZ"
+    },
+    {
+      "body": "<em>&quot;Buongiorno Sig. Rosa,&nbsp;<br />\r\nLa ringrazio per l&#39;ottimo servizio che ancora una volta ci avete fatto fornito.<br />\r\nA presto ( per S.Moritz, credo ), quindi!&quot;</em>",
+      "arrival": "LAS",
+      "date": "2017-10-31",
+      "id": 1124,
+      "departure": "VNY"
+    }
+  ],
+  "hu": [],
+  "pl": [],
+  "es": []
+}

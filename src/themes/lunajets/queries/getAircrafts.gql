@@ -1,0 +1,43 @@
+# Try to write your query here
+query($language_id: ID, $ids: [ID]) {
+  posts: getPostsById(language_id: $language_id, ids: $ids) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      media {
+        id
+        src
+      }
+      body
+      language {
+        id
+        locale
+      }
+      translations {
+        __typename
+        ... on PostInterface {
+          id
+          ancestors {
+            __typename
+            ... on PostInterface {
+              id
+              slug
+            }
+          }
+          slug
+          language {
+            id
+            locale
+          }
+        }
+      }
+    }
+  }
+}

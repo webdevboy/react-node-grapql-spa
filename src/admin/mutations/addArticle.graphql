@@ -1,0 +1,33 @@
+mutation($id: ID, $title:String, $summary: String, $slug: String, $source: String, $body: JSON, $publish_at: Date, $tags: [String], $state: ArticleState, $category_id: ID, $language_id: ID, $media_id: ID, $featured: Boolean, $duplicate: Boolean, $article_id: String) {
+  articles: addArticle(id: $id, title: $title, summary: $summary, slug: $slug, source: $source, body: $body, publish_at: $publish_at, tags: $tags, state: $state,  category_id: $category_id, language_id: $language_id, media_id: $media_id, featured: $featured, duplicate: $duplicate, article_id: $article_id) {
+    id
+    title
+    body
+    summary
+    source
+    slug
+    publish_at
+    created_at
+    updated_at
+    tags
+    state
+    featured
+    publish_at
+    article_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    category {
+      id
+    }
+    language {
+      id
+    }
+    media {
+      id
+    }
+  }
+}

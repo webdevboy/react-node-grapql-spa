@@ -1,0 +1,6 @@
+{
+  "name": "NewsLetter",
+  "main": "NewsLetter.js",
+  "displayName": "NewsLetter",
+  "private": true
+}

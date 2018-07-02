@@ -1,0 +1,87 @@
+.section-fleets {
+  background-color: #faf7f6;
+
+  .fleet-title {
+    margin-top: 30px;
+  }
+
+  .button-view-all-craft,
+  .button-request-a-flight {
+    a {
+      margin: 10px auto;
+    }
+  }
+
+  .fleet-container {
+    margin-top: 30px;
+
+    .fleet-infos {
+      margin-bottom: 30px;
+
+      img {
+        width: 100%;
+        height: 200px;
+      }
+
+      .fleet-description {
+        padding: 15px;
+        background-color: #3e5970;
+
+        .fleet-name {
+          .name {
+            font-size: 20px;
+            color: white;
+          }
+        }
+
+        .read-more-button {
+          svg {
+            margin-left: 20px;
+          }
+
+          a {
+            justify-content: flex-end;
+            padding: 0;
+            margin: 20px 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  .fleet-container-mobile {
+    margin-bottom: 20px;
+
+    .fleet-description {
+      margin-bottom: 8px;
+
+      .fleet-illustration {
+        img {
+          height: 100px;
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+
+      .fleet-infos {
+        .fleet-name {
+          display: flex;
+          align-items: center;
+          background-color: #3e586f;
+          height: 100%;
+          border-radius: 5px;
+
+          .name {
+            padding-left: 10px;
+            font-weight: 500;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .buttons {
+    padding-bottom: 30px;
+  }
+}

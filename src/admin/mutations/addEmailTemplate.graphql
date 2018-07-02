@@ -1,0 +1,34 @@
+mutation(
+  $id: ID
+  $name: String
+  $email_id: String
+  $description: String
+  $subject: String
+  $content_html: String
+  $content_json: JSON
+  $language_id: ID
+) {
+  emailTemplate: addEmailTemplate(
+    id: $id
+    name: $name
+    email_id: $email_id
+    description: $description
+    subject: $subject
+    content_html: $content_html
+    content_json: $content_json
+    language_id: $language_id
+  ) {
+    id
+    name
+    email_id
+    description
+    content_html
+    subject
+    content_json
+    language{
+      id
+      locale
+      language
+    }
+  }
+}

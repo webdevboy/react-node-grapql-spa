@@ -1,0 +1,28 @@
+{
+  destinations: getDestinations {
+    id
+    title
+    body
+    summary
+    published
+    created_at
+    destination_id
+    author {
+      id
+      email
+      first_name
+      last_name
+    }
+    language {
+      id
+    }
+    city {
+      name
+      sfid
+      country {
+        countryCode
+        name
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+mutation(
+  $message_id: ID!,
+  $locale: String!,
+  $translation: String!,
+  $defaultMessage: String
+) {
+  translation: updateTranslation(
+    message_id: $message_id,
+    locale: $locale,
+    translation: $translation,
+    defaultMessage: $defaultMessage,
+  ) {
+    id
+    message_id
+	  description
+	  defaultMessage
+    translation 
+  }
+}

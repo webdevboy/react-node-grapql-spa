@@ -1,0 +1,15 @@
+mutation updateTranslationTable($id: ID!, $translation: String, $defaultMessage: String, $description: String){
+  updateTranslationTable(id: $id, translation: $translation, defaultMessage: $defaultMessage, description: $description){
+		id
+		translation
+		defaultMessage
+		message_id
+		description
+	    language{
+	      locale {
+	        id
+	        locale
+	      }
+	    }
+  }
+}

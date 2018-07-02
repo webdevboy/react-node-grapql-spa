@@ -1,0 +1,6 @@
+{
+  "name": "Side Bar View Locale",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SideBarView.js"
+}

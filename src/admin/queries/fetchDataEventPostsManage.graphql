@@ -1,0 +1,34 @@
+query($type: String) {
+  countries: getCountries {
+    name
+    sfid
+    countryCode
+  }
+
+  cities: getAllCities {
+    name
+    sfid
+    country_code
+  }
+
+  posts: getPosts(type: $type) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      state
+      publish_at
+      title
+      type
+      meta
+      body
+      language {
+        id
+        locale
+        language
+      }
+    }
+  }
+}

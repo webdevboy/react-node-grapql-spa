@@ -1,0 +1,6 @@
+{
+	"name": "FlightTime",
+	"main": "FlightTime.js",
+	"displayName": "FlightTime",
+	"private": "true"
+}

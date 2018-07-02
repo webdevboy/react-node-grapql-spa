@@ -1,0 +1,27 @@
+query($order: String, $mimetype: String, $path: String, $get_all: Boolean) {
+  files: getMedias(order: $order, mimetype: $mimetype, path: $path, get_all: $get_all) {
+    medias {
+      id
+      src
+      thumbnail
+      filename
+      mimetype
+      size
+      created_at
+      key
+      translations {
+        id
+        alt
+        language {
+          id
+          locale
+          language
+        }
+      }
+    }
+    folders {
+      path
+      name
+    }
+  }
+}

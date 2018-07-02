@@ -1,0 +1,124 @@
+@import './fieldInputs.css';
+
+
+.container{
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.chat-avatar{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.chat-color{
+    width: 5px;
+    height: 20px;
+    background-color: #DBFF0E;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: left;
+}
+.table{
+    height: 100%;
+    border: none;
+}
+
+.table td{
+    border: none;
+}
+
+.table td th{
+    font-size: 14px;
+    color: white;
+    width: 100%;
+}
+
+
+.table thead {
+    vertical-align: middle;
+    color: #b2b9c4;
+    font-size: 14px;
+    text-align: center;
+    background-color: black;
+}
+
+.table thead th{
+    border: none;
+    border-bottom: 1px solid #1e80ca;
+}
+
+.table tbody{
+    height: 100%;
+    color: white;
+    display: table-footer-group;
+}
+
+.table tr{
+    height: 50px;
+}
+
+.table-avatar{
+}
+
+tr.active{
+    background-color: #FF5300;
+    border: 1px solid #FF7735;
+}
+
+tr.nth-child(odd){
+    background-color: #B7B9C4;
+}
+
+tbody > tr:hover{
+    background-color: #FF5300;
+}
+
+.scrollable{
+    height: 85%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.table{
+    border:none;
+}
+
+.crow{
+    vertical-align: middle;
+    height: 50px;
+}
+
+.crow:nth-child(even){
+    background-color: #222a38;
+}
+
+.crow:nth-child(even):hover{
+    background-color: #FF5300;
+}
+
+.crow > td{
+    border: none;
+}
+
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price{
+    font-size: 20px;
+    font-family: sans-serif;
+}

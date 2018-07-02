@@ -1,0 +1,161 @@
+query($slugs: [String], $type: String, $language_id: ID, $ids: [String], $pagination: Pagination) {
+  posts: getPosts(slugs: $slugs, type: $type, language_id: $language_id, ids: $ids, pagination: $pagination) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      media {
+        id
+        src
+      }
+      body
+      language {
+        id
+        locale
+      }
+      author {
+        id
+        email
+        first_name
+        last_name
+        avatar_path
+      }
+      translations {
+        __typename
+        ... on PostInterface {
+          id
+          ancestors {
+            __typename
+            ... on PostInterface {
+              id
+              slug
+            }
+          }
+          slug
+          language {
+            id
+            locale
+          }
+        }
+      }
+       __typename
+       ... on Article {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+
+      __typename
+       ... on Airport {
+         details
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+            
+      __typename
+       ... on Aircraft {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+      __typename
+       ... on Destination {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+      __typename
+       ... on Event {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+      __typename
+       ... on Office {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+      __typename
+       ... on Page {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+      __typename
+       ... on TeamMember {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        } 
+      }
+
+      __typename
+       ... on Review {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+     
+      __typename
+       ... on Partner {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+    }
+  }
+}
+

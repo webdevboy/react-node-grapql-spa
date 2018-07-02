@@ -1,0 +1,6 @@
+{
+	"name": "text",
+	"main": "Text.js",
+	"displayName": "Text",
+	"private": true
+}

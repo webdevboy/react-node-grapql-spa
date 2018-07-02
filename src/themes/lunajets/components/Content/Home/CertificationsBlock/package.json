@@ -1,0 +1,6 @@
+{
+  "name": "certifications-block",
+  "main": "CertificationsBlock.js",
+  "displayName": "Certifications Block",
+  "private": true
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ControlledEditor",
+  "main": "./ControlledEditor",
+  "private": true
+}

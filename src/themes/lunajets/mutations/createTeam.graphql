@@ -1,0 +1,6 @@
+mutation createTeam($name: String, $description: String){
+  createTeam(name: $name, description: $description){
+    name
+    description
+  }
+}

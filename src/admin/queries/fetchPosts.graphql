@@ -1,0 +1,129 @@
+query(
+  $type: String
+  $withTaxonomies: Boolean!
+  $taxonomies: [String]
+  $terms: [String]
+  $language_id: ID
+  $term_name: String
+) {
+  posts: getPosts(
+    type: $type
+    language_id: $language_id
+    terms: $terms
+    taxonomies: $taxonomies
+    term_name: $term_name
+  ) {
+    __typename
+    ... on PostInterface {
+      ...postFields
+    }
+    ... on Article {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+    }
+    ... on Aircraft {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+    }
+    ... on Airport {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+    }
+    ... on Review {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+    }
+    ... on Destination {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+    }
+    ... on Event {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+    }
+    ... on Office {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+    }
+    ... on Page {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+      first_city {
+        name
+      }
+      second_city {
+        name
+      }
+    }
+    ... on TeamMember {
+      taxonomies @include(if: $withTaxonomies) {
+        ... on TaxonomyType {
+          ...taxonomyFields
+        }
+      }
+    }
+  }
+}
+
+fragment postFields on PostInterface {
+  id
+  post_id
+  title
+  slug
+  summary
+  meta
+  body
+  state
+  type
+  language {
+    id
+    locale
+    language
+  }
+  publish_at
+  created_at
+  updated_at
+  media {
+    id
+    src
+  }
+}
+
+fragment taxonomyFields on TaxonomyType {
+  id
+  taxonomy
+  parent_id
+  parent {
+    id
+  }
+  term_id
+  term {
+    id
+    name
+    slug
+  }
+}

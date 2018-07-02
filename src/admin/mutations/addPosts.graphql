@@ -1,0 +1,74 @@
+mutation(
+  $id: ID
+  $post_id: String
+  $title: String
+  $summary: String
+  $slug: String
+  $meta: JSON
+  $body: JSON
+  $publish_at: Date
+  $type: String
+  $state: PostState
+  $language_id: ID
+  $media_id: ID
+  $term_taxonomy_id: ID
+  $taxonomies: [ID]
+  $parent_id: ID
+  $linkUrl: String
+) {
+  post: addPosts(
+    id: $id
+    post_id: $post_id
+    title: $title
+    summary: $summary
+    slug: $slug
+    meta: $meta
+    body: $body
+    publish_at: $publish_at
+    type: $type
+    state: $state
+    language_id: $language_id
+    media_id: $media_id
+    term_taxonomy_id: $term_taxonomy_id
+    taxonomies: $taxonomies
+    parent_id: $parent_id
+    linkUrl: $linkUrl
+  ) {
+    __typename
+    ... on PostInterface {
+      id
+      post_id
+      title
+      slug
+      summary
+      meta
+      body
+      state
+      type
+      language {
+        id
+        locale
+      }
+      publish_at
+      created_at
+      updated_at
+      media {
+        id
+        src
+      }
+
+      __typename
+      ... on Article {
+        taxonomies {
+          id
+          taxonomy
+          term {
+            id
+            name
+          }
+          parent_id
+        }
+      }
+    }
+  }
+}

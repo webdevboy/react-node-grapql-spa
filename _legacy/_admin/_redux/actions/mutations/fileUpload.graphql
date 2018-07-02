@@ -1,0 +1,11 @@
+mutation fileUpload($files: [Upload!]!) {
+	fileUpload(files: $files) {
+	  	id
+	  	src
+	  	thumbnail
+	  	filename
+	  	extension
+	  	size
+	  	created_at
+	}
+}

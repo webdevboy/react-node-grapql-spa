@@ -1,0 +1,66 @@
+@import "../../../variables.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.flight-container{  
+  justify-content: space-around;
+  background-color: #faf7f6;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  
+  @media (max-width: 768px){
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    background-color: white;
+  }
+  .flight-route{
+    justify-content: space-around;
+    width: 60%;
+    .flight-info{
+      line-height: 1;
+      .name{
+        font-size: 1.8em;
+      }
+      .country-detail{
+        .mono{
+
+        }
+      }
+    }
+    .flight-icon{      
+      .icn-mobile{
+        align-self: self-start;
+      }
+    }    
+  }
+
+  .flight-date{
+    width: 20%;
+    min-width: 150px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 40px;
+    border-left: 1px solid lightgrey;
+  }
+
+  .flight-seat{
+    width: 15%;
+    min-width: 120px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 40px;
+    border-left: 1px solid lightgrey;    
+  }
+}
+
+.flight-mobile-date-seat{  
+  background-color: lightgrey;
+  height: 40px;
+  .flight-date{
+    width: 50%;
+    padding-left: 15px;
+  }
+  .flight-seat{
+    width: 50%;
+    padding-left: 35px;
+  }
+}

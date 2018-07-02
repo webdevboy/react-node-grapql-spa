@@ -1,0 +1,9 @@
+{
+	"name": "JoinTeam",
+	"main": "JoinTeam.js",
+	"props": {},
+	"type": "abstract",
+	"dependencies": ["Root","Column","Row"],
+	"category": "component",
+	"data-type": "component"
+}

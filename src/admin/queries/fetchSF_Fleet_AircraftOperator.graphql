@@ -1,0 +1,5 @@
+query($account_sfid: String, $search: String, $limit: Int) {
+  fleetAircrafts: getSFFleetAircraftOperators(account_sfid: $account_sfid, search: $search, limit: $limit) {
+    operator__c
+  }
+}

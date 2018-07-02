@@ -1,0 +1,28 @@
+query($login: Auth!, $admin: Boolean!) {
+  login(login: $login, admin: $admin) {
+    __typename
+    ... on CustomerLogin @skip(if: $admin) {
+      contact {
+        sfid
+        email
+        name
+        first_name
+        last_name
+        phone
+        salutation
+        role
+      }
+      activate
+      reset_password
+      migrated
+      token
+    }
+    ... on UserLogin @include(if: $admin) {
+      user {
+        email
+        id
+      }
+      token
+    }
+  }
+}

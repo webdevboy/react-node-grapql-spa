@@ -1,0 +1,5 @@
+mutation updateLastLogin($id: ID!, $last_login: Date) {
+  	updateLastLogin(id: $id, last_login: $last_login) {
+        id
+    }
+}

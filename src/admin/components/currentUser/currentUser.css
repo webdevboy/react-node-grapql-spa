@@ -1,0 +1,62 @@
+.root {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.userNav {
+    margin: 0 10px;
+    display: flex;
+    height: 100%;
+}
+.avatar {
+	width: 34px;
+    height: 34px !important;
+    vertical-align: middle;
+    margin-bottom: -1px;
+    cursor: pointer;
+    opacity: .4;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background-size: contain !important;
+}
+.avatar:after {
+    position: absolute;
+    margin: 0 !important;
+    color: #FFF;
+}
+.avatar:hover {
+    opacity: .9;
+}
+.user {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.welcome {
+	vertical-align: middle;
+    color: #b7b9c4;
+    font-size: 13px;
+}
+.welcome b {
+    margin-left: 5px;
+}
+
+@media (max-width: 991px) {
+    .welcome {
+        display: none
+    }
+
+    .root {
+        order: 2;
+    }
+}

@@ -1,0 +1,22 @@
+query($key: String) {
+  media: getMedia(key: $key) {
+    id
+    src
+    thumbnail
+    filename
+    original
+    mimetype
+    size
+    created_at
+    key
+    translations {
+      id
+      alt
+      language {
+        id
+        locale
+        language
+      }
+    }
+  }
+}

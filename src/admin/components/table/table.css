@@ -1,0 +1,43 @@
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
+.content{
+    color: white;
+}
+
+.table td{
+    border-bottom: 1px solid #313D4F;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.table thead th{
+    vertical-align: middle;
+    color: #b2b9c4;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+td{
+    font-size: 14px;
+}
+
+.table-avatar{
+}
+
+tr.active{
+    background-color: #FF5300;
+    border: 1px solid #FF7735;
+}
+
+tr.nth-child(odd){
+    background-color: #B7B9C4;
+}
+
+tbody > tr:hover{
+    background-color: #FF5300;
+}

@@ -1,0 +1,63 @@
+@import "../../../variables.css";
+
+:global {
+  .slick-slider {
+    * {
+      min-height: 0;
+      min-width: 0;
+    }
+  }
+  
+  .slick-dots {
+    bottom: none;
+    li {
+      margin: 0 15px !important;
+      width: 10px !important;
+      height: 10px !important;
+      
+      button {
+        text-indent: -9999px;
+        width: 10px !important;
+        height: 10px !important;
+        background: var(--light-grey) !important;
+        border-radius: 100px !important;
+  
+        &:before {
+          background: var(--dark-red) !important;
+          width: 10px !important;
+          height: 10px !important;
+          border-radius: 100px !important;
+        }
+      }
+  
+    }
+   
+  }
+}
+
+.category-box {
+  border: 1px solid var(--light-grey);
+  border-bottom: none;
+  border-right: none;
+  width: 100%;
+  height: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &.no-top-border {
+    border-top: none;
+  }
+
+  &.no-left-border {
+    border-left: none;
+  }
+
+  &.only-right-border {
+    border: none;
+    border-right: 1px solid var(--light-grey);
+  }
+}

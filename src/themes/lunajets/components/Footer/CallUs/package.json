@@ -1,0 +1,7 @@
+{
+	"name": "CallUs",
+	"main": "CallUs.js",
+	"type": "abstract",
+	"category": "component",
+	"data-type": "component"
+}

@@ -1,0 +1,36 @@
+query ($language_id: ID!, $published: Boolean, $pagination: Pagination){
+  events: getEvents(language_id: $language_id, published: $published, pagination : $pagination) {
+    id
+    body
+    summary
+    title
+    created_at
+    published
+    from_date
+    until_date
+    event_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    language {
+      id
+    }
+    city {
+      name
+      sfid
+      country {
+        countryCode
+        name
+      }
+    }
+    media {
+      src
+      thumbnail
+      filename
+      mimetype
+    }
+  }
+}

@@ -1,0 +1,6 @@
+query($accountIds: [ID], $search: String, $recordTypeId:String, $limit: Int) {
+  accounts: getSFAccount(accountIds: $accountIds, search: $search, recordTypeId: $recordTypeId, limit: $limit) {
+    sfid
+    name
+  }
+}

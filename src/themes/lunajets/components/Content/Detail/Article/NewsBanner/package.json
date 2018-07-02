@@ -1,0 +1,9 @@
+{
+	"name": "News Banner",
+	"main": "component.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Row","Column","Root"],
+	"category": "NewsBanner",
+	"data-type": "component"
+}

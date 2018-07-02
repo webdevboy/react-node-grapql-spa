@@ -1,0 +1,9 @@
+{
+	"name": "Footer End",
+	"main": "FooterEnd.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Row","Column","Root"],
+	"category": "Footer",
+	"data-type": "component"
+}

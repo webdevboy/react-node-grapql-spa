@@ -1,0 +1,6 @@
+mutation updateOrCreateMediaTranslation($media_id: ID!, $language_id: ID!, $title: String, $alt: String){
+  updateOrCreateMediaTranslation(media_id: $media_id, language_id: $language_id, title: $title, alt: $alt){
+		title
+		alt
+  }
+}

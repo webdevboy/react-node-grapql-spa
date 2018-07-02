@@ -1,0 +1,6 @@
+{
+  pages: getPages {
+    path
+    id
+  }
+}

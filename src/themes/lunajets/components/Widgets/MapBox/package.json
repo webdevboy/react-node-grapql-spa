@@ -1,0 +1,9 @@
+{
+	"name": "Map Box",
+	"main": "MapBox.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Row","Column"],
+	"category": "component",
+	"data-type": "component"
+}

@@ -1,0 +1,6 @@
+{
+	"name": "map-list-display",
+	"main": "MapListDisplay.js",
+	"displayName": "MapListDisplay",
+	"private": true
+}

@@ -1,0 +1,34 @@
+/*@import '../../../styles/actionsBtns.css';
+@import '../../../styles/fieldInputs.css';
+
+*/
+
+.container{
+	background: #12212E;
+	width: 100%;
+    padding: 5px 10px;
+}
+
+.actionsBtns{
+    background: linear-gradient(#2B9FF7, #1A92EC);
+    width: initial;
+    float: left;
+}
+
+.actionsBtns:first-child {
+    border-radius: 5px 0px 0px 5px;
+    border-right: 1px solid gray;
+}
+
+.actionsBtns:last-child{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.deactive{
+	background: linear-gradient(#464646, #464748);
+}
+
+.deacive:hover{
+	background: linear-gradient(#464646, #464748);
+    cursor: not-allowed;
+}

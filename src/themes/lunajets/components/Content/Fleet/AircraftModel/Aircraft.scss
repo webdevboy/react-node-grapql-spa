@@ -1,0 +1,21 @@
+.air-detail {
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #3d5970;
+}
+
+.details {
+    td {
+        font-size: 1.1rem;
+        font-weight: 200;
+        line-height: 1.3rem;
+        color: #3d5970;
+        font-family: "ITC Conduit W01", sans-serif;
+
+        @media screen {
+            & {
+                line-height: 1.1rem;
+            }
+        }
+    }
+}

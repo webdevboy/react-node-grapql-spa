@@ -1,0 +1,9 @@
+{
+	"name": "Page Heading",
+	"main": "component.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Row","Column","Root"],
+	"category": "Component",
+	"data-type": "component"
+}

@@ -1,0 +1,6 @@
+{
+	"name": "article",
+	"main": "Article.js",
+	"displayName": "Article",
+	"private": true
+}

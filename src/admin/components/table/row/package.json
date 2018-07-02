@@ -1,0 +1,7 @@
+{
+	"name": "Row",
+	"Version": "0.0.1",
+	"private": true,
+	"main": "row.js",
+	"category": "Component" 
+}

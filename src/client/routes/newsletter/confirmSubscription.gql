@@ -1,0 +1,6 @@
+mutation($token: String!) {
+  confirmSubscription(token: $token) {
+    success
+    error
+  }
+}

@@ -1,0 +1,20 @@
+query getAllMedia($order: String) {
+  getAllMedia(order: $order) {
+    id
+    src
+    thumbnail
+    filename
+    extension
+    size
+    created_at
+    translation{
+        language {
+          locale {
+            locale
+          }
+        }
+	    title
+	    alt   
+    }
+  }
+}

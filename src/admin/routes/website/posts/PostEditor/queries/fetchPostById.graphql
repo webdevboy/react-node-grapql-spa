@@ -1,0 +1,54 @@
+query($id: ID!) {
+  post: getPostById(id: $id) {
+    ... on PostInterface {
+      id
+      post_id
+      title
+      slug
+      summary
+      meta
+      body
+      state
+      type
+      language {
+        id
+        locale
+        language
+      }
+      ... on Article {
+        taxonomies {
+          id
+          taxonomy
+          term {
+            id
+            name
+          }
+          parent_id
+        }
+      }
+      publish_at
+      created_at
+      updated_at
+      media {
+        id
+        src
+      }
+      ... on Page {
+        first_city {
+          name
+          country {
+            name
+            countryCode
+          }
+        }
+        second_city {
+          name
+          country {
+            name
+            countryCode
+          }
+        }
+      }
+    }
+  }
+}

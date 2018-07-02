@@ -1,0 +1,6 @@
+{
+	"name": "map-banner-display",
+	"main": "MapBannerDisplay.js",
+	"displayName": "MapBannerDisplay",
+	"private": true
+}

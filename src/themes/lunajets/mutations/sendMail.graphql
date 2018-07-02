@@ -1,0 +1,3 @@
+mutation sendMail($template_name: String!, $email: String!, $language_id: ID!,$values: JSON!){
+  sendMail(template_name: $template_name, email:$email, language_id: $language_id, values: $values)
+}

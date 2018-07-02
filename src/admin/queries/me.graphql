@@ -1,0 +1,19 @@
+{
+  me {
+    id
+    email
+    first_name
+    last_name
+    avatar_path
+    role {
+    	id
+    	name
+        permissions{
+            id
+            action
+            description
+            isAllowed
+        }
+    }
+  }
+}

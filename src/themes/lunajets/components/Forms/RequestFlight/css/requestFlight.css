@@ -1,0 +1,1901 @@
+@import "../../../variables.css";
+
+svg {
+  pointer-events: none;
+}
+
+:global(.mobile) {
+  .optionModal {
+    left: calc(50vw - 172.5px);
+  }
+  
+  .req-flight-wrapper {
+    &.sticky {
+      top: 60px;
+
+      .heading {
+        display: none;
+      }
+
+      .formActions {
+        margin: 0;
+      }
+      
+      .homeBtn {
+        margin: 10px 0;
+      }
+    }
+    
+    .moreoptions {
+      .optionsWrapper {
+        display: none;
+        border: 0;
+        margin: 0;
+      }
+      
+    }
+
+    &.header {
+      padding: 10px 0;
+      background: #FFF;
+      top: 60px;
+      .heading {
+        display: none;
+      }
+      .formActions {
+        margin-top: 0;
+        .requestbtn {
+          margin-top: 0;
+        }
+      }
+      &.sticky {
+        .leg {
+          margin: 0 !important;
+        }
+        .requestbtn {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.requestbtn {
+  background: #ef4343;
+  border-radius: 2px;
+  border: 0;
+  height: 42px;
+  font-family: "ITC Conduit W01", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  outline: 0;
+  margin-right: 0;
+
+  .badge {
+    background: rgba(0,0,0,.2);
+    color: #FFF;
+    border-radius: 100%;
+    padding: 0px 6px;
+    margin-left: 10px;
+  }
+
+  &.block {
+    width: 100%;
+  }
+}
+
+
+.heading {
+  color: #fff;
+  max-width: 50%;
+  line-height: 74px;
+  font-size: 72px;
+  text-transform: capitalize;
+  font-weight: 400;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+
+  @media (max-width: 992px) {
+    max-width: 75%;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    font-size: 48px;
+  }
+}
+
+.datepicker {
+  display: flex;
+  font-size: 16px;
+  font-family: "ITC Conduit W01", sans-serif;
+  background: transparent;
+  flex-wrap: wrap;
+}
+
+.priceWrapper {
+  display: flex;
+  border-radius: 3px;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.11);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 40px;
+
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+
+    @media (max-width: 992px) {
+      min-width: 100%;
+    }
+
+    .catTitle {
+      text-transform: uppercase;
+      font-size: 16px;
+      color: #3e5970;
+      font-family: "ITC Conduit W01", sans-serif;
+      align-items: center;
+      display: block;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    .priceRange {
+      color: #3e5970;
+      display: flex;
+      justify-content: space-between;
+      flex: 1;
+      min-width: 100%;
+      margin-top: 20px;
+    }
+
+    .price {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  }
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: none;
+  opacity: 0.6;
+}
+
+.req-flight-wrapper {
+  display: flex;
+  flex: 1;
+  transition: all 0.3s ease;
+
+  .clearLocation {
+    position: absolute;
+    background: transparent;
+    appearance: none;
+    right: 0;
+    top: 13px;
+    height: 16px;
+    border: 0;
+    cursor: pointer;
+    pointer-events: all;
+  }
+
+  &.header {
+    padding: 0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 333;
+    margin-top: 0;
+    top: 95px;
+    background: #FFF3;
+
+    .formActions {
+      margin-top: 0;
+      .requestbtn {
+        margin: 10px 0;
+        width: 100%;
+      }
+    }
+
+    &.sticky {
+      margin-top: 0;
+    }
+
+    .heading {
+      display: none !important;
+    }
+
+    .leg {
+      margin-bottom: 10px;
+      flex: 1;
+
+      .removeLeg {
+        right: -34px;
+        left: initial;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &.sticky {
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 0 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #fff;
+    z-index: 333;
+    box-shadow: 0 22px 40px 0 rgba(0, 0, 0, 0.08), 0 13px 22px 0 rgba(0, 0, 0, 0.25), 0 1px 5px 0 rgba(0, 0, 0, 0.21);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .formActions {
+      margin: 0;
+
+      .requestbtn {
+        margin: 10px 0;
+        width: 100%;
+      }
+    }
+
+    &.pullDown {
+      top: 60px !important;
+    }
+
+    .wrapper {
+      flex: 1;
+      min-width: 640px;
+
+      .leg {
+        margin-top: 0;
+      }
+
+      .leg:nth-child(1) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      @media (max-width: 992px) {
+        min-width: 100%;
+      }
+    }
+
+
+    .actions {
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+      height: 42px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      justify-content: space-between;
+
+      .toggler {
+        display: none;
+      }
+
+      @media (min-width: 992px) {
+        justify-content: space-between;
+        /* min-width: 100%; */
+        margin-top: 0;
+
+        .requestbtn,
+        .group {
+          order: 3;
+        }
+      }
+
+      @media (max-width: 992px) {
+        justify-content: space-between;
+        /* min-width: 100%; */
+        margin-top: 0;
+        height: auto;
+
+        .group {
+          min-width: 100%;
+          display: flex;
+          margin-top: 10px;
+
+          .toggler {
+            display: flex;
+            transition: all 0.3s ease-in-out;
+
+            svg {
+              stroke: #fff !important;
+            }
+          }
+
+          button {
+            border-radius: 2px;
+            margin: 0 !important;
+            padding: 0 !important;
+            justify-content: center;
+            align-content: center;
+          }
+
+          button:nth-last-child(1) {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+          }
+
+          button:nth-child(1) {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+          }
+
+          .requestbtn {
+            flex: 1;
+          }
+        }
+
+        .requestbtn,
+        .group {
+          order: 3;
+        }
+
+        .toggleoptions {
+          order: 2 !important;
+        }
+      }
+
+      button {
+        outline: 0;
+        cursor: pointer;
+        margin: 0 10px;
+        flex-shrink: 0;
+        flex-grow: 0;
+
+        @media (max-width: 768px) {
+          margin: 0;
+        }
+
+        /* &:nth-last-child(1) {
+          margin-right: 0;
+        } */
+
+        svg {
+          stroke: #a8aab7;
+        }
+      }
+
+      .addleg,
+      .toggleoptions {
+        color: #263d50;
+        height: 42px;
+      }
+
+      .toggleoptions {
+        &:after {
+          border-color: #a8aab7 transparent transparent;
+        }
+      }
+    }
+
+    .leg {
+      margin-bottom: 10px;
+      flex: 1;
+
+      .pax,
+      .dtpicker,
+      .location {
+        background: #eee;
+      }
+
+      .removeLeg {
+        right: -34px;
+        left: initial;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.optionModal {
+  width: 345px;
+  top: 0;
+  margin: 10vh 0;
+  z-index: 999;
+  padding: 15px;
+  border-radius: 0;
+  position: fixed;
+
+  .optionIcon {
+    svg g > g {
+      fill: #ccc;
+    }
+
+    &.active {
+      svg g > g {
+        fill: var(--corporate-blue);
+      }
+    }
+  }
+
+  &.isSticky {
+    width: 300px;
+    position: absolute;
+    margin-top: 50px;
+    right: 0;
+    border: 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+    background: #FFF;
+    border-radius: 3px;
+    
+
+    .title,
+    .requestbtn {
+      display: none;
+    }
+
+    .option .label {
+      margin: 6px 0;
+    }
+  }
+
+  .requestbtn {
+    background: #ef4343;
+    border-radius: 2px;
+    border: 0;
+    height: 42px;
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .title {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-family: "ITC Conduit W01", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    position: relative;
+
+    .closeBtn {
+      appearance: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0;
+
+      svg {
+        stroke-width: 1;
+        pointer-events: none;
+      }
+    }
+  }
+
+  .optionsWrapper {
+    display: flex;
+    flex-direction: column;
+
+    .right,
+    .left {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .right {
+      justify-content: flex-end;
+    }
+
+    .seperator {
+      margin: 0 20px;
+      height: 18px;
+      background: rgba(0, 0, 0, 0.3);
+      width: 1px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown {
+      .right {
+        &:after {
+          position: relative;
+          margin-left: 5px;
+          width: 0;
+          content: "";
+          height: 0;
+          border-left: 4px solid #0000;
+          border-right: 4px solid #0000;
+          border-top: 6px solid #b5b5b5;
+        }
+
+        .value {
+          margin-left: 10px;
+          font-weight: 600;
+          font-size: 15px;
+          width: 60px;
+          max-width: 60px;
+          text-align: right;
+        }
+
+        select {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          opacity: 0;
+          cursor: pointer;
+          z-index: 5;
+          direction: rtl;
+          height: 36px;
+          appearance: none;
+        }
+      }
+    }
+
+    .option {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex: 1;
+      align-items: center;
+
+      label {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: space-between;
+        margin: 12px 0;
+        font-family: "ProximaNova-Semibold", sans-serif;
+      }
+
+      &:nth-last-child(1) {
+        border-bottom: 0;
+      }
+    }
+
+    .checkbox {
+      label {
+        span.fakebox {
+          display: inline-block;
+          position: relative;
+          background-color: #d8d8d8;
+          width: 18px;
+          height: 18px;
+          transform-origin: center;
+          vertical-align: -6px;
+
+          /* margin-right: 10px; */
+          transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+          pointer-events: none;
+          border-radius: 100%;
+
+          &:before {
+            content: "";
+            width: 0;
+            height: 2px;
+            border-radius: 2px;
+            background: #fff;
+            position: absolute;
+            transform: rotate(45deg);
+            top: 9px;
+            left: 6px;
+            transition: width 50ms ease 50ms;
+            transform-origin: 0% 0%;
+          }
+
+          &:after {
+            content: "";
+            width: 0;
+            height: 2px;
+            border-radius: 2px;
+            background: #fff;
+            position: absolute;
+            transform: rotate(305deg);
+            top: 13px;
+            left: 7px;
+            transition: width 50ms ease;
+            transform-origin: 0% 0%;
+          }
+        }
+      }
+
+      label:hover .fakebox:before {
+        width: 5px;
+        transition: width 100ms ease;
+      }
+
+      label:hover .fakebox:after {
+        width: 10px;
+        transition: width 150ms ease 100ms;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      input[type="checkbox"]:checked + .fakebox {
+        background-color: #3e5970 !important;
+      }
+
+      input[type="checkbox"]:checked + .fakebox:after {
+        width: 10px;
+        background: #fff;
+        transition: width 150ms ease 100ms;
+      }
+
+      input[type="checkbox"]:checked + .fakebox:before {
+        width: 5px;
+        background: #fff;
+        transition: width 150ms ease 100ms;
+      }
+
+      input[type="checkbox"]:checked + label:hover .fakebox {
+        background-color: #3e5970;
+      }
+
+      input[type="checkbox"]:checked + label:hover .fakebox:after {
+        width: 10px;
+        background: #fff;
+        transition: width 150ms ease 100ms;
+      }
+
+      input[type="checkbox"]:checked + label:hover .fakebox:before {
+        width: 5px;
+        background: #fff;
+        transition: width 150ms ease 100ms;
+      }
+    }
+  }
+}
+
+.req-flight-container {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.req-flight {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  .formActions {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .luggageOpt,
+  .leg > .pax {
+    :global {
+      .Select-input {
+        /* input {
+					display: none;
+				} */
+      }
+    }
+  }
+
+  .leg-wrapper {
+    .legIndex {
+      position: absolute;
+      color: #fff;
+      font-family: "ProximaNova-Semibold", sans-serif;
+      font-weight: 600;
+      margin-left: -20px;
+      top: 11px;
+    }
+
+    .closeBtn {
+      position: absolute;
+      right: -8px;
+      top: -6px;
+      opacity: 0.8;
+      pointer-events: all;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+      > object {
+        pointer-events: none;
+      }
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+      mix-blend-mode: exclusion;
+
+      &.sticky {
+        margin: 0;
+        mix-blend-mode: unset;
+        margin-right: 5px;
+        button > span {
+          @media(max-width: 1170px) {
+            display: none;
+          }
+        }
+      }
+
+      .leftActions {
+        display: flex;
+        flex: 1;
+        position: relative;
+      }
+
+      button {
+        background: transparent;
+        appearance: none;
+        border: 0;
+        display: flex;
+        /* padding: 0; */
+        align-items: center;
+        color: #efefef;
+        text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 13px;
+        font-family: "ProximaNova-Semibold", sans-serif;
+
+        > span {
+          margin-left: 10px;
+          
+        }
+
+      }
+    }
+  }
+
+  .leg {
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+    display: -webkit-flex;
+    position: relative;
+
+    /* transition: all 1s ease; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media (max-width: 992px) {
+      margin-top: 0;
+      .dtpicker {
+        margin-top: 5px;
+        flex: 1 !important;
+      }
+    }
+
+    > div {
+      &:nth-last-child(1) {
+        margin-right: 0 !important;
+      }
+    }
+
+    .removeLeg {
+      position: absolute;
+      left: -30px;
+      border: 0;
+      -webkit-appearance: none;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      opacity: 0.6;
+      pointer-events: bounding-box;
+      cursor: pointer;
+
+      object {
+        pointer-events: none;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .placeholder {
+      flex: 2;
+      display: flex;
+
+      span {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        font-family: "ITC Conduit W01", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #7f7f7f;
+      }
+    }
+
+    .location {
+      flex: 1;
+      margin-right: 5px;
+      background: #fff;
+      border-radius: 2px;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      position: relative;
+      height: 42px;
+
+      .selectedOption {
+        display: flex;
+        overflow: hidden;
+        flex: 1;
+        font-size: 16px;
+        color: var(--dark-blue);
+        font-family: "ITC Conduit W01", sans-serif;
+
+        > div {
+          flex-wrap: nowrap;
+          display: flex;
+          align-items: center;
+
+          span {
+            word-wrap: normal;
+            white-space: nowrap;
+          }
+        }
+      }
+
+      input {
+        -webkit-appearance: none;
+        border: 0;
+        outline: 0;
+        color: var(--dark-blue);
+        font-size: 16px;
+        font-family: "ITC Conduit W01", sans-serif;
+        background: transparent;
+      }
+
+      input::placeholder {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "ITC Conduit W01", sans-serif;
+        font-size: 16px;
+      }
+
+      .wrapperInner {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      :global {
+        .loader-inner > div {
+          height: 24px;
+          width: 24px;
+          border-color: rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      &.open {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+        .suggester {
+          display: block;
+        }
+      }
+
+      .icon {
+        margin-right: 10px;
+        max-width: 18px;
+        flex: 0 0 18px;
+        pointer-events: none;
+      }
+
+      .inputLocation {
+        flex: 1;
+      }
+
+      .suggester {
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        border: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height: 200px;
+
+        /* display: flex; */
+        display: none;
+
+        .dropdownIcon {
+          margin-right: 10px;
+          display: inline-block;
+        }
+
+        :global {
+          .dropdown-header {
+            padding: 6px 15px;
+            font-size: 14px;
+            font-family: "ITC Conduit W01", sans-serif;
+            color: var(--corporate-blue);
+            font-weight: 500;
+          }
+
+          .dropdown-item {
+            padding: 6px 15px;
+            font-size: 14px;
+            display: block;
+            font-family: "ITC Conduit W01", sans-serif;
+            color: var(--dark-blue);
+            font-weight: 400;
+            min-height: 32px;
+            height: auto;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+
+      @media (max-width: 992px) {
+        margin: 5px 0 0 0;
+        min-width: 100%;
+      }
+    }
+
+    .pax {
+      margin-right: 5px;
+      display: flex;
+      align-items: center;
+      background: #fff;
+      padding: 0 10px;
+      position: relative;
+      border-radius: 2px;
+      height: 42px;
+
+      .value {
+        text-align: center;
+        font-weight: 500;
+        font-size: 12px;
+        margin-right: 10px;
+        padding-right: 10px;
+        max-width: 35px;
+        min-width: 25px;
+        pointer-events: none;
+
+        &:after {
+          border-color: #999 transparent transparent;
+          border-style: solid;
+          border-width: 5px 5px 2.5px;
+          display: inline-block;
+          height: 0;
+          width: 0;
+          position: absolute;
+          content: "";
+          right: 15px;
+          top: 50%;
+          margin-top: -2px;
+        }
+      }
+
+      select {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        opacity: 0;
+        cursor: pointer;
+        height: 48px;
+        z-index: 5;
+        -webkit-appearance: none;
+        pointer-events: all;        
+      }
+
+      @media (max-width: 992px) {
+        margin: 5px 0 0 0;
+      }
+
+      svg {
+        margin-right: 10px;
+        pointer-events: none;
+      }
+    }
+
+    /* datepicker lunajets styles */
+    :global {
+      .react-datepicker-popper {
+        z-index: 350 !important;
+        left: -43px !important;
+        width: 100%;
+      }
+
+      .react-datepicker {
+        border: 0;
+        left: -1px;
+        width: 100%;
+        background: rgba(62, 89, 112, 1);
+        box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 2px;
+
+        
+      }
+
+      .react-datepicker-wrapper {
+        display: flex;
+
+        input {
+          color: var(--corporate-blue);
+          font-size: 16px;
+          font-family: "ITC Conduit W01", sans-serif;
+          text-transform: uppercase;
+          min-width: 190px;
+        }
+      }
+
+      .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle:before {
+        display: none;
+      }
+
+      .react-datepicker__month-container {
+        width: 100%;
+        float: none;
+      }
+
+      .react-datepicker__month {
+        margin: 0.4rem;
+        text-align: center;
+        background: transparent;
+        border-radius: 0;
+
+        .react-datepicker__day--disabled {
+          opacity: 0.4;
+        }
+
+        .react-datepicker__day--outside-month {
+          color: #000;
+          opacity: .5;
+        }
+
+        .react-datepicker__day--sun,
+        .react-datepicker__day--sat {
+          opacity: 0.7;
+        }
+
+        .react-datepicker__day {
+          color: #fff;
+          border-radius: 100%;
+
+          &:hover {
+            background-color: transparent;
+            border-radius: 100%;
+            box-shadow: 0 0 0 1px;
+          }
+        }
+
+        .react-datepicker__day--selected {
+          background-color: #b51f24;
+
+          &:hover {
+            background-color: #b51f24;
+            border-radius: 100%;
+          }
+        }
+
+        .react-datepicker__day--selected:hover,
+        .react-datepicker__day--in-selecting-range:hover,
+        .react-datepicker__day--in-range:hover {
+          box-shadow: 0 0 0 1px;
+        }
+      }
+
+      .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle,
+      .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle,
+      .react-datepicker__year-read-view--down-arrow,
+      .react-datepicker__month-read-view--down-arrow,
+      .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle:before,
+      .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle:before,
+      .react-datepicker__year-read-view--down-arrow:before,
+      .react-datepicker__month-read-view--down-arrow:before {
+        border: 5px solid transparent;
+        height: 0;
+        width: 1px;
+      }
+
+      .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle {
+        top: 3px;
+        left: 120px;
+        margin-top: -8px;
+        border-top: none;
+        border-bottom-color: #263d50;
+      }
+
+      .react-datepicker__header {
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        position: relative;
+        padding: 0;
+        background: transparent;
+        font-size: 12px;
+        font-family: "ITC Conduit W01", sans-serif;
+        text-transform: uppercase;
+
+        .react-datepicker__day-name {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+      }
+
+      .react-datepicker__current-month,
+      .react-datepicker-time__header {
+        margin-top: 0;
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 8px 0;
+        color: #3e5970;
+        background: rgba(255, 255, 255, 0.77);
+      }
+
+      .react-datepicker__navigation--next {
+        border-left-color: #3e5970 !important;
+      }
+
+      .react-datepicker__navigation--previous {
+        border-right-color: #3e5970 !important;
+      }
+
+      .react-datepicker__navigation {
+        border-width: 5px;
+        top: 13px !important;
+      }
+
+      .react-datepicker__day-names,
+      .react-datepicker__week {
+        color: #fff;
+
+        /* border-bottom: 1px solid; */
+      }
+    }
+
+    .dtpicker {
+      position: relative;
+      flex: 0 1 212px;
+      margin-right: 5px;
+      display: flex;
+      background: #fff;
+      max-height: 42px;
+      border-radius: 2px;
+      align-items: center;
+      padding: 0 10px;
+      height: 42px;
+      cursor: pointer;
+
+      .dateClicker {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        opacity: 0;
+        z-index: 100;
+      }
+
+      .timepickerWrapper {
+        width: 100%;
+        padding: 0.4rem;
+        position: relative;
+
+        .arrow-wrapper {
+          width: 100%;
+          height: 100%;
+          float: right;
+          z-index: 1;
+
+          &:after {
+            content: "";
+            position: absolute;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid rgba(0, 0, 0, 0.3);
+            top: 21px;
+            right: 15px;
+            z-index: 10;
+          }
+
+          &:before {
+            content: "";
+            position: absolute;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid rgba(0, 0, 0, 0.3);
+            top: 12px;
+            right: 15px;
+            z-index: 10;
+          }
+        }
+
+        .timepicker {
+          -webkit-appearance: none;
+          border-radius: 3px;
+          width: 100%;
+          padding: 5px;
+          position: relative;
+          border: 0;
+          outline: 0;
+          background-color: #FFF;
+          /* box-shadow: 0 0 0 1px rgba(0,0,0,.2); */
+          z-index: 4;
+        }
+      }
+
+      input {
+        -webkit-appearance: none;
+        border: 0;
+        color: var(--corporate-blue);
+        font-size: 16px;
+        font-family: "ITC Conduit W01", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: transparent;
+        flex: 1;
+      }
+
+      @media (max-width: 768px) {
+        margin: 5px 5px 0 0;
+        flex: 2;
+      }
+
+      svg {
+        margin-right: 10px;
+        min-width: 24px;
+        flex: 0;
+      }
+    }
+
+    .datepicker {
+      flex: 1;
+    }
+  }
+
+  .moreoptions {
+    margin-top: 5px;
+    background: #fff;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+
+    &.current {
+      display: none;
+      &.open {
+        display: flex;
+        @media (max-width: 992px) {
+          display: none;
+        }
+      }
+    }
+
+    .optionsWrapper {
+      height: 36px;
+      align-items: center;
+      display: flex;
+      width: 100%;
+
+      .option {
+        &:nth-child(1) {
+          padding-left: 0;
+        }
+
+        &:nth-last-child(1) {
+          padding-right: 0;
+        }
+      }
+    }
+
+    .remainingLabel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      width: 100%;
+      color: #3e5970;
+      font-weight: 700;
+      font-family: "Proxima Nova", sans-serif;
+      text-transform: uppercase;
+
+      span {
+        position: relative;
+        margin-left: 10px;
+
+        &:after {
+          margin-left: 10px;
+          content: "";
+          border-left: 4px solid #0000;
+          border-right: 4px solid #0000;
+          border-top: 6px solid #3e5970;
+          position: absolute;
+          top: 50%;
+          margin-top: -3px;
+        }
+      }
+    }
+
+    &.remaining {
+      justify-content: center;
+      display: flex;
+      padding: 2px 10px;
+
+      &.open {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        @media(max-width: 992px) {
+          padding: 2px 10px;
+        }
+
+        .optionsWrapper {
+          margin-bottom: 10px;
+        }
+
+        .remainingLabel {
+          padding-top: 5px;
+          border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+          @media(max-width: 992px) {
+            border-top: 0;
+            padding: 0;
+          }
+
+          span {
+            &:after {
+              content: "";
+              border-left: 4px solid #0000;
+              border-right: 4px solid #0000;
+              border-bottom: 6px solid #3e5970;
+              border-top: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .option {
+      padding: 0 15px;
+      position: relative;
+      max-height: 36px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex: 1;
+
+      &:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        height: 36px;
+        width: 1px;
+        background: rgba(226, 226, 226, 0.5);
+      }
+
+      &:nth-last-child(1) {
+        &:after {
+          display: none;
+        }
+
+        .iconsOption {
+          margin-right: 0;
+        }
+      }
+
+      label {
+        font-family: "Proxima Nova", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #757372;
+        margin: 0;
+        display: inline-flex;
+        align-items: center;
+        height: 36px;
+      }
+
+      .iconsOption {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+
+        &.spaced {
+          .optionIcon {
+            margin: 0 10px;
+
+            &:nth-child(1) {
+              margin-left: 0;
+            }
+
+            &:nth-last-child(1) {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+
+      .label {
+        margin: 0 10px;
+        font-family: "Proxima Nova", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #757372;
+        word-break: keep-all;
+        white-space: nowrap;
+      }
+    }
+
+    .dropdown {
+      flex: 0 !important;
+
+      label {
+        &:after {
+          position: relative;
+          margin-left: 5px;
+          width: 0;
+          content: "";
+          height: 0;
+          border-left: 4px solid #0000;
+          border-right: 4px solid #0000;
+          border-top: 6px solid #b5b5b5;
+        }
+      }
+
+      .optionIcon {
+        margin-right: 10px;
+      }
+
+      span.value {
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 15px;
+        width: 20px;
+        max-width: 20px;
+      }
+
+      select {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 36px;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 5;
+        direction: rtl;
+        appearance: none;
+        -webkit-appearance: none;
+
+      }
+    }
+
+    .margin-left {
+      margin-left: 10px;
+    }
+
+    .checkbox {
+      label {
+        span.fakebox {
+          display: inline-block;
+          position: relative;
+          background-color: #d8d8d8;
+          width: 18px;
+          height: 18px;
+          transform-origin: center;
+          border-radius: 5px;
+          vertical-align: -6px;
+
+          /* margin-right: 10px; */
+          transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+          pointer-events: none;
+
+          &:before {
+            content: "";
+            width: 0;
+            height: 2px;
+            border-radius: 2px;
+            background: #fff;
+            position: absolute;
+            transform: rotate(45deg);
+            top: 9px;
+            left: 6px;
+            transition: width 50ms ease 50ms;
+            transform-origin: 0% 0%;
+          }
+
+          &:after {
+            content: "";
+            width: 0;
+            height: 2px;
+            border-radius: 2px;
+            background: #fff;
+            position: absolute;
+            transform: rotate(305deg);
+            top: 13px;
+            left: 7px;
+            transition: width 50ms ease;
+            transform-origin: 0% 0%;
+          }
+        }
+      }
+
+      label:hover .fakebox:before {
+        width: 5px;
+        transition: width 100ms ease;
+      }
+
+      label:hover .fakebox:after {
+        width: 10px;
+        transition: width 150ms ease 100ms;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      input[type="checkbox"]:checked + .fakebox {
+        background-color: #3e5970 !important;
+      }
+
+      input[type="checkbox"]:checked + .fakebox:after {
+        width: 10px;
+        background: #fff;
+        transition: width 150ms ease 100ms;
+      }
+
+      input[type="checkbox"]:checked + .fakebox:before {
+        width: 5px;
+        background: #fff;
+        transition: width 150ms ease 100ms;
+      }
+
+      input[type="checkbox"]:checked + label:hover .fakebox {
+        background-color: #3e5970;
+      }
+
+      input[type="checkbox"]:checked + label:hover .fakebox:after {
+        width: 10px;
+        background: #fff;
+        transition: width 150ms ease 100ms;
+      }
+
+      input[type="checkbox"]:checked + label:hover .fakebox:before {
+        width: 5px;
+        background: #fff;
+        transition: width 150ms ease 100ms;
+      }
+    }
+  }
+
+  .toggler {
+    background: #a8aab7;
+    border: 0;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    color: #fff;
+  }
+
+  .requestbtn {
+    background: #ef4343;
+    border-radius: 2px;
+    border: 0;
+    height: 42px;
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    outline: 0;
+    margin-right: 0;
+
+    @media (max-width: 992px) {
+      margin-top: 5px;
+      width: 100%;
+    }
+  }
+}
+
+.geoPrompt {
+  display: flex;
+  align-items: center;
+  font-family: "ITC Conduit W01", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #4a90e2;
+  cursor: pointer;
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.select {
+  text-transform: uppercase;
+
+  .myOption {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    min-height: 40px;
+    line-height: 18px;
+    z-index: 999;
+    cursor: pointer;
+    pointer-events: all;
+
+    &.disabled {
+      color: #999;
+    }
+
+    &.option {
+      color: #444;
+
+      &:hover {
+        background-color: #eee;
+      }
+    }
+
+    :global {
+      .famfamfam-flags {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .geoOption {
+    color: #4a90e2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background-color: #eee;
+    }
+  }
+
+  :global {
+    /* select-menu {
+      > div {
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+      }
+    } */
+
+    .Select-option {
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+
+      &:hover {
+        background-color: #eee;
+      }
+    }
+
+    .Select-noresults {
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+}
+
+:global {
+  .pt-overlay-backdrop {
+    z-index: 994;
+  }
+
+  .rdt {
+    background: transparent;
+    flex: 2;
+    position: static !important;
+
+    input.form-control {
+      height: 42px;
+      border: 0;
+      padding: 0;
+      font-family: "ITC Conduit W01", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #7f7f7f;
+      background: transparent;
+    }
+
+    .rdtPicker {
+      font-family: "ITC Conduit W01", sans-serif;
+      text-transform: uppercase;
+      left: 0;
+      border-radius: 2px;
+      width: 100%;
+    }
+
+    .rdtCounter .rdtBtn {
+      font-size: 10px;
+    }
+
+    .rdtCounters > div {
+      float: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .rdtCounter .rdtCount {
+      height: 30px;
+    }
+
+    .rdtPicker table {
+      border-spacing: 2px;
+      border-collapse: separate;
+    }
+
+    .rdtPicker th {
+      border-radius: 2px;
+      font-weight: 500;
+    }
+
+    .rdtPicker td {
+      border-radius: 2px;
+    }
+  }
+
+  .Select-control {
+    height: 42px;
+    border: 0;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .Select-placeholder {
+    display: flex;
+  }
+
+  .Select-multi-value-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 2;
+  }
+
+  .Select-menu-outer {
+    border: 0;
+    border-top: 1px solid #e6e6e6;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    pointer-events: none !important;
+  }
+
+  .Select-input {
+    display: inline-block;
+    margin-left: 22px;
+    flex: 1;
+
+    input {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #7f7f7f;
+    }
+  }
+
+  .Select-value-label {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .famfamfam-flags {
+      margin-right: 10px;
+    }
+  }
+
+  .Select-option {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    min-height: 40px;
+    line-height: 18px;
+
+    &.is-disabled {
+      margin-left: 0;
+
+      * {
+        color: #444;
+        font-weight: 500;
+      }
+
+      .famfamfam-flags {
+        display: none;
+      }
+    }
+  }
+
+  .Select-value {
+    display: flex;
+
+    object {
+      margin-right: 10px;
+    }
+  }
+
+  .Select-noresults {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .Select-menu {
+    display: flex;
+    flex-direction: column;
+    pointer-events: all;
+  }
+
+  .Select-menu::-webkit-scrollbar {
+    display: none;
+  }
+}

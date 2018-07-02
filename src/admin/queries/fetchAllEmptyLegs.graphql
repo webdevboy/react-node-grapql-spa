@@ -1,0 +1,81 @@
+# Try to write your query here
+query{
+  emptylegs: getAllEmptyLegs {
+    id
+    from_date
+    until_date
+    price
+    featured
+    published
+    details
+    aircraft {
+      name
+    }
+    from_airport {
+      name
+      distance
+      sfid
+      id
+      icao
+      iata
+      coordinates
+      helipad
+      time_to_utc
+      city {
+        id
+        sfid
+        name
+        name_en
+        name_de
+        name_it
+        name_fr
+        name_es
+        name_ru
+        name_pl
+        name_hu
+        country {
+          id
+          sfid
+          name
+          countryCode
+        }
+      }
+    }
+    to_airport {
+      name
+      distance
+      sfid
+      id
+      icao
+      iata
+      coordinates
+      helipad
+      time_to_utc
+      city {
+        id
+        sfid
+        name
+        name_en
+        name_de
+        name_it
+        name_fr
+        name_es
+        name_ru
+        name_pl
+        name_hu
+        country {
+          id
+          sfid
+          name
+          countryCode
+        }
+      }
+    }
+  }
+  messages: getEmptyLegPathTranslation{
+    id
+    message_id
+    translation
+  }
+}
+

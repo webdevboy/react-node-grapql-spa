@@ -1,0 +1,20 @@
+query($search: String) {
+  airports: getAirports(search: $search) {
+    name
+    distance
+    sfid
+    icao
+    iata
+    coordinates
+    time_to_utc
+    city {
+      sfid
+      name
+      country {
+        sfid
+        name
+        countryCode
+      }
+    }
+  }
+}

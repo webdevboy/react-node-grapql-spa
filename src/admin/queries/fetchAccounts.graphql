@@ -1,0 +1,28 @@
+{
+  accounts: getAccounts {
+    id: sfid
+    name
+    isActive
+    total_contacts
+    email
+    owner {
+      isActive
+      phone
+      last_name
+      first_name
+      email
+      type
+      id: sfid
+    }
+    total_contacts
+    contacts {
+      isActive
+      phone
+      email
+      first_name
+      last_name
+      id: sfid
+      type
+    }
+  }
+}

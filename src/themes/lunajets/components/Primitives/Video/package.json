@@ -1,0 +1,6 @@
+{
+	"name": "video",
+	"main": "Video.js",
+	"displayName": "Video",
+	"private": true
+}

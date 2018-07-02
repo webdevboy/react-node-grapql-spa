@@ -1,0 +1,5 @@
+mutation($account: AccountInput, $options: OptionsInput) {
+  createAccount(account: $account, options: $options) {
+    success
+  }
+}

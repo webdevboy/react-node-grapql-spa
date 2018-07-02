@@ -1,0 +1,29 @@
+.news-letter-root {
+  padding-top: 20px;
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      position: relative;
+      color: var(--corporate-blue);
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+    }
+  }
+
+  .desc {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 17px;
+    color: var(--corporate-blue);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-letter-root {
+    padding: 20px 10px;
+  }
+}
+

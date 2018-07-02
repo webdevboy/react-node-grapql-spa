@@ -1,0 +1,1002 @@
+@import url("//fast.fonts.net/t/1.css?apiType=css&projectid=8df5ce45-54da-445d-8ffa-ad3c1e62290d");
+@import url("//hello.myfonts.net/count/369c75");
+@import "./components/variables.css";
+
+@font-face{
+    font-family:"ITC Conduit W01_n1";
+    src:url("/fonts/conduit/56e483c2-8f13-4a25-a380-5f99bd42a54e.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/56e483c2-8f13-4a25-a380-5f99bd42a54e.eot?#iefix");
+    src:url("/fonts/conduit/56e483c2-8f13-4a25-a380-5f99bd42a54e.eot?#iefix") format("eot"),url("/fonts/conduit/6d9d0397-2f59-4797-9d05-fc3dea90773e.woff2") format("woff2"),url("/fonts/conduit/b2edcd10-e47c-46ce-a26e-abc326913231.woff") format("woff"),url("/fonts/conduit/2ca7ac3e-e9ad-4469-ad0f-7ca39807abb6.ttf") format("truetype"),url("/fonts/conduit/97620ad5-a20b-4d15-846e-062fa737d4c2.svg#97620ad5-a20b-4d15-846e-062fa737d4c2") format("svg");
+font-weight: 100;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01_i1";
+    src:url("/fonts/conduit/9d31e151-fbaf-4f45-82ac-e92d05d395aa.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/9d31e151-fbaf-4f45-82ac-e92d05d395aa.eot?#iefix");
+    src:url("/fonts/conduit/9d31e151-fbaf-4f45-82ac-e92d05d395aa.eot?#iefix") format("eot"),url("/fonts/conduit/2e1ec13f-ffb9-4785-8366-29fa78edab7d.woff2") format("woff2"),url("/fonts/conduit/cc4ea450-48c9-45ae-9905-49e4becb52cd.woff") format("woff"),url("/fonts/conduit/9e475c09-527f-4b4c-92d7-6f4bc0d2b863.ttf") format("truetype"),url("/fonts/conduit/c6005481-1bb3-4e65-9f23-3bf8f317d9e9.svg#c6005481-1bb3-4e65-9f23-3bf8f317d9e9") format("svg");
+font-weight: 100;
+font-style: italic;
+}
+@font-face{
+    font-family:"ITC Conduit W01_n2";
+    src:url("/fonts/conduit/45fa0132-0858-4e18-9594-5a070788a059.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/45fa0132-0858-4e18-9594-5a070788a059.eot?#iefix");
+    src:url("/fonts/conduit/45fa0132-0858-4e18-9594-5a070788a059.eot?#iefix") format("eot"),url("/fonts/conduit/0f250d3b-13fd-469c-a4ec-9f9984165dea.woff2") format("woff2"),url("/fonts/conduit/e924c59f-bc21-471f-ad1b-cefd0c1a6315.woff") format("woff"),url("/fonts/conduit/13b88c12-e5f0-46c4-932a-57fe881b7c46.ttf") format("truetype"),url("/fonts/conduit/cf39e66c-fff7-43d5-b865-0a45543d590a.svg#cf39e66c-fff7-43d5-b865-0a45543d590a") format("svg");
+font-weight: 200;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01_i2";
+    src:url("/fonts/conduit/9e32d14b-d2cb-4be9-8244-4518db105eb7.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/9e32d14b-d2cb-4be9-8244-4518db105eb7.eot?#iefix");
+    src:url("/fonts/conduit/9e32d14b-d2cb-4be9-8244-4518db105eb7.eot?#iefix") format("eot"),url("/fonts/conduit/a4b3a81c-1256-49cb-a816-5d8931d352cb.woff2") format("woff2"),url("/fonts/conduit/cb1d6e54-081d-429a-a0e2-e09f003b52f6.woff") format("woff"),url("/fonts/conduit/4e4ba5dd-4e46-4afe-804b-624ab0b31d9e.ttf") format("truetype"),url("/fonts/conduit/64bf7dd4-f691-4801-b042-b720c1c115bd.svg#64bf7dd4-f691-4801-b042-b720c1c115bd") format("svg");
+font-weight: 200;
+font-style: italic;
+}
+@font-face{
+    font-family:"ITC Conduit W01_n3";
+    src:url("/fonts/conduit/367b2d50-c71b-4348-b8e2-d364f82386ea.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/367b2d50-c71b-4348-b8e2-d364f82386ea.eot?#iefix");
+    src:url("/fonts/conduit/367b2d50-c71b-4348-b8e2-d364f82386ea.eot?#iefix") format("eot"),url("/fonts/conduit/8846bd5f-2288-474a-9e36-1f6a456687e8.woff2") format("woff2"),url("/fonts/conduit/e328f17d-e8e5-424f-92e8-31af32b2ebac.woff") format("woff"),url("/fonts/conduit/97556a76-3d0b-4ad7-ae17-02b5d97e928b.ttf") format("truetype"),url("/fonts/conduit/407529ad-dcaa-4637-ac62-6cf9265d4f52.svg#407529ad-dcaa-4637-ac62-6cf9265d4f52") format("svg");
+font-weight: 300;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01_i3";
+    src:url("/fonts/conduit/6c436973-c7bc-4fa8-8015-3e3a5fe41514.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/6c436973-c7bc-4fa8-8015-3e3a5fe41514.eot?#iefix");
+    src:url("/fonts/conduit/6c436973-c7bc-4fa8-8015-3e3a5fe41514.eot?#iefix") format("eot"),url("/fonts/conduit/8f5aa48d-d6a8-44d6-8f8b-05a27be61180.woff2") format("woff2"),url("/fonts/conduit/0d4b4097-9f7f-486f-b108-07f6ab48ca1d.woff") format("woff"),url("/fonts/conduit/8e21264d-f678-4005-b90c-8d8288a0d179.ttf") format("truetype"),url("/fonts/conduit/a084d860-2279-4910-b924-82b72dcc36e0.svg#a084d860-2279-4910-b924-82b72dcc36e0") format("svg");
+font-weight: 300;
+font-style: italic;
+}
+@font-face{
+    font-family:"ITC Conduit W01_n4";
+    src:url("/fonts/conduit/a5a0edc0-b571-4275-9c51-3dfeba35b75a.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/a5a0edc0-b571-4275-9c51-3dfeba35b75a.eot?#iefix");
+    src:url("/fonts/conduit/a5a0edc0-b571-4275-9c51-3dfeba35b75a.eot?#iefix") format("eot"),url("/fonts/conduit/a81af59b-a5d9-4e96-a7cc-919403c0d86c.woff2") format("woff2"),url("/fonts/conduit/e93ee223-5d52-4bdf-a113-c6c4c8936824.woff") format("woff"),url("/fonts/conduit/ccdadc2e-26c9-48a5-9c52-9c3cc58e9930.ttf") format("truetype"),url("/fonts/conduit/62fbb38e-9226-47f8-90d8-3c37328ab6c9.svg#62fbb38e-9226-47f8-90d8-3c37328ab6c9") format("svg");
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01_i4";
+    src:url("/fonts/conduit/832ee4d2-f75a-4d88-9d27-05a07a814921.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/832ee4d2-f75a-4d88-9d27-05a07a814921.eot?#iefix");
+    src:url("/fonts/conduit/832ee4d2-f75a-4d88-9d27-05a07a814921.eot?#iefix") format("eot"),url("/fonts/conduit/8eff5488-0bde-4d4c-8f56-058189978841.woff2") format("woff2"),url("/fonts/conduit/ebda6846-73f6-43d3-9197-a9577947f6c6.woff") format("woff"),url("/fonts/conduit/3df60eaf-797e-4c19-aa7c-b7f071f0cb44.ttf") format("truetype"),url("/fonts/conduit/29fffbbc-8876-445e-9ec0-1895f243a630.svg#29fffbbc-8876-445e-9ec0-1895f243a630") format("svg");
+font-weight: 400;
+font-style: italic;
+}
+@font-face{
+    font-family:"ITC Conduit W01_n5";
+    src:url("/fonts/conduit/ef1cf8c3-989e-4b7e-ad89-9e034d47686d.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/ef1cf8c3-989e-4b7e-ad89-9e034d47686d.eot?#iefix");
+    src:url("/fonts/conduit/ef1cf8c3-989e-4b7e-ad89-9e034d47686d.eot?#iefix") format("eot"),url("/fonts/conduit/4680ad80-371f-497c-8926-35654adc2249.woff2") format("woff2"),url("/fonts/conduit/fdaf48d4-c023-4a03-b948-53535ee4d571.woff") format("woff"),url("/fonts/conduit/ca6dc25e-d400-4735-9fb9-ee2d025ebb5c.ttf") format("truetype"),url("/fonts/conduit/aa206b9b-b888-4ce6-8039-669469e9b429.svg#aa206b9b-b888-4ce6-8039-669469e9b429") format("svg");
+font-weight: 500;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01_i5";
+    src:url("/fonts/conduit/63c0d040-592d-47b6-863c-91a96339b9b6.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/63c0d040-592d-47b6-863c-91a96339b9b6.eot?#iefix");
+    src:url("/fonts/conduit/63c0d040-592d-47b6-863c-91a96339b9b6.eot?#iefix") format("eot"),url("/fonts/conduit/9d7196b2-01b1-40b5-96e0-fc359188ba6f.woff2") format("woff2"),url("/fonts/conduit/12c62c8a-5fa0-42e5-9dbe-d81e2cd53756.woff") format("woff"),url("/fonts/conduit/ec4d359c-2645-4fe6-81c9-a6926f0faefa.ttf") format("truetype"),url("/fonts/conduit/92dde6c0-7bec-4165-81cd-6565fa13067c.svg#92dde6c0-7bec-4165-81cd-6565fa13067c") format("svg");
+font-weight: 500;
+font-style: italic;
+}
+@font-face{
+    font-family:"ITC Conduit W01_n6";
+    src:url("/fonts/conduit/ae547e5a-f574-470b-9431-3a16c0f73e7d.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/ae547e5a-f574-470b-9431-3a16c0f73e7d.eot?#iefix");
+    src:url("/fonts/conduit/ae547e5a-f574-470b-9431-3a16c0f73e7d.eot?#iefix") format("eot"),url("/fonts/conduit/7002aae3-e27a-49d5-b79b-44bcc8364444.woff2") format("woff2"),url("/fonts/conduit/a0afe27e-7751-4c93-8499-b73d4801ce53.woff") format("woff"),url("/fonts/conduit/2960bd08-c8ab-4549-8aab-dfc6245541f7.ttf") format("truetype"),url("/fonts/conduit/e9d182a6-38a1-4923-9d37-756b5cc46682.svg#e9d182a6-38a1-4923-9d37-756b5cc46682") format("svg");
+font-weight: 600;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01_i6";
+    src:url("/fonts/conduit/86810c3e-354e-417f-9ffe-195b27736151.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/86810c3e-354e-417f-9ffe-195b27736151.eot?#iefix");
+    src:url("/fonts/conduit/86810c3e-354e-417f-9ffe-195b27736151.eot?#iefix") format("eot"),url("/fonts/conduit/d8515268-a189-493a-a1d4-5061408b4c84.woff2") format("woff2"),url("/fonts/conduit/b2fbf317-cd76-4a7a-bc66-4108d3ce5a94.woff") format("woff"),url("/fonts/conduit/d96fd761-8451-4d01-8443-fcb4d10fb3ce.ttf") format("truetype"),url("/fonts/conduit/7e039442-211a-4159-b641-e456210be8e3.svg#7e039442-211a-4159-b641-e456210be8e3") format("svg");
+font-weight: 600;
+font-style: italic;
+}
+@font-face{
+    font-family:"ITC Conduit W01_n7";
+    src:url("/fonts/conduit/dbf358dd-4b73-4f9d-9c2a-6f9260f9da69.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/dbf358dd-4b73-4f9d-9c2a-6f9260f9da69.eot?#iefix");
+    src:url("/fonts/conduit/dbf358dd-4b73-4f9d-9c2a-6f9260f9da69.eot?#iefix") format("eot"),url("/fonts/conduit/2a06e006-d37c-4d8f-a4bc-c9eec5d41e24.woff2") format("woff2"),url("/fonts/conduit/e560b829-e02c-4a01-bbe1-ddc574c1f8e8.woff") format("woff"),url("/fonts/conduit/d3baf0dc-04c7-4f98-a85b-6eb2d44be02a.ttf") format("truetype"),url("/fonts/conduit/9372a370-abb4-4516-836c-d7ca85e7f06a.svg#9372a370-abb4-4516-836c-d7ca85e7f06a") format("svg");
+font-weight: 700;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01_i7";
+    src:url("/fonts/conduit/614372b5-0385-47e4-8b8a-40bd28e7e475.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01";
+    src:url("/fonts/conduit/614372b5-0385-47e4-8b8a-40bd28e7e475.eot?#iefix");
+    src:url("/fonts/conduit/614372b5-0385-47e4-8b8a-40bd28e7e475.eot?#iefix") format("eot"),url("/fonts/conduit/0f76f551-2973-4ff9-bcb8-d440bdbe93fa.woff2") format("woff2"),url("/fonts/conduit/1ce906cc-1f63-4410-ad83-e2251b2a9ed9.woff") format("woff"),url("/fonts/conduit/376e972f-a10d-46fa-8042-362f94ef52ec.ttf") format("truetype"),url("/fonts/conduit/d35847aa-1943-4214-bc22-81eba2f6a3af.svg#d35847aa-1943-4214-bc22-81eba2f6a3af") format("svg");
+font-weight: 700;
+font-style: italic;
+}
+@font-face{
+    font-family:"ITC Conduit W01 Lt SC_n2";
+    src:url("/fonts/conduit/04ec83e3-e248-45e0-84a0-b282524a3498.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01 Lt SC";
+    src:url("/fonts/conduit/04ec83e3-e248-45e0-84a0-b282524a3498.eot?#iefix");
+    src:url("/fonts/conduit/04ec83e3-e248-45e0-84a0-b282524a3498.eot?#iefix") format("eot"),url("/fonts/conduit/d5a3ae40-cbdc-4110-97de-fe98dc7adb7d.woff2") format("woff2"),url("/fonts/conduit/94131ab6-5635-4f73-94a5-d87ee8514e06.woff") format("woff"),url("/fonts/conduit/f527ec22-3b4b-4aea-b5d9-7eeec99e4024.ttf") format("truetype"),url("/fonts/conduit/d6d5b42f-c80e-483d-be94-7b27b16a0ec4.svg#d6d5b42f-c80e-483d-be94-7b27b16a0ec4") format("svg");
+font-weight: 200;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01 Reg SC_n3";
+    src:url("/fonts/conduit/cc571a5e-61a7-4e08-8547-52162676abf4.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01 Reg SC";
+    src:url("/fonts/conduit/cc571a5e-61a7-4e08-8547-52162676abf4.eot?#iefix");
+    src:url("/fonts/conduit/cc571a5e-61a7-4e08-8547-52162676abf4.eot?#iefix") format("eot"),url("/fonts/conduit/86957cac-e662-43a6-99f5-5ac6e8436ab7.woff2") format("woff2"),url("/fonts/conduit/da6d02ab-6e09-4270-aec0-7b3d32f2a6fa.woff") format("woff"),url("/fonts/conduit/2921e816-a9a4-4d5f-819f-a0fa6ea84600.ttf") format("truetype"),url("/fonts/conduit/609b99e8-73fe-4353-9933-00a64438f827.svg#609b99e8-73fe-4353-9933-00a64438f827") format("svg");
+font-weight: 300;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01 Md SC_n4";
+    src:url("/fonts/conduit/49c407ab-e27d-4a93-8915-ac968abf0500.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01 Md SC";
+    src:url("/fonts/conduit/49c407ab-e27d-4a93-8915-ac968abf0500.eot?#iefix");
+    src:url("/fonts/conduit/49c407ab-e27d-4a93-8915-ac968abf0500.eot?#iefix") format("eot"),url("/fonts/conduit/2ab3cb04-2a62-4e63-820f-80383a3767fe.woff2") format("woff2"),url("/fonts/conduit/cc86637c-25e3-4314-9af5-6255d67a1bc1.woff") format("woff"),url("/fonts/conduit/2b518569-8640-49ba-8cf2-c4aaacedc3bf.ttf") format("truetype"),url("/fonts/conduit/0cd09614-01ff-40a9-9685-a35279f0f236.svg#0cd09614-01ff-40a9-9685-a35279f0f236") format("svg");
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01 Bd SC_n5";
+    src:url("/fonts/conduit/031d217c-b61d-4cd7-89a2-b2007f4557d4.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01 Bd SC";
+    src:url("/fonts/conduit/031d217c-b61d-4cd7-89a2-b2007f4557d4.eot?#iefix");
+    src:url("/fonts/conduit/031d217c-b61d-4cd7-89a2-b2007f4557d4.eot?#iefix") format("eot"),url("/fonts/conduit/5d0d4d24-539c-4a3e-9db3-4eb8bbd0d1d2.woff2") format("woff2"),url("/fonts/conduit/be61d5cb-85e3-4ee0-875e-30b9f782d304.woff") format("woff"),url("/fonts/conduit/0f2ab5fd-ab4e-42b5-84de-6c5da47f80ba.ttf") format("truetype"),url("/fonts/conduit/210e4959-a992-4f96-87cc-741a1b8d85a8.svg#210e4959-a992-4f96-87cc-741a1b8d85a8") format("svg");
+font-weight: 500;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01 X Bd SC_n6";
+    src:url("/fonts/conduit/1c3bd0a6-0377-47c8-b733-9863731d7ec2.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01 X Bd SC";
+    src:url("/fonts/conduit/1c3bd0a6-0377-47c8-b733-9863731d7ec2.eot?#iefix");
+    src:url("/fonts/conduit/1c3bd0a6-0377-47c8-b733-9863731d7ec2.eot?#iefix") format("eot"),url("/fonts/conduit/38e1e43a-2065-4142-8c10-316b868e14d1.woff2") format("woff2"),url("/fonts/conduit/c196bd4f-9a81-4354-bde8-228a04a7bb1b.woff") format("woff"),url("/fonts/conduit/9deb2c52-83f7-44fa-b28b-9cd5e2cc7638.ttf") format("truetype"),url("/fonts/conduit/4797b2da-2188-41f6-884a-0f810476c70b.svg#4797b2da-2188-41f6-884a-0f810476c70b") format("svg");
+font-weight: 600;
+font-style: normal;
+}
+@font-face{
+    font-family:"ITC Conduit W01 Blk SC_n7";
+    src:url("/fonts/conduit/d97d6be8-0223-4284-8514-ac0172fee9c8.eot?#iefix") format("eot")
+}
+@font-face{
+    font-family:"ITC Conduit W01 Blk SC";
+    src:url("/fonts/conduit/d97d6be8-0223-4284-8514-ac0172fee9c8.eot?#iefix");
+    src:url("/fonts/conduit/d97d6be8-0223-4284-8514-ac0172fee9c8.eot?#iefix") format("eot"),url("/fonts/conduit/4391334a-fbeb-48c4-8382-fe9eb56e3d49.woff2") format("woff2"),url("/fonts/conduit/a3f5be23-b140-46bf-952b-7a8a3a926109.woff") format("woff"),url("/fonts/conduit/9a01bdfb-1689-4f08-8d8a-7d2ebaa60eb0.ttf") format("truetype"),url("/fonts/conduit/fd625436-730a-481a-afcf-e1f4aa880a66.svg#fd625436-730a-481a-afcf-e1f4aa880a66") format("svg");
+font-weight: 700;
+font-style: normal;
+}
+
+  
+@font-face {font-family: 'ProximaNovaA-Semibold';src: url('/fonts/proxima_nova/369C75_0_0.eot');src: url('/fonts/proxima_nova/369C75_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/proxima_nova/369C75_0_0.woff2') format('woff2'),url('/fonts/proxima_nova/369C75_0_0.woff') format('woff'),url('/fonts/proxima_nova/369C75_0_0.ttf') format('truetype');}
+@font-face {font-family: 'ProximaNovaS-Semibold';src: url('/fonts/proxima_nova/369C75_1_0.eot');src: url('/fonts/proxima_nova/369C75_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/proxima_nova/369C75_1_0.woff2') format('woff2'),url('/fonts/proxima_nova/369C75_1_0.woff') format('woff'),url('/fonts/proxima_nova/369C75_1_0.ttf') format('truetype');}
+@font-face {font-family: 'ProximaNova-Semibold';src: url('/fonts/proxima_nova/369C75_2_0.eot');src: url('/fonts/proxima_nova/369C75_2_0.eot?#iefix') format('embedded-opentype'),url('/fonts/proxima_nova/369C75_2_0.woff2') format('woff2'),url('/fonts/proxima_nova/369C75_2_0.woff') format('woff'),url('/fonts/proxima_nova/369C75_2_0.ttf') format('truetype');}
+
+@font-face {font-family: 'FuturaLTPro-Medium';src: url('/fonts/futura/369C79_0_0.eot');src: url('/fonts/futura/369C79_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/futura/369C79_0_0.woff2') format('woff2'),url('/fonts/futura/369C79_0_0.woff') format('woff'),url('/fonts/futura/369C79_0_0.ttf') format('truetype');}
+@font-face {font-family: 'FuturaLTPro-MediumOblique';src: url('/fonts/futura/369C79_1_0.eot');src: url('/fonts/futura/369C79_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/futura/369C79_1_0.woff2') format('woff2'),url('/fonts/futura/369C79_1_0.woff') format('woff'),url('/fonts/futura/369C79_1_0.ttf') format('truetype');}
+ 
+
+.reqFlight {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.default {
+  height: 100%;
+
+  .footer {
+    background-color: var(--pale);
+  }
+}
+
+:global {
+  .navbar-top {
+    .dropdown-menu {
+      li {
+        padding: 0;
+      }
+    }
+  }
+
+  .post-content {
+    a {
+      color: #b40000;
+    }
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-style: normal;
+    color: var(--corporate-blue);
+  }
+
+  .lj-pad-y-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .lj-pad-y-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .lj-pad-t-100 {
+    padding-top: 100px;
+  }
+
+  .lj-pad-b-100 {
+    padding-bottom: 100px;
+  }
+
+  p {
+    color: var(--corporate-blue);
+    line-height: 1.5rem;
+  }
+
+  blockquote {
+    border-left: 2px solid #ddd;
+    color: #999;
+    font-style: italic;
+    margin: 12px 0 40px 0;
+    padding: 6px 0 5px 18px;
+  }
+
+  .block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--pale);
+
+    &.padding {
+      padding: 40px 0;
+    }
+  }
+
+  .block-va-center {
+    align-content: center;
+  }
+
+  .block-va-top {
+    align-content: flex-start;
+  }
+
+  .block-va-bottom {
+    align-content: flex-end;
+  }
+
+  .block-centered {
+    max-width: var(--max-width);
+    flex: 1;
+    padding: 0 15px;
+
+    &.no-padding {
+      padding: 0;
+    }
+  }
+
+  @keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  .animated.infinite {
+    animation-iteration-count: infinite;
+  }
+
+  .bounce {
+    animation-name: bounce;
+    transform-origin: center bottom;
+  }
+
+  .badge {
+    background: #fff;
+    color: #263d50;
+    text-shadow: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .home-heading {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    line-height: 53px;
+    max-width: 50%;
+    margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+      line-height: 42px;
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .famfamfam-flags {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--pale);
+  }
+
+  .mapboxgl-control-container {
+    display: none;
+  }
+
+  a,
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: none;
+  }
+
+  .max-container-width {
+    max-width: var(--max-width);
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+  .conduit {
+    font-family: "ITC Conduit W01", sans-serif;
+  }
+
+  .mono {
+    font-family: "Ubuntu Mono", sans-serif;
+  }
+
+  .conduit.conduit-regular {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .conduit.conduit-bold {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .section-sub-heading {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    color: #3e5970;
+    letter-spacing: 1px;
+    line-height: 47px;
+    text-align: center;
+
+    &.bold {
+      font-weight: 500;
+    }
+
+    &.extra-bold {
+      font-weight: 600;
+    }
+
+    &.spaced-bottom {
+      padding-bottom: 20px;
+    }
+  }
+
+  .section-sub-heading-subtitle {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #3e5970;
+    letter-spacing: 1px;
+    line-height: 47px;
+  }
+
+  .section-sub-heading-paragraph {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #3e5970;
+  }
+
+  .block-big-heading {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "ITC Conduit W01", sans-serif;
+    font-style: normal;
+    display: block;
+
+    &.centered {
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 45px;
+    }
+  }
+
+  .dk-grey-bg {
+    background: var(--dark-grey);
+    color: #fff;
+  }
+
+  .dk-blue-bg {
+    background: var(--dark-blue);
+    color: #fff;
+  }
+
+  .dk-red-bg {
+    background: var(--dark-red);
+    color: #fff;
+  }
+
+  .lt-red-bg {
+    background: var(--light-red);
+    color: #fff;
+  }
+
+  .lt-grey-bg {
+    background: var(--light-grey);
+  }
+
+  .lt-grey {
+    color: var(--light-grey);
+  }
+
+  .dk-grey {
+    color: var(--dark-grey);
+  }
+
+  .btn {
+    border-radius: 0 !important;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "ITC Conduit W01", sans-serif;
+    font-weight: 500 !important;
+    font-style: normal;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .btn.big {
+    max-height: 60px;
+    height: 60px;
+  }
+
+  .btn.small {
+    max-height: 30px;
+    height: 30px;
+  }
+
+  .btn.med {
+    max-height: 45px;
+    height: 45px;
+  }
+
+  .input-group-btn .btn {
+    border-radius: 0;
+  }
+
+  .section-paragraph {
+    line-height: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    font-weight: 200;
+    min-height: 32px;
+  }
+
+  .paragraph {
+    line-height: 32px;
+    font-size: 1.25rem;
+    font-weight: 200;
+  }
+
+  .dropdown-menu.right {
+    right: 0;
+    left: inherit;
+  }
+
+  .dropdown-toggle:after {
+    font-size: 12px;
+  }
+
+  .form-group {
+    label {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      color: #a8aab7;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .btn.shadow {
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .form-control {
+      border-radius: 0;
+      border-color: #b6cada;
+      font-family: "ITC Conduit W01", sans-serif;
+      font-weight: 400 !important;
+      font-style: normal;
+      font-size: 16px;
+      color: #3e5970;
+      -webkit-appearance: none;
+      resize: none;
+
+      &::placeholder {
+        font-family: "ITC Conduit W01", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #7f7f7f;
+      }
+    }
+  }
+
+  .btn.shadow {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      box-shadow: 0 15px 20px 1px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  .btn-header {
+    margin-bottom: 20px;
+  }
+
+  .btn.dk-red {
+    background: var(--dark-red);
+    color: #fff !important;
+    max-width: 350px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      max-width: 100%;
+      margin: 30px 0;
+    }
+  }
+  .btn.lt-red {
+    background: var(--light-red);
+    color: #fff !important;
+    max-width: 350px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      max-width: 100%;
+      margin: 30px 0;
+    }
+  }
+
+  .btn.white {
+    color: #fff;
+  }
+
+  .btn-outline.white {
+    border: 2px solid #fff;
+    max-width: 400px;
+  }
+
+  .btn-outline.dk-blue {
+    border: 2px solid var(--dark-blue);
+    color: var(--dark-blue);
+    align-self: center;
+    margin: 50px 0;
+    width: 100%;
+  }
+
+  .btn-outline.red {
+    border: 2px solid var(--dark-red);
+    color: var(--dark-red);
+    align-self: center;
+    margin: 15px 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  .btn-outline.lt-blue {
+    color: white !important;
+    width: 100%;
+    align-self: center;
+    border: 2px solid #fff;
+    background: rgba(116, 134, 147, 0.5);
+    margin: 30px 0;
+  }
+
+  .btn-solid.white {
+    color: #757372 !important;
+    background: #fff;
+    margin: 40px auto;
+  }
+
+  .section-heading-paragraph {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    color: #3e5970;
+    line-height: 26px;
+  }
+
+  .section-heading-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 40px 0;
+
+    @media (max-width: 768px) {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+
+  .section-title {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: "FuturaLTPro-MediumOblique", sans-serif;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+
+    &.padded {
+      padding: 40px 0;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 22px;
+      padding: 20px 0;
+    }
+
+    @media (max-width: 575.98px) {
+      padding: 0;
+      margin: 0;
+    }
+
+    &:before {
+      position: absolute;
+      content: "";
+      height: 2px;
+      left: -55px;
+      top: 50%;
+      margin-top: -1px;
+      width: 40px;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    &.lt-blue {
+      color: var(--light-blue);
+
+      &:before {
+        background: var(--light-blue);
+      }
+    }
+
+    &.corporate-blue {
+      color: var(--corporate-blue);
+
+      &:before {
+        background: var(--corporate-blue);
+      }
+    }
+
+    &.dk-blue {
+      color: var(--dark-blue);
+
+      &:before {
+        background: var(--dark-blue);
+      }
+    }
+
+    .lt-grey {
+      color: var(--light-grey);
+    }
+
+    .dk-red {
+      color: var(--dark-red);
+    }
+
+    .dk-grey {
+      color: var(--dark-grey);
+    }
+
+    .corporate-blue {
+      color: var(--corporate-blue);
+    }
+
+    .bold {
+      font-weight: 600;
+    }
+
+    .empty-leg-date {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #263d50;
+      text-decoration: none;
+    }
+
+    .section-heading {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 72px;
+      font-weight: 500;
+      font-style: normal;
+      color: #3e5970;
+      text-shadow: 0 9px 15px rgba(0, 0, 0, 0.12);
+      text-transform: uppercase;
+
+      &:before {
+        background-color: #fff;
+      }
+    }
+  }  
+
+  .full-height {
+    height: calc(100vh - var(--navbar-top-height));
+  }
+
+  .heading-break {
+    width: 50%;
+    z-index: 2;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  .corporate-blue {
+    color: var(--corporate-blue);
+  }
+
+  .lt-blue {
+    color: var(--light-blue);
+  }
+
+  .dk-blue {
+    color: var(--dark-blue);
+  }
+
+  .dk-red {
+    color: var(--dark-red);
+  }
+
+  .lt-red {
+    color: var(--light-red);
+  }
+
+  .corporate-dk-blue-bckg {
+    background: var(--corporate-dk-blue);
+  }
+
+  .white {
+    color: #fff !important;
+  }
+
+  .iata {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #263d50;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .prefix {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #a8aab7;
+    text-transform: uppercase;
+    text-decoration: none;
+  }  
+
+  .section-heading {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    font-style: normal;
+    color: #3e5970;
+    text-shadow: 0 9px 15px rgba(0, 0, 0, 0.12);
+    text-transform: uppercase;
+    line-height: 1.2;
+
+    @media (max-width: 768px) {
+      font-size: 34px;
+    }
+
+    &.corporate-blue {
+      color: var(--corporate-blue);
+    }
+
+    &.lt-blue {
+      color: var(--light-blue);
+    }
+
+    &.dk-blue {
+      color: var(--dark-blue);
+    }
+
+    &.white {
+      color: #fff;
+    }
+  }
+
+  .section-heading-1 {
+    line-height: 74px;
+    font-size: 72px;   
+    font-weight: 400;    
+
+    @media (max-width: 768px) {      
+      font-size: 48px;
+    }
+  }
+
+  /* pencil button for admin edit */
+  .button-edit-admin {
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    padding: 2px 8px;
+    display: inline-block;
+    transition: 0.3s ease;
+
+    &:hover {
+      color: #ef4343;
+      transform: rotate(-45deg);
+
+      svg {
+        border: 1px dashed #ef4343;
+        fill: #ef4343;
+      }
+    }
+  }
+
+  /* modal admin text input */
+  .custom-admin-edit-modal {
+    border-radius: 4px;
+    width: 100%;
+
+    .modal-title {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 20px 0;
+    }
+
+    .modal-input {
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .btn-edit-group {
+      text-align: right;
+      margin-top: 10px;
+
+      button {
+        display: inline-block;
+        max-width: 120px;
+        width: 100%;
+        margin: 10px 5px;
+      }
+    }
+  }
+}

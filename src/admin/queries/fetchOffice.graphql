@@ -1,0 +1,16 @@
+query($id: ID!) {
+  office: getOffice(id: $id) {
+    id
+    name
+    address
+    postal_code
+    location
+    country
+    phone
+    email
+    coordinates
+    alt_phone
+    primary
+    order
+  }
+}

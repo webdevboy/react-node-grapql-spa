@@ -1,0 +1,11 @@
+query($message_id: String!, $locale: String!, $translation: String!) {
+  translation: addRichTextTranslation(
+    message_id: $message_id,
+    locale: $locale,
+    translation: $translation,
+  ) {
+    id
+    message_id
+    translation 
+  }
+}

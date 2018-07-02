@@ -1,0 +1,6 @@
+{
+	"name": "JetCostDestinationDescription",
+	"main": "JetCostDestinationDescription.js",
+	"displayName": "JetCostDestinationDescription",
+	"private": "true"
+}

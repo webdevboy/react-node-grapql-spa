@@ -1,0 +1,5 @@
+{
+  "name": "Mapbox",
+  "main": "./Mapbox.js",
+  "private": true
+}

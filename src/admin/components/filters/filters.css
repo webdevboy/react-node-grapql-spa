@@ -1,0 +1,180 @@
+.filters {
+    color: white;
+    background-color: #12212e;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #313D4F;
+    flex: 0 0 auto;
+}
+
+.actions {
+	display: flex;
+	:global {
+		.btn {
+			margin-left: 10px;
+		}
+	}
+}
+
+.viewPreset{
+	display: flex;
+    margin-left: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+
+    span{
+    	&:hover{
+			cursor: pointer;
+    	};
+    }
+}
+
+.preset-active{
+	> * {
+		color: #2787CF;
+	}
+}
+
+.dropdown {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.search {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.left {
+	flex: auto;
+	justify-content: flex-start;
+	display: flex;
+    align-content: flex-start;
+}
+
+.right {
+	flex: 2;
+	justify-content: flex-end;
+    display: flex;
+}
+
+.filterbutton {
+	display: none;
+
+	svg {
+		width: 18px;
+    	height: 18px;
+	}
+}
+
+@media (max-width: 672px) {
+
+	.actions {
+		:global {
+			.btn > .btn-icon {
+				margin-right: 0;
+			}
+			.btn > span {
+				display: none;
+			}
+		}
+	}
+
+	.filters,
+	.left{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.right {
+		flex-direction: row;
+		width: 100%;
+	}
+
+	.left {
+		display: none;
+	}
+
+	.filters.show .left {
+		display: flex;
+	}
+
+	.search {
+		flex: 2;
+
+	}
+	.dropdown {
+		flex: 2 0 100%;
+		margin-right: 0;
+	}
+
+	:global(.dropdown .btn.dropdown-toggle) {
+		min-width: 100%;
+	}
+
+	.filterbutton {
+		width: 36px;
+	    background: transparent;
+	    border: 0;
+	    height: 36px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    background-image: linear-gradient(-1deg, #1991EB 2%, #2DA1F8 98%);
+	    border-radius: 4px;
+	    margin: 0 10px 0 0;
+	}
+}
+
+
+
+
+
+/*.filler{
+    flex-grow: 1;
+}
+
+.fieldInput{
+    background-color: #222C3C;
+    border: 1px solid #0d304e;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #a6b2bb;
+    min-width: 100px;
+    padding: 0px 10px;
+    margin: 0px 5px;
+}
+
+.fieldInput:focus{
+    border: 1px solid #405575;
+    outline: none;
+}
+
+.active{
+    display: flex;
+    margin-top: -18px;
+}
+
+.inactive{
+    display: none;
+}
+
+.dropdown-toggle{
+    background-color: transparent;
+    color: #b2b9c4;
+    border: none;
+}
+.fieldSearch{
+	background: url(./gfx/search.png) no-repeat;
+	background-size: 25px;
+    background-position-x: 180px;
+}
+
+.dropdown-toggle{
+	display: none;
+}*/

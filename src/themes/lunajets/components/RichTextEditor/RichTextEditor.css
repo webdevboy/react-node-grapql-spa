@@ -1,0 +1,41 @@
+@import '../variables.css';
+.editor {
+  background-color: var(--pale);
+  flex: 1 0;
+  cursor: text;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+
+  :global {
+    .megadraft {
+      margin: 40px;
+      padding: 40px 90px;
+      min-width: 80%;
+    }
+	.megadraft-editor {
+		min-width: 500px;
+	}
+
+    .paragraph {
+      margin-top:10px;
+      line-height: 32px;
+      font-size: 18px;
+      font-weight: 200;
+      color: var(--corporate-blue);
+      font-family: 'ITC Conduit W01', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: 'ITC Conduit W01', sans-serif;
+      font-style: normal;
+      color: var(--corporate-blue);
+    }
+  
+  }
+}

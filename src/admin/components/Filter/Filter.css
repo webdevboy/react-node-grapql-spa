@@ -1,0 +1,24 @@
+.btn {
+  background: rgba(255,255,255,0.05) !important;
+  box-shadow: 'inset 0 0 0px 1px rgba(255,255,255,.05)' !important;
+  margin: 0 10px;
+  
+  &.isActive {
+    background:#0093ff !important;
+
+    * {
+      color: #fff !important;
+    }
+  }
+  
+}
+
+:global {
+  .pt-tooltip-inside {
+    span:not(.pt-icon) {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

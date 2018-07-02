@@ -1,0 +1,6 @@
+query getRichTextTranslations($locale: String!) {
+  intl: getRichTextTranslations(locale: $locale) {
+    id: message_id
+    translation
+  }
+}

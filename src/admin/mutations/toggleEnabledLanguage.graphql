@@ -1,0 +1,6 @@
+mutation($id:ID!, $enabled:Boolean!) {
+  language: toggleEnabledLanguage(id: $id, enabled: $enabled) {
+    id
+    enabled
+  }
+}

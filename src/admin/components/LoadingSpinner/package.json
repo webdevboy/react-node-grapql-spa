@@ -1,0 +1,6 @@
+{
+  "name": "loading-spinner",
+  "main": "LoadingSpinner.js",
+  "displayName": "LoadingSpinner",
+  "private": true
+}

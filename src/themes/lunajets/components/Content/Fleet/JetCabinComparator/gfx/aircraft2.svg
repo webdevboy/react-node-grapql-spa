@@ -1,0 +1,24 @@
+
+<svg width="588px" height="441px" viewBox="0 0 588 441" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M82.0366369,440.022029 C31.2352524,393.307058 0,329.809339 0,259.855529 C0,116.341283 131.46565,0 293.636748,0 C455.807845,0 587.273495,116.341283 587.273495,259.855529 C587.273495,329.809339 556.038243,393.307058 505.236858,440.022029 L82.0366369,440.022029 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D---D30---Jet-comparator" transform="translate(-158.000000, -4057.000000)">
+            <g id="Group-8" transform="translate(158.000000, 3913.000000)">
+                <g id="Group-2" transform="translate(0.000000, 11.000000)">
+                    <g id="Group-12-Copy" transform="translate(0.000000, 133.000000)">
+                        <g id="Path">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <path stroke="#3E5970" stroke-width="7" d="M83.4061502,436.522029 L503.867345,436.522029 C554.845391,389.180395 583.773495,326.520192 583.773495,259.855529 C583.773495,118.375991 453.963625,3.5 293.636748,3.5 C133.30987,3.5 3.5,118.375991 3.5,259.855529 C3.5,326.520192 32.4281044,389.180395 83.406181,436.522029 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

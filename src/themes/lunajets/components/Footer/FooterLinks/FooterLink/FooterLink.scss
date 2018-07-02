@@ -1,0 +1,48 @@
+@import "../../../variables.css";
+.link-wrap {
+  .link-title {
+    color: #838383;
+    font-size: 20px;
+    padding: 12px 0;
+  }
+
+  .link-list {    
+  }  
+  
+}
+ul {
+  list-style-type: none;
+  font-size: 14px;
+  padding-left: 0;
+  margin: 0;
+
+  li {
+    padding: 6px 0;
+    a {
+      text-decoration: none;
+      color: #929292;
+    }
+  }
+}
+ul {
+  list-style-type: none;
+  font-size: 14px;
+  padding-left: 0;
+  margin: 0;
+
+  li {
+    padding: 6px 0;
+    a {
+      text-decoration: none;
+      color: #929292;
+    }
+  }
+}
+.add-link {
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+}
+.remove-link{
+  margin-left: 25px;
+}

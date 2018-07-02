@@ -1,0 +1,5 @@
+{
+    "name": "corporate-list",
+    "main": "PartnerList.js",
+    "private": true
+}

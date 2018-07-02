@@ -1,0 +1,29 @@
+@import "../../../variables.css";
+
+.jet-info {
+  padding-bottom: 5px;
+
+  span {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 1.25rem;
+  }
+
+  .jet-info-label {
+    color: var(--dark-blue);
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+
+  .value {
+    color: var(--corporate-blue);
+    font-weight: 300;
+
+    .flag {
+      margin-left: 10px;
+    }
+  }
+}
+
+.btn-book-now {
+  align-self: center;
+}

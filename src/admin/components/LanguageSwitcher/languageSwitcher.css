@@ -1,0 +1,18 @@
+:global {
+	.dropdown {
+		
+		padding: 0px;
+		.dropdown-toggle {
+			display: flex;
+			align-items: center;
+			.famfamfam-flags {
+				margin-right: 5px;
+			}
+		}
+	}
+}
+
+.span{
+	color: white;
+	padding: 5px 10px;
+}

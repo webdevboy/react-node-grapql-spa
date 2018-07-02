@@ -1,0 +1,108 @@
+@import "../../../variables.css";
+
+.list-container {
+  margin: 0;
+  color: var(--dark-blue);
+  font-family: "ITC Conduit W01", sans-serif;
+
+  .list-content {
+    padding: 0 !important;
+
+    .li-grey-bg {
+      background: #d7d6d5;
+    }
+
+    .tr-grey-bg {
+      background: #e2e2e1;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      flex-direction: column;
+      padding: 20px;
+
+      .titleText {
+        text-align: center;
+        font-weight: 500;
+        font-size: 2.0rem;
+        margin: 15px 0 10px 0;
+      }
+    
+      .text {
+        font-weight: 300;
+        font-size: 1.1rem;
+      }
+
+      .listTxt-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .team-image {
+        background: url("./gfx/team.png") no-repeat center;
+        display: inline-block;
+        position: relative;
+        width: 20%;
+        padding-bottom: 23%;
+        background-size: 100%;
+      }
+
+      .service-image {
+        background: url("../../../../templates/home/gfx/service.svg") no-repeat center;
+        display: inline-block;
+        position: relative;
+        width: 23%;
+        padding-bottom: 23%;
+        background-size: 100%;
+      }
+
+      .benefit-image {
+        background: url("./gfx/benefit.png") no-repeat center;
+        display: inline-block;
+        position: relative;
+        width: 20%;
+        padding-bottom: 23%;
+        background-size: 100%;
+      }
+
+      ul {
+        list-style-type: disc;
+      }
+    }
+  }
+}
+
+@media (max-width: 998px) {
+  .list-container {
+    margin: 0;
+
+    .list-content {
+      padding: 0;
+
+      .content {
+        .titleText {
+          font-size: 2.0rem;          
+          margin-bottom: 0;
+        }
+
+        .text {
+          font-size: 1.0rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .li-grey-bg, .tr-grey-bg {
+    height: 400px
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1300px) {
+  .li-grey-bg, .tr-grey-bg {
+    height: 450px
+  }
+}

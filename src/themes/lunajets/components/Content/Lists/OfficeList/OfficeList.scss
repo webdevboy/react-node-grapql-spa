@@ -1,0 +1,11 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.root {
+  h2 {
+    font-size: 80px;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
+  }
+}

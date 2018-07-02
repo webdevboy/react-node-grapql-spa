@@ -1,0 +1,9 @@
+query($language_id: ID!) {
+  availablePathPosts: getPosts(type: "page", language_id: $language_id) {
+    ... on PostInterface {
+      id
+      slug
+      meta
+    }
+  }
+}

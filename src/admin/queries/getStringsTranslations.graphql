@@ -1,0 +1,10 @@
+query($locale: String) {
+  strings: getStringsFromLanguage(locale: $locale) {
+    id
+    message_id
+    description
+    defaultMessage
+    translation,
+    url
+  }
+}

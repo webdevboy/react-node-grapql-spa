@@ -1,0 +1,16 @@
+query($message_id: String!, $locale: String!, $translation: String!, $defaultMessage: String!, $url: String!) {
+  translation: addTranslation(
+    message_id: $message_id
+    locale: $locale
+    translation: $translation
+    defaultMessage: $defaultMessage
+    url: $url
+  ) {
+    id
+    message_id
+    description
+    defaultMessage
+    translation
+    url
+  }
+}

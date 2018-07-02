@@ -1,0 +1,5 @@
+{
+	"name": "page_article-details",
+	"main": "index.js",
+	"private": true
+}

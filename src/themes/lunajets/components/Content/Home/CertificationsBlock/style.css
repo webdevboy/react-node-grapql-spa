@@ -1,0 +1,20 @@
+.certifications {
+  --bg-img-url: url("https://s3-eu-west-1.amazonaws.com/upgrade-it-lab/AIRCR.png");
+
+  background-image: var(--bg-img-url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.certificationInspection {
+  font-size: 24px;
+  font-family: "ITC Conduit W01", sans-serif;
+  line-height: 34px;
+  color: #fff;
+  text-align: right;
+
+  @media (max-width: 992px) {
+    text-align: left;
+  }
+}

@@ -1,0 +1,59 @@
+/*@import '../../../../../styles/fieldInputs.css';*/
+
+.container{
+    float: left;
+    width: 100%;
+}
+.content{
+    color: white;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table td{
+    border-bottom: 1px solid #313D4F;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.table thead th{
+    vertical-align: middle;
+    color: #b2b9c4;
+    font-size: 14px;
+    border: none;
+}
+
+td{
+    font-size: 14px;
+}
+
+.table-avatar{
+}
+
+tr.active{
+    background-color: #FF5300;
+    border: 1px solid #FF7735;
+}
+
+tbody > tr:hover{
+    background-color: #FF5300;
+}
+
+span{
+
+}
+
+.price{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.flag{
+    height: 20px;
+    margin: 0px 5px;
+}

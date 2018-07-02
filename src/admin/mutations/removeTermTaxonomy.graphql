@@ -1,0 +1,8 @@
+mutation($id: ID,$name: String) {
+  remove: removeTermTaxonomy(id: $id, name: $name) {
+    id
+    ids
+    rows
+  }
+}
+

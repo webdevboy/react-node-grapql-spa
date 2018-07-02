@@ -1,0 +1,624 @@
+@import "../../components/variables.css";
+
+.content {
+  min-height: calc(100vh - 229px - 4.5rem);
+}
+
+.arrow-right{
+  cursor: pointer;
+}
+
+.container {
+  min-height: calc(100vh - 296px);
+  
+  @media screen and (max-width: 480px) {
+    & {
+      min-height: calc(100vh - 60px - 240px - 1rem);
+    }
+  }
+
+  @media screen and (max-width: 384px) {
+    & {
+      min-height: calc(100vh - 60px - 263px - 1rem);
+    }
+  }
+}
+
+.sidebar {
+  .sidenav {
+    .icon {
+      float: left;
+      text-indent: 0;
+      margin-left: 20px;
+      width: 25px;
+    }
+
+    :global {
+      .nav-link {
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+        height: 58px;
+        text-indent: 40px;
+        font-size: 18px;
+        font-family: "ITC Conduit W01", sans-serif;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--dark-blue);
+
+        > div {
+          display: flex;
+          align-items: center;
+        }
+
+        &.active {
+          background: none;
+
+          > div {
+            z-index: 1;
+          }
+
+          &:before {
+            width: 100%;
+            background: #fff;
+            content: "";
+            height: 58px;
+            position: absolute;
+            right: 0;
+            z-index: 0;
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+          }
+
+          &:after {
+            content: "";
+            background: var(--dark-blue);
+            width: 5px;
+            height: 58px;
+            position: absolute;
+            left: 0;
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 60px;
+
+    .label {
+      font-family: "FuturaLTPro-MediumOblique", sans-serif;
+      text-transform: uppercase;
+      font-size: 24px;
+      color: var(--dark-blue);
+    }
+
+    .title {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: var(--dark-blue);
+      font-size: 30px;
+    }
+  }
+
+  .mobile {
+    :global {
+      .nav-link {
+        flex: 2;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+
+        &.active {
+          border-bottom: 2px solid #fff;
+          border-radius: 0;
+        }
+
+        .d-flex {
+          height: 45px;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+    }
+
+    .text {
+      font-size: 12px;
+      color: #fff;
+      font-family: "ITC Conduit W01", sans-serif;
+    }
+  }
+}
+
+.dashboard {
+  background: white;
+
+  :global {
+    .nav-tabs {
+      border: 0 !important;
+    }
+
+    .nav-item {
+      flex: 1;
+    }
+
+    .nav-link {
+      border-top: 0 !important;
+      border-left: 0 !important;
+      border-right: 0 !important;
+      border-bottom: 4px solid transparent !important;
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      height: 70px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--light-blue);
+
+      &.active {
+        border-color: var(--dark-blue) !important;
+        color: var(--dark-blue);
+      }
+
+      @media screen and (max-width: 768px) {
+        & {
+          font-size: 16px;
+          height: 45px;
+        }
+      }
+    }
+  }
+
+  .section2 {
+    border-top: 2px solid var(--light-grey);
+    border-bottom: 2px solid var(--light-grey);
+
+    .distance,
+    .time {
+      border-right: 2px solid var(--light-grey);
+      justify-content: space-evenly;
+    }
+
+    .distance-title,
+    .time-title {
+      font-size: 20px;
+    }
+
+    .distance-value,
+    .time-value {
+      font-size: 20px;
+    }
+
+    .unit {
+      font-size: 14px;
+      color: #a7a7a7;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+
+      .time {
+        border-right: 0;
+      }
+
+      .distance,
+      .time {
+        border-bottom: 2px solid var(--light-grey);
+        min-height: 100px;
+      }
+    }
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+  }
+
+  .advisor-section {
+    @media screen and (max-width: 768px) {
+      & {
+        text-align: left !important;
+      }
+    }
+  }
+}
+
+.myflights {  
+  font-family: "ITC Conduit W01", sans-serif;
+
+  :global {
+    .nav-tabs {
+      border: 0 !important;
+    }
+
+    .nav-item {
+      flex: 1;
+      background: white;
+    }
+
+    .nav-link {
+      border-top: 0 !important;
+      border-left: 0 !important;
+      border-right: 0 !important;
+      border-bottom: 4px solid transparent !important;
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      height: 70px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--light-blue);
+
+      &.active {
+        border-color: var(--dark-blue) !important;
+        color: var(--dark-blue);
+      }
+
+      @media screen and (max-width: 768px) {
+        & {
+          font-size: 16px;
+          height: 45px;
+        }
+      }
+    }
+  }
+  .flights-container{
+    background: white;
+    min-height: 200px;
+  }
+  .view-detail-container{
+    width: 100%;
+    .detail-content{
+      margin-left: 3.5em;
+      margin-right: 3.5em;
+      @media (max-width: 768px){
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  .detail-routes{
+    background: #3e5970;    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+  }
+
+  .aircraft {
+    width: 100%;
+    height: 245px;
+    font-size: 0.8em;
+    @media (max-width: 768px) {
+      height: 120px;
+    }
+    .aircraft-info-container{
+      background-color: #faf7f6;
+      color: grey;
+      padding-left: 10px;
+      width: 180px;
+
+      .sub-title{
+        font-family: "ITC Conduit W01", sans-serif;
+        font-size: 16px;
+        padding-bottom: 5px;        
+      }
+    }
+    .slider-container{      
+      padding: 0px;
+      width: 100%;
+      .aircraft-img-container{
+        img{
+          margin: 0px;
+          width: 100%;
+          height: 100%;        
+        }
+      }
+      @media (min-width: 576px) {
+        width: calc(100% - 180px);
+      }
+    }    
+    span{
+      font-family: sans-serif;      
+    }
+  }
+
+  .flights{
+    .left-border{
+      width: 10px;
+      background-color: 'red';
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .right-button{
+      background-color: 'red';
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      color: white;
+    }
+  }
+  .sub-title{
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 1.5rem;
+    color: var(--dark-blue);
+    border-bottom: 1px solid #b6cada;
+  }
+
+  .handling {
+    color: var(--dark-blue);
+    word-break: break-all;   
+
+    @media (max-width: 768px){
+      font-size: 14px;
+      .sub-title{
+        color: #b6cada;
+        font-size: 18px;
+      }
+    }
+
+    .handling-item{      
+      justify-content: space-between;
+      font-size: 1em;
+
+      &>span{
+        width: 25%;        
+      }
+      .access-map{
+        max-width: 9.5em;
+        .access-map-button{
+          font-size: 1em;
+          color: white;
+          background-color: #b6cada;
+          padding: 2px;
+          max-width: 120px;
+          text-transform: none;
+          margin-left: auto;
+          border-radius: 2px!important;
+          @media (max-width: 768px) {
+            height: 20px;
+          }
+        }
+      }
+    }
+    
+  }
+
+  .documents{    
+    .link-button-container{
+      flex-wrap: wrap;
+      .link-button {
+        height: 45px;
+        font-size: 1.1rem;
+        min-width: 170px;
+        max-width: 500px;
+        margin: 2px;
+        border-radius: 3px!important;
+        @media (max-width: 768px){
+          height: 30px;
+          font-size: 16px;
+          font-weight: normal!important;
+        }
+      }      
+    }
+
+    @media (max-width: 768px){
+      .sub-title{
+        color: #b6cada;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .book-again-hr{
+    width: 100%;
+    border-top: 1px solid #b6cada;
+  }
+
+  .book-again-button{
+    color: white;
+    background-color: var(--light-red);
+    border-radius: 3px!important;
+    width: 100%;
+    height: 60px;
+    max-width: 24em;
+    font-size: 1em;
+    @media (max-width: 768px){      
+      .sub-title{
+        color: #b6cada;
+        font-size: 2em;
+      }
+    }
+  }
+
+}
+
+:global {
+  .slick-slider{
+    height: 100%;
+  }
+  .slick-list{
+    width: 100%;
+    height: 100%;
+  }
+  .slick-track, .slick-slider, .slick-slide{
+    height: 100%;
+  }  
+  .slick-dots {
+    bottom: 5px!important;
+    li {      
+      button {  
+        &:before {          
+          font-size: 36px!important;
+          opacity: 1!important;
+          color: white!important;          
+        }
+      }
+      &.slick-active {
+        button {
+          &:before {          
+            color: red!important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.message {  
+  font-family: sans-serif;
+  
+  .flights-container{
+    background: white;
+    min-height: 200px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    @media (max-width: 768px){
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .sub{
+    font-style: italic;
+    color: #afafaf;
+  }
+
+  .detail-routes{
+    font-family: "ITC Conduit W01", sans-serif;
+    color: white;
+    background: #3e5970;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+    .detail-routes-date{
+      width: 160px;
+      font-size: 1em;
+      line-height: 1.2;
+    }
+  }
+
+  .request-container{
+    margin-left: 1.5em;
+    @media (max-width: 768px){
+      margin-left: 15px;
+    }
+    .request{
+      font-family: "ITC Conduit W01", sans-serif;
+      color: var(--dark-blue);
+      border: 1px solid var(--light-grey);
+      border-left: 7px solid var(--light-red);
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      padding-left: 15px;
+      width: 60%;
+      min-width: 300px;
+      @media (max-width: 768px){
+        border-left-width: 3px;
+      }
+      .request-received{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 18px;
+        .request-received{
+          font-size: 16px;
+          font-weight: 500;
+        }
+        .from-customer{
+          font-size: 14px;
+        }
+      }
+  
+      .btn-new{      
+        display: flex;
+        font-size: 0.8em;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 63px;
+        width: 50px;
+        background-color: var(--light-red);
+        color: white;
+        cursor: pointer;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        margin-right: 0px;
+        margin-left: auto;      
+        img{
+          width: 20px;
+        }
+        @media (max-width: 768px){
+          height: 45px;
+          width: 38px;
+        }
+      }        
+    }
+  } 
+
+  .reply-container{    
+    color: var(--dark-blue);
+    font-family: "ITC Conduit W01", sans-serif;    
+    .reply-header{
+      color: white;
+      background: #3e5970;
+      font-size: 24px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .message-content{
+      background: white;
+    }
+  }
+
+  .message-container{
+    font-size: 14px;
+    background-color: #faf7f6;
+    .sub{
+      font-style: italic;
+      color: #afafaf;      
+    }
+
+    .send-button{
+      max-width: 180px;
+      height: 50px;
+      font-size: 18px;
+      margin-left: auto;
+      margin-right: 5px;
+      padding: 10px;
+      border-radius: 3px!important;      
+    }
+    .message-text{
+      position: relative;
+      textarea{
+        padding: 15px 40px;
+        font-size: 14px;
+      }
+      .paper-clip-icon{
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+      }
+      .plus-icon{
+        position: absolute;
+        left: 5px;
+        top: 15px;        
+      }
+      .send-icon{
+        position: absolute;
+        bottom: 5px;
+        right: 10px;
+        transform: rotate(45deg);
+      }
+    }      
+  }
+}

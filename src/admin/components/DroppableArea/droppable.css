@@ -1,0 +1,30 @@
+.rootDroppable {
+	position: relative;
+    display: block;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.droppable {
+	height: inherit;
+    width: 100%;
+    min-height: inherit;
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+}
+
+.droppable.isOver {
+	min-height: 50px;
+    height: 100%;
+}
+
+.isOver {
+	box-shadow:  inset 0px 0px 8px 0px black;
+}
+
+.isOver.canDrop {
+	box-shadow: inset 0 0 0 2px #16CC73;
+}
+

@@ -1,0 +1,14 @@
+query($query: UserQueryType, $pagination: Pagination) {
+  users: getUsers(query: $query, pagination: $pagination) {
+    id
+    email
+    first_name
+    last_name
+    last_login
+    avatar_path
+    role {
+      id
+      name
+    }
+  }
+}

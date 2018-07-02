@@ -1,0 +1,6 @@
+mutation($id: ID!) {
+  remove: removeEmailTemplateTranslation(id: $id) {
+    id
+    rows
+  }
+}

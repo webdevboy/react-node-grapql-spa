@@ -1,0 +1,20 @@
+.account-details-root {
+  .title {
+    position: relative;
+    text-align: center;
+    color: var(--corporate-blue);
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .title {
+      text-align: left;
+      font-size: 22px;
+    }
+  }
+
+}
+

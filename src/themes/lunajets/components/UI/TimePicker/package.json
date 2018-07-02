@@ -1,0 +1,5 @@
+{
+  "name": "Time Picker",
+  "main": "TimePicker.js",
+  "private": true
+}

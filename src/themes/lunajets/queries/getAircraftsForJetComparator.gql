@@ -1,0 +1,31 @@
+query($category_sfids: [String], $manufacturer_sfids: [String], $language_id: ID, $search: String) {
+  posts: getAircraftPostsByCategoryManufacturer(category_sfids: $category_sfids, manufacturer_sfids: $manufacturer_sfids, language_id: $language_id) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      media {
+        id
+        src
+      }
+      ...on Aircraft{
+        details
+      }
+    }
+  }
+  categories: getSFAircraftsCategories(search: $search) {
+    sfid
+    name
+  }
+
+  manufacturers: getSFAircraftManufacturers(search: $search) {
+    sfid
+    name
+  }
+}

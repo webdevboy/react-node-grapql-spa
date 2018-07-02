@@ -1,0 +1,9 @@
+query getTranslations($locale: String!) {
+  intl: getTranslations(locale: $locale) {
+    id: message_id
+    defaultMessage
+    description
+    translation,
+    url
+  }
+}

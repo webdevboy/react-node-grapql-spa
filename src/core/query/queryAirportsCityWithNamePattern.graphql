@@ -1,0 +1,12 @@
+query($name: [String]) {
+  airports: getAirportsCityWithNamePattern(name:$name){
+    full_name
+    name
+    iata
+    icao
+    city {
+      id
+      name
+    }
+  }
+}

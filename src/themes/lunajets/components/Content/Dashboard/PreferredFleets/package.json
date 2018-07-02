@@ -1,0 +1,6 @@
+{
+	"name": "PreferredFleets",
+	"main": "PreferredFleets.js",
+	"displayName": "PreferredFleets",
+	"private": "true"
+}

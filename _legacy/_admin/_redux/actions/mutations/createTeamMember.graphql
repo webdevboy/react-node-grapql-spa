@@ -1,0 +1,11 @@
+mutation createTeamMember($id: ID,$first_name: String, $last_name: String, $email: String, $title: String, $bio: String, $visible: Boolean, $override: Boolean){
+  createTeamMember(id: $id, first_name: $first_name, last_name: $last_name, email: $email, title: $title, bio: $bio, visible: $visible, override: $override ){
+    first_name
+    last_name
+    email
+    title
+    bio
+    visible
+    override
+  }
+}

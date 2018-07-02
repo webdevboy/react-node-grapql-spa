@@ -1,0 +1,18 @@
+query($taxonomies: [String], $language_id: ID) {
+  taxonomies: getTaxonomies(taxonomies: $taxonomies, language_id: $language_id) {
+    id
+    taxonomy
+    term {
+      id
+      name
+      slug
+	  meta
+      language{
+        id
+        locale
+        language
+      }
+    }
+    parent_id
+  }
+}

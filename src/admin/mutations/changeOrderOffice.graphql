@@ -1,0 +1,5 @@
+mutation($id: ID!, $order: Int!) {
+  office: changeOrderOffice(id: $id, order: $order) {
+    id
+  }
+}

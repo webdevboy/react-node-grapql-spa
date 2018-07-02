@@ -1,0 +1,10 @@
+.column {
+	min-height: 100%;
+	width: 100%;
+	display: inline-flex;
+	flex: 1;
+	flex-direction: column;
+	position: relative;
+	background: grey;
+	margin: 0 10px;
+}

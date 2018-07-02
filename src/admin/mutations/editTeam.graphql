@@ -1,0 +1,8 @@
+mutation($name: String!, $description: String!, order: Int) {
+  team: editTeam(name: $name, description: $description, order: $order) {
+    id
+    name
+    description
+    order
+  }
+}

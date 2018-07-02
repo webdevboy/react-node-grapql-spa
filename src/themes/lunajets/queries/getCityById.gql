@@ -1,0 +1,11 @@
+query($sf_id: String, $sfids: [String]) {
+    city: getCities(sf_id: $sf_id, sfids: $sfids) {
+        name
+        sfid
+        coordinates
+        country{
+          name
+          countryCode
+        }
+    }
+}

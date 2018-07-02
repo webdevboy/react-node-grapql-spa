@@ -1,0 +1,3 @@
+query($pathUrl: JSON!, $language_id: ID!, $old_language_id: ID!) {
+  pathUrl:getPostEquivalentParent(pathUrl: $pathUrl,language_id: $language_id,old_language_id: $old_language_id ) 
+}

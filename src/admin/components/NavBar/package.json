@@ -1,0 +1,7 @@
+{
+	"name": "Navigation Bar",
+	"Version": "0.0.1",
+	"private": true,
+	"main": "NavBar.js",
+	"category": "Navigation" 
+}

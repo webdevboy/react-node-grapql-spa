@@ -1,0 +1,27 @@
+query($slugs: [String], $language_id: ID, $ids: [String], $type: String, $pagination: Pagination, $template: String, $parentId: String) {
+  posts: getPostsByTemplate(slugs: $slugs, language_id: $language_id, ids: $ids, type: $type, pagination: $pagination, template: $template, parentId: $parentId) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      media {
+        id
+        src
+      }
+      body
+      language {
+        id
+        locale
+      }
+      city {
+        name
+      }
+    }
+  }
+}

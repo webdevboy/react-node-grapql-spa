@@ -1,0 +1,51 @@
+query($id: ID!, $language_id: ID!) {
+  event: getEvent(id: $id, language_id: $language_id) {
+    id
+    body
+    summary
+    title
+    created_at
+    published
+    from_date
+    until_date
+    event_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    language {
+      id
+    }
+    city {
+      name
+      sfid
+      airports {
+        sfid
+        full_name
+        name
+        icao
+        time_to_utc
+        iata
+        helipad
+        coordinates
+        distance
+      }
+      coordinates
+      recommendedAirports
+      country {
+        countryCode
+        name
+      }
+    }
+    media {
+      src
+      thumbnail
+      filename
+      mimetype
+    }
+    url
+    display_helicopter_transfer
+  }
+}

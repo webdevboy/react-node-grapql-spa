@@ -1,0 +1,6 @@
+{
+	"name": "map-list-airport",
+	"main": "MapListAirport.js",
+	"displayName": "MapListAirport",
+	"private": true
+}

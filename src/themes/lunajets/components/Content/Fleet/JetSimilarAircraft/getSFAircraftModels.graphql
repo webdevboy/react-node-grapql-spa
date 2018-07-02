@@ -1,0 +1,21 @@
+query($sfid: [ID]) {
+  sfAircraftModels: getSFAircraftsByIds(sfid: $sfid) {
+    sfid
+    name
+    cabin_width
+    cabin_height
+    cabin_length
+    luggage_m3
+    luggage_small
+    luggage_standard
+    speed
+    range
+    seats
+    category {
+      name
+    }
+    manufacturer {
+      name
+    }
+  }
+}

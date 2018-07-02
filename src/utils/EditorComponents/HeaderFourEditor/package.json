@@ -1,0 +1,6 @@
+{
+	"name": "HeaderFourEditor",
+	"main": "HeaderFourEditor.js",
+	"displayName": "HeaderFourEditor",
+	"private": true
+}

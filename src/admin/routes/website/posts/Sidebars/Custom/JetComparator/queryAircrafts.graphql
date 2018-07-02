@@ -1,0 +1,9 @@
+query($language_id: ID!) {
+  posts: getPostsByType(type: "aircraft", language_id: $language_id, limit: 9) {
+    ... on PostInterface {
+      id
+      post_id
+      title
+    }
+  }
+}

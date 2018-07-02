@@ -1,0 +1,10 @@
+{
+  aws:getAWS {
+    option
+    value
+  }
+  smtp:getSMTP {
+    option
+    value
+  }
+}

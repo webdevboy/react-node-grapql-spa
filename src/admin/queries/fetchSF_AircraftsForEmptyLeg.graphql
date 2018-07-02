@@ -1,0 +1,17 @@
+query($search: String, $limit: Int) {
+  aircrafts: getSFAircraftsForEmptyLeg(search: $search, limit: $limit) {
+    sfid
+    name
+    cabin_width
+    cabin_height
+    cabin_length
+    luggage_m3
+    luggage_small
+    luggage_standard
+    speed
+    range
+    seats
+    category: category_id
+    manufacturer: manufacturer_id
+  }
+}

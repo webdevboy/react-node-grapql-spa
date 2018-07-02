@@ -1,0 +1,41 @@
+.gallery-wrap {
+  overflow-y: scroll;
+  height: calc(100% - 60px);
+
+  :global {
+    .not-selected:hover {
+      outline: 2px dashed #06befa;
+    }
+  }
+}
+
+.gallery-btn-group {
+  position: absolute;
+  background-color: rgba(48, 64, 77, 0.98);
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 0 10px 20px 0;
+  text-align: right;
+
+  button {
+    margin: 0 10px;
+    min-width: 100px;
+    border-radius: 3px;
+    font-weight: 500;
+
+    &.gallery-btn-ok {
+      color: #3e5970;
+    }
+
+    &.gallery-btn-cancel {
+      color: grey;
+    }
+
+    &:hover {
+      background-color: #3e5970;
+      color: white;
+      box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
+    }
+  }
+}

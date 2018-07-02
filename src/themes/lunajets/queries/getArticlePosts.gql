@@ -1,0 +1,118 @@
+query($limit: Int, $year: Int, $month: Int, $categories: [String], $language_id: String, $term_name: String) {
+  getArticlePosts(limit: $limit, year: $year, month: $month, categories: $categories, language_id: $language_id, term_name: $term_name) {
+    posts {
+      __typename
+        ... on PostInterface {
+        id
+        slug
+        post_id
+        summary
+        publish_at
+        title
+        type
+        meta
+        media {
+          id
+          src
+        }
+        body
+        language {
+          locale
+        }
+    	}
+
+      __typename
+       ... on Article {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+
+      __typename
+       ... on Article {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+
+      __typename
+       ... on Aircraft {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+
+      __typename
+       ... on Destination {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+
+      __typename
+       ... on Event {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+
+      __typename
+       ... on Office {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+
+      __typename
+       ... on Page {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+
+      __typename
+       ... on TeamMember {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+    }
+    term {
+      id
+      name
+      slug
+    }
+  }
+}

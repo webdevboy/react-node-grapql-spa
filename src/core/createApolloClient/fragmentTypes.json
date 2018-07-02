@@ -1,0 +1,45 @@
+{
+  "__schema": {
+    "types": [
+      { "kind": "UNION", "name": "Login", "possibleTypes": [{ "name": "AccountLogin" }, { "name": "UserLogin" }] },
+      {
+        "kind": "UNION",
+        "name": "Post",
+        "possibleTypes": [
+          { "name": "Page" },
+          { "name": "Article" },
+          { "name": "Event" },
+          { "name": "Destination" },
+          { "name": "Aircraft" },
+          { "name": "TeamMember" },
+          { "name": "Partner" },
+          { "name": "Review" },
+          { "name": "Office" },
+          { "name": "Service" },
+          { "name": "Airport" },
+          { "name": "Job" },
+          { "name": "History" }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "PostInterface",
+        "possibleTypes": [
+          { "name": "Page" },
+          { "name": "Article" },
+          { "name": "Event" },
+          { "name": "Destination" },
+          { "name": "Aircraft" },
+          { "name": "TeamMember" },
+          { "name": "Partner" },
+          { "name": "Review" },
+          { "name": "Office" },
+          { "name": "Service" },
+          { "name": "Airport" },
+          { "name": "Job" },
+          { "name": "History" }
+        ]
+      }
+    ]
+  }
+}

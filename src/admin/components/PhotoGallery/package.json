@@ -1,0 +1,6 @@
+{
+	"name": "PhotoGallery",
+	"Version": "0.0.0",
+	"private": true,
+	"main": "PhotoGallery.js"
+}

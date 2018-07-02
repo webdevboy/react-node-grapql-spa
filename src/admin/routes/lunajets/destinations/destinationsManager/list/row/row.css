@@ -1,0 +1,61 @@
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
+.chat-container{
+    float: left;
+    width: 100%;
+}
+.content{
+    color: white;
+}
+
+.chat-avatar{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.chat-color{
+    width: 5px;
+    height: 20px;
+    background-color: #DBFF0E;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: left;
+}
+
+.table td{
+    border-bottom: 1px solid #313D4F;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.table thead th{
+    vertical-align: middle;
+    color: #b2b9c4;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+td{
+    font-size: 14px;
+}
+
+.table-avatar{
+}
+
+tr.active{
+    background-color: #FF5300;
+    border: 1px solid #FF7735;
+}
+
+tbody > tr:hover{
+    background-color: #FF5300;
+}
+

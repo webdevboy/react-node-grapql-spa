@@ -1,0 +1,48 @@
+{
+  events: getEvents {
+    id
+    body
+    summary
+    title
+    created_at
+    published
+    from_date
+    until_date
+    event_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    language {
+      id
+    }
+    city {
+      name
+      sfid
+      country {
+        countryCode
+        name
+      }
+    }
+    media {
+      src
+      thumbnail
+      filename
+      mimetype
+    }
+  }
+,articles: getArticles {
+  id,
+  title,
+  article_id,
+  summary,
+  media{
+    src
+    thumbnail
+    filename
+    extension
+  }
+}
+}

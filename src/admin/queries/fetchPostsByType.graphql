@@ -1,0 +1,45 @@
+query($type: String) {
+  posts: getPosts(type: $type) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      state
+      media {
+        id
+        src
+      }
+      body
+      language {
+        id
+        locale
+      }
+
+       ... on Article {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+       ... on Aircraft {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+    }
+  }
+}

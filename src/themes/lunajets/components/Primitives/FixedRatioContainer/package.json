@@ -1,0 +1,5 @@
+{
+    "name": "fixed-ratio-container",
+    "main": "FixedRatioContainer.js",
+    "private": true
+}

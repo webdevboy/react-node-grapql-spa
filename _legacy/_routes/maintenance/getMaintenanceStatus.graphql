@@ -1,0 +1,6 @@
+{
+  getSetting(option: "maintenance"){
+    option
+    value
+	}
+}

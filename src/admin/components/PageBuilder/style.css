@@ -1,0 +1,421 @@
+.builder {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 60px;
+  order: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  transition: all 600ms ease-in-out;
+
+  .properties {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &.open {
+    width: 260px;
+
+    .section {
+      display: flex;
+    }
+
+    .button {
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+
+      .icon {
+        margin-right: 10px;
+        margin-left: 5px;
+      }
+
+      .label {
+        visibility: visible;
+        opacity: 1;
+        display: inline-block;
+      }
+
+      &.action {
+        flex-direction: row;
+      }
+    }
+
+    .group {
+      width: 100%;
+
+      &.bottom {
+        align-items: flex-end;
+        max-height: 60px;
+
+        > * {
+          width: 100%;
+          margin: 0 5px;
+
+          &:nth-child(1) {
+            margin-left: 0 !important;
+          }
+
+          &:nth-last-child(1) {
+            margin-right: 0 !important;
+          }
+
+          :global {
+            .pt-popover-target {
+              display: flex;
+              width: 100%;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+
+          .action {
+            margin: auto
+          }
+        }
+      }
+
+      > * {
+        flex-direction: row;
+      }
+    }
+  }
+
+  .group {
+    width: 100%;
+    flex: 1 0;
+    justify-content: flex-start;
+
+    &.bottom {
+      flex: 1 0;
+      justify-content: flex-end;
+
+      .action {
+        margin-bottom: 0;
+        margin-top: 10px;
+      }
+    }
+
+    > * {
+      flex-direction: column;
+    }
+  }
+
+  .section {
+    background: rgba(138, 155, 168, 0.15);
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    transition: all 300ms ease;
+    padding: 10px;
+
+    .flexSquare {
+      justify-content: flex-start;
+      display: flex;
+      line-height: 30px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-left: -5px;
+      margin-right: -5px;
+      flex-wrap: wrap;
+      
+      .flexCell {
+        flex: 1 0 20%;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 50%;
+        margin: 5px !important;
+
+        
+        &:before {
+          content: '';
+          display: table;
+          padding-top: 20%;
+        }
+      }
+
+      .flexItem {
+        flex-grow: 1;
+        border-radius: 3px;
+
+        &:hover {
+          background-color: rgba(138, 155, 168, 0.15);
+          box-shadow: 0 0 8px 1px rgba(0,0,0,0.05)
+            0 2px 2px 1px rgba(0,0,0,0.1);
+        }
+
+        &.dragging {
+          background-color: #48aff0;
+        }
+
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+    }
+
+    .templates {
+      width: 100%;
+
+      .isActive {
+        background-color: #48aff0;
+      }
+
+      .flexItem:hover {
+        cursor: pointer;
+        background-color: #48aff0;
+      }
+
+      * {
+        outline: 0;
+      }
+    }
+
+    .components {
+      > ul > li {
+        margin-bottom: 10px;
+      }
+
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      * {
+        outline: 0;
+      }
+
+      .flexItem:hover {
+        cursor: grab;
+      }
+
+      .groupBtn {
+        width: 100%;
+        background: rgba(255,255,255,0.02)
+      }
+
+    }
+
+
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 40px;
+    outline: 0;
+
+    &.action {
+      .icon {
+        margin: auto !important;
+      }
+    }
+
+    &.isActive {
+      background: rgba(138, 155, 168, 0.15);
+    }
+
+    &.isSticky {
+      background: rgba(138, 155, 168, 0.15);
+      color: #2ea2f8;
+    }
+
+    &:hover {
+      * {
+        color: #2ea2f8;
+      }
+    }
+
+    .icon {
+      display: flex;
+    }
+
+    .label {
+      display: none;
+      visibility: hidden;
+      opacity: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      word-wrap: normal;
+      white-space: nowrap;
+      transition: opacity 600ms ease-out;
+    }
+  }
+}
+
+.editor {
+  flex: 1;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  background-color: #333;
+  width: 100%;
+  
+  .header {
+    flex: 0 0 50px;
+    max-height: 50px;
+    order: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+  }
+
+  .viewport {
+    position: relative;
+    flex: 1;
+    order: 1;
+    background: #fff;
+    width: 100%;
+    justify-content: center;
+
+    
+  }
+
+  .path {
+    flex: 1 0;
+    max-height: 40px;
+    order: 2;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+  }
+}
+
+.treeview {
+  width: 230px;
+  order: 2;
+  background: rgba(0,0,0,0.5);
+
+  :global {
+    .pt-icon-drag-handle-horizontal {
+      cursor: grab;
+    }
+  }
+
+  .isActive {
+    background-color: rgba(255,255,255,0.05);
+  }
+
+  .isOverNode {
+    box-shadow: inset 0 0 0 1px #48aff0;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.tooltip {
+  max-width: 380px;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+
+  .titleWrapper {
+    display: flex;
+    align-items: center;
+
+    > * {
+      margin-right: 15px;
+    }
+  }
+
+  .deviceButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    outline: 0;
+  }
+
+  .device {
+  }
+
+  .title {
+    margin: 0;
+  }
+}
+
+.droppable {
+  display: flex;
+  flex: 1;
+
+  &:hover {
+    box-shadow: inset 0 0 0 1px #48aff0 !important;
+  }
+}
+
+.hoverTitle {
+  position: absolute;
+  background: cornflowerblue;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  padding: 5px 10px;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+
+.rootDroppable {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+
+  &:hover {
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2) !important;
+  }
+} 
+
+.isOver {
+  position: relative !important;
+  box-shadow: inset 0 0 0 1px cornflowerblue !important;
+}
+
+.canDrop {
+  box-shadow: inset 0 0 0 1px limegreen !important;
+}
+
+.componentPreview {
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 30px;
+  min-width: 200px;
+}
+
+.sortable {
+  list-style: none;
+}
+

@@ -1,0 +1,6 @@
+query($search: String) {
+  categories: getSFAircraftsCategories(search: $search) {
+    sfid
+    name
+  }
+}

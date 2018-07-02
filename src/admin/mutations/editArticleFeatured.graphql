@@ -1,0 +1,29 @@
+mutation($article_id: String, $featured: Boolean) {
+  articles: setFeaturedArticle(article_id: $article_id, featured: $featured) {
+		id
+    title
+    body
+    summary
+    source
+    slug
+    publish_at
+    created_at
+    updated_at
+    tags
+    state
+    featured
+    article_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    category {
+      id
+    }
+    language {
+      id
+    }
+  }
+}

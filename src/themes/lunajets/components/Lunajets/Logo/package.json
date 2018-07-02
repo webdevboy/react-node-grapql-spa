@@ -1,0 +1,6 @@
+{
+	"name": "logo",
+	"main": "Logo.js",
+	"displayName": "Logo",
+	"private": true
+}

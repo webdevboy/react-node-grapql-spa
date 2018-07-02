@@ -1,0 +1,28 @@
+.event-recommended {
+  background-color: #faf7f6;
+
+  .event-recommended-title {
+    margin: 20px 0;
+  }
+
+  .map-container {
+    min-height: 300px;
+    margin-bottom: 20px;
+
+    .caption {
+      position: absolute;
+      padding: 15px;
+      background: #b5b5b5;
+      width: calc(100% - 30px);
+      bottom: 0;
+
+      .caption-location {
+        float: left;
+      }
+
+      svg {
+        float: right;
+      }
+    }
+  }
+}

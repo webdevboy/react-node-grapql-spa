@@ -1,0 +1,16 @@
+query($taxonomy: String, $language_id: ID) {
+  categories: getTermTaxonomiesByCategory(taxonomy: $taxonomy, language_id: $language_id) {
+    id
+    description
+    term {
+      id
+      name
+      slug
+      meta
+    }
+    parent{
+      id
+      name
+    } 
+  }
+}

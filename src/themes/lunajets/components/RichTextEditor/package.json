@@ -1,0 +1,6 @@
+{
+	"name": "RichTextEditor",
+	"main": "RichTextEditor.js",
+	"displayName": "RichTextEditor",
+	"private": "true"
+}

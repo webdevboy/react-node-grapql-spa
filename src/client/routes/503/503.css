@@ -1,0 +1,90 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+/* @import '../../components/variables.css'; */
+
+.root {
+  padding: 0;
+  margin: 0;
+  background-image: url(https://upgrade-it-lab.s3-eu-west-1.amazonaws.com/public/5f025b5135109f27a697a491ffc48d9e1507028770405.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 80px;
+}
+
+.fill {
+  background: #263d50;
+  opacity: 0.53;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  z-index: 9999;
+}
+
+.msgwrapper {
+  padding: 0 100px;
+}
+
+.mainaction {
+  margin: 80px 0;
+
+  a {
+    width: 300px;
+    padding: 10px;
+  }
+}
+
+.title {
+  color: #fff;
+  font-size: 270px;
+  text-shadow: 0 9px 15px rgba(0, 0, 0, 0.12);
+}
+
+.links {
+  display: flex;
+  margin-top: 20px;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    flex: 1;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.msg {
+  font-family: "FuturaLTPro-MediumOblique", sans-serif;
+  font-size: 27px;
+  color: #b6cada;
+
+  .errorcode {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+  }
+}

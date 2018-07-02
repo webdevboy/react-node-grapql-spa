@@ -1,0 +1,176 @@
+@import "../../../variables.css";
+
+.main {
+  background-position: center center;
+  background-color: rgba(62, 89, 112, 0.81);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1.5s linear;
+}
+
+.animated {
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+
+  from {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.trending-row-mobile {
+  :global {
+    .slick-slide {
+      padding: 0 10px;
+    }
+
+    .slick-list {
+      margin: 0 -10px;
+    }
+  }
+}
+
+.trendingLocation {
+  img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 24px;
+  min-height: 200px;
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px 0;
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}
+
+.events {
+  color: #fff;
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+
+  h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .eventlist {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+
+    li {
+      margin-left: 40px;
+      position: relative;
+
+      > div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    li.month {
+      &:nth-child(1) {
+        padding: 10px 0;
+      }
+
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: uppercase;
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        background: #000;
+        left: -24px;
+        height: 100%;
+        top: calc(25% + 22px);
+      }
+
+      &:after {
+        position: absolute;
+        content: "";
+        border-radius: 100%;
+        background: transparent;
+        left: -35px;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #000;
+      }
+    }
+
+    li.event {
+      padding: 10px 0;
+
+      &:nth-last-child(1) {
+        &:before {
+          height: 50%;
+        }
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        background: #000;
+        left: -24px;
+        height: 100%;
+        top: 6px;
+      }
+
+      &:after {
+        position: absolute;
+        content: "";
+        left: -29px;
+        width: 12px;
+        height: 12px;
+        z-index: 3;
+        top: 50%;
+        margin-top: -6px;
+        border-radius: 100%;
+        background: rgb(255, 255, 255);
+      }
+
+      .title {
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        color: white;
+      }
+
+      .date {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

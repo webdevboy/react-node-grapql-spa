@@ -1,0 +1,40 @@
+@import "../../../variables.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.releasediv {
+  background-color: white;
+  border-left: 10px solid var(--dark-red);
+  height: 60px;
+  display: grid;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+
+}
+
+@media (max-width: 500px) {
+  .releasediv {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 435px) {
+  .releasediv {
+    font-size: 13px;
+  }
+}
+
+.arrowicon {
+  position: absolute;
+  right: 5vh;
+  top: 0;
+  bottom: 0;
+  right: 5vh;
+  margin: auto;
+  display: grid!important;
+  align-items: center;
+  font-size: 30px;
+  color: var(--dark-red);
+}
+

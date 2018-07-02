@@ -1,0 +1,6 @@
+{
+	"name": "lunajets",
+	"main": "index.js",
+	"displayName": "lunajets",
+	"private": true
+}

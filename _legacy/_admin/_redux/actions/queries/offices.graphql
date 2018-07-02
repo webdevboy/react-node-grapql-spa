@@ -1,0 +1,16 @@
+{
+	getOffices{
+		id
+		name
+		address
+		postal_code
+		location
+		country
+		phone
+		alt_phone
+		fax
+		email
+		coordinates
+		primary
+	}
+}

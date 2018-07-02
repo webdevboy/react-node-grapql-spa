@@ -1,0 +1,6 @@
+{
+  "name": "Register",
+  "main": "Register.js",
+  "displayName": "Register",
+  "private": true
+}

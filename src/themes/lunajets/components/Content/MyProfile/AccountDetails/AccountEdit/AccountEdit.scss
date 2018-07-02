@@ -1,0 +1,212 @@
+.account-edit-root {
+  width: 100%;
+  padding: 15px 0;
+
+  .input-group {
+    width: 100%;
+    margin: 2px 0;
+    border: 1px solid var(--light-blue);
+    border-radius: 2px;
+    color: var(--corporate-blue);
+    font-family: "ITC Conduit W01", sans-serif;
+
+    .row {
+      display: flex;
+      width: 100%;
+      height: 35px;
+
+      .phone {
+        height: 100%;
+
+        :global {
+          .input-group-btn {
+            flex: 2;
+            height: 100%;
+          }
+          .dropdown-toggle:after {
+            font-size: 20px;
+            color: var(--light-blue);
+          }
+          .dropdown-menu {
+            width: calc( 100% + 12px );
+            top: -2px !important;
+            left: -11px !important;
+            border-radius: 0;
+            border-color: var(--light-blue);
+            font-size: 12px;
+            font-weight: 300;
+            max-height: 180px;
+            overflow-y: auto;
+            overflow-x: hidden;
+          
+            .dropdown-item {
+              color: var(--corporate-blue);
+              text-overflow: ellipsis;
+              overflow: hidden;
+            }
+          }
+        }
+        button {
+          background-color: white;
+          border: 0;
+          outline: none;
+          padding: 0;
+          margin: 0;
+          box-shadow: none;
+          height: 100%;
+        }
+        input{
+          flex: 12;
+          border: 0;
+          outline: 0;
+          padding: 0;
+          margin: 0;
+          box-shadow: none;
+        }
+      }
+
+      .select {
+        flex: 1;
+
+        :global {
+          .Select-placeholder, .Select--single > .Select-control .Select-value {
+            color: var(--light-grey);
+          }
+          .Select.is-focused > .Select-control {
+            outline: none;
+            box-shadow: none;
+
+            .Select-value-label {
+              color: var(--corporate-blue);
+              font-family: "ITC Conduit W01", sans-serif;
+            }
+          }
+          .Select-control {
+            border: none;
+            background-color: transparent;
+
+            .Select-value-label {
+              color: var(--corporate-blue);
+              font-family: "ITC Conduit W01", sans-serif;
+            }
+            .Select-arrow {
+              border-color: var(--light-blue) transparent transparent;
+            }
+          }
+
+          .Select-menu-outer {
+            left: -1px;
+            top: 35px;
+            width: calc( 100% + 2px );
+            color: var(--light-blue);
+            background-color: white;
+            z-index: 999;
+            border-radius: 0;
+            border-color: var(--light-blue);
+          }
+
+          .Select-option {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            margin: 0;
+            min-height: 30px;
+            color: var(--corporate-blue);
+            font-family: "ITC Conduit W01", sans-serif;
+          }
+        }
+      }
+      .input {
+        flex: 2;
+        padding-left: 10px;
+
+        input {
+          outline: none;
+          z-index: 1;
+          position: relative;
+          background: none;
+          width: 100%;
+          height: 100%;
+          border: 0;
+          color: #3e5970;
+          font-size: 16px;
+          font-weight: 400;
+
+          &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: var(--light-grey);
+            opacity: 1; /* Firefox */
+          }
+        }
+
+        &.is-error {
+          display: flex;
+          color: var(--dark-red);
+          input {
+            flex: 1;
+            color: var(--dark-red);
+  
+            &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+              color: var(--dark-red);
+              opacity: 1; /* Firefox */
+            }
+          }
+        }
+        .error {
+          flex: 1;
+          font-size: 12px;
+          line-height: 35px;
+        }
+      }
+      .r-border {
+        border-right: 1px solid var(--light-blue);
+      }
+      
+      &.b-border {
+        border-bottom: 1px solid var(--light-blue);
+      }
+    }
+  }
+
+  .buttons {
+    width: 100%;
+    margin-top: 10px;
+
+    .cp-button {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      width: 100%;
+      height: 45px;
+      color: var(--corporate-blue);
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      background-color: white;
+      box-shadow: 0px 1px 5px 0px rgba(158, 158, 158, 0.5);
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 18px;
+      padding-left: 10px;
+      cursor: pointer;
+
+      .text {
+        padding: 3px 0 0 10px;
+      }
+    }
+
+    .pt-button {
+      margin-top: 10px;
+      width: 100%;
+      height: 50px;
+      color: white;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      background-color: var(--light-red);
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}

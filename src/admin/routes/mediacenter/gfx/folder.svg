@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="310px" height="281px" viewBox="0 0 310 281" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>folder-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="folder-3" fill-rule="nonzero">
+            <path d="M260.944,29.491 L125.64,29.491 C125.64,29.491 107.316,0.497 96.646,0.497 L48.323,0.497 C37.653,0.497 28.994,9.147 28.994,19.826 L28.994,242.112 C28.994,252.782 37.653,261.441 48.323,261.441 L260.944,261.441 C271.614,261.441 280.273,252.782 280.273,242.112 L280.273,48.82 C280.273,38.15 271.614,29.491 260.944,29.491 Z" id="Shape" fill="#4A90E2"></path>
+            <polygon id="Shape" fill="#FFFFFF" points="28.994 58.484 280.344006 58.484 280.344006 135.801 28.994 135.801"></polygon>
+            <path d="M19.329,77.814 L289.938,77.814 C300.608,77.814 309.267,86.464 309.267,97.143 L289.938,261.441 C289.938,272.111 281.279,280.77 270.609,280.77 L38.658,280.77 C27.988,280.77 19.329,272.111 19.329,261.441 L0,97.143 C0,86.463 8.659,77.814 19.329,77.814 Z" id="Shape" fill="#4A90E2"></path>
+        </g>
+    </g>
+</svg>

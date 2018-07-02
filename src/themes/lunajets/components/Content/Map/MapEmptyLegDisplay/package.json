@@ -1,0 +1,6 @@
+{
+	"name": "map-empty-leg-display",
+	"main": "MapEmptyLegDisplay.js",
+	"displayName": "MapEmptyLegDisplay",
+	"private": true
+}

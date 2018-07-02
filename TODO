@@ -1,0 +1,98 @@
+Hoje (6/11/2017):
+  ✔ Adicionar Fly Now em Desktop na Top Nav Bar @today @done(17-11-06 14:49)
+  ✔ Esconder Fly Now em Desktop na Top Nav Bar @today @done(17-11-06 14:49)
+  ✔ Mostrar Fly Now dentro do Nav Bar Collapse Mobile @today @done(17-11-06 15:08)
+ 
+Homepage:
+  ✔ Header change height 600px @high @done(17-11-06 15:48)
+  ✔ Testimonials/Reviews fix quote font size/family, color and Font weight on date/from&to @today @done(17-11-06 15:32)
+  ✔ How it Works set max width (inside container) @today @done(17-11-06 15:25)
+  Everything should be containerized (inside max with when on desktop)
+  ✔ Fix height overflow on Certifications block for mobile @done(17-11-06 20:43)
+  ✔ Footer V5 Desktop @critical @done(17-11-06 20:43)
+  ☐ As Seen On remove coverflow, use 3 col carousell with bullets @high
+
+Request Flight:
+    ✔ Date Clickable anywhere inside white box @critical / Fix touch events for Date @low @done(17-11-09 20:33)
+    ✔ Used native date/time elements for the date input @done(17-11-09 20:35)
+    ✘ Date Time Material UI @high @cancelled(17-11-09 20:34)
+    ✘ Calendar Start on Monday @high @cancelled(17-11-06 15:46) // it changes based on languge
+    ✘ Pax Replace with increment/decrement !??? @high @cancelled(17-11-07 17:46)
+    ✔ Make Luggage clickable everywhere on label @high @done(17-11-07 17:06)
+  Step 1:
+      ✔ Do Everything ... @done(17-11-09 20:33)
+      ✔ validation before jumping to next step @high @done(17-11-10 20:15)
+  Step 2:
+      ✔ Phone Input Dial Prefix @high @done(17-11-09 20:34)
+      ✔ Fix Vertical Scroll issue on desktop @high @done(17-11-09 20:34)
+      ✔ validation before jumping to next step @high @done(17-11-10 20:15)
+      ✔ move the action request to the API endpoint to the redux actions @high @done(17-11-10 20:15)
+      ☐ Telephone input (when leaving form, the phone inputs resets to default), must add phone utils to state and bind them to input
+  Step 3:
+      ✔ Fix Vertical Scroll issue on desktop @high @done(17-11-09 20:34)
+  
+API:
+  ☐ Salesforce API Endpoints
+
+Refactor:
+  ☐ Routing
+  ☐ Widgets
+  ☐ Refactor Primitive Widgets
+  ☐ Refactor Widgets By Blocks using global variables
+
+Components:
+  ☐ Top Nav Bar Contacts Dropdown @low
+  ☐ Empty Leg Filters / SortBy
+  ☐ Fleet Filters / SortBy
+
+Missing Page:
+  ☐ Jet Comparator
+ 
+Backoffice:
+  Dashboard: @low
+    ☐ Real-time tracking widget
+    ☐ Pie chart based on type of devices (mobile, desktop, tablet, iOS, android)
+ 
+  Leads: @high
+    ☐ List Leads
+    ☐ Inspect Lead
+ 
+  Users: @high
+    ☐ Edit User
+    ☐ List Roles
+    ☐ Add Role
+    ☐ Remove Role
+    ☐ Edit Role
+    ☐ List Permissions
+    ☐ Change Navigation Users to Dropdown with: [Users, Roles, Costumers]
+ 
+  Translation:
+    ☐ Filter by untranslated strings
+ 
+  Media Center: @high
+    ☐ Fix images // maybe add a squared thumbnail
+    ☐ Allow to quickly change alt/title per lang on sidebar
+ 
+  Article: @critical
+    ☐ Create New Article
+    ☐ Edit Article
+    ☐ Remove Article
+    ☐ List Articles
+ 
+  Event: @critical 
+    ☐ Create New Event
+    ☐ Edit Event
+    ☐ Remove Event
+    ☐ List Events
+ 
+  Empty Leg: @critical 
+    ☐ List Empty Leg
+    ☐ Add Empty Leg
+
+
+
+
+
+General Settings:
+  ☐ Add Google Tracking UA code as settings option to be fetched on page route
+  ☐ 

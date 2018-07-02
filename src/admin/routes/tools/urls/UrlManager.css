@@ -1,0 +1,50 @@
+
+.urls {
+
+  table {
+    width: 100%;
+
+    .actionCol {
+      text-align: right;
+      min-width: 82px;
+    }
+
+    .inspectCol {
+      width: 35px;
+    }
+
+    label {
+      margin: 0;
+    }
+
+    td,
+    th {
+      outline: 0;
+      vertical-align: middle;
+
+      &:nth-last-child(2) {
+        @media (max-width: 800px) {
+          display: none;
+        }
+      }
+
+      &:nth-last-child(3) {
+        @media (max-width: 400px) {
+          display: none;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        &.isActive {
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+}

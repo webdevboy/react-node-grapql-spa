@@ -1,0 +1,178 @@
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	flex-direction: column;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.newFolder {
+	padding: 5px;
+}
+.grid {
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	margin: 0;
+	flex-wrap: wrap;
+
+	li {
+		display: block;
+		margin: 5px;
+		align-content: center;
+		justify-content: flex-start;
+		width: 84px;
+		border-radius: 3px;
+		display: flex;
+		flex-direction: column;
+
+		&.active {
+			box-shadow: 0 0 0 1px #4A90E2;
+		}
+
+		.type {
+			margin: 10px auto 5px auto;
+			max-height: 54px;
+			max-width: 54px;
+			overflow: hidden;
+
+			img {
+				max-height: 100%;
+				max-width: 100%;
+			}
+		}
+
+		.filename {
+			word-break: break-all;
+			text-overflow: ellipsis;
+			max-width: 100%;
+			font-size: 12px;
+			margin: 5px;
+			text-align: center;
+		}
+
+		&:hover {
+			background: rgba(255,255,255,.05);
+		}
+	}
+}
+
+
+.container {
+
+  table {
+    width: 100%;
+
+    .actionCol {
+      text-align: right;
+      min-width: 82px;
+    }
+
+    .inspectCol {
+      width: 35px;
+    }
+
+    label {
+      margin: 0;
+		}
+		
+		th{
+			cursor: pointer;
+		}
+
+    td,
+    th {
+      outline: 0;
+      vertical-align: middle;
+
+      &:nth-last-child(2) {
+        @media (max-width: 800px) {
+          display: none;
+        }
+      }
+
+      &:nth-last-child(3) {
+        @media (max-width: 400px) {
+          display: none;
+        }
+      }
+    }
+
+    tbody {
+			img {
+				max-width: 60px;
+			}
+      tr {
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        &.isActive {
+          background-color: rgba(0, 0, 0, 0.5);
+				}
+      }
+    }
+  }
+}
+
+.container-editor {
+	width: 100%;
+	height: 100%;
+	flex-direction: row;
+}
+
+.container-filter {
+	padding: 10px;
+}
+
+.canvas {
+	display: flex;
+	flex: 6;
+}
+
+.editor-img {
+	width: 300px;
+	height: 200px;
+	background: white
+
+	img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.sidebar {
+	display: flex;
+	flex: 4 1 0% !important;
+}
+
+.confirmBtn {
+	margin: 20px;
+}
+
+.display-img {
+	width: 100%;
+	padding: 20px;
+}
+
+.display-img-hidden {
+	display: none;
+}
+
+.showCheck {
+	display: block;
+}
+
+.hideCheck {
+	display: none;
+}
+
+.info-pane {
+	width: 200px;
+	height: 200px;
+	background: white;
+}

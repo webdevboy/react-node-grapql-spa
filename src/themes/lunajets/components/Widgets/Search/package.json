@@ -1,0 +1,6 @@
+{
+  "name": "search",
+  "main": "Search.js",
+  "displayName": "Search",
+  "private": true
+}

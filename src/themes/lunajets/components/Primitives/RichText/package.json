@@ -1,0 +1,6 @@
+{
+	"name": "RichText",
+	"main": "RichText.js",
+	"displayName": "RichText",
+	"private": true
+}

@@ -1,0 +1,14 @@
+mutation($team_id: ID!, $first_name: String, $last_name: String, $email: String, $title: String!, $bio: String, $flags: [String], $visible: Boolean) {
+  member: createTeamMember(team_id: $team_id, first_name:$first_name, last_name:$last_name, email: $email, title: $title, bio: $bio, flags: $flags, visible: $visible) {
+    id
+    first_name
+    last_name
+    title
+    bio
+    email
+    visible
+    order
+    flags
+    visible
+  }
+}

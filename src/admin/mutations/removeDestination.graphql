@@ -1,0 +1,7 @@
+mutation($destination_id: String!) {
+  remove: removeDestination(destination_id: $destination_id) {
+		id
+    ids
+    rows
+  }
+}

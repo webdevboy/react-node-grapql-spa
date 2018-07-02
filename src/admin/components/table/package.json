@@ -1,0 +1,7 @@
+{
+	"name": "Table",
+	"Version": "0.0.1",
+	"private": true,
+	"main": "table.js",
+	"category": "Component" 
+}

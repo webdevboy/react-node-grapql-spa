@@ -1,0 +1,252 @@
+{
+    "data": {
+      "intl": [
+        {
+          "id": "actions.create_page",
+          "defaultMessage": "Create page",
+          "description": "actions.create_page",
+          "translation": "adaasd"
+        },
+        {
+          "id": "actions.save",
+          "defaultMessage": "Save",
+          "description": "actions.save",
+          "translation": null
+        },
+        {
+          "id": "actions.send",
+          "defaultMessage": "Send",
+          "description": "actions.send",
+          "translation": null
+        },
+        {
+          "id": "aircraft.list.length",
+          "defaultMessage": "Length",
+          "description": "aircraft.list.length",
+          "translation": "new string test 1"
+        },
+        {
+          "id": "aircraft.list.luggage",
+          "defaultMessage": "Luggage",
+          "description": "aircraft.list.luggage",
+          "translation": null
+        },
+        {
+          "id": "aircraft.list.seats",
+          "defaultMessage": "Seats",
+          "description": "aircraft.list.seats",
+          "translation": "new seats test"
+        },
+        {
+          "id": "aircraft.list.speed",
+          "defaultMessage": "Speed",
+          "description": "aircraft.list.speed",
+          "translation": "asdasdaasdasd"
+        },
+        {
+          "id": "button.loadMore",
+          "defaultMessage": "load more",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "button.readMore",
+          "defaultMessage": "read more",
+          "description": null,
+          "translation": ""
+        },
+        {
+          "id": "contact.list.country",
+          "defaultMessage": "Country",
+          "description": "contact.list.country",
+          "translation": "Country test Ibra"
+        },
+        {
+          "id": "corporate.automotive",
+          "defaultMessage": "automotive",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "corporate.finance",
+          "defaultMessage": "finance",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "corporate.oilAndGas",
+          "defaultMessage": "oil & gas",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "corporate.sport",
+          "defaultMessage": "sport",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "currentTalks.container.header",
+          "defaultMessage": "Current Talks",
+          "description": "currentTalks.container.header",
+          "translation": "asdads"
+        },
+        {
+          "id": "currentUser.logout",
+          "defaultMessage": "Log Out",
+          "description": "welcome current user",
+          "translation": "asdasd"
+        },
+        {
+          "id": "currentUser.welcome",
+          "defaultMessage": "Welcome,",
+          "description": "welcome current user",
+          "translation": null
+        },
+        {
+          "id": "foo.bar",
+          "defaultMessage": "Foo Bar Baz",
+          "description": "Brand name displayed in header",
+          "translation": null
+        },
+        {
+          "id": "header.banner.title",
+          "defaultMessage": "123React",
+          "description": "Title in page header",
+          "translation": "testeasdasdasdadasd"
+        },
+        {
+          "id": "header.brand",
+          "defaultMessage": "123Your Company Brand",
+          "description": "Brand name displayed in header",
+          "translation": "LELELLEE"
+        },
+        {
+          "id": "heading.allDestinations",
+          "defaultMessage": "all destinations",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "link.seeMore",
+          "defaultMessage": "see more",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "menu.contacts",
+          "defaultMessage": "Contacts",
+          "description": "menu.mediacenter",
+          "translation": "Contacts"
+        },
+        {
+          "id": "menu.destinations",
+          "defaultMessage": "Destinations",
+          "description": "menu.destinations",
+          "translation": null
+        },
+        {
+          "id": "menu.emptylegs",
+          "defaultMessage": "Empty Legs",
+          "description": "emptylegs menu nav",
+          "translation": "asdasdd"
+        },
+        {
+          "id": "menu.logs",
+          "defaultMessage": "Logs",
+          "description": "menu.logs",
+          "translation": null
+        },
+        {
+          "id": "menu.mediacenter",
+          "defaultMessage": "Media Center",
+          "description": "menu.mediacenter",
+          "translation": null
+        },
+        {
+          "id": "menu.pages",
+          "defaultMessage": "Pages",
+          "description": "menu.pages",
+          "translation": "asdasdasdad NICE!!!!"
+        },
+        {
+          "id": "menu.team",
+          "defaultMessage": "Team",
+          "description": "menu.team",
+          "translation": "Team"
+        },
+        {
+          "id": "menu.templates",
+          "defaultMessage": "Templates",
+          "description": "menu.templates",
+          "translation": null
+        },
+        {
+          "id": "menu.users",
+          "defaultMessage": "Users",
+          "description": "users menu nav",
+          "translation": null
+        },
+        {
+          "id": "paragraph.helicopterTransfer",
+          "defaultMessage": "Diam vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum olor sit amet consectetur adipiscing elit duis tristique \n                sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcus cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesqu pulvinar\n                pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis\n                sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum",
+          "description": null,
+          "translation": "EN - Diam vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum olor sit amet consectetur adipiscing elit duis tristique .sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcus cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesqu pulvinar. pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis. sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum"
+        },
+        {
+          "id": "quick.notification.field.message",
+          "defaultMessage": "Message",
+          "description": "quick.notification..field.message",
+          "translation": "asdasd"
+        },
+        {
+          "id": "quick.notification.title",
+          "defaultMessage": "Quick Notification Banner",
+          "description": "squick.notification.title",
+          "translation": null
+        },
+        {
+          "id": "settings.generalSettings.field.siteDefaultEmail",
+          "defaultMessage": "Default email",
+          "description": "settings.generalSettings.field.siteDefaultEmail",
+          "translation": "NEW TEXT"
+        },
+        {
+          "id": "settings.generalSettings.field.siteTitle",
+          "defaultMessage": "Site title",
+          "description": "settings.generalSettings.field.siteTitle",
+          "translation": "asdasdasdada"
+        },
+        {
+          "id": "settings.generalSettings.header",
+          "defaultMessage": "General",
+          "description": "settings.generalSettings.header",
+          "translation": "asdasd"
+        },
+        {
+          "id": "title.destinationList",
+          "defaultMessage": "destination list",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "title.helicopterTransfer",
+          "defaultMessage": "helicopter transfer",
+          "description": null,
+          "translation": null
+        },
+        {
+          "id": "user.list.avatar",
+          "defaultMessage": "Avatar",
+          "description": "user.list.avatar",
+          "translation": "asdasdaasdad"
+        },
+        {
+          "id": "user.list.email",
+          "defaultMessage": "Email",
+          "description": "user.list.email",
+          "translation": null
+        }
+      ]
+    }
+  }

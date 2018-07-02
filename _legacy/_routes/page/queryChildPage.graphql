@@ -1,0 +1,37 @@
+query getSinglePage($id: ID!, $option: String!) {
+  getPage(id: $id) {
+    title
+    slug
+    path
+    template
+    body
+    query
+    childrens {
+      id
+      title
+      slug
+      path
+      template
+      body
+      query
+      meta {
+        meta
+        language {
+          locale {
+            locale
+          }
+        }
+      }
+    }
+    meta {
+      language {
+        locale {
+          locale
+        }
+      }
+    }
+  }
+  getSingleSettings(option: $option) {
+    value
+  }
+}

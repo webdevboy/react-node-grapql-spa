@@ -1,0 +1,40 @@
+.card {
+  background-color: #0d1a25;
+  overflow: hidden;
+  padding: 10% 15%;
+  font-family: "ITC Conduit W01", sans-serif;
+
+  .subtitle {
+    font-size: 2rem;
+    font-style: italic;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .text {
+    line-height: 1.2;
+    font-weight: 200;
+  }
+
+  .btn-view {
+    background: transparent;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+  .card {
+    padding: 5%;
+    
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .title {
+      font-size: 2.1rem;
+    }
+  }  
+}

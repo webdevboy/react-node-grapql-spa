@@ -1,0 +1,6 @@
+query($locale: String!) {
+  language: getLanguageFromLocale(locale: $locale) {
+  	id
+    enabled
+  }
+}

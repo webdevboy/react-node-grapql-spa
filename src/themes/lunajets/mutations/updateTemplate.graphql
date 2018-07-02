@@ -1,0 +1,11 @@
+mutation updateTemplate(
+  $id: ID!,
+  $body: JSON,
+) {
+
+  updateTemplate(id: $id, body: $body) {
+    id
+    name
+    body
+  }
+}

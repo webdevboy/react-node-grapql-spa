@@ -1,0 +1,33 @@
+{
+  "client": [
+    "/assets/vendors.chunk.js",
+    "/assets/client.js",
+    "/assets/client.211bacd135da0089d145.hot-update.js"
+  ],
+  "admin": [
+    "/assets/vendors.chunk.js",
+    "/assets/admin.js",
+    "/assets/admin.211bacd135da0089d145.hot-update.js"
+  ],
+  "graphql-tag": [],
+  "admin-dashboard": [
+    "/assets/admin-dashboard.chunk.js"
+  ],
+  "admin-login": [
+    "/assets/admin-login.chunk.js"
+  ],
+  "admin-chat": [
+    "/assets/vendors~admin-chat.chunk.js",
+    "/assets/admin-chat.chunk.js"
+  ],
+  "admin-404": [
+    "/assets/admin-404.chunk.js"
+  ],
+  "polyfills": [
+    "/assets/vendors~polyfills.chunk.js",
+    "/assets/polyfills.chunk.js"
+  ],
+  "client-404": [
+    "/assets/client-404.chunk.js"
+  ]
+}

@@ -1,0 +1,11 @@
+.map-list {
+  background-color: #faf7f6;
+
+  .title {
+    margin-top: 30px;
+  }
+
+  .map-container {
+    height: 400px;
+  }
+}

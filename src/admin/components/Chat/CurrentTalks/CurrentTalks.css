@@ -1,0 +1,147 @@
+.container {
+  padding: 10px;
+  background-color: #12212E;
+  border-right: 1px solid #263d50;
+  resize: horizontal;
+  position: relative;
+  max-width: 180px;
+  min-width: 60px;
+  display: none;
+  flex-direction: column;
+  transition: all .2s ease-out;
+}
+.container * {
+  transition: all .2s ease-out;
+}
+
+:global(.mobile .resizable-handle) {
+  display: none !important;
+}
+
+:global(.mobile) .container,
+.container.min {
+  min-width: 60px;
+  width: 60px;
+  max-width: 60px;
+  display: flex;
+
+  .container-header {
+    display: none;
+  }
+
+  .talk {
+    border: none;
+    padding: 0;
+    background: none;
+    margin-bottom: 5px;
+
+    .count {
+      position: absolute;
+      top: 0px;
+      right: -5px;
+    }
+
+    &:hover {
+      background: #0C151D;
+    }
+  }
+
+  .user {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      display: none;
+    }
+  }
+
+  .talk-avatar {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+
+  }
+  /* TAVA AQUI NA SEXTA FEIRA */
+}
+
+.container.max {
+  min-width: 180px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 60px !important;
+  }
+  .container.max {
+    min-width: 60px;
+    display: flex;
+  }
+}
+
+.container-header {
+  margin-bottom: 10px;
+}
+
+.header {
+  color: #A8AAB7;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.current-talks {
+  display: flex;
+  flex-direction: column;
+}
+
+.talk {
+  position: relative;
+  border: 1px solid #313d4f;
+  padding: 5px;
+  flex: 1 0 38px;
+  height: 38px;
+  color: #b2b9c4;
+  background-color: #273142;
+  color: #b2b9c4;
+  border-radius: 4px;
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  align-items: center;
+  display: flex;
+}
+
+.talk:hover {
+  background: #0C151D;
+  border-color:  #12212E;
+  color: #2EA2F8;
+  cursor: pointer;
+}
+
+.talk-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 1px 10px 0 2px;
+  background-color: white;
+  background-size: contain;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 20px;
+  width: 20px;
+  line-height: 0;
+  flex: 0 0 20px
+}

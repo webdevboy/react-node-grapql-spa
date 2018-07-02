@@ -1,0 +1,6 @@
+{
+	"name": "Contacts List",
+	"Version": "0.0.0",
+	"private": true,
+	"main": "ContactsList.js"
+}

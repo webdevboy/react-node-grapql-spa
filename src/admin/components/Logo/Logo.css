@@ -1,0 +1,17 @@
+.logo {
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* background-image: url('./LJ_logo_new_white.svg'); */
+  background-repeat: no-repeat;
+
+  &.tagline {
+    background-image: url('./LJ_logo_new_white_claim.svg');
+  }
+
+  object {
+    width: 100%;
+  }
+}

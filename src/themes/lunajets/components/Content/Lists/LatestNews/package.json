@@ -1,0 +1,6 @@
+{
+	"name": "latest-news",
+	"main": "LatestNews.js",
+	"displayName": "LatestNews",
+	"private": true
+}

@@ -1,0 +1,33 @@
+@import "../../variables.css";
+
+.container {
+  background-color: #3e5970;
+  padding: 3rem;
+  @media (max-width: 480px) {
+    padding: 2rem;
+  }
+}
+
+a.open-btn {
+  width: 100%;
+  max-width: 320px;
+  min-height: 50px;
+  background-color: transparent;
+  border: 2px solid white;  
+  font-size: 18px;
+  font-weight: 600;  
+  text-transform: uppercase;
+  @media (max-width: 480px) {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  span{
+    color: white;
+  }
+}
+
+.title h2{
+  color: white;
+  text-transform: uppercase;  
+}
+

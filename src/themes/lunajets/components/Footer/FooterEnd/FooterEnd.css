@@ -1,0 +1,166 @@
+.footer-end {
+  background-color: #d7d6d5;
+
+  .footer-end-first {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+  }
+
+  .footer-end-second {
+    padding: 30px;
+  }
+
+  .association {
+    .logos {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .logo {
+        padding: 0 5px;
+      }
+    }
+  }
+
+  .switches {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+
+    li {
+      border: solid 1px white;
+      margin-right: 10px;
+      color: #929292;
+      line-height: 2;
+    }
+  }
+
+  .social-network-links {
+    display: flex;
+    justify-content: flex-end;
+
+    ul {
+      list-style-type: none;
+      display: inline-flex;
+      padding: 0;
+
+      li {
+        padding: 5px 10px;
+
+        svg {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .company-infos {
+    .company-flag {
+      font-size: 16px;
+      color: #929292;
+      text-align: center;
+    }
+
+    .company-copyright,
+    .company-based {
+      font-size: 13px;
+      color: #929292;
+    }
+
+    .company-legal {
+      font-size: 13px;
+      text-align: right;
+
+      ul {
+        display: inline-flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 0;
+
+        li {
+          padding-left: 10px;
+
+          a {
+            color: #929292;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .flight-broker {
+    text-align: center;
+    color: #929292;
+    line-height: 1.5;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-end {
+    .footer-end-first {
+      padding: 5px;
+    }
+
+    .footer-end-second {
+      padding: 15px;
+    }
+
+    .switches {
+      justify-content: center;
+    }
+
+    .association {
+      text-align: center;
+      margin: 15px 0;
+
+      .logos {
+        justify-content: center;
+      }
+    }
+
+    .social-network-links {
+      margin-top: 15px;
+      justify-content: center;
+
+      ul {
+        margin: 0;
+      }
+    }
+
+    .company-infos {
+      .company-flag {
+        text-align: center;
+      }
+
+      .company-copyright,
+      .company-based {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .company-legal {
+        text-align: center;
+
+        ul {
+          font-size: 12px;
+          justify-content: flex-end;
+
+          li {
+            padding: 0 5px;
+          }
+        }
+      }
+    }
+  }
+}

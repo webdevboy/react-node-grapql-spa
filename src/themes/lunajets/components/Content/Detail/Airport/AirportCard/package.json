@@ -1,0 +1,6 @@
+{
+  "name": "AirportCard",
+  "main": "AirportCard.js",
+  "displayName": "AirportCard",
+  "private": "true"
+}

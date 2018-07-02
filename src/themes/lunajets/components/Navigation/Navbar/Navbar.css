@@ -1,0 +1,321 @@
+.menu {
+  min-height: 60px;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+
+  /* make navbar transparent and on top of slider */
+  z-index: 994;
+  background: rgba(62, 89, 112, 0.6);
+  font-family: "ITC Conduit W01", sans-serif;
+  transition: all 0.3s ease;
+
+  ul {
+    transition: all 0.3s ease;
+
+    .fly-now {
+      display: none;
+
+      .flynow {
+        background-color: #ef4343;
+        border: none;
+        color: white;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-left: 10px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        display: block;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+
+  &.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(62, 89, 112, 1);
+  }
+
+  
+  @media (max-width: 768px) {
+    &.show {
+        background: var(--dark-blue);
+
+      ul {
+        display: flex !important;
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        margin-top: 60px;
+        justify-content: flex-start;
+        background: rgba(62, 89, 112, 1);
+        padding: 0;
+        height: calc(100vh - 60px - 35px);
+        z-index: 1;
+
+        li {
+          margin: 0;
+          display: block;
+          width: 100%;
+
+          a {
+            display: block;
+            padding: 10px 15px;
+
+            &:hover {
+              color: #fff;
+              background: #263d50;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  :global {
+    .dropdown-menu {
+      background: #fff;
+      margin: 0;
+      border-radius: 0 !important;
+      border: 0;
+      padding: 0;
+      top: 10px !important;
+      left: -15px !important;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+      li {
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+      }
+
+      .dropdown-item {
+        color: #292b2c;
+        padding: 5px 15px;
+        font-weight: normal;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 100%;
+          width: 0;
+          background: #3e5970;
+          transition: ease 0.3s;
+        }
+
+        &:hover:after {
+          width: 5px;
+        }
+      }
+    }
+  }
+}
+
+.column {
+  min-height: 100%;
+  max-width: 1140px;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0 15px;
+}
+
+.searchBar {
+  display: flex;
+  flex: 2;
+
+  @media (max-width: 768px) {
+    order: 1;
+  }
+
+  .searchInput {
+    -webkit-appearance: none;
+    border: 0;
+    color: #fff;
+    font-size: 24px;
+    font-family: "ITC Conduit W01", sans-serif;
+    font-weight: 400;
+    background: transparent;
+    width: 100%;
+    flex: 1;
+    outline: 0;
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
+}
+
+.column-section {
+  height: 60px;
+  width: 100%;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  &.logoRow {
+    flex: 0;
+    width: auto;
+  }
+
+  .navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    .menuWithLogo {
+      flex: 1;
+      display: flex;
+      order: 0;
+
+      @media (max-width: 768px) {
+        justify-content: center;
+      }
+    }
+
+    .hamburger {
+      order: 1;
+    }
+
+    .search {
+      order: 2;
+    }
+
+    @media (max-width: 768px) {
+      .menuWithLogo {
+        order: 1;
+      }
+
+      .hamburger {
+        order: 2;
+      }
+
+      .search {
+        order: 0;
+      }
+    }
+  }
+
+  &:last-child {
+    flex: 2;
+    align-items: flex-end;
+  }
+
+  .logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+
+    object {
+      flex: 1;
+      pointer-events: none;
+      max-width: 120px;
+    }
+  }
+
+  h1 {
+    color: #fff;
+    margin: 0;
+  }
+
+  .nav-btn {
+    background: none;
+    border: 0;
+    height: 38px;
+    width: 38px;
+    display: -webkit-box;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+
+    span {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &.hamburger {
+      display: none;
+
+      @media (max-width: 768px) {
+        display: flex;
+      }
+    }
+  }
+
+  ul {
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    li {
+      padding: 0 3%;
+
+      @media (max-width: 992px) {
+        margin: 0;
+        padding: 0 10px;
+      }
+    
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+
+        &:hover {
+          color: #263d50;
+        }
+
+        span {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+.disabled {
+  opacity: 0;
+}

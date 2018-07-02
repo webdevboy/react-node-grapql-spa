@@ -1,0 +1,13 @@
+{
+  roles: getRoles {
+	  id
+    name
+    description
+    total_users
+    permissions {
+      id
+      action
+      description
+    }
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"name": "events-list",
+	"main": "EventsList.js",
+	"displayName": "EventsList",
+	"private": true
+}

@@ -1,0 +1,6 @@
+mutation($email: String!) {
+  subscribeNewsletter(email: $email) {
+    success
+    error
+  }
+}

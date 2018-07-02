@@ -1,0 +1,110 @@
+:global {
+  .slick-slider {
+    * {
+      min-height: 0;
+      min-width: 0;
+    }
+  }
+
+  .slick-slide {
+
+  }
+
+  .slick-dots {
+    li {
+      margin: 0 15px !important;
+      width: 10px !important;
+      height: 10px !important;
+      
+      button {
+        text-indent: -9999px;
+        width: 10px !important;
+        height: 10px !important;
+  
+        &:before {
+          background: #000 !important;
+          width: 10px !important;
+          height: 10px !important;
+          border-radius: 100px !important;
+        }
+      }  
+    }
+   
+  }
+}
+.slide-image {
+  display: flex !important;
+  justify-content: center;
+  max-height: 600px;
+}
+/* 
+.slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: inline-block;
+  background-position: center center;
+}
+
+:global {
+
+  .slick-dots {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .slick-slider {
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slick-list {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slick-track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+  .slide-container {
+    max-width: 1140px;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .slide-description {
+    font-family: 'ITC Conduit W01', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    bottom: 0;
+    padding: 40px;
+
+  }
+
+  .discover {
+    font-family: 'ITC Conduit W01', sans-serif;
+    font-size: 25px;
+    padding: 5px 15px;
+    background-color: #b40000;
+    color: white;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+  }
+}
+ */

@@ -1,0 +1,55 @@
+query($type: String, $language_id: ID) {
+  cities: searchCities{
+    sfid
+    name
+    country{
+      sfid
+      name
+      countryCode
+    }
+  }
+  posts: getPosts(type: $type, language_id: $language_id) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      state
+      publish_at
+      title
+      type
+      meta
+      media {
+        id
+        src
+      }
+      body
+      language {
+        id
+        locale
+      }
+      translations {
+        __typename
+        ... on PostInterface {
+          id
+          ancestors {
+            __typename
+            ... on PostInterface {
+              id
+              slug
+            }
+          }
+          slug
+          language {
+            id
+            locale
+          }
+        }
+      }
+      ... on Airport {
+        details
+      }
+    }
+  }
+}

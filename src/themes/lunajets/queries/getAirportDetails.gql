@@ -1,0 +1,68 @@
+query($sfid: String) {
+  airport: getAirport(sfid: $sfid){
+    sfid
+    iata
+    icao
+    name
+    coordinates
+    city {
+			name
+      name_en
+      name_de
+      name_it
+      name_hu
+      name_es
+      name_pl
+      name_ru
+      name_fr
+      country {
+        name
+        countryCode
+      }
+    }
+  }
+  emptyLegsFrom: getEmptyLegs(list_from_airport_id: [$sfid]) {
+    ...emptyLeg
+  }
+  emptyLegsTo: getEmptyLegs(list_to_airport_id: [$sfid]) {
+    ...emptyLeg
+  }
+}
+
+fragment emptyLeg on EmptyLeg {
+  id
+  from_date
+  until_date
+  details
+  currency {
+    id
+    currency
+  }
+  price
+  from_airport {
+    name
+    iata
+    icao
+    coordinates
+    city {
+      name
+      country {
+        countryCode
+        name
+      }
+    }
+  }
+  to_airport {
+    name
+    iata
+    icao
+    coordinates
+    city {
+      name
+      country {
+        countryCode
+        name
+      }
+    }
+  }
+}

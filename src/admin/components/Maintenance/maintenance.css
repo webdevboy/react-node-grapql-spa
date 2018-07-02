@@ -1,0 +1,70 @@
+
+.fieldTextArea{
+    width: 100% !important;
+    min-height: 150px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.actionsReq{
+    font-size: 14px;
+    color: #91a1b3;
+}
+
+.container{
+    width: 500px;
+    min-height: 200px;
+    margin: 15px;
+    background-color: #12212E;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    border: 1px solid #283546;
+    -webkit-box-shadow: 0px 0px 10px 0px #12212e;
+    box-shadow: 0px 0px 10px 0px #12212e;
+    display: table;
+}
+
+.header{
+    color: #4E6C83;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sep{
+    border-bottom: 1px solid #313D4F;
+}
+
+.content{
+    padding: 20px;
+}
+
+.field{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+    .input{
+        width: 100%;
+    }
+}
+
+.fieldLabel{
+    color: #91A1B3;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actionsBtns{
+    margin: 0px 10px 10px 0px;
+    &:focus{
+       outline: none;
+    }
+}

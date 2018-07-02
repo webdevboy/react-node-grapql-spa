@@ -1,0 +1,8 @@
+.as-seen-slider {
+  :global {
+    .slick-slide img {
+      height: 250px;
+      width: 100%;
+    }
+  }
+}

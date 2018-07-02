@@ -1,0 +1,6 @@
+{
+	"name": "FlightRoutes",
+	"main": "FlightRoutes.js",
+	"displayName": "FlightRoutes",
+	"private": "true"
+}

@@ -1,0 +1,7 @@
+{
+	"name": "Link Item",
+	"Version": "0.0.1",
+	"private": true,
+	"main": "linkItem.js",
+	"category": "Navigation" 
+}

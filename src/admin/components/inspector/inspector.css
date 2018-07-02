@@ -1,0 +1,26 @@
+
+.container{
+    position: absolute;
+    background-color: #12212E;
+    border-left: 1px solid #263d50;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.open{
+    width: 20%;
+    transition: all 0.5s ease;
+}
+
+.close{
+    display: none;
+    transition: all 0.5s ease;
+}
+
+.fixed{
+    width: 20%;
+    float: right;
+    opacity: 1;
+}

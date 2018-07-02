@@ -1,0 +1,20 @@
+# single language
+query($locale: String){
+  language: getLanguage(locale: $locale) {
+    id
+    enabled
+    locale
+    language
+    native
+    rtl
+    total_strings
+    missing_translations
+    strings {
+      id
+      message_id
+      description
+      defaultMessage
+      translation
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"name": "JetCostMap",
+	"main": "JetCostMap.js",
+	"displayName": "JetCostMap",
+	"private": "true"
+}

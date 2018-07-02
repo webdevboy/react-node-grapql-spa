@@ -1,0 +1,19 @@
+query($post_id: String, $language_id: ID) {
+  post: getPostByPostId(post_id: $post_id, language_id: $language_id) {
+    ... on PostInterface {
+      id
+      post_id
+      title
+      slug
+      meta
+      media {
+        id
+        src
+      }
+      language {
+        id
+        locale
+      }
+    }
+  }
+}

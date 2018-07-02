@@ -1,0 +1,11 @@
+mutation updatePageMeta($id: ID!,$metaValue: JSON) {
+  updatePostMeta(id: $id, metaValue: $metaValue) {
+	... on PostInterface{
+    	id
+  		post_id
+      title
+      slug
+      meta
+  	}
+  }
+}

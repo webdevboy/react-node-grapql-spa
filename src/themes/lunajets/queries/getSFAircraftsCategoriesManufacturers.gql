@@ -1,0 +1,13 @@
+query($search: String) {
+  categories: getSFAircraftsCategories(search: $search) {
+    sfid
+    name
+    order
+  }
+
+  manufacturers: getSFAircraftManufacturers(search: $search) {
+    sfid
+    name
+    order
+  }
+}

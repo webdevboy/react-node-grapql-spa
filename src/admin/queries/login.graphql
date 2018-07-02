@@ -1,0 +1,13 @@
+# Try to write your query here
+query($login: Auth!) {
+  login(login: $login, admin: true) {
+    __typename
+    ... on UserLogin {
+      user {
+        email
+        id
+      }
+      token
+    }
+  }
+}

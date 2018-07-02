@@ -1,0 +1,23 @@
+mutation newMedia($files: [JSON!]!) {
+  media: newMedia(files: $files) {
+    Key
+    LastModified
+    Size
+    ETag
+    MimeType
+    fileName
+    path
+    thumbnail
+    original
+    media {
+      id
+      src
+      thumbnail
+      filename
+      mimetype
+      size
+      created_at
+      key
+    }
+  }
+}

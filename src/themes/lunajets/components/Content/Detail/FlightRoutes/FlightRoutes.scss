@@ -1,0 +1,29 @@
+@import "../../../variables.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.leg-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  .country-box {
+    display: flex;
+    align-items: center;    
+    .iata {
+      font-size: 20px;
+      color: #6f6f6f;
+      @media (max-width: 768px){
+        font-weight: normal;
+      }
+    }
+
+    .mono {
+      color: #6f6f6f;
+      @media (max-width: 768px){
+        font-size: 10px;
+      }
+    }
+  }
+}

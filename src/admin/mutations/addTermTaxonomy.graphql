@@ -1,0 +1,15 @@
+mutation($name:String, $taxonomy: String, $language_id: ID, $parent_id: ID, $meta: JSON) {
+  termTaxonomy: addTermTaxonomy(name: $name, taxonomy: $taxonomy, language_id: $language_id, parent_id: $parent_id, meta: $meta) {
+    id
+    taxonomy
+    description
+    term{
+      id
+      name
+      slug
+	  meta
+      language_id
+    }
+    parent_id
+  }
+}

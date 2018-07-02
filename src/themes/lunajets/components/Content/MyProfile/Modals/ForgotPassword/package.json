@@ -1,0 +1,6 @@
+{
+  "name": "ForgotPassword",
+  "main": "ForgotPassword.js",
+  "displayName": "ForgotPassword",
+  "private": true
+}

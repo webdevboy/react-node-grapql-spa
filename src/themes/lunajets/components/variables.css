@@ -1,0 +1,15 @@
+:root {
+  --light-blue: #b6cada;
+  --dark-blue: #263d50;
+  --dark-red: #b51f24;
+  --light-red: #ef4343;
+  --light-grey: #e2e2e1;
+  --dark-grey: #61605f;
+  --pale: #faf7f6;
+  --corporate-blue: #3e5970;
+  --corporate-dk-blue: #0d1a25;
+  --max-width: 1140px;
+  --global-margin: 15px;
+  --navbar-top-height: 35px;
+  --navbar-main-height: 60px;
+}

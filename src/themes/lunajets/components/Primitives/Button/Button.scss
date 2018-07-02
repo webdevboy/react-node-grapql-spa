@@ -1,0 +1,13 @@
+@import "../../variables.css";
+
+.root {
+  border: 2px solid;
+  cursor: pointer;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "ITC Conduit W01", sans-serif;
+  font-weight: 500 !important;
+  font-style: normal;
+  padding: 6px 12px;
+  max-width: 400px;
+}

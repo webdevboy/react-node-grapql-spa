@@ -1,0 +1,27 @@
+query($type: String, $language_id: ID) {
+  posts: getEventsByDate(type: $type, language_id: $language_id) {
+    ... on PostInterface {
+      id
+      post_id
+      title
+      slug
+      summary
+      meta
+      body
+      state
+      type
+      language {
+        id
+        language
+        locale
+      }
+      publish_at
+      created_at
+      updated_at
+      media {
+        id
+        src
+      }
+    }
+  }
+}

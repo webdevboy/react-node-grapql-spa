@@ -1,0 +1,6 @@
+{
+  "name": "DeleteAirport",
+  "main": "DeleteAirport.js",
+  "displayName": "DeleteAirport",
+  "private": true
+}

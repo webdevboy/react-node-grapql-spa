@@ -1,0 +1,24 @@
+:global {
+  .gallery-modal {
+    min-width: 60%;
+    background-color: rgba(48, 64, 77, 0.98);
+  }
+
+  .gallery-overlay {
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.gallery-wrap {
+  margin-top: 4%;
+  overflow-y: scroll;
+  height: 600px;
+
+  :global {
+    .not-selected:hover {
+      outline: 2px dashed #06befa;
+    }
+  }
+}

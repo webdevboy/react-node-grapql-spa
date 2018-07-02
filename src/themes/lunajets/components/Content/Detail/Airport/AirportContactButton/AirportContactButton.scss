@@ -1,0 +1,35 @@
+.contact-button-area {
+  display: flex;
+  justify-content: center;
+
+  .contact-button {
+    display: flex;
+    padding: 5px 30px;
+    text-transform: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "ITC Conduit W01", sans-serif;
+    color: #fff;    
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .phone {
+    background: #a8aab7;
+  }
+
+  .mail {
+    background: #ef4343;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .contact-button-area {
+    justify-content: initial;
+
+    .contact-button {
+      width: 80%;
+    }
+  }
+}

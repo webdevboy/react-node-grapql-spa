@@ -1,0 +1,28 @@
+mutation($id: ID, $title: String, $summary: String, $body: JSON, $language_id: ID, $city_id: String, $published: Boolean, $destination_id: String) {
+  destination: editDestination(id: $id, title: $title, summary: $summary, body: $body, language_id: $language_id, city_id: $city_id, published: $published, destination_id: $destination_id) {
+    id
+    title
+    summary
+    body
+    published
+    created_at
+    destination_id
+    author {
+      id
+      email
+      first_name
+      last_name
+    }
+    city {
+      name
+      sfid
+      country {
+        countryCode
+        name
+      }
+    }
+    language {
+      id
+    }
+  }
+}

@@ -1,0 +1,157 @@
+.map-banner {
+  :global {
+    .container {
+      max-width: 100%;
+      padding: 0;
+      overflow: hidden;
+    }
+  }
+}
+
+.flight-details-bar {
+  transform: translate(0, -80px);
+
+  > table {
+    height: 80px;
+  }
+}
+
+.line {
+  background-color: #3e5970;
+  margin-bottom: 5px;
+
+  .table-row {
+    padding: 10px 30px;
+  }
+}
+
+.line-second {
+  background-color: white;
+  margin-bottom: 5px;
+
+  .table-row {
+    padding: 25px 30px;
+  }
+}
+
+.airport-iata {
+  display: flex;
+  width: 100%;
+
+  @media (max-width: 767.98px) {
+    span {
+      font-size: 1.25rem;
+    }
+  }
+
+  :global .iata {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: white;
+  }
+}
+
+.country {
+  width: 15%;
+
+  .country-info {
+    display: inline-block; /* remove if not use truncate */
+
+    @media (max-width: 767.98px) {
+      width: 170px;
+    }
+
+    .city-name,
+    .country-code {
+      font-family: "Ubuntu Mono", monospace;
+      font-size: 1rem;
+      font-weight: 400;
+      color: white;
+      text-transform: uppercase;
+
+      @media (max-width: 767.98px) {
+        font-size: 0.75rem;
+      }
+    }
+
+    .country-code {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.airplane-arrow {
+  @media (max-width: 767.98px) {
+    text-align: center;
+  }
+}
+
+.from-date,
+.until-date {
+  position: relative;
+
+  .prefix {
+    margin-right: 8px;
+  }
+}
+
+.until-date {
+  @media (max-width: 767.98px) {
+    order: 6;
+  }
+}
+
+.info {
+  font-family: "ITC Conduit W01", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--corporate-blue);
+  text-transform: uppercase;
+  display: inline-block; /* remove if not use truncate */
+
+  @media (max-width: 767.98px) {
+    font-size: 1rem;
+  }
+}
+
+.flight-time {
+  font-weight: 500;
+  font-family: "ITC conduit w01", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+.leg-price {
+  text-align: center;
+  position: relative;
+  color: white;
+
+  span {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.btn-request {
+  text-transform: uppercase;
+}
+
+.mobile-only {
+  background-color: white;
+
+  .leg-price {
+    color: #3e5970;
+    margin-bottom: 20px;
+
+    span {
+      font-weight: 600;
+      font-size: 2.5rem;
+    }
+  }
+}

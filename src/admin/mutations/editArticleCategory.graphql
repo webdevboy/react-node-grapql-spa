@@ -1,0 +1,29 @@
+mutation($article_id: String, $category_id: ID) {
+  articles: editArticleCategory(article_id: $article_id, category_id: $category_id) {
+		id
+    title
+    body
+    summary
+    source
+    slug
+    publish_at
+    created_at
+    updated_at
+    tags
+    state
+    featured
+    article_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    category {
+      id
+    }
+    language {
+      id
+    }
+  }
+}

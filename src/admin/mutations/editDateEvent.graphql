@@ -1,0 +1,30 @@
+mutation($event_id: String, $from_date: Date, $until_date: Date) {
+  events: editDateEvent(event_id: $event_id, from_date: $from_date, until_date: $until_date) {
+		id
+    title
+    summary
+    body
+    published
+    from_date
+    until_date
+    created_at
+    event_id
+    author {
+      id
+      email
+      first_name
+      last_name
+    }
+    city {
+      name
+      sfid
+      country {
+        countryCode
+        name
+      }
+    }
+    language {
+      id
+    }
+  }
+}

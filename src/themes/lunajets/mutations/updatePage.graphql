@@ -1,0 +1,32 @@
+mutation updatePage(
+  $id: ID!,
+  $body: JSON,
+  $path: String,
+  $title: String,
+  $query: String,
+  $external_scripts: [String],
+  $custom_script: String,
+  $state: Boolean
+) {
+
+  updatePage(id: $id, body: $body, path: $path,
+    title: $title, query: $query, external_scripts: $external_scripts,
+    custom_script: $custom_script, state: $state  ) {
+
+    id
+    title
+    path
+    slug
+    query
+    external_scripts
+    custom_script
+    state
+    body
+    template
+    owner {
+      id
+      first_name
+      last_name
+    }
+  }
+}

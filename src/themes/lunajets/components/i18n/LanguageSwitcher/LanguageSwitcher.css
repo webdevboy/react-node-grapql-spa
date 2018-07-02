@@ -1,0 +1,29 @@
+:global {
+  .dropdown {
+    .famfamfam-flags {
+      margin-right: 5px;
+    }
+
+    li.disabled div {
+      color: grey;
+      cursor: not-allowed;
+      opacity: 0.5;
+      text-decoration: none;
+      font-family: "Proxima Nova", sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+}
+
+.select-wrapper {
+	height: 35px;
+}
+
+.text {
+  font-size: 11px;
+}

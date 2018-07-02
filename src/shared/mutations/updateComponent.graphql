@@ -1,0 +1,14 @@
+mutation updateComponent(
+  $id: ID!,
+  $body: JSON,
+) {
+
+  updateComponent(id: $id, body: $body) {
+    id
+    name
+    category
+    data_type
+    dependencies
+    body
+  }
+}

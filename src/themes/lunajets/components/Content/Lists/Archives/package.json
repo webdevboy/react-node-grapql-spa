@@ -1,0 +1,6 @@
+{
+  "name": "archives",
+  "main": "Archives.js",
+  "displayName": "Archives",
+  "private": true
+}

@@ -1,0 +1,6 @@
+{
+	"name": "row",
+	"main": "Row.js",
+	"displayName": "Row",
+	"private": true
+}

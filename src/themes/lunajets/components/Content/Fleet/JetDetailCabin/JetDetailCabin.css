@@ -1,0 +1,109 @@
+@import "../../../variables.css";
+
+.cabin-specifications {
+  background-color: var(--corporate-blue);
+  width: 100%;
+  padding: 50px 0;
+  margin-top: 50px;
+
+  .img-blueprint {
+    height: 500px;
+    display: flex;
+    flex: 1;
+  }
+
+  .unit-switch {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    @media (max-width: 767.98px) {
+      justify-content: center;
+    }
+
+    .property {
+      margin: 0;
+
+      &:nth-of-type(1) {
+        padding-right: 15px;
+      }
+
+      &:nth-of-type(2) {
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+.cabin-col {
+  height: 500px;
+}
+
+.svg-cabin {
+  width: 100%;
+  height: 500px;
+}
+
+.value {
+  font-family: "ITC Conduit W01", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 0.8;
+  color: var(--light-blue);
+}
+
+.property {
+  font-family: "ITC Conduit W01", sans-serif;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+
+  &.legend {
+    text-transform: none;
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+}
+
+.cabin-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .cabin-info {
+    display: flex;
+
+    .cabin-icon {
+      flex: 1 1 0%;
+      display: flex;
+      justify-content: flex-end;
+
+      object {
+        align-self: center;
+      }
+    }
+  }
+
+  .cabin-value {
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    padding: 0 20px;
+
+    .value {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+  }
+
+  .cabin-property {
+    font-family: "ITC Conduit W01", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1;
+  }
+}

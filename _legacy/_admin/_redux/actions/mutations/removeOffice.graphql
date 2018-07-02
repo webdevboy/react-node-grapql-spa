@@ -1,0 +1,5 @@
+mutation removeOffice($id: ID!) {
+  removeOffice(id: $id) {
+        id
+      }
+  }

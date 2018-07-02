@@ -1,0 +1,5 @@
+mutation updateOrCreateMeta($page_id: ID!, $language_id: ID!, $meta: JSON){
+  updateOrCreateMeta(page_id: $page_id, language_id: $language_id, meta: $meta){
+		meta
+  }
+}

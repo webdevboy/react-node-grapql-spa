@@ -1,0 +1,53 @@
+{
+	"name": "Banner",
+	"main": "Banner.js",
+	"props": {},
+	"proptypes": {
+		"version": [
+			{
+				"name": "default",
+				"value": 0
+			},
+			{
+				"name": "heading",
+				"value": 1
+			},
+			{
+				"name": "title",
+				"value": 2
+			},
+			{
+				"name": "subtitle",
+				"value": 3
+			},
+			{
+				"name": "heading with icon",
+				"value": 4
+			},
+			{
+				"name": "request flight",
+				"value": 5
+			}
+		],
+		"background": "media",
+	    "heading": {
+	    	"title": "text",
+	    	"subtitle": "text",
+	    	"hasTitle": "bool",
+	    	"hasSubtitle": "bool"
+	    },
+	    "requestFlight": "bool",
+	    "rightButton": {
+	    	"background": "color",
+		    "color": "color",
+		    "icon": "icon",
+		    "label": "string"
+	    },
+	    "gradient": "bool",
+	    "gradientColor": "bool"
+	},
+	"type": "strict",
+	"dependencies": ["Root"],
+	"category": "component",
+	"data-type": "other"
+}

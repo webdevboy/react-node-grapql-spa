@@ -1,0 +1,7 @@
+mutation updateOrCreateMediaReference($media_id: String, $media_center_id: ID){
+  updateOrCreateMediaReference(media_id: $media_id, media_center_id: $media_center_id){
+    media{
+      alt
+    }
+  }
+}

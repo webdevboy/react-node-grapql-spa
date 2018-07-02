@@ -1,0 +1,6 @@
+{
+  "name": "destination",
+  "main": "Destination.js",
+  "displayName": "Destination",
+  "private": true
+}

@@ -1,0 +1,27 @@
+query($locale: String, $pagination: Pagination) {
+  articles: getLatestArticles(locale: $locale, pagination: $pagination) {
+    ... on Article {
+      id
+      post_id
+      title
+      slug
+      summary
+      meta
+      body
+      state
+      type
+      language {
+        id
+        language
+        locale
+      }
+      publish_at
+      created_at
+      updated_at
+      media {
+        id
+        src
+      }
+    }
+  }
+}

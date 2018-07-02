@@ -1,0 +1,13 @@
+mutation editRole($id: ID!, $name: String, $description: String, $permissions: [ID]) {
+  role: editRole(id: $id, name: $name, description: $description, permissions: $permissions) {
+    id
+    name
+    description
+    permissions {
+      id
+      isAllowed
+      action
+      description
+    }
+  }
+}

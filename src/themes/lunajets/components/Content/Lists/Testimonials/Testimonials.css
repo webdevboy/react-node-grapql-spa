@@ -1,0 +1,88 @@
+@import "../../../variables.css";
+
+.root {
+  background-color: #0d1a25;
+  min-height: 50px;
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  > div:before {
+    position: absolute;
+    content: "";
+    background: url("./gfx/aspas.png");
+    width: 390px;
+    height: 290px;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-180deg);
+    z-index: 0;
+    opacity: 0.5;
+
+    @media (max-width: 768px) {
+      bottom: 80px;
+      right: -130px;
+      transform: scale(0.5) rotate(180deg);
+    }
+  }
+
+  &:before {
+    position: absolute;
+    content: "";
+    background: url("./gfx/aspas.png");
+    width: 390px;
+    height: 290px;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    opacity: 0.5;
+
+    @media (max-width: 768px) {
+      left: -140px;
+      top: -160px;
+      transform: scale(0.5);
+    }
+  }
+}
+
+.review-box {
+  color: white;
+  max-width: 300px;
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+
+  p {
+    color: #e9eaeb;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5;
+
+    span {
+      font-style: normal;
+      color: var(--dark-grey);
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    
+  }
+
+  .strong {
+    color: #9a9a9a;
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .span {
+    color: #a4b7c7;
+    font-size: 14px;
+  }
+}

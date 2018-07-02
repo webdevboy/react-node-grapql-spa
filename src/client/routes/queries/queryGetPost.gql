@@ -1,0 +1,145 @@
+query($slug: String!, $type: String!, $language_id: ID!) {
+  post: getPost(slug: $slug, type: $type, language_id: $language_id) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      state
+      meta
+      media {
+        id
+        src
+      }
+      body
+      language {
+        id
+        locale
+      }
+      author {
+        id
+        email
+        first_name
+        last_name
+        avatar_path
+      }
+      translations {
+        ... on PostInterface {
+          id
+          slug
+          meta
+          language {
+            id
+            locale
+          }
+          # ancestors {
+          #   ... on PostInterface {
+          #     id
+          #     slug
+          #   }
+          # }
+        }
+      }
+      ... on Article {
+        taxonomies {
+          taxonomy
+          parent {
+            id
+          }
+          term {
+            id
+            name
+            meta
+          }
+        }
+      }
+      ... on Aircraft {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      ... on Airport {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      ... on Destination {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      ... on Event {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+      ... on Office {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      
+      ... on Page {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      ... on TeamMember {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      ... on Review {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+      ... on Partner {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"name": "HeaderOneEditor",
+	"main": "HeaderOneEditor.js",
+	"displayName": "HeaderOneEditor",
+	"private": true
+}

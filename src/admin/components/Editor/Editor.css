@@ -1,0 +1,47 @@
+@import "../../../themes/lunajets/components/variables.css";
+
+.editor {
+  background-color: var(--pale);
+  flex: 1 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+
+  :global {
+    .megadraft {
+      margin: 40px;
+      padding: 40px 90px;
+      max-width: 960px;
+      width: 100%;
+    }
+
+    .paragraph {
+      margin-top: 10px;
+      line-height: 32px;
+      font-size: 18px;
+      font-weight: 200;
+      color: var(--corporate-blue);
+      font-family: "ITC Conduit W01", sans-serif;
+    }
+
+    [data-block=true] {
+      border-bottom: 1px dashed transparent;
+
+      &:hover {
+        border-bottom: 1px dashed #ccc;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-style: normal;
+      color: var(--corporate-blue);
+    }
+  }
+}

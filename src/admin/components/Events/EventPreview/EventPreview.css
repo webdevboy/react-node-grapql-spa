@@ -1,0 +1,179 @@
+@import '../../variables.css';
+.banner-wrap {
+  margin-top: 2%;
+}
+
+:global {
+
+.custom-modal {
+  min-width: 100%;
+}
+
+.custom-modal {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'ITC Conduit W01', sans-serif;
+    font-style: normal;
+    color: var(--corporate-blue);
+  }
+
+  .lj-pad-y-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .lj-pad-y-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .lj-pad-t-100 {
+    padding-top: 100px;
+  }
+
+  .lj-pad-b-100 {
+    padding-bottom: 100px;
+  }
+  
+  a,
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: none;
+  }
+
+  p {
+    color: var(--corporate-blue);
+    line-height: 32px;
+  }
+
+  blockquote {
+    border-left: 2px solid #ddd;
+    color: #999;
+    font-style: italic;
+    margin: 12px 0 40px 0;
+    padding: 6px 0 5px 18px;
+  }
+
+  .block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--pale);
+
+    &.padding {
+      padding: 40px 0;
+    }
+  }
+
+  .block-va-center {
+    align-content: center;
+  }
+
+  .block-va-top {
+    align-content: flex-start;
+  }
+
+  .block-va-bottom {
+    align-content: flex-end;
+  }
+
+  .block-centered {
+    max-width: var(--max-width);
+    flex: 1;
+    padding: 0 15px;
+
+    &.no-padding {
+      padding: 0;
+    }
+  }
+
+  @keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  .animated.infinite {
+    animation-iteration-count: infinite;
+  }
+
+  .bounce {
+    animation-name: bounce;
+    transform-origin: center bottom;
+  }
+
+  .badge {
+    background: #fff;
+    color: #263d50;
+    text-shadow: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .home-heading {
+    font-family: 'ITC Conduit W01';
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    line-height: 53px;
+    max-width: 50%;
+    margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+      line-height: 42px;
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+}
+}
+
+.transition-enter {
+  transform: scale(0);
+}
+.transition-enter-active {
+  transform: scale(1);
+  transition: transform 1000ms ease;
+}
+.transition-exit {
+  transform: scale(1);
+}
+.transition-exit-active {
+  transform: scale(0);
+  transition: transform 1000ms ease;
+}
+
+}

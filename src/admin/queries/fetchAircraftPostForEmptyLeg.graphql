@@ -1,0 +1,15 @@
+query($aircraft_sfid: String, $manu_sfid: String, $language_id: ID) {
+  posts: getAircraftPostBySfid(aircraft_sfid: $aircraft_sfid, manu_sfid: $manu_sfid, language_id: $language_id) {
+    ... on PostInterface {
+      id
+      post_id
+      title
+      slug
+      meta
+      media {
+        id
+        src
+      }
+    }
+  }
+}

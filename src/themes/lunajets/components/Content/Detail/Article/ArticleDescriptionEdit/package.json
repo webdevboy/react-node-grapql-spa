@@ -1,0 +1,6 @@
+{
+	"name": "ArticleDescriptionEdit",
+	"main": "ArticleDescriptionEdit.js",
+	"displayName": "ArticleDescriptionEdit",
+	"private": "true"
+}

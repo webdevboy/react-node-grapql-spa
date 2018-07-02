@@ -1,0 +1,6 @@
+{
+	"name": "AirportDescription",
+	"main": "AirportDescription.js",
+	"displayName": "AirportDescription",
+	"private": "true"
+}

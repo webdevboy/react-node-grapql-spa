@@ -1,0 +1,6 @@
+{
+  "name": "AccountDetails",
+  "main": "AccountDetails.js",
+  "displayName": "AccountDetails",
+  "private": true
+}

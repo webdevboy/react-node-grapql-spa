@@ -1,0 +1,27 @@
+query ($language_id: ID, $cat_id: String, $pagination: Pagination) {
+  articles: getLatestArticles(language_id: $language_id, cat_id: $cat_id, pagination: $pagination) {
+    id
+    body
+    summary
+    title
+    slug
+    created_at
+    publish_at
+    article_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    language {
+      id
+    }
+    media {
+      src
+      thumbnail
+      filename
+      mimetype
+    }
+  }
+}

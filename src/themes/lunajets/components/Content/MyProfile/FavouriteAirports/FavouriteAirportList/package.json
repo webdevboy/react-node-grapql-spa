@@ -1,0 +1,6 @@
+{
+  "name": "FavouriteAirportList",
+  "main": "FavouriteAirportList.js",
+  "displayName": "FavouriteAirportList",
+  "private": true
+}

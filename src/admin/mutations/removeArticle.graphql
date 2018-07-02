@@ -1,0 +1,7 @@
+mutation($article_id: String!) {
+  remove: removeArticle(article_id: $article_id) {
+		id
+    ids
+    rows
+  }
+}

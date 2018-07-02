@@ -1,0 +1,6 @@
+{
+  "name": "NewPassword",
+  "main": "NewPassword.js",
+  "displayName": "NewPassword",
+  "private": true
+}

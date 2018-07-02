@@ -1,0 +1,7 @@
+mutation($email_id: String!) {
+  remove: removeEmailTemplate(email_id: $email_id) {
+    id
+    ids
+    rows
+  }
+}

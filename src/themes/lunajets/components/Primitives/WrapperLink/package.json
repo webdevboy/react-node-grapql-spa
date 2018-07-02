@@ -1,0 +1,6 @@
+{
+	"name": "WrapperLink",
+	"main": "WrapperLink.js",
+	"displayName": "WrapperLink",
+	"private": true
+}

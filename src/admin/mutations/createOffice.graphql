@@ -1,0 +1,16 @@
+mutation($name: String!, $address: String!, $postal_code: String!, $location: String, $country: String!, $phone: String!, $alt_phone: String!, $fax: String!, $email: String, $coordinates: JSON) {
+  office: createOffice(name: $name, address: $address, postal_code: $postal_code, location: $location, country: $country, phone: $phone, alt_phone: $alt_phone, fax: $fax, email: $email, coordinates: $coordinates) {
+    id
+    name
+    address
+    postal_code
+    location
+    country
+    phone
+    email
+    coordinates
+    alt_phone
+    primary
+    order
+  }
+}

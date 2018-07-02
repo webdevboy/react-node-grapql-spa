@@ -1,0 +1,5 @@
+{
+  "name": "settings-widget",
+  "main": "./Settings.js",
+  "private": true
+}

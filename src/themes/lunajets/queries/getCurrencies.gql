@@ -1,0 +1,7 @@
+{
+  currencies: getCurrencies {
+    id
+    currency
+    base
+  }
+}

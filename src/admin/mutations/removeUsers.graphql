@@ -1,0 +1,6 @@
+mutation removeUsers($id: [ID]!) {
+  removeUsers(id: $id) {
+    ids
+    rows
+  }
+}

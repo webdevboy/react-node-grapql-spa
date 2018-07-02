@@ -1,0 +1,21 @@
+.line {
+  
+  :global {
+    .pt-popover-target {
+      float: right;
+      opacity: .4;
+      &:hover {
+        opacity: .6;
+      }
+    }
+  }
+
+  span {
+    font-size: 14px;
+  }
+}
+
+
+.tooltip {
+  max-width: 380px;
+}

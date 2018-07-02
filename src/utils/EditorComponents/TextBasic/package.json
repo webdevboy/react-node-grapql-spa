@@ -1,0 +1,6 @@
+{
+	"name": "TextBasic",
+	"main": "TextBasic.js",
+	"displayName": "TextBasic",
+	"private": true
+}

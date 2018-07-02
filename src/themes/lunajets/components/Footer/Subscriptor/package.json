@@ -1,0 +1,9 @@
+{
+	"name": "Subscriptor",
+	"main": "Subscriptor.js",
+	"props": {},
+	"type": "abstract",
+	"dependencies": ["Root","Column","Row"],
+	"category": "component",
+	"data-type": "component"
+}

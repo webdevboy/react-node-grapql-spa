@@ -1,0 +1,17 @@
+query($id: ID!) {
+  template: getEmailTemplateById(id: $id) {
+    id
+    name
+    description
+    content_html
+    subject
+    content_json
+    email_to
+    email_id
+    language{
+      id
+      locale
+      language
+    }
+  }
+}

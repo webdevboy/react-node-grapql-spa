@@ -1,0 +1,7 @@
+mutation($event_id: String!) {
+  remove: removeEvent(event_id: $event_id) {
+    id
+    ids
+    rows
+  }
+}

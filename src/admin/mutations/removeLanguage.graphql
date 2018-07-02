@@ -1,0 +1,5 @@
+mutation($id: ID!) {
+  language: removeLanguage(id: $id) {
+    id
+  }
+}

@@ -1,0 +1,40 @@
+query($type: String!) {
+  groups: getPostGroups(type: $type) {
+    id
+    master {
+      ... on PostInterface {
+        id
+        type
+        title
+        meta
+        summary
+        publish_at
+        created_at
+        updated_at
+        ... on Page {
+          firstCity {
+            name
+          }
+          secondCity {
+            name
+          }
+        }
+      }
+    }
+    posts {
+      ... on PostInterface {
+        id
+        language {
+          id
+          locale
+          language
+          id
+        }
+        type
+        meta
+        state
+        slug
+      }
+    }
+  }
+}

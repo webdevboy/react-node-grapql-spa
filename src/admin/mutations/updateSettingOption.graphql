@@ -1,0 +1,7 @@
+mutation updateSettings($id: ID, $option: String!, $value: String!) {
+  option: updateSettings(id: $id, option: $option, value: $value) {
+    id
+    option
+    value
+  }
+}

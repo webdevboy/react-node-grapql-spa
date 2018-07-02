@@ -1,0 +1,6 @@
+{
+	"name": "JetCostCompare",
+	"main": "JetCostCompare.js",
+	"displayName": "JetCostCompare",
+	"private": "true"
+}

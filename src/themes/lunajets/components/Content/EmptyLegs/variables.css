@@ -1,0 +1,18 @@
+:root {
+	--light-blue: #B6CADA;
+	--dark-blue: #263D50;
+	--dark-red: #B51F24;
+	--light-red: #EF4343;
+	--light-grey: #E2E2E1;
+	--dark-grey: #C2C3CC;
+	--pale: #FAF7F6;
+	--corporate-blue: #3E5970;
+	--corporate-dk-blue: #0D1A25;
+
+	--max-width: 1140px;
+	--global-margin: 15px;
+	--global-bg-color: #FAF7F6;
+	
+	--navbar-top-height: 35px;
+	--navbar-main-height: 60px;
+}

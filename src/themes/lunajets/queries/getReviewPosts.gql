@@ -1,0 +1,56 @@
+query($slugs: [String], $language_id: ID, $ids: [String], $pagination: Pagination, $featured_homepage: Boolean) {
+  posts: getReviewPosts(slugs: $slugs, language_id: $language_id, ids: $ids, pagination: $pagination, featured_homepage: $featured_homepage) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      media {
+        id
+        src
+      }
+      body
+      language {
+        id
+        locale
+      }
+      author {
+        id
+        email
+        first_name
+        last_name
+        avatar_path
+      }
+      translations {
+        ... on PostInterface {
+          id
+          slug
+          language {
+            id
+            locale
+          }
+          ancestors {
+            ... on PostInterface {
+              id
+              slug
+            }
+          }
+        }
+      }
+      ... on Review {
+        taxonomies {
+          taxonomy
+          term {
+            id
+            name
+          }
+        }
+      }
+    }
+  }
+}

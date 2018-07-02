@@ -1,0 +1,6 @@
+{
+	"name": "UnorderedListEditor",
+	"main": "UnorderedListEditor.js",
+	"displayName": "UnorderedListEditor",
+	"private": true
+}

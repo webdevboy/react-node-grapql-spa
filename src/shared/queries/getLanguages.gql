@@ -1,0 +1,9 @@
+{
+  locales: getLanguages {
+    id
+    locale
+    language
+    native
+    rtl
+  }
+}

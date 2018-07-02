@@ -1,0 +1,5 @@
+{
+  "name": "widget",
+  "main": "./Widget.js",
+  "private": true
+}

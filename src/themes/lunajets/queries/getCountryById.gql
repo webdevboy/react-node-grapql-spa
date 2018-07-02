@@ -1,0 +1,5 @@
+query($sf_id: String) {
+    country: getCountries(sf_id: $sf_id) {
+        name
+    }
+}

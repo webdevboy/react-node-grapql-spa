@@ -1,0 +1,61 @@
+mutation(
+  $id: ID
+  $title: String
+  $from_date: Date
+  $until_date: Date
+  $summary: String
+  $body: JSON
+  $language_id: ID
+  $media_id: ID
+  $url: String
+  $city_id: String
+  $published: Boolean
+  $display_helicopter_transfer: Boolean
+) {
+  event: updateEvent(
+    id: $id
+    title: $title
+    from_date: $from_date
+    until_date: $until_date
+    summary: $summary
+    body: $body
+    language_id: $language_id
+    media_id: $media_id
+    url: $url
+    city_id: $city_id
+    published: $published
+    display_helicopter_transfer: $display_helicopter_transfer
+  ) {
+    id
+    event_id
+    title
+    summary
+    body
+    published
+    from_date
+    until_date
+    created_at
+    author {
+      id
+      email
+      first_name
+      last_name
+    }
+    city {
+      name
+      sfid
+      country {
+        countryCode
+        name
+      }
+    }
+    language {
+      id
+    }
+    media {
+      id
+    }
+    url
+    display_helicopter_transfer
+  }
+}

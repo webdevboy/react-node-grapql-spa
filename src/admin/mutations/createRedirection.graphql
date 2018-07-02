@@ -1,0 +1,9 @@
+mutation($link: [String]!, $redirect: String!, $description: String, $http_code: Int) {
+  redirection: createRedirection(link: $link, redirect: $redirect, description: $description, http_code : $http_code) {
+    id
+    link
+    redirect
+    description
+    http_code
+  }
+}

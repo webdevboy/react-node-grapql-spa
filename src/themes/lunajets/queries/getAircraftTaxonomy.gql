@@ -1,0 +1,9 @@
+query($taxonomies: [String]) {
+ getTaxonomies(taxonomies: $taxonomies) {
+  term {
+    meta
+    slug
+    name
+  }
+ }
+}

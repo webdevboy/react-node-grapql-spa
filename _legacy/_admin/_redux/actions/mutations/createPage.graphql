@@ -1,0 +1,21 @@
+mutation createPage(
+  $title: String!,
+  $path: String!,
+  $template: String!,
+  $body: JSON,
+  $owner: ID!) {
+
+  createPage(title: $title, path: $path, template: $template, owner: $owner, body: $body) {
+    id
+    title
+    path
+    slug
+    template
+    body
+    owner {
+      id
+      first_name
+      last_name
+    }
+  }
+}

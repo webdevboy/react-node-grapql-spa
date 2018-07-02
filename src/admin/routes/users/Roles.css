@@ -1,0 +1,59 @@
+.role, .roles {
+  
+  table {
+    width: 100%;
+
+    .actionCol {
+      text-align: right;
+      min-width: 82px;
+    }
+
+    label {
+      margin: 0;
+    }
+    td, th {
+      outline: 0;
+      vertical-align: middle;
+      &:nth-last-child(2) {
+        @media(max-width: 800px) {
+          display: none;
+        }
+      }
+      &:nth-last-child(3) {
+        @media(max-width: 400px) {
+          display: none;
+        }
+      }
+      
+    }
+    tbody {
+      tr {
+        &:hover {
+          background-color: RGBA(255, 255, 255, .2);
+        }
+        &.isActive {
+          background-color: rgba(0,0,0,.5);
+        }
+        
+      }
+      
+    }
+  }
+}
+.role {
+  padding: 15px;
+
+  .role-form {
+    display: flex;
+    flex-direction: column;
+    
+
+    .lj-form {
+      background: rgba(255,255,255,.02);
+      padding: 20px;
+      flex: 1;
+      border-radius: 2px;
+      margin-top: 10px;
+    }
+  }
+}

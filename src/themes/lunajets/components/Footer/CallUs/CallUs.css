@@ -1,0 +1,70 @@
+@import "../../variables.css";
+
+.callus-section {
+  background-color: var(--corporate-dk-blue);
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+.sub-title {
+  color: var(--light-blue);
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "FuturaLTPro-Medium", sans-serif;
+  text-transform: uppercase;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.emailus-btn {
+  background-color: var(--dark-red);
+}
+
+.callus-btn {
+  background-color: var(--dark-grey);
+}
+
+.callus-btn,
+.emailus-btn {
+  width: 255px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin: 10px auto auto auto;
+  }
+}
+
+.separation-or {
+  padding: 5px 25px;
+  font-family: "ITC Conduit W01", sans-serif;
+  font-size: 1.25rem;
+  color: var(--light-grey);
+  font-weight: 500;
+}

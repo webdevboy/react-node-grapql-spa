@@ -1,0 +1,8 @@
+query getLocales($locale: String) {
+  getLocales(locale: $locale) {
+	id
+	locale
+	language
+	country
+  }
+}

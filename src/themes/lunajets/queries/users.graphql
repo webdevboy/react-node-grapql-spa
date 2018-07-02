@@ -1,0 +1,21 @@
+{
+  getUsers {
+    id
+    email
+    first_name
+    last_name
+    last_login
+    avatar_path
+    created_at
+    role {
+    	id
+    	name
+         permissions{
+            id
+            action
+            description
+            isAllowed
+        }
+    }
+  }
+}

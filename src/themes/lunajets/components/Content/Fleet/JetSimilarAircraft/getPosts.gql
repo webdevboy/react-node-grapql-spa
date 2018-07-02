@@ -1,0 +1,18 @@
+query($id: [ID]) {
+  posts: getPostsById(ids: $id) {
+    ... on PostInterface {
+      id
+      title
+      slug
+      meta
+      media {
+        id
+        src
+        thumbnail
+      }
+      language {
+        locale
+      }
+    }
+  }
+}

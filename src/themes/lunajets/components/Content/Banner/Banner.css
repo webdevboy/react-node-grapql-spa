@@ -1,0 +1,8 @@
+.banner {
+  max-height: 800px;
+  position: relative;
+
+  .banner-heading {
+    margin-bottom: 20px;
+  }
+}

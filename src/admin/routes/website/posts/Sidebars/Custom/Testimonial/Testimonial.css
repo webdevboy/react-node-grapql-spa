@@ -1,0 +1,17 @@
+.suggester {
+  width: 100%;
+  
+  :global {
+    .pt-input-group {
+      &.pt-disabled {
+        pointer-events: none;
+        input {
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          background: rgba(57, 75, 89, 0.5);
+          color: rgba(191, 204, 214, 0.5);
+        }
+      }
+    }
+  }
+}

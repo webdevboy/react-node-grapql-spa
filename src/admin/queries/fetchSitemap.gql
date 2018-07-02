@@ -1,0 +1,14 @@
+{
+  sitemap: getSitemap {
+    id
+    url
+    updated_at
+    created_at
+    meta {
+      title
+      description
+      author
+      keywords
+    }
+  }
+}

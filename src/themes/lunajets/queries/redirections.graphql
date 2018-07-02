@@ -1,0 +1,8 @@
+{
+  getRedirections{
+    id
+    link
+    redirect
+    description
+  }
+}

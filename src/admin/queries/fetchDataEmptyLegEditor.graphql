@@ -1,0 +1,38 @@
+# Try to write your query here
+query($id: Int!) {
+  currencies: getCurrencies {
+    id
+    currency
+    base
+  }
+
+  emptyLeg: getEmptyLeg(id: $id) {
+    id
+    from_date
+    until_date
+    price
+    featured
+    published
+    details
+    aircraft {
+      sfid
+      name
+    }
+    from_airport {
+      id
+      sfid
+      name
+      full_name
+    }
+    to_airport {
+      id
+      sfid
+      name
+      full_name
+    }
+    currency {
+      id
+      currency
+    }
+  }
+}

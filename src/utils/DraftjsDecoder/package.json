@@ -1,0 +1,6 @@
+{
+	"name": "DraftjsDecoder",
+	"main": "DraftjsDecoder.js",
+	"displayName": "DraftjsDecoder",
+	"private": "true"
+}

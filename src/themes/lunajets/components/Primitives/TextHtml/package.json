@@ -1,0 +1,6 @@
+{
+	"name": "text-html",
+	"main": "TextHtml.js",
+	"displayName": "Text Html",
+	"private": true
+}

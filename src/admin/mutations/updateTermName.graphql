@@ -1,0 +1,7 @@
+mutation($oldName:String, $name:String) {
+  rows: updateTermName(oldName: $oldName, name: $name) {
+    id
+    ids
+    rows
+  }
+}

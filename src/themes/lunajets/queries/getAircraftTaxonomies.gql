@@ -1,0 +1,16 @@
+query {
+  categories: getTaxonomies(taxonomies: "aircraft_category") {
+    term {
+      meta
+      slug
+      name
+    }
+  }
+	manufactureres: getTaxonomies(taxonomies: "aircraft_manufacturer") {
+    term {
+      meta
+      slug
+      name
+    }
+  }
+}

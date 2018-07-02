@@ -1,0 +1,46 @@
+.filters{
+    color: white;
+    background-color: #12212e;
+    padding-bottom: 10px;
+}
+
+.filters > .header{
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.filler{
+    flex-grow: 1;
+}
+
+.fieldInput{
+    background-color: #222C3C;
+    border: 1px solid #0d304e;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #a6b2bb;
+    min-width: 100px;
+    padding: 0px 10px;
+    margin: 0px 5px;
+}
+
+.fieldInput:focus{
+    border: 1px solid #405575;
+    outline: none;
+}
+
+.active{
+    display: flex;
+    margin-top: -18px;
+}
+
+.inactive{
+    display: none;
+}
+
+.dropdown-toggle{
+    background-color: transparent;
+    color: #b2b9c4;
+    border: none;
+}

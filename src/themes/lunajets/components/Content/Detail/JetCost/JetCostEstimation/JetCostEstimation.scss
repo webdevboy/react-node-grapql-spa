@@ -1,0 +1,157 @@
+@import "../../../../variables.css";
+
+.section-title1 {
+  position: relative;
+  font-size: 2rem;  
+  font-family: "ITC Conduit W01", sans-serif;
+
+  @media (max-width: 767.98px) {
+    font-size: 1.5rem;
+  }
+
+  &:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    left: -55px;
+    top: 50%;
+    margin-top: -1px;
+    width: 40px;
+    background: var(--light-blue);
+
+    @media (max-width: 767.98px) {
+      display: none;
+    }
+  }
+}
+
+.estimation-table {
+  font-family: "ITC Conduit W01", sans-serif;
+  margin: 0;
+  background: white;
+  width: 100%;
+}
+
+.table-header {
+  color: var(--dark-blue);
+  padding: 5px 30px !important;
+  margin: 0;
+  
+  font-family: "ITC Conduit W01", sans-serif;
+
+  .origin {
+    width: 15%;
+    padding: 0;
+    @media (max-width: 767.98px) {
+      width: 30%;
+      padding: 0;
+    }
+  }
+
+  .destination {
+    width: 15%;
+    padding: 0;
+    @media (max-width: 767.98px) {
+      width: 25%;
+      padding: 0;
+    }
+  }
+  
+  .flight-time {
+    width: 12%;
+    padding: 0;
+    @media (max-width: 767.98px) {
+      width: 25%;
+      padding: 0;
+    }
+  }
+  
+  .aircraft-wrap {
+    width: 28%;
+    padding: 0;
+    text-align: center;
+
+    @media (max-width: 767.98px) {
+      display: none;
+    }
+  }
+  
+  .leg-price {
+    padding: 0;
+  
+    @media (max-width: 767.98px) {
+      text-align: start;
+      width: inherit;
+      padding: 0;
+    }
+  }
+
+  @media (max-width: 768.98px) {
+    font-size: 13px;
+    
+    .desktop-only {
+      display: none;
+    }
+  }
+}
+
+
+@media (max-width: 768.98px) {
+  .estimation-table {
+    background: #faf7f6;
+    margin: 0 15px;
+
+    th {
+      margin-bottom: 5px;
+      background: white;
+      padding: 5px 15px !important;
+
+      tr {
+        padding: 0;
+      }
+    }
+    tbody {
+      margin-bottom: 5px;
+      background: white;
+      padding: 0;
+      border: none;
+
+      tr {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .estimation-table {
+    background: #faf7f6;
+    margin: 0 15px;
+
+    th {
+      margin-bottom: 5px;
+      background: white;
+      padding: 5px 30px !important;
+
+      tr {
+        padding: 0;
+      }
+    }
+    tbody {
+      margin-bottom: 5px;
+      background: white;
+      padding: 0;
+      border: none;
+
+      tr {
+        padding: 0;
+      }
+    }
+  }
+}
+
+// @media (min-width: 1200px) {
+//   .container {
+//       max-width: 1500px;
+//   }
+// }

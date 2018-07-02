@@ -1,0 +1,12 @@
+query($id: ID!) {
+  role: getRole(id: $id) {
+    id
+    name
+    description
+    permissions {
+      id
+      action
+      description
+    }
+  }
+}

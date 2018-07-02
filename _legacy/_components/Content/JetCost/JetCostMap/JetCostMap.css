@@ -1,0 +1,61 @@
+@import "../../../variables.css";
+
+.map-section {
+  p {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  .map-container {
+    min-height: 700px;
+    padding: 0;
+  }
+
+  .price-table {
+    transform: translate(0, -60px);
+
+    th[scope="col"] {
+      background-color: var(--corporate-blue);
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      text-align: center;
+      border-bottom: none;
+      border-left: 1px solid var(--light-grey);
+      vertical-align: middle;
+      height: 60px;
+    }
+
+    th[scope="row"] {
+      background-color: white;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 0.75rem;
+      min-width: 200px;
+    }
+
+    .price-label {
+      text-transform: uppercase;
+      color: var(--corporate-blue);
+    }
+
+    .price-legend {
+      color: var(--light-grey);
+    }
+
+    td {
+      min-width: 110px;
+      background-color: white;
+      color: var(--corporate-blue);
+      text-align: center;
+      vertical-align: middle;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 0.75rem;
+      border-left: 1px solid var(--light-grey);
+    }
+  }
+}

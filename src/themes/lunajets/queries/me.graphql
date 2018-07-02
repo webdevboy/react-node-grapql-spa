@@ -1,0 +1,26 @@
+{
+  me {
+    __typename
+    ... on Contact {
+      sfid
+      email
+      name
+      first_name
+      last_name
+      phone
+      salutation
+      role
+    }
+    ... on User {
+      id
+      email
+      first_name
+      last_name
+      avatar_path
+      role {
+        id
+        name
+      }
+    }
+  }
+}

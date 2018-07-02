@@ -1,0 +1,6 @@
+{
+	"name": "Urls List",
+	"Version": "0.0.0",
+	"private": true,
+	"main": "UrlsList.js"
+}

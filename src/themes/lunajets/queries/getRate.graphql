@@ -1,0 +1,5 @@
+query getRate($currency_from_id: ID, $currency_to_id: ID){
+  getRate(currency_from_id: $currency_from_id, currency_to_id: $currency_to_id){
+    rate
+  }
+}

@@ -1,0 +1,12 @@
+{
+  rates: getRates {
+    id
+    rate
+    from {
+      currency
+    }
+    to {
+      currency
+    }
+  }
+}

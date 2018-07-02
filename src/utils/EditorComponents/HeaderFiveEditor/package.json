@@ -1,0 +1,6 @@
+{
+	"name": "HeaderFiveEditor",
+	"main": "HeaderFiveEditor.js",
+	"displayName": "HeaderFiveEditor",
+	"private": true
+}

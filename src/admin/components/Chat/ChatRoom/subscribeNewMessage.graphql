@@ -1,0 +1,17 @@
+subscription newMessage($roomId: ID!) {
+  newMessage(roomId: $roomId) {
+    id
+    body
+    automated
+    cli_read
+    adv_read
+    created_at
+    user {
+      id
+      avatar_path
+    }
+    customer {
+      sfid
+    }
+  }
+}

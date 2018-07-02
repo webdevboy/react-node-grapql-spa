@@ -1,0 +1,90 @@
+/*@import '../../../styles/actionsBtns.css';*/
+
+.toolbar{
+	position: fixed;
+    top: 150px;
+    left: 250px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    background: linear-gradient(#506072, #485668);
+    display: block;
+}
+
+.actionsBtns{
+	float: initial;
+    border-radius: 0px;
+}
+
+.actionsBtns:hover{
+    opacity: 0.3;
+}
+
+.actionsBtns > img{
+	width: 20px;
+}
+
+.fieldInput{
+	width: initial;
+	border-radius: 0px;
+    background: linear-gradient(#506072, #485668);
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.fieldInput:focus{
+    outline: none;
+}
+
+.fieldInput:hover{
+    opacity: 0.3;
+}
+
+option{
+    background-color: #485668;
+    color: white;
+}
+
+option:nth-child(even){
+    background-color: #506072;
+    color: white;
+}
+
+.fieldInput:first-child{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.fieldInput:last-child{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.actionsBtns:first-child{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.actionsBtns:last-child{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.span{
+	background: linear-gradient(#506072, #485668);
+}
+
+.active{
+    background: #0d1a25;
+}
+
+.inpt{
+
+}
+
+.picker{
+    display: inline-flex;
+}
+
+.block-picker{
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}

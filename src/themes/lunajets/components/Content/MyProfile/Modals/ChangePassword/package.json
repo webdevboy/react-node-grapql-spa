@@ -1,0 +1,6 @@
+{
+  "name": "ChangePassword",
+  "main": "ChangePassword.js",
+  "displayName": "ChangePassword",
+  "private": true
+}

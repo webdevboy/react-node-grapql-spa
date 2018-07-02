@@ -1,0 +1,11 @@
+query($ids: [String]) {
+  cities: getCities(sfids: $ids) {
+    name
+    sfid
+    country {
+      sfid
+      name
+      countryCode
+    }
+  }
+}

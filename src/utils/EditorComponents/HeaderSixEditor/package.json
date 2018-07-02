@@ -1,0 +1,6 @@
+{
+	"name": "HeaderSixEditor",
+	"main": "HeaderSixEditor.js",
+	"displayName": "HeaderSixEditor",
+	"private": true
+}

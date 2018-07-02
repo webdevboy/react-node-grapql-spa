@@ -1,0 +1,6 @@
+{
+	"name": "OrderedListEditor",
+	"main": "OrderedListEditor.js",
+	"displayName": "OrderedListEditor",
+	"private": true
+}

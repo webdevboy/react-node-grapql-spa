@@ -1,0 +1,94 @@
+.player {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  &.fullscreen {
+    .controls {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .video {
+      border-radius: 0;
+      overflow: visible;
+      z-index: 0;
+    }
+  }
+
+  &:hover {
+    .controls {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .video {
+      background: rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &.border {
+    .video {
+      border-radius: 12px;
+      box-shadow:
+        20px -20px 0 0 #b6cada,
+        20px -20px 30px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+.video {
+  height: 100%;
+  overflow: hidden;
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 230px;
+    height: 120px;
+    left: 0;
+    bottom: 0;
+    box-shadow: -20px 20px 0 0 #1e242a1a;
+    border-radius: 12px;
+  }
+
+  video {
+    width: 100% !important;
+    height: auto !important;
+    position: relative;
+    display: flex;
+  }
+}
+
+.controls {
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 20;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.fullscreen {
+  top: 10px;
+  right: 10px;
+}
+
+.playPause {
+  left: 10px;
+  bottom: 10px;
+}
+
+.volume {
+  right: 10px;
+  bottom: 10px;
+}
+
+.ytp-watermark {
+  display: none;
+}

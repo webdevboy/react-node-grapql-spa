@@ -1,0 +1,73 @@
+# Try to write your query here
+query ($limit: Int) {
+  emptylegs: getAllEmptyLegs (limit: $limit) {
+    id
+    from_date
+    until_date
+    price
+    featured
+    published
+    details
+    currency {
+      id
+      currency
+    }
+    aircraft {
+      name
+    }
+    from_airport {
+      name
+      distance
+      sfid
+      icao
+      iata
+      coordinates
+      helipad
+      time_to_utc
+      city {
+        ... on AirportCity {
+          ...cityFields
+        }
+      }
+    }
+    to_airport {
+      name
+      distance
+      sfid
+      icao
+      iata
+      coordinates
+      helipad
+      time_to_utc
+      city {
+        ... on AirportCity {
+          ...cityFields
+        }
+      }
+    }
+  }
+}
+
+fragment cityFields on AirportCity {
+  sfid
+  name
+  name_en
+  name_de
+  name_it
+  name_hu
+  name_es
+  name_pl
+  name_ru
+  name_fr
+  country {
+    ... on Country {
+      ...countryFields
+    }
+  }
+}
+
+fragment countryFields on Country {
+  sfid
+  name
+  countryCode
+}

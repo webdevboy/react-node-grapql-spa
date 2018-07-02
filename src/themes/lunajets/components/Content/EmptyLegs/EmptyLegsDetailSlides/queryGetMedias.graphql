@@ -1,0 +1,7 @@
+query getMediaReferences($ids: [ID]) {
+  medias: getMediaByIds(id: $ids){
+    id
+    src
+    key
+  }
+}

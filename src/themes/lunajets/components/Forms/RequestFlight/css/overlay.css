@@ -1,0 +1,661 @@
+@import "../../../variables.css";
+
+
+:global(.mobile) {
+  .closeOverlay {
+    display: none;
+  }
+}
+
+.error {
+  span {
+    display: flex;
+  }
+
+  input::placeholder {
+    color: #ff6b6b;
+  }
+
+  border-color: #ff6b6b !important;
+}
+
+/* .optionsModal {
+  position: absolute;
+  z-index: 991;
+} */
+
+.inoverlay button {
+  color: var(--corporate-blue) !important;
+}
+
+.legIndex {
+  color:  var(--corporate-blue);
+}
+
+.stepOverlay {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  overflow-y: auto;
+  background: #fff;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  z-index: 990;
+  transition: top 500ms cubic-bezier(1, 0, 0, 1); /* easeInOutExpo */
+  transition-timing-function: cubic-bezier(1, 0, 0, 1); /* easeInOutExpo */
+  visibility: hidden;
+  top: -100%;
+  opacity: 0;
+
+  &.pullDown {
+    visibility: visible;
+    top: 60px;
+    opacity: 1;
+  }
+
+  .estimates {
+    margin-top: 30px;
+    min-width: 100%;
+  }
+
+  @media(max-width: 768px) {
+    height: calc(100vh - 60px);
+  }
+
+  .innerOverlay {
+    // max-width: var(--max-width);
+    margin: 0 auto;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+    position: relative;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    @media(max-width: 768px) {
+			
+    }
+  }
+
+
+
+  .toggleCategories {
+    position: relative;
+
+    > span {
+      margin-right: 15px;
+    }
+
+    &.isOpen {
+      &:after {
+        border-color: transparent transparent #3e5970;
+        border-style: solid;
+        border-width: 0 5px 5px;
+      }
+    }
+
+    &:after {
+      border-color: #3e5970 transparent transparent;
+      border-style: solid;
+      border-width: 5px 5px 2.5px;
+      display: inline-block;
+      height: 0;
+      width: 0;
+      position: absolute;
+      top: 50%;
+      content: "";
+      right: 0;
+      margin-top: -2px;
+    }
+  }
+
+  .stepIndicator {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    overflow: hidden;
+    margin: auto auto 40px auto;
+
+    .step {
+      height: 39px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: flex-end;
+      -ms-flex-align: center;
+      align-items: center;
+      position: relative;
+      flex: 1;
+      align-items: center;
+      align-content: center;
+
+      span {
+        height: 39px;
+        width: 39px;
+        font-family: "Ubuntu Mono", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        border: 5px solid #fff;
+        border-radius: 100%;
+        background: #b6cada;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+      }
+
+      &:nth-child(1) {
+        flex: 0;
+
+        &:before {
+          display: none !important;
+        }
+      }
+
+      &:before {
+        content: "";
+        position: relative;
+        flex: 1 1 0%;
+        height: 2px;
+        right: 0;
+        background: #b6cada;
+        z-index: 2;
+        border-radius: 100px;
+        opacity: 0.5;
+      }
+
+
+      &.isActive, &.previousStep {
+        span {
+          background: #3e5970;
+        }
+
+        &:before {
+          opacity: 1;
+        }
+  
+      }
+
+      &.isDisabled {
+        span {
+          cursor: default !important;
+        }
+      }
+
+    }
+  }
+
+  .overlayActions {
+    margin-top: 10px;
+    @media (min-width: 992px) {
+      display: none;
+    }
+    .closebtn {
+      border: 0;
+      background: #ddd;
+      border-radius: 2px;
+      border: 0;
+      height: 42px;
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 18px;
+      color: #fff;
+      padding: 0 15px;
+      text-transform: uppercase;
+      font-weight: 500;
+      cursor: pointer;
+      outline: 0;
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+
+  .closeOverlay {
+    border-radius: 100%;
+    background: transparent;
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    opacity: 0.6;
+    cursor: pointer;
+    top: 0;
+    z-index: 9999;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    @media(max-width: 768px) {
+      margin-right: 0;
+    }
+
+  }
+
+  .overlayContainer {
+    /* display: flex; */
+
+    /* flex-direction: column; */
+
+    /* flex: 1; */
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @media(max-width: 992px) {
+      padding: 10px 15px 80px 15px;
+      margin: 0;
+      display: block;
+      position: absolute;
+      top: 60px;
+      box-sizing: border-box;
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  .stepsForm {
+    margin: 40px 0;
+    flex-direction: column;
+
+    &.contactInfo {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 900px;
+    }
+
+    &.reqflight {
+      display: block !important;
+      min-width: 100%;
+      margin: 0 auto;
+    }
+
+    &.completed {
+      display: block !important;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .flightResume {
+      flex-direction: column !important;
+      width: 100%;
+      align-items: center;
+
+      .editAction {
+        display: flex;
+        justify-content: flex-end;
+        min-width: 100%;
+        margin: 5px 0;
+      }
+
+      .trips {
+        display: flex;
+        flex-direction: column;
+        max-width: 760px;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+
+        .tripLeg {
+          display: flex;
+          flex-direction: row;
+          font-family: "ITC Conduit W01", sans-serif;
+          font-size: 16px;
+          text-transform: uppercase;
+          margin: 5px 0;
+          align-items: center;
+          max-width: 760px;
+          align-self: center;
+          width: 100%;
+          flex-wrap: wrap;
+
+
+          span {
+            word-wrap: normal;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+
+          .plane {
+            display: flex;
+            align-items: center;
+            margin: 0 20px;
+          }
+
+          .tripFrom, .tripTo {
+            color: #3e5970;
+            display: flex;
+            align-items: center;
+            flex: 1;
+            max-width: 260px;
+            width: 100%;
+            justify-content: flex-start;
+            
+            .label {
+              word-wrap: normal;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              flex: 1;
+            }
+
+            :global {
+              .famfamfam-flags {
+                margin-right: 20px;
+                flex: 0 0 16px;
+              }
+            }
+          }
+
+          .tripDate {
+            color: #7f7f7f;
+            margin-right: 20px;
+            width: 100%;
+            flex: 1;
+            max-width: 160px;
+            width: 100%;
+
+            @media(max-width: 768px) {
+              min-width: 100%;
+            }
+          }
+        }
+      }
+
+      
+
+      .map {
+        height: 272px;
+        display: block;
+        width: 100%;
+      }
+    }
+		
+
+    .header {
+      h3 {
+        font-family: "ITC Conduit W01";
+        font-weight: 500 !important;
+        font-style: normal;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #3e5970;
+        margin-bottom: 10px;
+      }
+
+      &.thankYou {
+        margin-bottom: 20px;
+        flex-direction: column;
+
+        h3 {
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          align-items: center;
+          text-transform: none;
+          font-weight: 500;
+          font-size: 36px;
+          margin-bottom: 10px;
+
+          span {
+            margin-left: 20px;
+            color: #263d50;
+
+            i {
+              text-decoration: none;
+              font-style: normal;
+              color: #a8aab7;
+              font-weight: 300;
+
+              @media(max-width: 768px) {
+                display: block;
+              }
+            }
+          }
+        }
+
+        p {
+          font-family: "ITC Conduit W01";
+          font-weight: 400 !important;
+          font-style: normal;
+          font-size: 20px;
+          text-transform: none;
+          color: #3e5970;
+          max-width: 660px;
+          margin: 0 auto;
+          text-align: center;
+        }
+      }
+    }
+
+    .options {
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.05),
+        0 4px 20px rgba(0,0,0,0.05);
+
+      @media(max-width: 1200px) {
+        .option {
+          padding: 0 10px;
+        }
+
+        .optionIcon[alt="skis"], .optionIcon[alt="bicicle"] {
+          display: none;
+        }
+      }
+    }
+
+    .leg {
+      border-radius: 4px;
+      padding: 10px 0;
+
+      .legIndex {
+        position: absolute;
+        color: rgba(62, 89, 112, .8);
+        font-family: "ProximaNova-Semibold", sans-serif;
+        font-weight: 600;
+        margin-left: -20px;
+        top: 17px;
+      }
+
+      .legField {
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.05),
+          0 4px 20px rgba(0,0,0,0.05);
+        background: #FFF;
+        
+      }
+
+      @media(max-width: 768px) {
+        /* background: rgba(0,0,0,0.04); */
+        margin-bottom: 10px;
+        padding: 0;
+
+        .legField {
+          /* background: transparent; */
+        }
+      }
+
+      .removeBallon {
+        top: -10px;
+        right: -15px;
+        opacity: 1;
+        left: inherit;
+        display: none;
+        z-index: 100;
+        height: auto;
+
+        @media(max-width: 768px) {
+          display: block !important;
+        }
+      }
+    }
+
+    :global {
+      .btn.action {
+        flex: 0 0 220px;
+        height: 70px;
+        border-radius: 2px !important;
+      }
+    }
+
+    .center {
+      justify-content: center;
+    }
+
+    .groupRow {
+      display: flex;
+      margin-right: 10px;
+    }
+
+    .formRow {
+      flex: 1;
+      flex-direction: row;
+      display: flex;
+
+      @media(max-width: 768px) {
+        display: block;
+      }
+
+      button.linkAction {
+        padding: 0;
+        margin-right: 10px;
+        text-transform: capitalize;
+        cursor: pointer;
+
+        span {
+          word-wrap: normal;
+          white-space: nowrap;
+        }
+
+        svg {
+          display: none;
+        }
+      }
+
+      button.toggleoptions {
+        margin-right: 0;
+
+        &.isOpen {
+          &:after {
+            border-color: transparent transparent #3e5970;
+            border-width: 0 5px 5px;
+          }
+        }
+
+        &:after {
+          border-color: #3e5970 transparent transparent;
+          margin-top: -3px;
+        }
+      }
+
+      .linkAction {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        color: #3e5970;
+        text-decoration: underline;
+      }
+
+      @media(max-width: 768px) {
+        flex-direction: column;
+      }
+
+      @media(max-width: 768px) {
+        > .groupRow {
+          margin-right: 0;
+					
+          .formRow:nth-child(1) {
+            margin-right: 10px;
+          }
+
+        }
+      }
+
+      &.actions {
+        margin-top: 20px;
+        flex: 0;
+        flex-direction: row;
+        display: flex;
+
+        :global {
+          .btn {
+            width: 220px;
+
+            @media(max-width: 992px) {
+              width: 100%;
+              flex: 1 1 auto;
+              text-align: center;
+              display: block;
+              max-width: 100%;
+            }
+          }
+        }
+				
+      }
+
+      .inputGroup {
+        margin-right: 10px;
+        flex: 1;
+				
+        @media(max-width: 768px) {
+          margin-right: 0;
+        }
+
+        &:nth-last-child(1) {
+          margin-right: 0;
+        }
+      }
+
+      .title {
+        flex: 0 1 20%;
+        margin-right: 10px;
+      }
+
+      .names {
+        flex: 1 1 40%;
+      }
+
+      .email {
+        flex: 1 1 60%;
+      }
+
+      .phone {
+        flex: 1 1 40%;
+        button {
+          height: 38px;
+          background: #0000;
+          border-right: 0;
+        }
+
+        :global {
+          .dropdown-menu {
+            overflow-x: hidden;
+            width: 200px;
+            max-height: 200px;
+            overflow-x: hidden;
+            font-size: 13px;
+            font-family: "ITC Conduit W01";
+            font-weight: 400 !important;
+            text-transform: uppercase;
+            color: #999;
+          }
+        }
+      }
+
+    }
+
+  }
+	
+}

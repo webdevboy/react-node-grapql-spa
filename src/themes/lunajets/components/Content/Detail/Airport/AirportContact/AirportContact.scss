@@ -1,0 +1,40 @@
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #263d50;
+  text-align: center;
+  font-family: "ITC Conduit W01", sans-serif;
+
+  p:first-child {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  p:nth-child(2) {
+    font-size: 1.4rem;
+    font-weight:400;
+    color: #bfc5ca;
+  }
+
+  .contact-button-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+
+    .between-text {
+      font-weight: 500;
+      font-size: 1.2rem;
+      color: #bfc5ca;
+    } 
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-button-area {
+    flex-direction: column !important;
+  }
+}

@@ -1,0 +1,13 @@
+query {
+  countries: getCountries {
+    name
+    sfid
+    countryCode
+  }
+
+  cities: getAllCities {
+    name
+    sfid
+    country_code
+  }
+}

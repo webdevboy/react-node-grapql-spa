@@ -1,0 +1,137 @@
+.categories {
+  width: 100% !important;
+}
+
+.labelFeatured {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+
+  .star {
+    order: 2;
+  }
+}
+
+:global {
+  .pt-card {
+    padding: 10px;
+    margin-bottom: 10px;
+
+    label {
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .pt-table {
+    th {
+      cursor: pointer;
+
+      .sort-by {
+        padding-right: 22px;
+        position: relative;
+
+        &::before, &::after {
+          border: 5px solid transparent;
+          content: "";
+          display: block;
+          height: 0;
+          right: 5px;
+          top: 50%;
+          position: absolute;
+          width: 0;
+        }
+
+        &::before {
+          border-bottom-color: #4a4a4a;
+          margin-top: -11px;
+        }
+        &::after {
+          border-top-color: #4a4a4a;
+          margin-top: 1px;
+        }
+
+        &.sorted-up {
+          &::before {
+            border-bottom-color: white;
+            margin-top: -7px;
+          }
+          &::after {
+            display: none;
+          }
+        }
+
+        &.sorted-down {
+          &::after {
+            border-top-color: white;
+            margin-top: -1px;
+          }
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.notDefaultLang {
+  background: #30404d !important;
+}
+
+.aircrafts {
+  .star {
+    cursor: pointer;
+  }
+
+  table {
+    width: 100%;
+
+    .actionCol {
+      text-align: right;
+      min-width: 82px;
+    }
+
+    .inspectCol {
+      width: 35px;
+    }
+
+    label {
+      margin: 0;
+    }
+
+    td,
+    th {
+      outline: 0;
+      vertical-align: middle;
+
+      &:nth-last-child(2) {
+        @media (max-width: 800px) {
+          display: none;
+        }
+      }
+
+      &:nth-last-child(3) {
+        @media (max-width: 400px) {
+          display: none;
+        }
+      }
+    }
+
+    th {
+      cursor: pointer;
+    }
+
+    tbody {
+      tr {
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        &.isActive {
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+}

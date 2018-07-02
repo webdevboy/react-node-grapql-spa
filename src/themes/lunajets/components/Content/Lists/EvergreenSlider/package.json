@@ -1,0 +1,9 @@
+{
+  "name": "EvergreenSlider",
+  "main": "EvergreenSlider.js",
+  "props": {},
+  "type": "strict",
+  "dependencies": ["Root", "Row"],
+  "category": "component",
+  "data-type": "other"
+}

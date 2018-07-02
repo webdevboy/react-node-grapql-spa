@@ -1,0 +1,6 @@
+mutation updateRate($id: ID!, $rate: Float!){
+  updateRate(id: $id,rate: $rate){
+		id
+		rate
+  }
+}

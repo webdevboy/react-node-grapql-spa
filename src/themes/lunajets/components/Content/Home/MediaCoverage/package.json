@@ -1,0 +1,6 @@
+{
+  "name": "media-coverage",
+  "main": "MediaCoverage.js",
+  "displayName": "Media Coverage",
+  "private": true
+}

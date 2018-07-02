@@ -1,0 +1,14 @@
+@import "../../../variables.css";
+
+.switches {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  font-family: "ITC Conduit W01", sans-serif;
+  color: var(--dark-blue);
+
+  .badges {
+    display: flex;
+  }
+}

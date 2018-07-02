@@ -1,0 +1,21 @@
+
+
+.actionsBtns{
+	background-color: #506072;
+	background: linear-gradient(#506072, #485668);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px 8px 25px;
+    color: #eaeaea;
+    font-size: 14px;
+	float: right;
+}
+
+.actionsBtns:hover{
+	cursor: pointer;
+	background-color: #405575;
+}
+
+.actionsBtns:focus{
+	outline: none;
+}

@@ -1,0 +1,7 @@
+{
+	"name": "Checkbox",
+	"Version": "0.0.1",
+	"private": true,
+	"main": "Checkbox.js",
+	"category": "Component" 
+}

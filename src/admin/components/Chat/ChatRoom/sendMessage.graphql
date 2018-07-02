@@ -1,0 +1,10 @@
+mutation sendMessage($roomId: ID!, $body: String!) {
+    sendMessage(roomId: $roomId, body: $body) {
+		id
+		body
+		automated
+		cli_read
+		adv_read
+		created_at
+    }
+}

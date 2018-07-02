@@ -1,0 +1,80 @@
+.footer-end {
+    background-color: #d7d6d5;
+
+    .company-infos {
+      .company-flag {
+        font-size: 16px;
+        color: #929292;
+      }
+  
+      .company-copyright,
+      .company-based {
+        font-size: 13px;
+        color: #929292;
+      }
+  
+      .company-legal {
+        font-size: 13px;
+  
+        ul {
+          display: inline-flex;
+          justify-content: flex-end;
+          list-style-type: none;
+          padding: 0;
+          margin-bottom: 0;
+  
+          li {
+            padding-left: 10px;
+  
+            a {
+              color: #929292;
+  
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .flight-broker {
+      text-align: center;
+      color: #929292;
+      line-height: 1.5;
+      font-weight: 500;
+      display: block;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .footer-end {
+      .company-infos {
+        .company-flag {
+          text-align: center;
+        }
+  
+        .company-copyright,
+        .company-based {
+          font-size: 12px;
+          text-align: center;
+        }
+  
+        .company-legal {
+          font-size: 12px;
+          text-align: center;
+  
+          ul {
+            justify-content: flex-end;
+  
+            li {
+              padding: 0 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  

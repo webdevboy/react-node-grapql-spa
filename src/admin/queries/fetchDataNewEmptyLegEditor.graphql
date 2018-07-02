@@ -1,0 +1,8 @@
+# Try to write your query here
+query {
+  currencies: getCurrencies {
+    id
+    currency
+    base
+  }
+}

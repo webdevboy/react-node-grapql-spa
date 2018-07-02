@@ -1,0 +1,12 @@
+{
+  getLanguages{
+    id
+    enabled
+    locale{
+      id
+      locale
+      language
+      country
+    }
+  }
+}

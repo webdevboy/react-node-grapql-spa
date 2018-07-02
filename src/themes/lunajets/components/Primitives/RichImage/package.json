@@ -1,0 +1,6 @@
+{
+	"name": "rich-image",
+	"main": "RichImage.js",
+	"displayName": "RichImage",
+	"private": true
+}

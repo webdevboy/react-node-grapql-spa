@@ -1,0 +1,14 @@
+@import "../../../variables.css";
+
+.jet-cost-destination-description {
+  background-color: var(--pale);
+
+  .paragraph {
+    p {
+      font-family: "ITC Conduit W01", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+  }
+}

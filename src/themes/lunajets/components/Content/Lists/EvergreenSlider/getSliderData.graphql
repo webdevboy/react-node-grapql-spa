@@ -1,0 +1,14 @@
+query($language_id: ID) {
+  posts: getFeaturedEvergreen(language_id: $language_id) {
+    __typename
+    ... on PostInterface {
+      id
+      title
+      slug
+      media {
+        id
+        src
+      }
+    }
+  }
+}

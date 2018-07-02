@@ -1,0 +1,6 @@
+{
+	"name": "chat-box",
+	"main": "ChatBox.js",
+	"displayName": "Chat Box",
+	"private": true
+}

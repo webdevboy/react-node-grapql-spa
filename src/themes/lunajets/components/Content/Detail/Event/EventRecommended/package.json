@@ -1,0 +1,6 @@
+{
+	"name": "eventRecommended",
+	"main": "EventRecommended.js",
+	"displayName": "EventRecommended",
+	"private": true
+}

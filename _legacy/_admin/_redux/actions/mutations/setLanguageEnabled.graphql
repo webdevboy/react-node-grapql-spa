@@ -1,0 +1,6 @@
+mutation updateSetEnabled($id: ID!){
+  updateSetEnabled(id: $id){
+		id
+		enabled
+  }
+}

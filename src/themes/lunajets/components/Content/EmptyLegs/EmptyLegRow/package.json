@@ -1,0 +1,6 @@
+{
+	"name": "EmptyLegRow",
+	"main": "EmptyLegRow.js",
+	"displayName": "EmptyLegRow",
+	"private": "true"
+}

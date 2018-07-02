@@ -1,0 +1,6 @@
+mutation($folderName:String!, $currentFolder: String) {
+	newFolder: createS3Folder(folderName: $folderName, currentFolder: $currentFolder) {
+    name
+    path
+  }
+}

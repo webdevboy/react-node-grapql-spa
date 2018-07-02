@@ -1,0 +1,6 @@
+{
+	"name": "SimpleSubHeader",
+	"main": "SimpleSubHeader.js",
+	"displayName": "SimpleSubHeader",
+	"private": "true"
+}

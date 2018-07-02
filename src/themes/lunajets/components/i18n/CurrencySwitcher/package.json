@@ -1,0 +1,9 @@
+{
+	"name": "Currency Switcher",
+	"main": "CurrencySwitcher.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Row","Column","Root"],
+	"category": "component",
+	"data-type": "other"
+}

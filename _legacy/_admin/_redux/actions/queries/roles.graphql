@@ -1,0 +1,7 @@
+{
+  getRoles {
+	    id
+	    name
+	    description
+	}
+}

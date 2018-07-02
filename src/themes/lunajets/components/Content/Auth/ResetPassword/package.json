@@ -1,0 +1,6 @@
+{
+  "name": "ResetPassword",
+  "main": "ResetPassword.js",
+  "displayName": "ResetPassword",
+  "private": true
+}

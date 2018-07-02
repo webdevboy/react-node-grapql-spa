@@ -1,0 +1,21 @@
+{
+  pages: getPages {
+    id
+    path
+    slug
+    title
+		state
+    meta {
+      id
+      title
+      description
+      keywords
+      author
+      language {
+        locale {
+          locale
+        }
+      }
+    }
+  }
+}

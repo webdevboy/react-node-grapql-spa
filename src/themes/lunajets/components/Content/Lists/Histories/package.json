@@ -1,0 +1,9 @@
+{
+	"name": "Histories",
+	"main": "Histories.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Root", "Row"],
+	"category": "component",
+	"data-type": "other"
+}

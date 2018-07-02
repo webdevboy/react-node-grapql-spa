@@ -1,0 +1,47 @@
+@import "node_modules/bootstrap/scss/_mixins.scss";
+
+.section-description {
+  background-color: #faf7f6;
+  margin: 50px 0;
+
+  .paragraph-title {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+
+    h1 {
+      font-size: 60px;
+    }
+
+    // @include media-breakpoint-up(xs) {
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 40px;
+      }
+    }
+
+    span {
+      color: #3e5970;
+      text-shadow: 1px 2px 15px #aec6da;
+      line-height: 1.15;
+    }
+  }
+
+  .paragraph {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #3e5970;
+    margin-top: 40px;
+
+    p {
+      line-height: 1.15;
+    }
+  }
+
+  /* .banner-heading {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+  } */
+}

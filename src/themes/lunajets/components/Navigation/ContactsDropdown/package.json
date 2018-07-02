@@ -1,0 +1,6 @@
+{
+	"name": "contacts-dropdown",
+	"main": "./ContactsDropdown.js",
+	"displayName": "Contacts Dropdown",
+	"private": true
+}

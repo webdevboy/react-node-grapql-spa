@@ -1,0 +1,24 @@
+query($iata: [String]) {
+  sfAirports: getSFAirports(iata: $iata) {
+    sfid
+    name
+    icao
+    iata
+    coordinates
+    city {
+      name
+      name_en
+      name_de
+      name_it
+      name_fr
+      name_es
+      name_ru
+      name_pl
+      name_hu
+      country {
+        countryCode
+        name
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Auth",
+  "main": "Auth.js",
+  "displayName": "Auth",
+  "private": true
+}

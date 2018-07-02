@@ -1,0 +1,6 @@
+{
+	"name": "Department List",
+	"Version": "0.0.0",
+	"private": true,
+	"main": "DepartmentList.js"
+}

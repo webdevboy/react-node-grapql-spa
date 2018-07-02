@@ -1,0 +1,5 @@
+mutation($id: ID!) {
+  office: setPrimaryOffice(id: $id) {
+    id
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"name": "Text Toolbar",
+	"Version": "0.0.1",
+	"private": true,
+	"main": "textToolbar.js"
+}

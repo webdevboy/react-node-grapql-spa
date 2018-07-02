@@ -1,0 +1,37 @@
+query($language_id: ID, $cat_id: String, $limit: Int,$offset: Int) {
+  categories: getArticleCategories(language_id: $language_id, cat_id: $cat_id) {
+  	id
+    name
+    slug
+    description
+    cat_id
+    language {
+      id
+    }
+    articles(limit:$limit, offset:$offset){
+    	id
+    	body
+    	summary
+    	title
+    	slug
+    	created_at
+    	publish_at
+    	article_id
+    	author {
+      		id
+      		first_name
+      		last_name
+      		email
+    	}
+    	language {
+      		id
+    	}
+    	media {
+      		src
+      		thumbnail
+      		filename
+      		extension
+    	}
+    }
+  }
+}

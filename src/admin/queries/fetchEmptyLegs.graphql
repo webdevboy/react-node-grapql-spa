@@ -1,0 +1,63 @@
+# Try to write your query here
+query($date: [Date], $name: String) {
+  emptylegs: getEmptyLegs(date: $date, name: $name) {
+    id
+    from_date
+    until_date
+    price
+    featured
+    published
+    details
+    aircraft {
+      name
+    }
+    from_airport {
+      name
+      distance
+      sfid
+      id
+      icao
+      iata
+      coordinates
+      helipad
+      time_to_utc
+      city {
+        ... on AirportCity {
+          ...cityFields
+        }
+      }
+    }
+    to_airport {
+      name
+      distance
+      sfid
+      id
+      icao
+      iata
+      coordinates
+      helipad
+      time_to_utc
+      city {
+        ... on AirportCity {
+          ...cityFields
+        }
+      }
+    }
+  }
+}
+
+fragment cityFields on AirportCity {
+  sfid
+  name
+  country {
+    ... on Country {
+      ...countryFields
+    }
+  }
+}
+
+fragment countryFields on Country {
+  sfid
+  name
+  countryCode
+}

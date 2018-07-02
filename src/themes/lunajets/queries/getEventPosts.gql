@@ -1,0 +1,20 @@
+query($year: Int, $month: Int, $language_id: String) {
+  posts: getEventPosts(year: $year, month: $month, language_id: $language_id) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      state
+      publish_at
+      title
+      type
+      meta
+      media {
+        id
+        src
+      }
+    }
+  }
+}

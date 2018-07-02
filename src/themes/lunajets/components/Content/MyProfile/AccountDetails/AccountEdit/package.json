@@ -1,0 +1,6 @@
+{
+  "name": "AccountEdit",
+  "main": "AccountEdit.js",
+  "displayName": "AccountEdit",
+  "private": true
+}

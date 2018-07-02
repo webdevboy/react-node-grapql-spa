@@ -1,0 +1,5 @@
+mutation removeRedirection($id: ID!) {
+  removeRedirection(id: $id) {
+        id
+      }
+  }

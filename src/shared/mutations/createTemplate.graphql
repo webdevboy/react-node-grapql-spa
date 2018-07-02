@@ -1,0 +1,10 @@
+mutation createTemplate(
+  $name: String!,
+  $body: JSON) {
+
+  createTemplate(name: $name, body: $body) {
+    id
+    name
+    body
+  }
+}

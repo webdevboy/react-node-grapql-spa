@@ -1,0 +1,10 @@
+.emptylegs-detail-slides {
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  :global .slick-dots {
+    bottom: 30px;
+  }
+}

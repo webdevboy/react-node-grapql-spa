@@ -1,0 +1,141 @@
+.search-title {
+  padding-top: 200px;
+}
+
+.sort-dropdown {
+  button {
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    font-family: inherit;
+    color: #e2e2e1;
+    font-weight: 400;
+
+    &:after {
+      display: none;
+    }
+
+    .arrow-down {
+      height: 38px;
+      position: absolute;
+      top: 0;
+      right: 10px;
+    }
+  }
+
+  .menu {
+    width: 100%;
+    border-radius: 0;
+
+    a {
+      color: #3e5970;
+    }
+  }
+}
+
+.search-result {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  :global {
+    .keyword {
+      color: #b51f24 !important;
+      font-weight: 600;
+      font-family: inherit;
+    }
+
+    .section-title {
+      margin-bottom: 20px;
+    }
+  }
+
+  .search-item {
+    padding: 40px 0;
+
+    .info-sup {
+      display: flex;
+      align-items: center;
+    }
+
+    .date {
+      text-align: left;
+      flex: 1 0;
+
+      span {
+        padding: 5px 0;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #adadad;
+      }
+    }
+
+    .more {
+      flex: 1 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      @media (max-width: 767.98px) {
+        flex: 1 0;
+        padding: 10px;
+      }
+
+      span {
+        padding: 5px 10px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #3e5970;
+      }
+    }
+  }
+}
+
+.search-item-row {
+  padding: 30px 0;
+}
+
+.search-item-photo {
+  img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.search-item-infos {
+  .info-title {
+    font-size: 2.5rem;
+    font-family: "ITC Conduit W01", sans-serif;
+    color: #3e5970;
+
+    @media (max-width: 767.98px) {
+      font-size: 1rem;
+      flex: 1 0;
+      padding: 10px;
+    }
+  }
+
+  p {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 1.25rem;
+    color: #3e5970;
+    font-weight: 300;
+  }
+
+  @media (max-width: 767.98px) {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    background-clip: content-box;
+  }
+}
+
+.empty-legs {
+  margin-bottom: 40px;
+
+  .table-empty-leg {
+    width: 100%;
+  }
+}

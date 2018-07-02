@@ -1,0 +1,16 @@
+Dear {$title} {$name},
+
+We found the following {count($listEL)} flights matching your favourite route(s):
+
+Please click this link {$clickHereLink} to access your homepage and see the flights:
+
+{foreach name=emptyleg from=$listEL item=el}
+     {$el.departure_iata_code}  {$el.departure_cityName} -->  {$el.arrival_iata_code}  {$el.arrival_cityName}   |   {$el.firstDepartureTime|date_format:&quot;%e %b %Y, %H:%M&quot;} - {$el.lastDepartureTime} 
+
+    {if !$smarty.foreach.emptyleg.last}- - -{/if}
+{/foreach}
+
+Sincerely,
+The LunaJets team
++41 844 041 844
+https://www.lunajets.com

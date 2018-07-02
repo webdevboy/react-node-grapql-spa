@@ -1,0 +1,11 @@
+{
+  locales: getEnabledLanguages {
+    locale {
+      id
+      locale
+      language
+      native
+      rtl
+    }
+  }
+}

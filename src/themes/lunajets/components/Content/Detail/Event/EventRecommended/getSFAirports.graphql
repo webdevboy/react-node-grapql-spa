@@ -1,0 +1,9 @@
+query($list_sfid: [String]) {
+  sfAirports: getSFAirports(list_sfid: $list_sfid) {
+    sfid
+    name
+    icao
+    iata
+    coordinates
+  }
+}

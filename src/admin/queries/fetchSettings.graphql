@@ -1,0 +1,8 @@
+query {
+  settings: getSettings {
+    id
+    value
+    option
+    description
+  }
+}

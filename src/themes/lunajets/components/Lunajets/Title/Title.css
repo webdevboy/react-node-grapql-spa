@@ -1,0 +1,10 @@
+@import "../../variables.css";
+
+.title {
+  font-family: "FuturaLTPro-MediumOblique", sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--dark-blue) !important;
+}

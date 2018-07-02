@@ -1,0 +1,40 @@
+{
+  events: getEventsAdmin {
+    id
+    body
+    summary
+    title
+    created_at
+    updated_at
+    published
+    from_date
+    until_date
+    event_id
+    author {
+      id
+      first_name
+      last_name
+      email
+    }
+    language {
+      id
+    }
+    media {
+      id
+      src
+      thumbnail
+      filename
+      mimetype
+    }
+    url
+    city {
+      name
+      sfid
+      country {
+        countryCode
+        name
+      }
+    }
+    display_helicopter_transfer
+  }
+}

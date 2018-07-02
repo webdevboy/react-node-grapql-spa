@@ -1,0 +1,6 @@
+{
+  "name": "Side Bar View Redirection",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SideBarView.js"
+}

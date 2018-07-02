@@ -1,0 +1,9 @@
+{
+	"name": "DestinationsList",
+	"main": "DestinationsList.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Root", "Row"],
+	"category": "component",
+	"data-type": "other"
+}

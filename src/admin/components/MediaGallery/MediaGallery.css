@@ -1,0 +1,28 @@
+:global {
+  .gallery-modal {
+    min-width: 90% !important;
+    background-color: rgba(48, 64, 77, 0.98);
+  }
+
+  .gallery-overlay {
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+
+    .gallery-modal {
+      background-color: rgba(48, 64, 77, 0.98) !important;
+      height: 95vh;
+
+      > svg {
+        top: 0;
+        right: 0;
+        fill: grey;
+        transition: all 200ms ease;
+
+        &:hover {
+          fill: white;
+        }
+      }
+    }
+  }
+}

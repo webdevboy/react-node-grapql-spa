@@ -1,0 +1,22 @@
+query getAllNearbyAirports($lat: Float!, $long: Float!) {
+  airports : getNearbyAirports(lat: $lat, long: $long) {
+    name
+    distance
+    sfid
+	id
+    icao
+    iata
+    coordinates
+    helipad
+    time_to_utc
+    city {
+      sfid
+      name
+      country {
+        sfid
+        name
+        countryCode
+      }
+    }
+  }
+}

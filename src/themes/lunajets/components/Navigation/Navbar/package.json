@@ -1,0 +1,6 @@
+{
+	"name": "navbar",
+	"main": "Navbar.js",
+	"displayName": "Navigation Bar",
+	"private": true
+}

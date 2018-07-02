@@ -1,0 +1,6 @@
+{
+	"name": "VideoUpdater",
+	"main": "VideoUpdater.js",
+	"displayName": "VideoUpdater",
+	"private": true
+}

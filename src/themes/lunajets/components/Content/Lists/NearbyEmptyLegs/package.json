@@ -1,0 +1,9 @@
+{
+	"name": "Nearby Empty Legs",
+	"main": "NearbyEmptyLegs.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Root"],
+	"category": "component",
+	"data-type": "other"
+}

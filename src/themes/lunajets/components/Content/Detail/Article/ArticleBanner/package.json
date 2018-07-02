@@ -1,0 +1,9 @@
+{
+	"name": "Article Banner",
+	"main": "component.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Row","Column","Root"],
+	"category": "ArticleBanner",
+	"data-type": "component"
+}

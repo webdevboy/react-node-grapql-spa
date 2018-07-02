@@ -1,0 +1,5 @@
+{
+  "name": "Filter",
+  "main": "./Filter.js",
+  "private": true
+}

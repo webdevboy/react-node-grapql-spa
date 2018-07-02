@@ -1,0 +1,6 @@
+{
+	"name": "office-list",
+	"main": "OfficeList.js",
+	"displayName": "OfficeList",
+	"private": true
+}

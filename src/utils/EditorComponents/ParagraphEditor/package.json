@@ -1,0 +1,6 @@
+{
+	"name": "ParagraphEditor",
+	"main": "ParagraphEditor.js",
+	"displayName": "ParagraphEditor",
+	"private": true
+}

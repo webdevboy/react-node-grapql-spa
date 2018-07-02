@@ -1,0 +1,5 @@
+{
+  "name": "single_aircraft-details",
+  "main": "index.js",
+  "private": true
+}

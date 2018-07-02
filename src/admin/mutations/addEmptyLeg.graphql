@@ -1,0 +1,41 @@
+mutation(
+  $id: ID,
+  $from_date: Date,
+  $until_date: Date,
+  $price: Float,
+  $featured: Boolean,
+  $published: Boolean,
+  $aircraft_sfid: ID,
+  $from_airport_sfid: ID,
+  $to_airport_sfid: ID,
+  $details: JSON,
+  $currency_id: ID
+  )
+  {
+    emptyLeg: addEmptyLeg(
+      id: $id,
+      from_date: $from_date,
+      until_date: $until_date,
+      price: $price,
+      featured: $featured,
+      published: $published,
+      aircraft_sfid: $aircraft_sfid,
+      from_airport_sfid: $from_airport_sfid,
+      to_airport_sfid: $to_airport_sfid,
+      details: $details,
+      currency_id: $currency_id
+    )
+    {
+      id
+      from_date
+      until_date
+      price
+      featured
+      published
+      aircraft_sfid
+      from_airport_sfid
+      to_airport_sfid
+      details
+      currency_id
+  }
+}

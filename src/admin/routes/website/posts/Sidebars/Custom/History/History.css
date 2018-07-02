@@ -1,0 +1,28 @@
+.suggester {
+  width: 100%;
+}
+
+.dropdown-toggle-history{
+  max-width: 130px;
+  padding: 2px 5px;
+  -webkit-box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
+  box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.4);
+  background-color: #757e86;
+  color: #f5f8fa;
+} 
+.dropdown-menu-history{
+  max-width: 50px;
+  min-width: 50px;
+}
+  .dropdown-menu-history .dropdown-menu-history-item{
+    padding: 5px 5px;
+  }
+
+.drop-image{
+  width: 20px;
+  height: 20px;
+}
+
+.btn-remove {
+  margin-top: 5px;
+}

@@ -1,0 +1,6 @@
+{
+	"name": "articles-list",
+	"main": "ArticlesList.js",
+	"displayName": "ArticlesList",
+	"private": true
+}

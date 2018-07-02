@@ -1,0 +1,6 @@
+{
+	"name": "slider",
+	"main": "Slider.js",
+	"displayName": "Slider",
+	"private": true
+}

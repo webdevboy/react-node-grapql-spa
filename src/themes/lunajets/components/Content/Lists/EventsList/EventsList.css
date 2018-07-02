@@ -1,0 +1,81 @@
+.section-events {
+  background-color: #faf7f6;
+
+  .events-title {
+    margin-top: 30px;
+  }
+
+  .btn-discover-more {
+    a {
+      margin: 30px auto 50px;
+    }
+  }
+
+  .events-container {
+    margin-top: 30px;
+
+    .event-description {
+      margin-bottom: 20px;
+
+      img {
+        width: 100%;
+        min-height: 250px;
+      }
+
+      .event-infos {
+        padding: 20px;
+        background-color: white;
+
+        .event-title {
+          border-bottom: 1px solid #c6d6e2;
+
+          .title {
+            font-size: 20px;
+          }
+        }
+
+        .event-add-infos {
+          margin-top: 10px;
+
+          .event-label {
+            float: left;
+          }
+
+          .event-location {
+            .event-city {
+              float: right;
+            }
+          }
+
+          .event-date {
+            .event-from-to {
+              float: right;
+            }
+
+            .event-from,
+            .event-to {
+              text-align: right;
+            }
+
+            .from-label,
+            .to-label {
+              margin-right: 10px;
+            }
+          }
+        }
+
+        .read-more-button {
+          svg {
+            margin-left: 20px;
+          }
+
+          a {
+            justify-content: flex-end;
+            padding: 0;
+            margin: 20px 0 0;
+          }
+        }
+      }
+    }
+  }
+}

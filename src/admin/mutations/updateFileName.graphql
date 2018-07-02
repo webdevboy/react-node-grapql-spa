@@ -1,0 +1,23 @@
+mutation updateFile($id: ID!, $name: String!) {
+  media: updateFile(id: $id, name: $name) {
+    Key
+    LastModified
+    Size
+    ETag
+    MimeType
+    fileName
+    path
+    thumbnail
+    original
+    media {
+      id
+      src
+      thumbnail
+      filename
+      mimetype
+      size
+      created_at
+      key
+    }
+  }
+}

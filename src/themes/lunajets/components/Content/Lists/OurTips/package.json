@@ -1,0 +1,6 @@
+{
+	"name": "our-tips",
+	"main": "OurTips.js",
+	"displayName": "OurTips",
+	"private": true
+}

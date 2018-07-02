@@ -1,0 +1,154 @@
+:global(.mobile) {
+  .row {
+    display: none;
+  }
+}
+.row {
+  background-color: #fff;
+  height: 35px;
+  min-width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+.column {
+  min-height: 100%;
+  max-width: 1140px;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  padding: 0 15px;
+  height: 100%;
+  flex: 1;
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+
+:global {
+  .dropdown-toggle {
+    &:after {
+      margin-left: 5px;
+    }
+  }
+}
+
+.column-section {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  @media (max-width: 768px) {
+    align-items: stretch;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  .navWrapper {
+    height: 35px;
+  }
+
+  .topnav {
+    height: 100%;
+    color: white;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    position: relative;
+    flex: 1;
+
+    :global {
+      .nav-item {
+        margin-left: 1px;
+        display: flex;
+        align-items: center;
+        box-shadow: -1px 0 0 0 #eee,
+                    1px 0 0 0 #eee;
+
+        /* &:nth-last-child(1) {
+          box-shadow: -1px 0 0 0 #384d5f;
+        } */
+
+        &:nth-last-child(1) {
+          box-shadow: none;
+        }
+
+        &.dropdown {
+          padding: 0;
+        }
+
+        .nav-link,
+        .dropdown-toggle {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+          cursor: pointer;
+          color: #263d50;
+
+
+          &:hover {
+            background-color: #102232;
+            color: #FFF;
+          }
+        }
+
+        a {
+          padding: 0 15px;
+          color: white;
+          text-decoration: none;
+          font-family: "ProximaNova-Semibold", sans-serif;
+          font-size: 11px;
+          text-transform: uppercase;
+          font-weight: 500;
+
+          @media (max-width: 768px) {
+            font-size: 10px;
+          }
+
+          @media (max-width: 320px) {
+            font-size: 10px;
+          }
+        }
+
+        &:last-of-type {
+          padding: 0;
+        }
+      }
+
+      .dropdown-menu {
+        background: #fff;
+        margin: 0;
+        border-radius: 0 !important;
+        border: 0;
+        padding: 0;
+
+        li {
+          box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-item {
+          color: #292b2c;
+          padding: 5px 15px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

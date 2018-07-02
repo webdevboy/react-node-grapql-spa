@@ -1,0 +1,9 @@
+{
+	"name": "Language Switcher",
+	"main": "LanguageSwitcher.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Row","Column","Root"],
+	"category": "component",
+	"data-type": "other"
+}

@@ -1,0 +1,10 @@
+query($post_ids: [ID]) {
+  airports: getAirportsByPosts(post_ids: $post_ids) {
+    sfid
+    icao
+    iata
+    city {
+      name
+    }
+  }
+}

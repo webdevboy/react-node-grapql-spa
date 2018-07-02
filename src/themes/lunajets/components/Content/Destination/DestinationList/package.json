@@ -1,0 +1,6 @@
+{
+  "name": "destination-list",
+  "main": "DestinationList.js",
+  "displayName": "DestinationList",
+  "private": true
+}

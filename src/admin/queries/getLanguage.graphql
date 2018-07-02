@@ -1,0 +1,10 @@
+query getLanguage($id: ID!) {
+  language: getLanguage(id: $id) {
+    id
+    enabled
+	locale {
+	  id
+	  locale
+	}
+  }
+}

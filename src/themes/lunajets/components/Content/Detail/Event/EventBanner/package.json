@@ -1,0 +1,9 @@
+{
+	"name": "Event Banner",
+	"main": "component.js",
+	"props": {},
+	"type": "strict",
+	"dependencies": ["Row","Column","Root"],
+	"category": "EventBanner",
+	"data-type": "component"
+}

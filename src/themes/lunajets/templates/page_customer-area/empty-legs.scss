@@ -1,0 +1,89 @@
+.emptyLegs {
+    font-family: "ITC Conduit W01", sans-serif;
+    position: relative;
+    height: 100%;
+    background-color: white;
+
+    :global {
+        .nav-tabs {
+            border: 0 !important;
+        }
+    
+        .nav-item {
+            flex: 1;
+        }
+    
+        .nav-link {
+            border-top: 0 !important;
+            border-left: 0 !important;
+            border-right: 0 !important;
+            border-bottom: 4px solid transparent !important;
+            font-family: "ITC Conduit W01", sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            height: 70px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--light-blue);
+    
+            &.active {
+                border-color: var(--dark-blue) !important;
+                color: var(--dark-blue);
+            }
+    
+            @media screen and (max-width: 768px) {
+                & {
+                    font-size: 16px;
+                    height: 45px;
+                }
+            }
+        }
+    }
+
+    .detail-routes {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .details-title {
+        margin-right: 40px;
+        font-size: 18px;
+    }
+
+    .popup-background {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(137, 155, 168, .7);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .popup-content {
+        background-color: white;
+        max-width: 400px;
+
+        @media screen and (max-width: 440px) {
+            max-width: 320px;
+        }
+    }
+
+    .border-route {
+        border: 1px solid var(--light-grey);
+        min-height: 60px;
+        flex: 5;
+    }
+
+    .aircraft-img-container{
+        img{
+            margin: auto;
+            max-height: 300px;
+        }
+    } 
+}

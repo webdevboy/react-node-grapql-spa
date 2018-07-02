@@ -1,0 +1,15 @@
+query($sfids: [String], $limit: Int, $search: String) {
+  airports: getSFAirports(list_sfid: $sfids, limit: $limit, search: $search) {
+    id
+    sfid
+    name
+    full_name
+    icao
+    iata
+    city {
+      id
+      sfid
+      name
+    }
+  }
+}

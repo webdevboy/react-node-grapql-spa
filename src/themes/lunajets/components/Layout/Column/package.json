@@ -1,0 +1,6 @@
+{
+	"name": "column",
+	"main": "Column.js",
+	"displayName": "Column",
+	"private": true
+}

@@ -1,0 +1,17 @@
+.sectionTitle {
+    font-family: "ITC Conduit W01", sans-serif;
+    font-size: 25px;
+    color: var(--corporate-blue);
+
+    @media screen and (max-width: 768px) {
+        font-size: 22px;
+    }
+}
+.advisor {
+    font-family: "ITC Conduit W01", sans-serif;
+    color: var(--corporate-blue);
+
+    .advisor-detail {
+        font-size: 13px;
+    }
+}

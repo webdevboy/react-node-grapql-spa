@@ -1,0 +1,20 @@
+query($slugs: [String], $type: String, $language_id: ID, $ids: [String], $pagination: Pagination) {
+  posts: getPostsById(language_id: $language_id, ids: $ids) {
+    __typename
+    ... on PostInterface {
+      id
+      slug
+      post_id
+      summary
+      publish_at
+      title
+      type
+      meta
+      __typename
+       ... on Airport {
+         details
+      }
+    }
+  }
+}
+

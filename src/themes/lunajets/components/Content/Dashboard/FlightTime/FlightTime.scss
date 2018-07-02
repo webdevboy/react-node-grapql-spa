@@ -1,0 +1,82 @@
+@import "../../../variables.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.flight-time-container{
+  justify-content: space-around;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  color: #3e5970;
+  background-color: #f1f1f0;
+  min-height: 60px;
+  padding: 10px;
+
+  span{
+    font-family: sans-serif;
+  }  
+
+  .flight-date{    
+    padding-right: 20px;    
+    min-width: 150px;
+    border-right: 1px solid lightgrey;
+
+    @media (max-width: 768px){
+      border-right-color: transparent;
+      padding-right: 0px;      
+      min-width: 100px;
+    }
+  }
+
+  .airports{
+    justify-content: space-around;
+    width: 100%;    
+    border-right: 1px solid lightgrey;
+    padding-left: 20px;
+    .airport{    
+      padding: 5px;
+      .airport-time{
+        padding-left: 20px;
+      }
+      .flag{
+        margin-top: 4px;
+      }
+    }  
+    .timeline{
+      flex-direction: column;    
+      margin: 5px 5px;
+      min-width: 50px;
+      margin-top: 0px;
+      color: lightgray;
+  
+      .hr-container{
+        position: relative;
+        width: 100%;
+  
+        hr{
+          width: 100%;
+          border-top-width: 2px;
+          margin-top: 0px;
+        }
+        .arrow{        
+          position: absolute;
+          right: 0px;
+          top: -5px;
+          color: lightgray;
+        }
+      }    
+    }
+
+    @media (max-width: 768px){
+      border-right-color: transparent;
+      padding-left: 10px;
+    }
+  }
+    
+  .seat{    
+    min-width: 150px;    
+
+    @media (max-width: 768px){      
+      padding-left: 0px;
+      min-width: 80px;
+    }
+  }
+}

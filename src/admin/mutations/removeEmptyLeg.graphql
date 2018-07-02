@@ -1,0 +1,5 @@
+mutation($id: ID!) {
+  remove: removeEmptyLeg(id: $id) {
+    id
+  }
+}

@@ -1,0 +1,39 @@
+.fieldInput{
+	background-color: #222C3C;
+    width: 100%;
+    border: 1px solid #283546;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #4e6c83;
+}
+
+.fieldInput:focus{
+	border: 1px solid #405575;
+    outline: none;
+}
+
+.success{
+  border: 2px solid #1BAF35;
+ /* background: url(./icons/success.png);*/
+  background-repeat: no-repeat;
+  background-position-x: 320px;
+  background-position-y: 10px;
+  background-size: 20px;
+}
+
+.error{
+  border: 2px solid #B5222C;
+  /*background: url(./icons/cross.png);*/
+  background-repeat: no-repeat;
+  background-position-x: 320px;
+  background-position-y: 10px;
+  background-size: 20px;
+}
+
+.label-error{
+  color: #ff0011;
+}

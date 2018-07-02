@@ -1,0 +1,6 @@
+{
+  "name": "CategoryManager",
+  "Version": "0.0.0",
+  "private": true,
+  "main": "CategoryManager.js"
+}

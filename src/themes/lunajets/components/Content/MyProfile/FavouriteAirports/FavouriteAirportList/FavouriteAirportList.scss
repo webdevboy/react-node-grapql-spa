@@ -1,0 +1,44 @@
+.favourite-airport-list {
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+
+  .favourite-airport {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid var(--light-grey);
+    font-family: "ITC Conduit W01", sans-serif;
+    padding: 0 10px;
+    cursor: pointer;
+
+    &:last-child {
+      border: none;
+    }
+
+    &.selected{
+      background-color: #faf7f6;
+      cursor: default;
+    }
+    .icon {
+      flex: 1;
+      padding: 5px;
+    }
+  
+    .details {
+      flex: 9;
+      color: var(--corporate-blue);
+      font-family: "ITC Conduit W01", sans-serif;
+    }
+  
+    .distance {
+      flex: 1;
+      font-size: 14px;
+      color: var(--dark-grey);
+    }  
+  }  
+}
+
+@media screen and (max-width: 768px) {
+}
+

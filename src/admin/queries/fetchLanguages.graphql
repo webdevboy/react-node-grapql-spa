@@ -1,0 +1,13 @@
+#enabled languages only
+{
+  languages: getLanguages {
+    id
+    enabled
+    total_strings
+    missing_translations
+    locale
+    language
+    native
+    rtl
+  }
+}

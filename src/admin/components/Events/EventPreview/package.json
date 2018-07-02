@@ -1,0 +1,6 @@
+{
+	"name": "EventPreview",
+	"Version": "0.0.0",
+	"private": true,
+	"main": "EventPreview.js"
+}

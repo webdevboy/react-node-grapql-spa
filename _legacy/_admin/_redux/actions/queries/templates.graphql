@@ -1,0 +1,7 @@
+{
+  getTemplates{
+    id
+    name
+    body
+  }
+}

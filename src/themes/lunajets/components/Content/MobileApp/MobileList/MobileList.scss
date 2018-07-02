@@ -1,0 +1,135 @@
+@import "../../../variables.css";
+
+.list-container {
+  font-family: "ITC Conduit W01", sans-serif;
+  color: #263d50;
+  margin-bottom: 20px;
+
+  .child-list {
+    justify-content: center;
+  }
+
+  .child-bg {
+    height: 100%;
+    .card {
+      display: flex;
+      flex-direction: column;
+      height: 33%;
+
+      .card-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .card-info-title {
+          font-size: 2.0rem;
+          font-weight: 400;
+          color: #b51f24;
+        }
+
+        .card-ads-image {
+          width: 11%;
+          height: 11%;
+        }
+      }
+
+      .card-info {
+
+        .card-info-text {
+          font-size: 1.2rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .lchild-container {
+
+    .card-header {
+      justify-content: flex-end;
+
+      .card-ads-image {
+        padding-left: 3%;
+      }
+    }
+
+    .card-info {
+      padding-right: 11%;
+      text-align: right;
+    }
+  }
+
+  .rchild-container {
+
+    .card-header {
+      justify-content: start;
+
+      .card-ads-image {
+        padding-right: 3%;
+      }
+    }
+
+    .card-info {
+      padding-left: 11%;
+      text-align: left;
+    }
+  }
+
+  .mchild-container {
+    max-width: 25% !important;
+
+    .mobile-screen {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      background: url("./gfx/mobileApp.png") no-repeat top;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .child-list {
+    margin: 0 !important;
+  }
+
+  .child-bg {
+    padding-top: 170% !important;
+
+    .card-ads-image {
+      width: 15% !important;
+      height: 15% !important;
+    }
+  }
+
+  .lchild-container {
+    margin-right: 0 !important;
+
+    .card-header {
+      flex-direction: column-reverse !important;
+    }
+
+    .card-info {
+      text-align: center !important;
+      padding-left: 11%;
+    }
+  }
+  
+  .rchild-container {
+    margin-left: 0 !important;
+
+    .card-header {
+      flex-direction: column !important;
+    }
+
+    .card-info {
+      text-align: center !important;
+      padding-right: 11%;
+    }
+  }
+
+  .mchild-container {
+    display: none !important;
+  }
+}

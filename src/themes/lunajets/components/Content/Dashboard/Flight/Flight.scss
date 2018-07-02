@@ -1,0 +1,105 @@
+.title {
+  font-style: italic;
+  color: #afafaf;
+}
+
+button:focus {outline:0;}
+
+.detail {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  background: var(--pale);
+  padding-left: 20px;
+  border-radius: 3px;
+  
+  span {
+    font-family: "ITC Conduit W01", sans-serif;
+  }
+
+  .sub {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .date {
+      display: flex;
+      flex-direction: column;
+      margin-right: 40px;
+      justify-content: center;
+    }
+
+    .empty-leg-date {
+      color: #6f6f6f;
+    }
+
+    @media screen and (max-width: 768px) {
+      .date {
+        margin-right: 10px;
+      }
+    }
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    min-height: 56px; 
+    min-width: 50px;
+    padding: 0;
+    background: var(--light-blue);
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;    
+    font-size: 0.8em;
+    img {
+      width: 20px;
+    }
+    svg {
+      width: 40px;
+    }
+
+    &:active,
+    &:focus {
+      outline: none;
+      -moz-outline-style: none;
+    }
+    @media screen and (max-width: 768px) {
+      min-height: 45px;
+      min-width: 38px;
+      svg {
+        width: 30px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    & {
+      padding-left: 15px;
+    }
+  }
+}
+
+.selected {
+  .detail {
+    border: 1px solid var(--light-grey);
+    background: transparent;
+    border-left: 7px solid var(--light-red);
+
+    .empty-leg-date {
+      color: var(--dark-blue);
+    }
+
+    @media screen and (max-width: 768px) {
+      border-left-width: 3px;
+    }
+  }
+
+  .btn {    
+    background: var(--light-red);
+    img{
+      width: 20px;
+    }
+  }
+
+  .prefix {
+    color: var(--light-blue);
+  }
+}

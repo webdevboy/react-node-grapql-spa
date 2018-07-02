@@ -1,0 +1,6 @@
+{
+	"name": "HeaderThreeEditor",
+	"main": "HeaderThreeEditor.js",
+	"displayName": "HeaderThreeEditor",
+	"private": true
+}

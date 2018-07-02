@@ -1,0 +1,6 @@
+{
+	"name": "EstimatedPriceQuotations",
+	"main": "EstimatedPriceQuotations.js",
+	"displayName": "EstimatedPriceQuotations",
+	"private": "true"
+}

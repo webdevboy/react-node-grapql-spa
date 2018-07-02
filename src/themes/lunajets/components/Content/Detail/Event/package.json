@@ -1,0 +1,6 @@
+{
+	"name": "event",
+	"main": "Event.js",
+	"displayName": "Event",
+	"private": true
+}

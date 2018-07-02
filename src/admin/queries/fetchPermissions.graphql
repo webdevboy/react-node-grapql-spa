@@ -1,0 +1,7 @@
+{
+  permissions: getPermissions {
+    id
+    action
+    description
+  }
+}

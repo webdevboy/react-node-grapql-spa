@@ -1,0 +1,30 @@
+{
+  getPages {
+    id
+    title
+    slug
+    path
+    template
+    body
+    query
+    custom_script
+    external_scripts
+    state
+    meta {
+      language{
+        locale {
+          id
+          locale
+        }
+      }
+      id
+      meta
+    }
+    owner {
+      id
+      first_name
+      last_name
+      avatar_path
+    }
+  }
+}

@@ -1,0 +1,19 @@
+query($path: String) {
+  s3: getS3Files(path: $path) {
+    files {
+      Key
+      LastModified
+      Size
+      ETag
+      MimeType
+      fileName
+      path
+      thumbnail
+      original
+    }
+    folders {
+      path
+      name
+    }
+  }
+}

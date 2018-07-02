@@ -1,0 +1,14 @@
+mutation updateOrCreateListMediaReference($mediaId: String!, $ids: [ID]!) {
+  mediaReference: updateOrCreateListMediaReference(
+    media_id: $mediaId
+    ids: $ids
+  ) {
+    id
+    media_id
+    media_library_id
+	  media{
+      id
+      src
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Editor",
+  "main": "./Editor",
+  "private": true
+}

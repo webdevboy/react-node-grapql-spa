@@ -1,0 +1,16 @@
+query getSinglePage($id: ID!, $locale: String) {
+  getPage(id: $id, locale: $locale) {
+    title
+    slug
+    path
+    template
+    query
+    body
+    meta {
+      title
+      description
+      author
+      keywords
+    }
+  }
+}

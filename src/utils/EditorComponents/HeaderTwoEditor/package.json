@@ -1,0 +1,6 @@
+{
+	"name": "HeaderTwoEditor",
+	"main": "HeaderTwoEditor.js",
+	"displayName": "HeaderTwoEditor",
+	"private": true
+}

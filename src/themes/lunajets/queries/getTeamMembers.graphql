@@ -1,0 +1,28 @@
+query($taxonomies: [String], $slugs: [String], $language_id: ID) {
+  teams: getTaxonomies(taxonomies: $taxonomies, slugs: $slugs, language_id: $language_id) {
+ 		term {
+    	id
+      name
+      slug
+  	}
+    posts {
+      __typename
+      ... on PostInterface {
+        id
+        title
+        slug
+        summary
+        body
+        meta
+        media {
+          id
+          src
+        }
+        language {
+          id
+          locale
+        }
+      }
+    }
+  }
+}

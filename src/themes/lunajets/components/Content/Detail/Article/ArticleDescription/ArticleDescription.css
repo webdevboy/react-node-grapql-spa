@@ -1,0 +1,103 @@
+.article-description {
+  background-color: #faf7f6;
+  padding: 20px 15% 40px 15%;
+
+  .description-wrap {
+    /* font-family: 'ITC Conduit W01', sans-serif; */
+
+    font-weight: 500;
+    font-size: 18px;
+    color: #3e5970;
+  }
+
+  .map-container {
+    .map {
+      height: 300px;
+    }
+
+    .map-caption {
+      background: #fff;
+      padding: 15px;
+
+      .caption-label {
+        float: left;
+      }
+
+      .map-location {
+        .caption-city {
+          float: right;
+        }
+      }
+
+      .map-date {
+        .caption-from-to {
+          float: right;
+
+          .caption-from,
+          .caption-from-date,
+          .caption-to,
+          .caption-to-date {
+            padding-left: 5px;
+          }
+        }
+      }
+
+      .map-website {
+        .caption-website {
+          float: right;
+        }
+      }
+    }
+
+    .map-button-book-now {
+      margin-top: 15px;
+    }
+  }
+}
+
+/* .column {
+  min-height: 100%;
+  max-width: 1140px;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  padding: 0 15px;
+}
+
+.column-section{
+  min-height: 100%;
+  width: 100%;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.sub-container{
+  min-height: 500px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.map{
+  display: flex;
+  position: relative;
+  flex: 1;
+
+  .caption{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+
+    .container{
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 15px;
+    }
+  }
+} */

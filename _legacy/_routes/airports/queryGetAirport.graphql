@@ -1,0 +1,10 @@
+query($iata: String) {
+  airport: getAirport(iata:$iata){
+    id
+    sfid
+    full_name
+    name
+    iata
+    icao
+  }
+}

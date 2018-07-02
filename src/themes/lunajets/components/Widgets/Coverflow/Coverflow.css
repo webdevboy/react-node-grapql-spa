@@ -1,0 +1,33 @@
+.coverflow {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  overflow: hidden;
+  padding: 10px 0;
+
+  .coverFlowWrapper {
+    display: flex;
+  }
+
+  .slide {
+    position: relative;
+    height: 320px;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+
+    > figure {
+      position: absolute;
+      width: 580px;
+      height: 100%;
+      background: white;
+      color: rgba(255, 255, 255, 0.8);
+      transition: all 0.3s ease-out;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

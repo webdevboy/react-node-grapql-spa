@@ -1,0 +1,6 @@
+{
+	"name": "FlightRequest",
+	"main": "FlightRequest.js",
+	"displayName": "FlightRequest",
+	"private": "true"
+}

@@ -1,0 +1,7 @@
+{
+	"name": "Switch",
+	"Version": "0.0.1",
+	"private": true,
+	"main": "switch.js",
+	"category": "Toggles" 
+}

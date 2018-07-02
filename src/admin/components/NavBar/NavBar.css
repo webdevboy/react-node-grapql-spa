@@ -1,0 +1,108 @@
+.right {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  height: 100%;
+  justify-content: flex-end;
+}
+.isActiveChildren {
+  background: rgba(0,0,0,.2);
+  &:before {
+    color: #FFF;
+  }
+}
+.root {
+  z-index: 30;
+  .collapseMenu {
+    display: none;
+
+    @media (max-width: 570px) {
+      display: block;
+    }
+  }
+
+  .nav {
+
+    .logo {
+      width: 90px;
+    }
+
+    .mainNav {
+      
+
+      .isActive {
+        background: rgba(0,0,0,.4);
+        &:before {
+          color: #FFF;
+        }
+      }
+
+      .active {
+        background-color: rgba(0,0,0,.4);
+      }
+
+      @media (max-width: 768px) {
+        .button {
+          .label {
+            display: none;
+          }
+          &:before {
+            margin: 0;
+          }
+          :global {
+            .pt-icon-caret-down {
+              margin: 0 0 0 5px;
+            }
+          }
+        }
+      }
+
+      @media (max-width: 570px) {
+        .button {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+
+:global {
+  .pt-popover {
+    margin-top: 8px !important;
+  }
+
+  .pt-popover-arrow {
+    display: none;
+  }
+}
+
+.button {
+  :global {
+    .pt-icon {
+      margin: 0 0 0 5px;
+    }
+  }
+}
+
+.notifications {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li.notification {
+      padding: 0;
+      margin: 0;
+
+      &:hover {
+        background: rgba(255,255,255,.2);
+      }
+
+      .notificationInner {
+        padding: 10px 20px;
+      }
+    }
+  }
+}

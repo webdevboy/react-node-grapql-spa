@@ -1,0 +1,20 @@
+query($sfid: ID!) {
+  sfAirportCity: getSFAirportCity(sfid: $sfid) {
+    sfid
+    name
+    airports{
+      sfid
+      iata
+      icao
+      name
+      coordinates
+      city {
+        name
+        country {
+          name
+          countryCode
+        }
+      }
+    }
+  }
+}

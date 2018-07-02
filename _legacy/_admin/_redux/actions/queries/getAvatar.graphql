@@ -1,0 +1,5 @@
+query getAvatar($email: String!) {
+  getAvatar(email: $email) {
+    avatar_path
+  }
+}

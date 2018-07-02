@@ -1,0 +1,12 @@
+# Try to write your query here
+query($search: String,$limit: Int) {
+  cities: searchCities(search: $search,limit: $limit){
+    sfid
+    name
+    country{
+      sfid
+      name
+      countryCode
+    }
+  }
+}

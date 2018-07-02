@@ -1,0 +1,7 @@
+{
+  "name": "Select with filter",
+  "Version": "0.0.1",
+  "private": true,
+  "main": "select.js",
+  "category": "Selectable"
+}

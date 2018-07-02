@@ -1,0 +1,8 @@
+mutation createRedirection($link: String!, $redirect: String!, $description: String) {
+  createRedirection(link: $link, redirect: $redirect, description: $description ) {
+        id
+        link
+        redirect
+        description
+      }
+  }

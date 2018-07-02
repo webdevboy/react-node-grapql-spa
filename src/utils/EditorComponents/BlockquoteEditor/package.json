@@ -1,0 +1,6 @@
+{
+	"name": "BlockquoteEditor",
+	"main": "BlockquoteEditor.js",
+	"displayName": "BlockquoteEditor",
+	"private": true
+}

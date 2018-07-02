@@ -1,0 +1,6 @@
+{
+  "name": "telephone-input",
+  "main": "TelephoneInput.js",
+  "displayName": "Telephone Input",
+  "private": true
+}

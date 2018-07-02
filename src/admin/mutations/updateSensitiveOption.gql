@@ -1,0 +1,6 @@
+mutation updateSensitiveSettings($option: String!, $value: String!) {
+  option: updateSensitiveSettings(option: $option, value: $value) {
+    option
+    value
+  }
+}

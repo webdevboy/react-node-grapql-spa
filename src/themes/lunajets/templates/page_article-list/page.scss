@@ -1,0 +1,35 @@
+.custom-header {
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .header-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .banner-title {
+      font-size: 1.8rem;
+      font-family: "FuturaLTPro-MediumOblique", sans-serif;
+    }
+  }
+}
+
+.blank {
+  all: initial;
+  height: 100%;
+  display: table;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1280px;
+}

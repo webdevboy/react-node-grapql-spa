@@ -1,0 +1,27 @@
+.root {
+  position: relative;
+
+  .icon-search {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    padding: 7px;
+  }
+
+  input {
+    padding: 9px 60px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #b6cada;
+    font-size: 14px;
+    height: 38px;
+  }
+
+  .icon-arrow {
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    padding: 7px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,6 @@
+.map-section {
+  .map-container {
+    min-height: 700px;
+    padding: 0;
+  }
+}
